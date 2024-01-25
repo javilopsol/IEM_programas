@@ -1,6 +1,7 @@
 import os
 import pandas as pd
-from pylatex import Document, Package, Command, PageStyle, Head, MiniPage, StandAloneGraphic, NewPage
+from pylatex import Document, Package, Command, PageStyle, Head, MiniPage, StandAloneGraphic, NewPage, TikZNode, TikZNodeAnchor
+from pylatex.base_classes import Environment
 from pylatex.utils import italic, NoEscape
 
 cursos = pd.read_csv("cursos.csv")
@@ -12,9 +13,12 @@ nomCurso = cursos[cursos.Codigo == 'MI4136'].Nombre.item()
 print(codCurso)
 print(nomCurso)
 
+class titlepage(Environment):
+    escape = False
+    content_separator = "\n"
+
 def main():
     geometry_options = {
-        "letterpaper": True,
         "left": "22.5mm",
         "right": "16.1mm",
         "top": "48mm",
@@ -49,24 +53,102 @@ def main():
     doc.packages.append(Package(name="longtable"))
     doc.packages.append(Package(name="multirow"))
     doc.packages.append(Package(name="fancyhdr"))
+    # first_page = PageStyle("firstpage")
 
-    first_page = PageStyle("firstpage")
+    # # Header image
+    # with first_page.create(Head("L")) as header_left:
+    #     with header_left.create(MiniPage(width=NoEscape(r"0.49\textwidth"),
+    #                                      pos='l')) as logo_wrapper:
+    #         logo_file = 'figuras/Logo.png'
+    #         logo_wrapper.append(StandAloneGraphic(image_options="width=62.5mm",
+    #                             filename=logo_file))
 
-    # Header image
-    with first_page.create(Head("L")) as header_left:
-        with header_left.create(MiniPage(width=NoEscape(r"0.49\textwidth"),
-                                         pos='l')) as logo_wrapper:
-            logo_file = 'figuras/Logo.png'
-            logo_wrapper.append(StandAloneGraphic(image_options="width=62.5mm",
-                                filename=logo_file))
 
-    doc.preamble.append(first_page)
-    doc.change_document_style("firstpage")
+    commands = NoEscape(
+    r'''\newcommand{\codCurso}{EM-XXXX}
+    \newcommand{\nomCurso}{Introducción a la arepa voladora}
+    \newcommand{\tipCurso}{Teórico-Práctico}
+    \newcommand{\elec}{No}
+    \newcommand{\unAcred}{Ingeniería 50\%, Diseño 50\%}
+    \newcommand{\ubiPlan}{X Semestre}
+    \newcommand{\requisito}{EM-XXX Curso X}
+    \newcommand{\coRequisito}{Ninguno}
+    \newcommand{\requiDe}{Ninguno}
+    \newcommand{\asist}{Asistencia Libre}
+    \newcommand{\sufi}{No tiene suficiencia}
+    \newcommand{\credito}{4}
+    \newcommand{\hClass}{4}
+    \newcommand{\hExtra}{12}
+    \newcommand{\vigProgra}{X Semestre 20XX}
+
+    \newcommand{\nomEscuela}{Escuela de Ingeniería Electromecánica}
+    \newcommand{\nomPrograma}{Licenciatura en Ingeniería Electromecánica}
+
+    \newcommand{\nomProfe}{Pepe Aguilar}
+    \newcommand{\corProfe}{pagui@itcr.ac.cr}
+    \newcommand{\consulta}{Consulta: Miércoles 7:30 a.m. – 10:30 a.m.}'''
+    )
+
+    doc.preamble.append(commands)
+
+    doc.preamble.append(Command('pagestyle','fancy'))
+
+    headerandfooter = NoEscape(
+    r'''\lhead{\begin{tikzpicture}[overlay, remember picture]
+    \node[inner sep=0mm,outer sep=0mm,anchor=north west,
+    xshift=18mm,
+    yshift=-18mm]
+    at (current page.north west)
+    {\includegraphics[width=62.5mm]{figuras/Logo.png}};
+    \end{tikzpicture}}
+    \fancyfoot{}
+    \lfoot{\textcolor{nomCur}{\nomEscuela - \nomPrograma}}
+    \fancyfoot[R]{\textcolor{nomCur}{Página \thepage \hspace{1pt} de \pageref{LastPage}}}
     
+    \renewcommand{\headrulewidth}{0pt}'''
+    )
 
-    doc.append('Hola')
-    doc.append(NewPage())
-    doc.append('Hola')
+    doc.preamble.append(headerandfooter)
+ 
+    # TikZNode(handle="logoportada",
+    #          options={"inner sep": "0mm",
+    #                   "outer sep": "0mm",
+    #                   "anchor": "north west",
+    #                   "xshift": "4mm",
+    #                   "yshift": " -20mm"
+    #          },
+    #          text=NoEscape(r"\includegraphics[width=20cm]{figuras/Logo_portada.jpg}")
+    #         )
+    
+    # TikZNodeAnchor(node_handle="logoportada",
+    #                anchor_name="current page.north west")
+    
+    title = NoEscape(
+    r'''\begin{tikzpicture}[overlay, remember picture]
+    \node[inner sep=0mm,outer sep=0mm,anchor=north west,
+    xshift=4mm, 
+    yshift=-20mm]
+    at (current page.north west)
+    {\includegraphics[width=20cm]{figuras/Logo_portada.jpg}};
+    \end{tikzpicture}
+
+    \vspace*{170mm}
+
+    \fontsize{14}{0}\selectfont Programa del curso \codCurso
+
+    \fontsize{18}{25}\selectfont \textbf{\textcolor{nomCur}{\nomCurso}}
+
+    \hspace*{10mm}\fontsize{12}{40}\selectfont \color{black!40!gray}\nomEscuela
+
+    \hspace*{10mm}\fontsize{12}{14}\selectfont \color{black!40!gray}\nomPrograma
+    '''
+    )
+
+    with doc.create(titlepage()):
+        doc.append(title)
+    doc.append(NoEscape(
+               r'''\fontsize{14}{0}\selectfont\textbf{\textcolor{parte}{I parte: Aspectos relativos al plan de estudios}}'''
+    ))
     doc.generate_pdf("example", clean_tex=False, compiler='lualatex')
 
 main()
