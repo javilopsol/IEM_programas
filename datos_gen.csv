@@ -1,0 +1,124 @@
+﻿Codigo,Nombre,Tipo,Electivo,Creditos,Horas de clase por semana,Horas extraclase por semana,Áreas curriculares,Ubicación en el plan,Requisitos,Correquisitos,Es requisito de,Asistencia,Posibilidad de resconocimiento,Posibilidad de suficiencia,Vigencia,salto pagina
+MI4136,Elementos de Máquinas,Teórico,No,4,4,15,"40% Ciencias de Ingeniería
+60% Diseño de Ingeniería",8° semestre en Mantenimiento Industrial,"MI-3115 Resistencia de Materiales, MI-3119 Laboratorio 
+de Turbomáquinas",Ninguno,Ninguno,Libre,Si,No,I semestre de 2024,
+MI4300,Administración de Mantenimiento I,Teórico,No,4,4,12,"75% Ciencias de la Ingeniería
+25% Diseño de Ingeniería","Curso del VII semestre de la carrera de Ingeniería en 
+Mantenimiento Industrial","AE-5101 Ingeniería Económica
+MI-3210 Máquinas Eléctricas
+PI-2609 Probabilidad y Estadística",MI-4311 Métodos Cuantitativos para los Negocios,"MI-6351 Mantenimiento Predictivo
+MI-4305 Administración de Mantenimiento II",Libre,No,No,I semestre de 2024,
+MI2101,Dibujo Técnico,Teórico-práctico,No,3,4,5,100% Ciencias de la ingeniería,"Curso del 2do semestre para Ingeniería en Mantenimiento Industrial. Curso del 1er semestre para Ingeniería en Electrónica, Ingeniería en Producción Industrial, Curso del 3to semestre para Ingeniería Mecatrónica Curso del 4to semestre para Ingeniería en Materiales","MA 1103 Cálculo y Algebra Lineal para 
+Ingeniería Mecatrónica",CM 2302 Laboratorio de Materiales II para,"I 3103 Procesos de Manufactura para Ingeniería en
+Mantenimiento Industrial.
+MI 3124 Dibujo Industrial para Ingeniería en 
+Materiales, Ingeniería Mecatrónica.
+MI 3265 Máquinas y Equipos para Ingeniería en 
+Producción Industrial",Obligatoria,Si,Si,I semestre de 2024,
+MI2106,Estática,Teórico,No,3,4,5,100% Ciencias de la ingeniería,Curso del 3er semestre de la carrera “Ingeniería en Mantenimiento Industrial” e “Ingeniería Física”. Curso del 4to semestre de la carrera de “Ingeniería Mecatrónica”; “Ingeniería en Producción Industrial”; “Ciencia e Ingeniería de los Materiales”,"MI2101 Dibujo Técnico; FI1101 Física General I; 
+“Ingeniería en Mantenimiento Industrial
+FI1101 Física General I; “Ciencia e Ingeniería de los 
+Materiales” e “Ingeniería Física”
+FI1102Física General II; FI1202 Lab. Física General II; 
+Ingeniería en Producción Industrial”
+FI1202 Física General II; “Ingeniería Mecatrónica”",Ninguno,"MI3115 Resistencia de Materiales y MI3117 Dinámica para “Ingeniería en Mantenimiento Industrial” e “Ingeniería Mecatrónica” “Ciencia e Ingeniería de los Materiales con énfasis el Procesos industriales” y MI3115 Resistencia de Materiales, para “Ingeniería Materiales con énfasis en Metalurgia y con énfasis en Materiales Electrónicos” MI3138 Máquinas y Equipos para “Ingeniería en Producción Industrial” MI3117 Dinámica para “Ingeniería Física”",Libre,Si,Si,I semestre de 2024,
+MI2202,Laboratorio de Electricidad I,Práctico,No,1,2,4,100% de ciencias de la ingeniería,Curso de 4to semestre de los planes 1312 y 1313,Ninguno,MI-2205 Electricidad I,MI-2207 Electricidad II,Obligatoria,Si,No,I semestre de 2024,
+MI2204,Laboratorio de Electricidad II,Práctico,No,1,2,3,100% Ciencias de la Ingeniería,Quinto semestre,No tiene,Electricidad II (MI-2207),No tiene,Obligatoria,No,No,I semestre de 2024,
+MI2205,Electricidad I,Teórico,No,3,3,6,100% de ciencias de la ingeniería,Curso de 4to semestre de los planes 1312 y 1313,"MA1103 Cálculo y Álgebra Lineal y FI1102 Física
+General II",Ninguno,MI2207 Electricidad II,Libre,Si,Si,I semestre de 2024,
+MI2207,Electricidad II,Teórico,No,4,4,12,100% Ciencias de la Ingeniería,Curso del 5to semestre,"CA-2125 Elementos de Computación
+MI-2205 Electricidad I",MI-2204 Laboratorio de Electricidad II,MI-3209 Electricidad III,Libre,Si,Si,I semestre de 2024,
+MI3103,Procesos de Manufactura,Teórico,No,3,3,6,100% Ciencias de la Ingeniería,"Cuarto semestre, Ingeniería en mantenimiento 
+Industrial. Ingeniería Mecatrónica. Ingeniería Física.
+Séptimo semestre, Ingeniería en Materiales con énfasis 
+en Procesos Industriales.","MI2101 Dibujo Técnico; “Ingeniería en Mantenimiento 
+Industrial
+MI2101 Dibujo Técnico; “Ingeniería Mecatrónica”",MI-3104 Laboratorio de Procesos de Manufactura,MI-3124 Dibujo Industrial,Libre,Si,No,I semestre de 2024,
+MI3104,Laboratorio Procesos de Manufactura,Teórico Práctico,No,2,4,2,100% Ciencias de la Ingeniería.,"Tercer semestre, Ingeniería en mantenimiento 
+Industrial.",Ninguno,MI3103 Procesos de Manufactura,Ninguno,Obligatoria,No,No,I semestre de 2024,
+MI3108,Mecánica de fluidos,Teóico,No,4,4,8,100% Ciencias de Ingeniería,Sexto semestre,MA-2105; MI-3117,MI-3111,MI-3116 Turbo máquinas,Libre,Si,No,I semestre de 2024,
+MI3111,Laboratorio de Mecánica de Fluidos,Práctico,No,1,2,1,100% Ciencias de la Ingeniería,Sexto semestre,Ninguno,Ninguno,MI-3119 Laboratorio de Turbomáquinas,Obligatoria,Si,No,I semestre de 2024,
+MI3115,Resistencia de Materiales,Teórico,"Electivo para Ingeniería en Diseño Industrial e Ingeniería 
+Física / No electivo para Ingeniería en Mantenimiento 
+Industrial, Ingeniería Mecatrónica, Ciencia e Ingeniería 
+de los Materiales",3,4,5,100% Ciencias de Ingeniería,"5to semestre para Ingeniería en Mantenimiento Industrial 
+5to semestre para Ciencia e Ingeniería de los Materiales 
+5to semestre para Ingeniería Mecatrónica. 
+7mo semestre para Ingeniería Física","Ingeniería en Mantenimiento Industrial: MI-2106 Estática 
+y MI-3124 Dibujo Industrial
+Ciencia e Ingeniería de los Materiales: MI-2106 Estática
+Ingeniería Mecatrónica: MI-2106 Estática y MI-3124 
+Dibujo Industrial
+Ingeniería en Física: MI-2106 Estática","Ingeniería en Mantenimiento Industrial: ME-3208 
+Tecnología de Materiales 
+Ingeniería Mecatrónica: MI-3117 Dinámica","Ingeniería en Mantenimiento Industrial: MI-4136 
+Elementos de Máquinas
+Ciencia e Ingeniería de los Materiales: CM-4201 
+Tecnología de Aleaciones Metálicas I Ingeniería Mecatrónica: MI-5151 Diseño Mecánico",Libre,Si,Si,I semestre de 2024,
+MI3116,Turbomáquinas,Teórico,No,4,4,8,"30% Ciencias de Ingeniería
+70% Diseño de Ingeniería",Séptimo semestre,MI-3108 Mecánica de Fluidos; MI-3111 Laboratorio de Mecánica de Fluidos,MI-3119 Laboratorio de Turbomáquinas,MI-4129 Sistemas de Vapor,Libre,No,No,I semestre de 2024,
+MI3117,Dinámica,Teórico,No,3,4,5,100% Ciencias de la Ingeniería,"Cuarto semestre, Ingeniería en mantenimiento 
+Industrial. Ingeniería Mecatrónica. Ingeniería Física.
+Séptimo semestre, Ingeniería en Materiales con 
+énfasis en Procesos Industriales.",MI-2106 Estática,"MI3115 Resistencia de Materiales, Ingeniería 
+Mecatrónica","MI3108 Mecánica de Fluidos, Ingeniería en 
+Mantenimiento Industrial.",Libre,Si,Si,I semestre de 2024,
+MI3119,Laboratorio de Turbomáquinas,Taller teórico – práctico,No,1,2,1,100% Conocimiento de ingeniería,Curso del 7mo semestre,Mecánica de Fluidos,Turbomáquinas,Electiva II,Obligatoria,Si,No,I semestre de 2024,
+MI3124,Dibujo industrial,Teórico Práctico,No,4,4,8,100% Ciencias de la Ingeniería,"Curso del 4to semestre según el plan 1312, Ingeniería","Ing. En Materiales; MI-3103 Procesos de Manufactura 
+para Ing. en Mecatrónica",Ninguno,"MI-31 Resistencia de Materiales para Ing. En 
+Mantenimiento Industrial; CM3208 Metrología para 
+Ingenieros; MT-7006 Diseño de Máquinas y 
+Mecanismos.",Obligatoria,Si,No,I semestre de 2024,
+MI3130,Termodinámica,Teórico,No,4,3,5,100% Ciencias de la Ingeniería,V Semestre,FI-2103 Física General III,Ninguno,CM-4108 Transferencia de Calor,Libre,Si,Si,I semestre de 2024,
+MI3138,Máquinas y Equipos,Teórico,No,3,4,6,"75% Ciencias de la Ingeniería, 25% Diseño de Ingeniería",Quinto semestre,MI-2106 Estática,Ninguno,PI-5402 – Automatización de la Manufactura,Libre,No,No,I semestre de 2024,
+MI3206,Laboratorio de Máquinas Eléctricas.,Práctico,No,1,2,3,100% Ciencias de Ingeniería,VI Bimestre,Ninguno,Máquinas Eléctricas código MI-3210,Ninguno,Obligatoria,No,No,I semestre de 2024,
+MI3209,Electricidad III,Teórico,No,3,3,6,100 % Herramientas de ingeniería,VII semestre,Electricidad II MI 2207,Ninguno,MI 4209 Control Eléctrico,Libre,Si,Si,I semestre de 2024,
+MI3210,Máquinas Eléctricas,Teórico,No,4,3,9,100% de AAPIA,"Curso del 6to semestre de la carrera “Ingeniería en
+Mantenimiento Industrial” (Plan 1313).",MI-2207; MI-2204,MI-3206 Laboratorio de Máquinas Eléctricas,"MI-4209, Control Eléctrico",Libre,Si,Si,I semestre de 2024,
+MI4125,Laboratorio de Sistemas de Vapor,Práctico,No,1,2,1,100% Ciencias de Ingeniería,IX Semestre,Ninguno,MI-4129 Sistemas de Vapor,Ninguno,Obligatoria,Si,No,I semestre de 2024,
+MI4126,Refrigeración,Teórico – práctico,Si,4,4,12,"Ciencias de la Ingeniería 50%, Diseño de Ingeniería 
+50%",VIII Semestre,"MI-3116 TURBOMAQUINAS/MI-4300 
+ADMINISTRACION DE MANTENIMIENTO I",Ninguno,Ninguno,Libre,Si,No,I semestre de 2024,
+MI4127,Laboratorio de Refrigeración,Laboratorio,No,1,2,3,"15% Ciencias de la Ingeniería, 15% Diseño de Ingenierí",Noveno semestre,Ninguno,MI-4126 Refrigeración,Ninguno,Obligatoria,No,No,I semestre de 2024,
+MI4209,Control Eléctrico,Teórico,No,3,3,6,40% Ciencias de Ingeniería y 60% Diseño de Ingeniería,Curso en el octavo semestre,"MI-3209 y MI-3210, Máquinas y Laboratorio","MI-4210, Laboratorio de Control","MI-5411, Automatismo",Libre,Si,Si,I semestre de 2024,
+MI4210,Laboratorio de Control Eléctrico,Práctico,No,1,2,4,"60% Ciencias de Ingeniería, 40% Diseño de Ingeniería",Octavo semestre,Ninguno,MI-4209 Control Eléctrico,Ninguno,Oligatoria,Si,No,I semestre de 2024,
+MI4212,Instalaciones Eléctricas,Teórico,No,4,4,8,"25% Ciencias de la Ingeniería, 75% Diseño de 
+Ingeniería",Noveno semestre,MI-4209 Control eléctrico.,Ninguno,Ninguno,Libre,No,No,I semestre de 2024,
+MI4305,Administración de Mantenimiento II,Teórico,No,3,3,12,"75% Ciencias de la Ingeniería
+25% Diseño de Ingeniería","Curso del VIII semestre de la carrera de Ingeniería en 
+Mantenimiento Industrial",MI-4300 Administración de Mantenimiento I,Ninguno,MI-5102 Electiva II.,Libre,No,No,I semestre de 2024,
+MI4311,Modelos Cuantitativos para la Toma de Decisiones.,Teórico,No,3,3,6,"25% Ciencias de la Ingeniería, 75% Diseño de 
+Ingeniería","Curso del VII semestre de la carrera de Ingeniería en 
+Mantenimiento Industrial","MA-1103 Cálculo y Álgebra Lineal
+PI-2609 Probabilidad y Estadística",MI-4300 Administración de Mantenimiento I,Ninguno,Obligatoria,No,No,I semestre de 2024,
+MI4510,Electrotecnia,Teórico,No,3,4,5,100 % Herramientas de comunicación,V semestre,"Física General II FI-1102
+Laboratorio de Física General II FI-1202",Ninguno,Ninguno,Libre,Si,Si,I semestre de 2024,
+MI5135,Ventilación Industrial,Teórico - Práctico,Si,4,4,12,"50% Ciencias de la Ingeniería, 50% Diseño de Ingeniería",Décimo semestre,"MI-3116 Turbomáquinas.
+MI-4300 Administración del Mantenimiento I.",Ninguno,Ninguno,Libre,Si,No,I semestre de 2024,
+MI5152,Aire Acondicionado,Teórico - Práctico,Si,4,4,3,"50% de Ciencias Ingeniería 
+50% Diseño de Ingeniería",Octavo semestre,MI-3116 TURBOMAQUINAS/MI-4300 ADMINISTRACION DE MANTENIMIENTO / MI3209 Electricidad III,Ninguno,MI-5102 Electiva II,Libre,Si,No,I semestre de 2024,
+MI5215,Análisis de Sistemas Eléctricos de Potencia,Taller teórico,No,4,10,10,"50% de Ciencias Ingeniería 
+50% Diseño de Ingeniería","Noveno semestre de la carrera de Ingeniería en 
+Mantenimiento Industrial",Ninguno,MI-4212,Ninguno,Libre,Si,No,I semestre de 2024,
+MI5411,Automatismo,Teórico - Práctico,Si,4,4,8,"50% de Ciencias Ingeniería 
+50% Diseño de Ingeniería",Noveno semestre,MI-4209,Ninguno,Ninguno,Obligatoria,Si,No,I semestre de 2024,
+MI6153,Ahorro Energético,Teórico,Si,4,4,12,"50% Ciencias de la Ingeniería
+50% Diseño de Ingeniería","Curso del X semestre de la carrera de Ingeniería en 
+Mantenimiento Industrial",VIII Semestre,Ninguno,Ninguno,Obligatoria,No,No,I semestre de 2024,
+MI6252,Neumática,Teórico - Práctico,Si,4,4,12,"50% Ciencias de la Ingeniería, 50% Diseño de Ingeniería",Décimo semestre,"MI-3116 Turbomáquinas.
+MI-4205 Administración del Mantenimiento II.",Ninguno,Ninguno,Obligatoria,No,No,I semestre de 2024,
+MI6253,"Fundamentos en Administración de Proyectos en 
+Ingeniería",Teórico,Si,4,4,8,"75% Ciencias de la Ingeniería
+25% Diseño de Ingeniería","Curso del VIII semestre de la carrera de Ingeniería en 
+Mantenimiento Industrial","MI-4300 Administración de Mantenimiento I
+MI-3116 Turbomáquinas",Ninguno,MI-5102 Electiva II,Libre,No,No,I semestre de 2024,
+MI6254,Sistemas de protección contra incendios a base de agua,Teórico,Si,4,4,8,"50% Ciencias de Ingeniería 
+50% Diseño de Ingeniería",Décimo semestre,MI-3119 Turbomáquinas.  MI-4300 Administración de Mantenimiento I,MI-4212 Instalaciones Eléctricas,Ninguno,Libre,No,No,I semestre de 2024,
+MI6255,Sistemas de control automático,Teórico - Práctico,Si,4,4,8,"50% Ciencias de la Ingeniería y 50% Diseño de 
+Ingeniería",Octavo semestre,MI-3209 Electricidad III,Ninguno,Ninguno,Libre,Si,No,I semestre de 2024,
+MI6351,Mantenimiento Predictivo,Teórico,No,4,4,12,"80% Ciencias de la Ingeniería
+20% Diseño de Ingeniería","Curso del IX semestre de la carrera de Ingeniería en 
+Mantenimiento Industrial",MI 4300 Administración de Mantenimiento I,Ninguno,MI 5520 Práctica Profesional,Libre,No,No,I semestre de 2024,
+MI8304,"Maquinas y Equipos para Ingeniería en Seguridad laboral 
+e Higiene Ambiental",Teórico,No,3,4,5,100% Ciencias de la Ingeniería,Segundo semestre,"Introducción a la salud ambiental
+Dibujo e interpretación de planos",MT-6003,-,Obligatoria,Si,No,I semestre de 2024,
