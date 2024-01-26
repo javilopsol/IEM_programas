@@ -1,7 +1,7 @@
 \documentclass{article}%
 \usepackage{parskip}%
 \usepackage{geometry}%
-\geometry{left=22.5mm,right=16.1mm,top=48mm,bottom=25mm,headheight=12.5mm,footskip=12.5mm}%
+\geometry{letterpaper=True,left=22.5mm,right=16.1mm,top=48mm,bottom=25mm,headheight=12.5mm,footskip=12.5mm}%
 \usepackage{fontspec}%
 \usepackage[spanish,activeacute]{babel}%
 \usepackage{graphicx}%
@@ -9,42 +9,42 @@
 \usepackage{anyfontsize}%
 \usepackage{xcolor}%
 \usepackage{colortbl}%
-\usepackage{color}%
 \usepackage{array}%
 \usepackage{float}%
 \usepackage{lastpage}%
 \usepackage{longtable}%
 \usepackage{multirow}%
 \usepackage{fancyhdr}%
-%
+\usepackage{color}%
+\newcommand{\nomEscue}{Escuela de Ingeniería Electromecánica}%
+\newcommand{\nomProgr}{Ingeniería en Mantenimiento Industrial}%
+\newcommand{\codCurso}{MI4136}%
+\newcommand{\nomCurso}{Elementos de Máquinas}%
+\newcommand{\tipCurso}{Teórico}%
+\newcommand{\eleCurso}{No}%
+\newcommand{\uniAcred}{40\% Ciencias de Ingeniería\newline%
+60\% Diseño de Ingeniería}%
+\newcommand{\ubiPlane}{8° semestre en Mantenimiento Industrial}%
+\newcommand{\susRequi}{MI{-}3115 Resistencia de Materiales, MI{-}3119 Laboratorio \newline%
+de Turbomáquinas}%
+\newcommand{\corRequi}{Ninguno}%
+\newcommand{\essRequi}{Ninguno}%
+\newcommand{\tipAsist}{Libre}%
+\newcommand{\posRecon}{Si}%
+\newcommand{\posSufic}{No}%
+\newcommand{\numCredi}{4}%
+\newcommand{\horClass}{4}%
+\newcommand{\horExtra}{15}%
+\newcommand{\vigProgr}{I semestre de 2024}%
+\newcommand{\nomProfe}{Juan José Rojas Hernández}%
+\newcommand{\corProfe}{juan.rojas@itcr.ac.cr}%
+\newcommand{\conProfe}{Miercoles 7:30 a.m. {-} 10: 30 a.m.}%
 \setmainfont{Arial}%
 \usetikzlibrary{calc}%
 \definecolor{parte}{rgb}{0.02,0.204,0.404}%
 \definecolor{nomCur}{rgb}{0.02,0.455,0.773}%
 \definecolor{fila}{rgb}{0.929,0.929,0.929}%
 \definecolor{linea}{rgb}{0.749,0.749,0.749}%
-\newcommand{\codCurso}{EM-XXXX}
-    \newcommand{\nomCurso}{Introducción a la arepa voladora}
-    \newcommand{\tipCurso}{Teórico-Práctico}
-    \newcommand{\elec}{No}
-    \newcommand{\unAcred}{Ingeniería 50\%, Diseño 50\%}
-    \newcommand{\ubiPlan}{X Semestre}
-    \newcommand{\requisito}{EM-XXX Curso X}
-    \newcommand{\coRequisito}{Ninguno}
-    \newcommand{\requiDe}{Ninguno}
-    \newcommand{\asist}{Asistencia Libre}
-    \newcommand{\sufi}{No tiene suficiencia}
-    \newcommand{\credito}{4}
-    \newcommand{\hClass}{4}
-    \newcommand{\hExtra}{12}
-    \newcommand{\vigProgra}{X Semestre 20XX}
-
-    \newcommand{\nomEscuela}{Escuela de Ingeniería Electromecánica}
-    \newcommand{\nomPrograma}{Licenciatura en Ingeniería Electromecánica}
-
-    \newcommand{\nomProfe}{Pepe Aguilar}
-    \newcommand{\corProfe}{pagui@itcr.ac.cr}
-    \newcommand{\consulta}{Consulta: Miércoles 7:30 a.m. – 10:30 a.m.}%
 \pagestyle{fancy}%
 \lhead{\begin{tikzpicture}[overlay, remember picture]
     \node[inner sep=0mm,outer sep=0mm,anchor=north west,
@@ -68,7 +68,7 @@
     xshift=4mm, 
     yshift=-20mm]
     at (current page.north west)
-    {\includegraphics[width=20cm]{figuras/Logo_portada.jpg}};
+    {\includegraphics[width=20cm]{figuras/Logo_portada.png}};
     \end{tikzpicture}
 
     \vspace*{170mm}

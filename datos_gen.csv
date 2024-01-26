@@ -1,4 +1,4 @@
-﻿Codigo,Nombre,Tipo,Electivo,Creditos,Horas de clase por semana,Horas extraclase por semana,Áreas curriculares,Ubicación en el plan,Requisitos,Correquisitos,Es requisito de,Asistencia,Posibilidad de resconocimiento,Posibilidad de suficiencia,Vigencia,salto pagina
+﻿Codigo,Nombre,Tipo,Electivo,Creditos,HorasClase,HorasExtraclase,AreasCurriculares,Ubicacion,Requisitos,Correquisitos,EsRequisito,Asistencia,PosibilidadReconocimiento,PosibilidadSuficiencia,Vigencia,salto pagina
 MI4136,Elementos de Máquinas,Teórico,No,4,4,15,"40% Ciencias de Ingeniería
 60% Diseño de Ingeniería",8° semestre en Mantenimiento Industrial,"MI-3115 Resistencia de Materiales, MI-3119 Laboratorio 
 de Turbomáquinas",Ninguno,Ninguno,Libre,Si,No,I semestre de 2024,
