@@ -212,9 +212,5 @@ def main():
                 bold=True,
                 text="I parte: Aspectos relativos al plan de estudios"
                 ))
-    doc.generate_pdf("example", clean=False, clean_tex=False, compiler='lualatex')
-
-# print(TikZNodeAnchor("current page","north west").dumps())
-
-# print(TikZPath([current page.north west]).dumps())
+    doc.generate_pdf("example", clean=True, clean_tex=False, compiler='lualatex')
 main()

@@ -1,7 +1,8 @@
-\documentclass{article}%
+\documentclass[letterpaper]{article}%
+\usepackage{lastpage}%
 \usepackage{parskip}%
 \usepackage{geometry}%
-\geometry{letterpaper=True,left=22.5mm,right=16.1mm,top=48mm,bottom=25mm,headheight=12.5mm,footskip=12.5mm}%
+\geometry{left=22.5mm,right=16.1mm,top=48mm,bottom=25mm,headheight=12.5mm,footskip=12.5mm}%
 \usepackage{fontspec}%
 \usepackage[spanish,activeacute]{babel}%
 \usepackage{graphicx}%
@@ -11,23 +12,21 @@
 \usepackage{colortbl}%
 \usepackage{array}%
 \usepackage{float}%
-\usepackage{lastpage}%
 \usepackage{longtable}%
 \usepackage{multirow}%
 \usepackage{fancyhdr}%
 \usepackage{color}%
+\usepackage{ragged2e}%
 \newcommand{\nomEscue}{Escuela de Ingeniería Electromecánica}%
 \newcommand{\nomProgr}{Ingeniería en Mantenimiento Industrial}%
 \newcommand{\codCurso}{MI4136}%
 \newcommand{\nomCurso}{Elementos de Máquinas}%
 \newcommand{\tipCurso}{Teórico}%
 \newcommand{\eleCurso}{No}%
-\newcommand{\uniAcred}{40\% Ciencias de Ingeniería
-\newline%
+\newcommand{\uniAcred}{40\% Ciencias de Ingeniería\newline%
 60\% Diseño de Ingeniería}%
 \newcommand{\ubiPlane}{8° semestre en Mantenimiento Industrial}%
-\newcommand{\susRequi}{MI{-}3115 Resistencia de Materiales, MI{-}3119 Laboratorio 
-\newline%
+\newcommand{\susRequi}{MI{-}3115 Resistencia de Materiales, MI{-}3119 Laboratorio \newline%
 de Turbomáquinas}%
 \newcommand{\corRequi}{Ninguno}%
 \newcommand{\essRequi}{Ninguno}%
@@ -43,46 +42,53 @@ de Turbomáquinas}%
 \newcommand{\conProfe}{Miercoles 7:30 a.m. {-} 10: 30 a.m.}%
 \setmainfont{Arial}%
 \usetikzlibrary{calc}%
+\definecolor{gris}{rgb}{0.27,0.27,0.27}%
 \definecolor{parte}{rgb}{0.02,0.204,0.404}%
-\definecolor{nomCur}{rgb}{0.02,0.455,0.773}%
+\definecolor{azulsuaveTEC}{rgb}{0.02,0.455,0.773}%
 \definecolor{fila}{rgb}{0.929,0.929,0.929}%
 \definecolor{linea}{rgb}{0.749,0.749,0.749}%
-\pagestyle{fancy}%
-
-\lhead{ \begin{tikzpicture}[overlay, remember picture]
-            \node[inner sep=0mm,outer sep=0mm,anchor=north west,
-            xshift=18mm,
-            yshift=-18mm]
-            at (current page.north west)
-            {\includegraphics[width=62.5mm]{figuras/Logo.png}};
-        \end{tikzpicture}}
-\fancyfoot{}
-\lfoot{\textcolor{\nomCurso}{\nomEscue - \nomProgr}}
-\fancyfoot[R]{\textcolor{\nomCurso}{Página \thepage \hspace{1pt} de \pageref{LastPage}}}
-    
-\renewcommand{\headrulewidth}{0pt}
-%
+\fancypagestyle{headfoot}{%
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}%
+\fancyhead{%
+}%
+\fancyfoot{%
+}%
+\fancyhead[L]{%
+\begin{minipage}{0.5\textwidth}%
+\flushleft%
+\includegraphics[width=62.5mm]{figuras/Logo.png}%
+\end{minipage}%
+}%
+\fancyfoot[L]{%
+\textcolor{azulsuaveTEC}{%
+Escuela de Ingeniería Electromecánica {-} Ingeniería en Mantenimiento Industrial%
+}%
+}%
+\fancyfoot[R]{%
+\textcolor{azulsuaveTEC}{%
+Página \thepage \hspace{1pt} de \pageref{LastPage}%
+}%
+}%
+}%
 %
 \begin{document}%
-\begin{titlepage}
-\begin{tikzpicture}[overlay, remember picture]
-    \node[inner sep=0mm,outer sep=0mm,anchor=north west,
-    xshift=4mm, 
-    yshift=-20mm]
-    at (current page.north west)
-    {\includegraphics[width=20cm]{figuras/Logo_portada.png}};
-    \end{tikzpicture}
-
-    \vspace*{170mm}
-
-    \fontsize{14}{0}\selectfont Programa del curso \codCurso
-
-    \fontsize{18}{25}\selectfont \textbf{\textcolor{nomCur}{\nomCurso}}
-
-    \hspace*{10mm}\fontsize{12}{40}\selectfont \color{black!40!gray}\nomEscue
-
-    \hspace*{10mm}\fontsize{12}{14}\selectfont \color{black!40!gray}\nomProgr
-    
-\end{titlepage}%
-\fontsize{14}{0}\selectfont\textbf{\textcolor{parte}{I parte: Aspectos relativos al plan de estudios}}%
+\normalsize%
+\thispagestyle{empty}%
+\begin{tikzpicture}[overlay,remember picture]%
+\node[inner sep = 0mm,outer sep = 0mm,anchor = north west,xshift = -18mm,yshift = 32mm] at (0.0,0.0) {\includegraphics[width=20cm]{figuras/Logo_portada.png}};%
+\end{tikzpicture}%
+\vspace*{170mm}%
+\newline%
+\fontsize{14}{0}\selectfont \textcolor{black}{Programa del curso MI4136}%
+\newline%
+\fontsize{18}{25}\selectfont \textbf{\textcolor{azulsuaveTEC}{Elementos de Máquinas}}%
+\newline%
+\hspace*{10mm}\fontsize{12}{40}\selectfont \textcolor{gris}{Escuela de Ingeniería Electromecánica}%
+\newline%
+\hspace*{10mm}\fontsize{12}{14}\selectfont \textcolor{gris}{Ingeniería en Mantenimiento Industrial}%
+\newline%
+\newpage%
+\thispagestyle{headfoot}%
+\fontsize{14}{0}\selectfont \textbf{\textcolor{parte}{I parte: Aspectos relativos al plan de estudios}}%
 \end{document}
