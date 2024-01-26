@@ -1,7 +1,11 @@
 import os
 import pandas as pd
-from pylatex import Document, Package, Command
-from pylatex.base_classes import Environment
+from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
+    TextColor, MiniPage, StandAloneGraphic, simple_page_number,\
+    TikZ, TikZNode, TikZOptions, TikZCoordinate, TikZNodeAnchor, TikZPath,\
+    UnsafeCommand,\
+    VerticalSpace, HorizontalSpace, NewLine
+from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import italic, NoEscape
 
 cursos = pd.read_csv("cursos.csv")
@@ -29,45 +33,28 @@ nomProfe = "Juan José Rojas Hernández"
 corProfe = "juan.rojas@itcr.ac.cr"
 conProfe = "Miercoles 7:30 a.m. - 10: 30 a.m." #Esto seria mejor construirlo tambien 
 
-print(horClass)
 
-class titlepage(Environment):
-    escape = False
-    content_separator = "\n"
-
-
-
-
-commands = NoEscape(r'''
-\newcommand{\codCurso}{EM-XXXX}
-\newcommand{\nomCurso}{Introducción a la arepa voladora}
-\newcommand{\tipCurso}{Teórico-Práctico}
-\newcommand{\elec}{No}
-\newcommand{\unAcred}{Ingeniería 50\%, Diseño 50\%}
-\newcommand{\ubiPlan}{X Semestre}
-\newcommand{\requisito}{EM-XXX Curso X}
-\newcommand{\coRequisito}{Ninguno}
-\newcommand{\requiDe}{Ninguno}
-\newcommand{\asist}{Asistencia Libre}
-\newcommand{\sufi}{No tiene suficiencia}
-\newcommand{\credito}{4}
-\newcommand{\hClass}{4}
-\newcommand{\hExtra}{12}
-\newcommand{\vigProgra}{X Semestre 20XX}
-
-\newcommand{\nomEscuela}{Escuela de Ingeniería Electromecánica}
-\newcommand{\nomPrograma}{Licenciatura en Ingeniería Electromecánica}
-
-\newcommand{\nomProfe}{Pepe Aguilar}
-\newcommand{\corProfe}{pagui@itcr.ac.cr}
-\newcommand{\consulta}{Consulta: Miércoles 7:30 a.m. – 10:30 a.m.}
-''')
+def textcolor(size,vspace,color,bold,text,hspace="0"):
+    dump = NoEscape("")
+    if hspace!="0":
+        dump += NoEscape(HorizontalSpace(hspace,star=True).dumps())
+    dump += NoEscape(Command("fontsize",arguments=Arguments(size,vspace)).dumps())
+    dump += NoEscape(Command("selectfont").dumps()) + NoEscape(" ")
+    if bold==True:
+        dump += NoEscape(Command("textbf", NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())).dumps())
+    else:
+        dump += NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())
+    return dump
 
 
+
+# class titlepage(Environment):
+#     escape = False
+#     content_separator = "\n"
 
 def main():
+    #Geometry
     geometry_options = { 
-        "letterpaper": True,
         "left": "22.5mm",
         "right": "16.1mm",
         "top": "48mm",
@@ -75,13 +62,15 @@ def main():
         "headheight": "12.5mm",
         "footskip": "12.5mm"
     }
+    #Document options
     doc = Document(documentclass="article", \
                    fontenc=None, \
                    inputenc=None, \
                    lmodern=False, \
                    textcomp=False, \
-                   page_numbers=False, \
+                   page_numbers=True, \
                    indent=False, \
+                   document_options=["letterpaper"],
                    geometry_options=geometry_options)
     #Packages
     doc.packages.append(Package(name="fontspec", options=None))
@@ -93,7 +82,7 @@ def main():
     doc.packages.append(Package(name="colortbl"))
     doc.packages.append(Package(name="array"))
     doc.packages.append(Package(name="float"))
-    doc.packages.append(Package(name="lastpage"))
+    #doc.packages.append(Package(name="lastpage")) con pagenumbers+true
     doc.packages.append(Package(name="longtable"))
     doc.packages.append(Package(name="multirow"))
     doc.packages.append(Package(name="fancyhdr"))
@@ -122,127 +111,110 @@ def main():
     #Package options
     doc.preamble.append(Command('setmainfont','Arial'))
     doc.preamble.append(Command('usetikzlibrary','calc'))
+    doc.add_color('gris','rgb','0.27,0.27,0.27') #70,70,70
     doc.add_color('parte','rgb','0.02,0.204,0.404') #5,52,103
-    doc.add_color('nomCur','rgb','0.02,0.455,0.773') #5,116,197
+    doc.add_color('azulsuaveTEC','rgb','0.02,0.455,0.773') #5,116,197
     doc.add_color('fila','rgb','0.929,0.929,0.929') #237,237,237
     doc.add_color('linea','rgb','0.749,0.749,0.749') #191,191,191
 
+    headerfooter = PageStyle("headfoot")
 
-    # first_page = PageStyle("firstpage")
-
-    # # Header image
-    # with first_page.create(Head("L")) as header_left:
-    #     with header_left.create(MiniPage(width=NoEscape(r"0.49\textwidth"),
-    #                                      pos='l')) as logo_wrapper:
-    #         logo_file = 'figuras/Logo.png'
-    #         logo_wrapper.append(StandAloneGraphic(image_options="width=62.5mm",
-    #                             filename=logo_file))
-    
-    
-
-    #doc.preamble.append(commands)
-
-    doc.preamble.append(Command('pagestyle','fancy'))
-
-    headerandfooter = NoEscape(
-    r'''\lhead{\begin{tikzpicture}[overlay, remember picture]
-    \node[inner sep=0mm,outer sep=0mm,anchor=north west,
-    xshift=18mm,
-    yshift=-18mm]
-    at (current page.north west)
-    {\includegraphics[width=62.5mm]{figuras/Logo.png}};
-    \end{tikzpicture}}
-    \fancyfoot{}
-    \lfoot{\textcolor{nomCur}{\nomEscuela - \nomPrograma}}
-    \fancyfoot[R]{\textcolor{nomCur}{Página \thepage \hspace{1pt} de \pageref{LastPage}}}
-    
-    \renewcommand{\headrulewidth}{0pt}'''
-    )
-
-    doc.preamble.append(headerandfooter)
- 
-    # TikZNode(handle="logoportada",
-    #          options={"inner sep": "0mm",
-    #                   "outer sep": "0mm",
-    #                   "anchor": "north west",
-    #                   "xshift": "4mm",
-    #                   "yshift": " -20mm"
-    #          },
-    #          text=NoEscape(r"\includegraphics[width=20cm]{figuras/Logo_portada.jpg}")
-    #         )
-    
-    # TikZNodeAnchor(node_handle="logoportada",
-    #                anchor_name="current page.north west")
-    
+    #Left header
+    with headerfooter.create(Head("L")) as header_left:
+        with header_left.create(MiniPage(width=r"0.5\textwidth",align="l")) as logobox:
+            logobox.append(StandAloneGraphic(image_options="width=62.5mm", filename='figuras/Logo.png'))
+    #Left foot
+    with headerfooter.create(Foot("L")) as footer_left:
+        footer_left.append(TextColor("azulsuaveTEC", f"{nomEscue} - {nomProgr}"))
+    #Right foot
+    with headerfooter.create(Foot("R")) as footer_right:
+        footer_right.append(TextColor("azulsuaveTEC", NoEscape(r"Página \thepage \hspace{1pt} de \pageref{LastPage}")))        
+  
     title = NoEscape(
-    r'''\begin{tikzpicture}[overlay, remember picture]
-    \node[inner sep=0mm,outer sep=0mm,anchor=north west,
-    xshift=4mm, 
-    yshift=-20mm]
-    at (current page.north west)
-    {\includegraphics[width=20cm]{figuras/Logo_portada.png}};
-    \end{tikzpicture}
-
+    r'''
     \vspace*{170mm}
 
     \fontsize{14}{0}\selectfont Programa del curso \codCurso
 
-    \fontsize{18}{25}\selectfont \textbf{\textcolor{nomCur}{\nomCurso}}
+    \fontsize{18}{25}\selectfont \textbf{\textcolor{azulsuaveTEC}{\nomCurso}}
 
-    \hspace*{10mm}\fontsize{12}{40}\selectfont \color{black!40!gray}\nomEscuela
+    \hspace*{10mm}\fontsize{12}{40}\selectfont \color{black!40!gray}\nomEscue
 
-    \hspace*{10mm}\fontsize{12}{14}\selectfont \color{black!40!gray}\nomPrograma
+    \hspace*{10mm}\fontsize{12}{14}\selectfont \color{black!40!gray}\nomProgr
     '''
     )
 
-    with doc.create(titlepage()):
-        doc.append(title)
-    doc.append(NoEscape(
-               r'''\fontsize{14}{0}\selectfont\textbf{\textcolor{parte}{I parte: Aspectos relativos al plan de estudios}}'''
-    ))
+    doc.preamble.append(headerfooter)
+    doc.change_page_style("empty")
+    with doc.create(TikZ(\
+            options=TikZOptions(    "overlay",
+                                    "remember picture"
+                  
+                                )
+        )) as logo:
+        logo.append(TikZNode(\
+            options=TikZOptions(    "inner sep = 0mm",
+                                    "outer sep = 0mm",
+                                    "anchor = north west",
+                                    "xshift = -18mm",
+                                    "yshift = 32mm"
+                                ),
+            text=StandAloneGraphic(image_options="width=20cm", filename='figuras/Logo_portada.png').dumps(),\
+            at=TikZCoordinate(0,0)
+        ))
+    doc.append(VerticalSpace("170mm", star=True))
+    doc.append(NewLine())
+    doc.append(textcolor
+                (   
+                size="14",
+                vspace="0",
+                color="black",
+                bold=False,
+                text=f"Programa del curso {codCurso}" 
+                ))
+    doc.append(NewLine())
+    doc.append(textcolor
+                (  
+                size="18",
+                vspace="25",
+                color="azulsuaveTEC",
+                bold=True,
+                text=f"{nomCurso}" 
+                ))
+    doc.append(NewLine())
+    doc.append(textcolor
+                (
+                hspace="10mm",   
+                size="12",
+                vspace="40",
+                color="gris",
+                bold=False,
+                text=f"{nomEscue}" 
+                ))
+    doc.append(NewLine())
+    doc.append(textcolor
+                (   
+                hspace="10mm",
+                size="12",
+                vspace="14",
+                color="gris",
+                bold=False,
+                text=f"{nomProgr}" 
+                ))
+    doc.append(NewLine())
+    doc.append(NewPage())
+    doc.change_page_style("headfoot")
+    doc.append(textcolor
+                (   
+                size="14",
+                vspace="0",
+                color="parte",
+                bold=True,
+                text="I parte: Aspectos relativos al plan de estudios"
+                ))
     doc.generate_pdf("example", clean=False, clean_tex=False, compiler='lualatex')
 
+# print(TikZNodeAnchor("current page","north west").dumps())
 
+# print(TikZPath([current page.north west]).dumps())
 main()
-
-# def fill_document(doc):
-#     """Add a section, a subsection and some text to the document.
-
-#     :param doc: the document
-#     :type doc: :class:`pylatex.document.Document` instance
-#     """
-#     with doc.append('preamble.tex'):     
-#         doc.create(Section('A section'))
-#         doc.append('Some regular text and some ')
-#         doc.append(italic('italic text. '))
-
-#         with doc.create(Subsection('A subsection')):
-#             doc.append('Also some crazy characters: $&#{}')
-
-
-# if __name__ == '__main__':
-#     # Basic document
-#     doc = Document('basic')
-#     fill_document(doc)
-
-#     doc.generate_pdf(clean_tex=True)
-#     doc.generate_tex()
-
-#     # Document with `\maketitle` command activated
-#     doc = Document()
-
-#     doc.preamble.append(Command('title', 'Awesome Title'))
-#     doc.preamble.append(Command('author', 'Anonymous author'))
-#     doc.preamble.append(Command('date', NoEscape(r'\today')))
-#     doc.append(NoEscape(r'\maketitle'))
-
-#     fill_document(doc)
-
-#     doc.generate_pdf('basic_maketitle', clean_tex=True)
-
-#     # Add stuff to the document
-#     with doc.create(Section('A second section')):
-#         doc.append('Some text.')
-
-#     doc.generate_pdf('basic_maketitle2', clean_tex=True)
-#     tex = doc.dumps()  # The document as string in LaTeX syntax
