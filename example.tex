@@ -22,10 +22,12 @@
 \newcommand{\nomCurso}{Elementos de Máquinas}%
 \newcommand{\tipCurso}{Teórico}%
 \newcommand{\eleCurso}{No}%
-\newcommand{\uniAcred}{40\% Ciencias de Ingeniería\newline%
+\newcommand{\uniAcred}{40\% Ciencias de Ingeniería
+\newline%
 60\% Diseño de Ingeniería}%
 \newcommand{\ubiPlane}{8° semestre en Mantenimiento Industrial}%
-\newcommand{\susRequi}{MI{-}3115 Resistencia de Materiales, MI{-}3119 Laboratorio \newline%
+\newcommand{\susRequi}{MI{-}3115 Resistencia de Materiales, MI{-}3119 Laboratorio 
+\newline%
 de Turbomáquinas}%
 \newcommand{\corRequi}{Ninguno}%
 \newcommand{\essRequi}{Ninguno}%
@@ -46,22 +48,22 @@ de Turbomáquinas}%
 \definecolor{fila}{rgb}{0.929,0.929,0.929}%
 \definecolor{linea}{rgb}{0.749,0.749,0.749}%
 \pagestyle{fancy}%
-\lhead{\begin{tikzpicture}[overlay, remember picture]
-    \node[inner sep=0mm,outer sep=0mm,anchor=north west,
-    xshift=18mm,
-    yshift=-18mm]
-    at (current page.north west)
-    {\includegraphics[width=62.5mm]{figuras/Logo.png}};
-    \end{tikzpicture}}
-    \fancyfoot{}
-    \lfoot{\textcolor{nomCur}{\nomEscuela - \nomPrograma}}
-    \fancyfoot[R]{\textcolor{nomCur}{Página \thepage \hspace{1pt} de \pageref{LastPage}}}
+
+\lhead{ \begin{tikzpicture}[overlay, remember picture]
+            \node[inner sep=0mm,outer sep=0mm,anchor=north west,
+            xshift=18mm,
+            yshift=-18mm]
+            at (current page.north west)
+            {\includegraphics[width=62.5mm]{figuras/Logo.png}};
+        \end{tikzpicture}}
+\fancyfoot{}
+\lfoot{\textcolor{\nomCurso}{\nomEscue - \nomProgr}}
+\fancyfoot[R]{\textcolor{\nomCurso}{Página \thepage \hspace{1pt} de \pageref{LastPage}}}
     
-    \renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\headrulewidth}{0pt}
+%
 %
 \begin{document}%
-\pagestyle{empty}%
-\normalsize%
 \begin{titlepage}
 \begin{tikzpicture}[overlay, remember picture]
     \node[inner sep=0mm,outer sep=0mm,anchor=north west,
@@ -77,9 +79,9 @@ de Turbomáquinas}%
 
     \fontsize{18}{25}\selectfont \textbf{\textcolor{nomCur}{\nomCurso}}
 
-    \hspace*{10mm}\fontsize{12}{40}\selectfont \color{black!40!gray}\nomEscuela
+    \hspace*{10mm}\fontsize{12}{40}\selectfont \color{black!40!gray}\nomEscue
 
-    \hspace*{10mm}\fontsize{12}{14}\selectfont \color{black!40!gray}\nomPrograma
+    \hspace*{10mm}\fontsize{12}{14}\selectfont \color{black!40!gray}\nomProgr
     
 \end{titlepage}%
 \fontsize{14}{0}\selectfont\textbf{\textcolor{parte}{I parte: Aspectos relativos al plan de estudios}}%
