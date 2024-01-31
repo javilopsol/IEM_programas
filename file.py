@@ -4,38 +4,13 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
     TextColor, MiniPage, StandAloneGraphic, simple_page_number,\
     TikZ, TikZNode, TikZOptions, TikZCoordinate, TikZNodeAnchor, TikZPath,\
     UnsafeCommand,\
-    VerticalSpace, HorizontalSpace, NewLine
+    VerticalSpace, HorizontalSpace, NewLine,\
+    LongTable
 from pylatex.base_classes import Environment, Arguments
-from pylatex.utils import italic, NoEscape
-
-cursos = pd.read_csv("cursos.csv")
-datos_gen = pd.read_csv("datos_gen.csv")
-
-codCurso = "MI4136"
-nomEscue = "Escuela de Ingeniería Electromecánica"
-nomProgr = cursos[cursos.Codigo == codCurso].Programa.item()
-nomCurso = cursos[cursos.Codigo == codCurso].Nombre.item()
-tipCurso = datos_gen[datos_gen.Codigo == codCurso].Tipo.item()
-eleCurso = datos_gen[datos_gen.Codigo == codCurso].Electivo.item()
-uniAcred = datos_gen[datos_gen.Codigo == codCurso].AreasCurriculares.item()
-ubiPlane = datos_gen[datos_gen.Codigo == codCurso].Ubicacion.item()
-susRequi = datos_gen[datos_gen.Codigo == codCurso].Requisitos.item()
-corRequi = datos_gen[datos_gen.Codigo == codCurso].Correquisitos.item()
-essRequi = datos_gen[datos_gen.Codigo == codCurso].EsRequisito.item()
-tipAsist = datos_gen[datos_gen.Codigo == codCurso].Asistencia.item()
-posRecon = datos_gen[datos_gen.Codigo == codCurso].PosibilidadReconocimiento.item()
-posSufic = datos_gen[datos_gen.Codigo == codCurso].PosibilidadSuficiencia.item()
-numCredi = datos_gen[datos_gen.Codigo == codCurso].Creditos.item()
-horClass = datos_gen[datos_gen.Codigo == codCurso].HorasClase.item()
-horExtra = datos_gen[datos_gen.Codigo == codCurso].HorasExtraclase.item()
-vigProgr = datos_gen[datos_gen.Codigo == codCurso].Vigencia.item()
-nomProfe = "Juan José Rojas Hernández"
-corProfe = "juan.rojas@itcr.ac.cr"
-conProfe = "Miercoles 7:30 a.m. - 10: 30 a.m." #Esto seria mejor construirlo tambien 
-
+from pylatex.utils import NoEscape, bold, italic
 
 def textcolor(size,vspace,color,bold,text,hspace="0"):
-    dump = NoEscape("")
+    dump = NoEscape(r"\par")
     if hspace!="0":
         dump += NoEscape(HorizontalSpace(hspace,star=True).dumps())
     dump += NoEscape(Command("fontsize",arguments=Arguments(size,vspace)).dumps())
@@ -44,15 +19,42 @@ def textcolor(size,vspace,color,bold,text,hspace="0"):
         dump += NoEscape(Command("textbf", NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())).dumps())
     else:
         dump += NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())
+    #dump += NoEscape("\par")
     return dump
 
+cursos = pd.read_csv("cursos.csv")
+datos_gen = pd.read_csv("datos_gen.csv")
+descrip_obj = pd.read_csv("descrip_obj.csv")
 
 
-# class titlepage(Environment):
-#     escape = False
-#     content_separator = "\n"
+def generar_programa(codigo):
 
-def main():
+    codCurso = codigo
+    nomEscue = "Escuela de Ingeniería Electromecánica"
+    nomProgr = cursos[cursos.Codigo == codCurso].Programa.item()
+    nomCurso = cursos[cursos.Codigo == codCurso].Nombre.item()
+    tipCurso = datos_gen[datos_gen.Codigo == codCurso].Tipo.item()
+    eleCurso = datos_gen[datos_gen.Codigo == codCurso].Electivo.item()
+    porAreas = datos_gen[datos_gen.Codigo == codCurso].AreasCurriculares.item()
+    ubiPlane = datos_gen[datos_gen.Codigo == codCurso].Ubicacion.item()
+    susRequi = datos_gen[datos_gen.Codigo == codCurso].Requisitos.item()
+    corRequi = datos_gen[datos_gen.Codigo == codCurso].Correquisitos.item()
+    essRequi = datos_gen[datos_gen.Codigo == codCurso].EsRequisito.item()
+    tipAsist = datos_gen[datos_gen.Codigo == codCurso].Asistencia.item()
+    posRecon = datos_gen[datos_gen.Codigo == codCurso].PosibilidadReconocimiento.item()
+    posSufic = datos_gen[datos_gen.Codigo == codCurso].PosibilidadSuficiencia.item()
+    numCredi = datos_gen[datos_gen.Codigo == codCurso].Creditos.item()
+    horClass = datos_gen[datos_gen.Codigo == codCurso].HorasClase.item()
+    horExtra = datos_gen[datos_gen.Codigo == codCurso].HorasExtraclase.item()
+    vigProgr = datos_gen[datos_gen.Codigo == codCurso].Vigencia.item()
+    desGener = descrip_obj[descrip_obj.Codigo == codCurso].Descripcion.item()
+    objGener = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivoGeneral.item()
+    objEspec = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivosEspecificos.item()
+
+    nomProfe = "Juan José Rojas Hernández"
+    corProfe = "juan.rojas@itcr.ac.cr"
+    conProfe = "Miercoles 7:30 a.m. - 10: 30 a.m." #Esto seria mejor construirlo tambien 
+
     #Geometry
     geometry_options = { 
         "left": "22.5mm",
@@ -93,7 +95,7 @@ def main():
     doc.set_variable("nomCurso",nomCurso)
     doc.set_variable("tipCurso",tipCurso)
     doc.set_variable("eleCurso",eleCurso)
-    doc.set_variable("uniAcred",uniAcred)
+    doc.set_variable("porAreas",porAreas)
     doc.set_variable("ubiPlane",ubiPlane)
     doc.set_variable("susRequi",susRequi)
     doc.set_variable("corRequi",corRequi)
@@ -122,7 +124,7 @@ def main():
     #Left header
     with headerfooter.create(Head("L")) as header_left:
         with header_left.create(MiniPage(width=r"0.5\textwidth",align="l")) as logobox:
-            logobox.append(StandAloneGraphic(image_options="width=62.5mm", filename='figuras/Logo.png'))
+            logobox.append(StandAloneGraphic(image_options="width=62.5mm", filename='../figuras/Logo.png'))
     #Left foot
     with headerfooter.create(Foot("L")) as footer_left:
         footer_left.append(TextColor("azulsuaveTEC", f"{nomEscue} - {nomProgr}"))
@@ -146,71 +148,127 @@ def main():
 
     doc.preamble.append(headerfooter)
     doc.change_page_style("empty")
-    with doc.create(TikZ(\
-            options=TikZOptions(    "overlay",
-                                    "remember picture"
-                  
-                                )
+    with doc.create(TikZ(
+            options=TikZOptions
+                (    
+                "overlay",
+                "remember picture"
+                )
         )) as logo:
         logo.append(TikZNode(\
-            options=TikZOptions(    "inner sep = 0mm",
-                                    "outer sep = 0mm",
-                                    "anchor = north west",
-                                    "xshift = -18mm",
-                                    "yshift = 32mm"
-                                ),
-            text=StandAloneGraphic(image_options="width=20cm", filename='figuras/Logo_portada.png').dumps(),\
+            options=TikZOptions
+                (
+                "inner sep = 0mm",
+                "outer sep = 0mm",
+                "anchor = north west",
+                "xshift = -23mm",
+                "yshift = 22mm"
+                ),
+            text=StandAloneGraphic(image_options="width=21cm", filename='../figuras/Logo_portada.png').dumps(),\
             at=TikZCoordinate(0,0)
         ))
-    doc.append(VerticalSpace("170mm", star=True))
-    doc.append(NewLine())
+    doc.append(VerticalSpace("150mm", star=True))
     doc.append(textcolor
-                (   
-                size="14",
-                vspace="0",
-                color="black",
-                bold=False,
-                text=f"Programa del curso {codCurso}" 
-                ))
-    doc.append(NewLine())
+            (   
+            size="14",
+            vspace="0",
+            color="black",
+            bold=False,
+            text=f"Programa del curso {codCurso}" 
+            ))
     doc.append(textcolor
-                (  
-                size="18",
-                vspace="25",
-                color="azulsuaveTEC",
-                bold=True,
-                text=f"{nomCurso}" 
-                ))
-    doc.append(NewLine())
+            (  
+            size="18",
+            vspace="25",
+            color="azulsuaveTEC",
+            bold=True,
+            text=f"{nomCurso}" 
+            ))
     doc.append(textcolor
-                (
-                hspace="10mm",   
-                size="12",
-                vspace="40",
-                color="gris",
-                bold=False,
-                text=f"{nomEscue}" 
-                ))
-    doc.append(NewLine())
+            (
+            hspace="10mm",   
+            size="12",
+            vspace="30",
+            color="gris",
+            bold=True,
+            text=f"{nomEscue}" 
+            ))
     doc.append(textcolor
-                (   
-                hspace="10mm",
-                size="12",
-                vspace="14",
-                color="gris",
-                bold=False,
-                text=f"{nomProgr}" 
-                ))
-    doc.append(NewLine())
+            (   
+            hspace="10mm",
+            size="12",
+            vspace="14",
+            color="gris",
+            bold=True,
+            text=f"{nomProgr}" 
+            ))
     doc.append(NewPage())
-    doc.change_page_style("headfoot")
+    doc.change_document_style("headfoot")
     doc.append(textcolor
-                (   
-                size="14",
-                vspace="0",
-                color="parte",
-                bold=True,
-                text="I parte: Aspectos relativos al plan de estudios"
-                ))
-    doc.generate_pdf("example", clean=True, clean_tex=False, compiler='lualatex')
-main()
+            (   
+            size="14",
+            vspace="0",
+            color="parte",
+            bold=True,
+            text="I parte: Aspectos relativos al plan de estudios"
+            ))
+    doc.append(textcolor
+            (   
+            hspace="4mm",
+            size="12",
+            vspace="20",
+            color="parte",
+            bold=True,
+            text="1 Datos generales"
+            ))
+    with doc.create(LongTable(table_spec=r"m{7cm}m{9cm}",row_height=1.5)) as table:
+            table.add_row([bold("Nombre del curso:"), f"{nomCurso}"])
+            table.add_row([bold("Código:"), f"{codCurso}"])
+            table.add_row([bold("Tipo de curso:"), f"{tipCurso}"])
+            table.add_row([bold("Electivo o no:"), f"{eleCurso}"])
+            table.add_row([bold("Nº de créditos:"), f"{numCredi}"])
+            table.add_row([bold("Nº horas de clase por semana:"), f"{horClass}"])
+            table.add_row([bold("Nº horas extraclase por semana:"), f"{horExtra}"])
+            table.add_row([bold("% de areas curriculares:"), f"{porAreas}"])
+            table.add_row([bold("Ubicación en el plan de estudios:"), f"{ubiPlane}"])
+            table.add_row([bold("Requisitos:"), f"{susRequi}"])
+            table.add_row([bold("Correquisitos:"), f"{corRequi}"])
+            table.add_row([bold("El curso es requisito de:"), f"{essRequi}"])
+            table.add_row([bold("Asistencia:"), f"{tipAsist}"])
+            table.add_row([bold("Suficiencia:"), f"{posSufic}"])
+            table.add_row([bold("Posibilidad de reconocimiento:"), f"{posRecon}"])
+            table.add_row([bold("Vigencia del programa:"), f"{vigProgr}"])
+    doc.append(NewPage())
+    with doc.create(LongTable(table_spec=r"p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
+            table.add_row([
+                textcolor
+                    (
+                    size="12",
+                    vspace="0",
+                    color="parte",
+                    bold=True,
+                    text="2 Descripción general"
+                    ),
+                    f"{desGener}"
+                ])
+            table.add_row([
+                textcolor
+                    (
+                    size="12",
+                    vspace="0",
+                    color="parte",
+                    bold=True,
+                    text="2 Objetivos"
+                    ),
+                    f"{objGener}"
+                ])
+            table.add_row([
+                "",
+                f"{objEspec}"
+                ])
+    doc.generate_pdf(f"./programas/{codCurso}", clean=True, clean_tex=False, compiler='lualatex')
+
+# for codigo in cursos.Codigo:
+#      generar_programa(codigo)
+    
+generar_programa("MI2207")
