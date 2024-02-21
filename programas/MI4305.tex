@@ -1,0 +1,100 @@
+\documentclass[letterpaper]{article}%
+\usepackage{lastpage}%
+\usepackage{parskip}%
+\usepackage{geometry}%
+\geometry{left=22.5mm,right=16.1mm,top=48mm,bottom=25mm,headheight=12.5mm,footskip=12.5mm}%
+\usepackage{fontspec}%
+\usepackage[spanish,activeacute]{babel}%
+\usepackage{graphicx}%
+\usepackage{tikz}%
+\usepackage{anyfontsize}%
+\usepackage{xcolor}%
+\usepackage{colortbl}%
+\usepackage{array}%
+\usepackage{float}%
+\usepackage{longtable}%
+\usepackage{multirow}%
+\usepackage{fancyhdr}%
+\usepackage{color}%
+\usepackage{ragged2e}%
+%
+\setmainfont{Arial}%
+\usetikzlibrary{calc}%
+\definecolor{gris}{rgb}{0.27,0.27,0.27}%
+\definecolor{parte}{rgb}{0.02,0.204,0.404}%
+\definecolor{azulsuaveTEC}{rgb}{0.02,0.455,0.773}%
+\definecolor{fila}{rgb}{0.929,0.929,0.929}%
+\definecolor{linea}{rgb}{0.749,0.749,0.749}%
+\fancypagestyle{headfoot}{%
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}%
+\fancyhead{%
+}%
+\fancyfoot{%
+}%
+\fancyhead[L]{%
+\begin{minipage}{0.5\textwidth}%
+\flushleft%
+\includegraphics[width=62.5mm]{../figuras/Logo.png}%
+\end{minipage}%
+}%
+\fancyfoot[L]{%
+\textcolor{azulsuaveTEC}{%
+Escuela de Ingeniería Electromecánica {-} Ingeniería en Mantenimiento Industrial%
+}%
+}%
+\fancyfoot[R]{%
+\textcolor{azulsuaveTEC}{%
+Página \thepage \hspace{1pt} de \pageref{LastPage}%
+}%
+}%
+}%
+%
+\begin{document}%
+\normalsize%
+\thispagestyle{empty}%
+\begin{tikzpicture}[overlay,remember picture]%
+\node[inner sep = 0mm,outer sep = 0mm,anchor = north west,xshift = -23mm,yshift = 22mm] at (0.0,0.0) {\includegraphics[width=21cm]{../figuras/Logo_portada.png}};%
+\end{tikzpicture}%
+\vspace*{150mm}%
+\par\fontsize{14}{0}\selectfont \textcolor{black}{Programa del curso MI4305}%
+\par\fontsize{18}{25}\selectfont \textbf{\textcolor{azulsuaveTEC}{Administración de Mantenimiento II}}%
+\par\hspace*{10mm}\fontsize{12}{30}\selectfont \textbf{\textcolor{gris}{Escuela de Ingeniería Electromecánica}}%
+\par\hspace*{10mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{gris}{Ingeniería en Mantenimiento Industrial}}%
+\newpage%
+\pagestyle{headfoot}%
+\par\fontsize{14}{0}\selectfont \textbf{\textcolor{parte}{I parte: Aspectos relativos al plan de estudios}}%
+\par\hspace*{4mm}\fontsize{12}{20}\selectfont \textbf{\textcolor{parte}{1 Datos generales}}%
+\renewcommand{\arraystretch}{1.5}%
+\begin{longtable}{m{7cm}m{9cm}}%
+\textbf{Nombre del curso:}&Administración de Mantenimiento II\\%
+\textbf{Código:}&MI4305\\%
+\textbf{Tipo de curso:}&Teórico\\%
+\textbf{Electivo o no:}&No\\%
+\textbf{Nº de créditos:}&3\\%
+\textbf{Nº horas de clase por semana:}&3\\%
+\textbf{Nº horas extraclase por semana:}&12\\%
+\textbf{\% de areas curriculares:}&75\% Ciencias de la Ingeniería\newline%
+25\% Diseño de Ingeniería\\%
+\textbf{Ubicación en el plan de estudios:}&Curso del VIII semestre de la carrera de Ingeniería en \newline%
+Mantenimiento Industrial\\%
+\textbf{Requisitos:}&MI{-}4300 Administración de Mantenimiento I\\%
+\textbf{Correquisitos:}&Ninguno\\%
+\textbf{El curso es requisito de:}&MI{-}5102 Electiva II.\\%
+\textbf{Asistencia:}&Libre\\%
+\textbf{Suficiencia:}&No\\%
+\textbf{Posibilidad de reconocimiento:}&No\\%
+\textbf{Vigencia del programa:}&I semestre de 2024\\%
+\end{longtable}%
+\newpage%
+\renewcommand{\arraystretch}{1.5}%
+\begin{longtable}{p{0.18\textwidth}p{0.72\textwidth}}%
+\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{2 Descripción general}}&Para cualquier institución es muy importante la reducción de gastos, sin sacrificar la utilidad o competitividad de esta, esto incluye a la sección de Mantenimiento pues, una decisión errónea, innecesaria o inadecuada puede repercutir fuertemente en los gastos y el presupuesto tanto del área de mantenimiento como en la empresa o establecimiento como tal. \newline%
+En este curso se estudiarán y aplicarán herramientas de gestión modernas para el mantenimiento, desarrollando conocimientos sobre la importancia administrativa, técnica y estratégica de la gestión de mantenimiento, es decir obtener un valor agregado que se enfocará en áreas económica, ambiental y administrativa.\\%
+\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{2 Objetivos}}&Al finalizar el curso los estudiantes dominarán los aspectos fundamentales para administrar de una forma moderna, eficiente y ágil un Departamento de Mantenimiento, de manera que éste aporte a la competitividad de la empresa.\\%
+&1. Estudiar y comprender la evolución del mantenimiento, su importancia y los atributos que deben guiar su gestión. \newline%
+      2. Estudiar, conocer y comprender la metodología de la gestión de activos, gestión del riesgo, análisis del ciclo de vida útil, así como el diseño adecuado de su implementación, como una manera de identificación total para el logro de los objetivos empresariales.\newline%
+       3. Comprender el alineamiento de la gestión del mantenimiento con los objetivos y el plan estratégico de la organización, evidenciando su valor agregado hacia el negocio. \newline%
+       4. Comprender cómo se desarrolla un modelo gestión mantenimiento.\\%
+\end{longtable}%
+\end{document}

@@ -19,7 +19,6 @@ def textcolor(size,vspace,color,bold,text,hspace="0"):
         dump += NoEscape(Command("textbf", NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())).dumps())
     else:
         dump += NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())
-    #dump += NoEscape("\par")
     return dump
 
 cursos = pd.read_csv("cursos.csv")
@@ -50,11 +49,9 @@ def generar_programa(codigo):
     desGener = descrip_obj[descrip_obj.Codigo == codCurso].Descripcion.item()
     objGener = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivoGeneral.item()
     objEspec = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivosEspecificos.item()
-
     nomProfe = "Juan José Rojas Hernández"
     corProfe = "juan.rojas@itcr.ac.cr"
     conProfe = "Miercoles 7:30 a.m. - 10: 30 a.m." #Esto seria mejor construirlo tambien 
-
     #Geometry
     geometry_options = { 
         "left": "22.5mm",
@@ -88,28 +85,6 @@ def generar_programa(codigo):
     doc.packages.append(Package(name="longtable"))
     doc.packages.append(Package(name="multirow"))
     doc.packages.append(Package(name="fancyhdr"))
-    # #Variables
-    # doc.set_variable("nomEscue",nomEscue)
-    # doc.set_variable("nomProgr",nomProgr)
-    # doc.set_variable("codCurso",codCurso)
-    # doc.set_variable("nomCurso",nomCurso)
-    # doc.set_variable("tipCurso",tipCurso)
-    # doc.set_variable("eleCurso",eleCurso)
-    # doc.set_variable("porAreas",porAreas)
-    # doc.set_variable("ubiPlane",ubiPlane)
-    # doc.set_variable("susRequi",susRequi)
-    # doc.set_variable("corRequi",corRequi)
-    # doc.set_variable("essRequi",essRequi)
-    # doc.set_variable("tipAsist",tipAsist)
-    # doc.set_variable("posRecon",posRecon)
-    # doc.set_variable("posSufic",posSufic)
-    # doc.set_variable("numCredi",numCredi)
-    # doc.set_variable("horClass",horClass)
-    # doc.set_variable("horExtra",horExtra)
-    # doc.set_variable("vigProgr",vigProgr)
-    # doc.set_variable("nomProfe",nomProfe)
-    # doc.set_variable("corProfe",corProfe)
-    # doc.set_variable("conProfe",conProfe)
     #Package options
     doc.preamble.append(Command('setmainfont','Arial'))
     doc.preamble.append(Command('usetikzlibrary','calc'))
@@ -268,7 +243,7 @@ def generar_programa(codigo):
                 ])
     doc.generate_pdf(f"./programas/{codCurso}", clean=True, clean_tex=False, compiler='lualatex')
 
-for codigo in cursos.Codigo:
-     generar_programa(codigo)
+# for codigo in cursos.Codigo:
+#      generar_programa(codigo)
     
-#generar_programa("MI4305")
+generar_programa("MI4305")
