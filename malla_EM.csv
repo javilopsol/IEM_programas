@@ -9,7 +9,7 @@ EM2101,,,1,7,,,
 CS1502,Introducción a la Técnica Ciencia y Tecnología,Básicas,1,8,2,0,1
 CI1106,Comunicación Escrita,Básicas,1,9,3,0,2
 MA1102,Cálculo Diferencial e Integral,Básicas,2,1,5,0,4
-,,,,,,,
+FI1102,Física General II,Básicas,2,2,4,0,3
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
@@ -59,7 +59,7 @@ EM2311,,,10,,,,
 EM2352,,,4,,,,
 EM2358,,,8,,,,
 EM2360,,,9,,,,
-EM2400,,,8,,,,
+EM2400,Met,,8,,,,
 EM2401,,,10,,,,
 EM2402,,,10,,,,
 EM2403,,,10,,,,

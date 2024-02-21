@@ -1,0 +1,40 @@
+\documentclass[letterpaper,lanscape]{article}%
+\usepackage{lastpage}%
+\usepackage{parskip}%
+\usepackage{geometry}%
+\geometry{left=0mm,right=0mm,top=0mm,bottom=0mm,headheight=1mm,footskip=1mm}%
+\usepackage{fontspec}%
+\usepackage[spanish,activeacute]{babel}%
+\usepackage{graphicx}%
+\usepackage{tikz}%
+\usepackage{anyfontsize}%
+\usepackage{xcolor}%
+\usepackage{colortbl}%
+\usepackage{array}%
+\usepackage{float}%
+\usepackage{longtable}%
+\usepackage{multirow}%
+\usepackage{fancyhdr}%
+%
+\tikzset{
+            pics/curso/.style args={#1,#2,#3,#4,#5,#6}{
+            code={
+                \def\ancho{4}
+                \def\alto{0.7}
+                \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,-\alto) node[midway,align=center,text width=4cm]{\fontsize{10pt}{12pt}\selectfont \textbf{#2}};
+                \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,\alto + \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #1};
+                \draw[fill=#6] (-\ancho/2,-\alto) rectangle (-\ancho/2 + \ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #3};
+                \draw[fill=#6] (-\ancho/2 + \ancho/3,-\alto) rectangle (-\ancho/2 + 2*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #4};
+                \draw[fill=#6] (-\ancho/2 + 2*\ancho/3,-\alto) rectangle (-\ancho/2 + 3*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #5};
+            }
+        }
+    }%
+%
+\begin{document}%
+\normalsize%
+\begin{tikzpicture}[scale = 0.5,transform shape]%
+\draw (5,4)pic{curso={MA0101,Matemática General,5,0,2,lime}};%
+\draw (5,8)pic{curso={MA0101,Matemática General,5,0,2,lime}};%
+\draw (10,4)pic{curso={MA0101,Matemática General,5,0,2,lime}};%
+\end{tikzpicture}%
+\end{document}
