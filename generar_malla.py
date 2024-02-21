@@ -21,19 +21,12 @@ def textcolor(size,vspace,color,bold,text,hspace="0"):
         dump += NoEscape(Command("textbf", NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())).dumps())
     else:
         dump += NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())
-    #dump += NoEscape("\par")
     return dump
 
 def colocar_curso(codigo,nombre,columna,semestre,horasteoria,horaspractica,creditos,color):
     dump = NoEscape(f"\draw ({round(5*columna)},{round(-4*semestre)})")
     dump += NoEscape(f"pic{{curso={{{codigo},{nombre},{round(horasteoria)},{round(horaspractica)},{round(creditos)},{color}}}}};")
     return dump
-
-
-
-
-#print(cursos.head())
-
 
 def generar_malla(programa):
     cursos = datos[datos.Programa == programa]
@@ -98,7 +91,6 @@ def generar_malla(programa):
                 )
         )) as malla:
         for codigo in cursos.Codigo:
-            print(codigo)
             nombre = cursos[cursos.Codigo == codigo].Nombre.item()
             columna = cursos[cursos.Codigo == codigo].Columna.item()
             semestre = cursos[cursos.Codigo == codigo].Semestre.item()
