@@ -91,7 +91,7 @@ def generar_malla(programa):
                 )
         )) as malla:
         for codigo in cursos.Codigo:
-            nombre = cursos[cursos.Codigo == codigo].Nombre.item()
+            nombre = "HOLA"#cursos[cursos.Codigo == codigo].Nombre.item()
             columna = cursos[cursos.Codigo == codigo].Columna.item()
             semestre = cursos[cursos.Codigo == codigo].Semestre.item()
             horasteoria = cursos[cursos.Codigo == codigo].HorasTeoria.item()
@@ -101,8 +101,13 @@ def generar_malla(programa):
             match area:
                 case "Mecánica":
                     color = "teal"
+                case "Eléctrica":
+                    color = "silver"
+                case "Sistemas":
+                    color = "red"
                 case "Básicas":
                     color = "lime"
+
 
             malla.append(colocar_curso(codigo,nombre,columna,semestre,horasteoria,horaspractica,creditos,color))
          
