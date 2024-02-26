@@ -25,7 +25,7 @@ EM2102,Estática,Electromecánica,Mecánica,3,7,4,0,3
 CS4402,Sem. Est. Costarr.,Electromecánica,Básicas,3,8,3,0,2
 SE1100,Actividad cultural I,Electromecánica,Básicas,3,9,2,0,0
 MA2105,Ec. Diferenciales,Electromecánica,Básicas,4,1,4,0,4
-PI26XX,Prob & Proc. Estocásticos,Electromecánica,Básicas,4,2,3,0,2
+PI26XX,Prob y Proc. Estocásticos,Electromecánica,Básicas,4,2,3,0,2
 EM2202,Análisis de Circuitos 2,Electromecánica,Eléctrica,4,3,4,0,3
 EM2252,Laboratorio de Análisis de Circuitos 2,Electromecánica,Eléctrica,4,4,0,2,1
 EM2302,Instrumentación,Electromecánica,Sistemas,4,5,2,0,2
@@ -33,7 +33,7 @@ EM2352,Laboratorio de Instrumentación,Electromecánica,Sistemas,4,6,0,2,1
 EM2103,Dinámica,Electromecánica,Mecánica,4,7,4,0,3
 CS3404,Sem. de ética para la ingeniería,Electromecánica,Básicas,4,8,3,0,2
 FH10000,Centros Forma. Hum,Electromecánica,Básicas,4,9,3,0,1
-MA2105,Cálculo superior,Electromecánica,Básicas,5,1,4,0,4
+MA2104,Cálculo superior,Electromecánica,Básicas,5,1,4,0,4
 CM3207,Métodos numéricos,Electromecánica,Básicas,5,2,4,0,3
 EM2203,Sistemas Analógicos,Electromecánica,Eléctrica,5,3,3,2,2
 EM2104,Termodinámica,Electromecánica,Mecánica,5,6,4,0,3

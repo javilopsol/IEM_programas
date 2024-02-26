@@ -1,0 +1,168 @@
+﻿Codigo,Descripcion,ObjetivoGeneral,ObjetivosEspecificos,Contenidos,Metodologia,Evaluacion,Bibliografia,Profesor
+EM2102,"El curso de dibujo técnico contribuye significativamente a la formación y desarrollo profesional de los estudiantes, equipándolos con las habilidades y herramientas necesarias para la comunicación, el diseño y la ejecución en el ámbito de la ingeniería. Además, fomenta tanto el trabajo en equipo como las habilidades individuales desde un nivel inicial, como parte de las habilidades blandas que se promueven.
+Entre los aprendizajes más destacados se encuentran la capacidad para interpretar y aplicar las normas INTE/ISO de dibujo técnico en situaciones prácticas, así como la habilidad para visualizar y representar objetos tridimensionales en un plano bidimensional y viceversa. Asimismo, los estudiantes desarrollan una destreza notable en el uso de herramientas CAD para la elaboración de planos. Además de las habilidades técnicas, se busca promover el compromiso, el respeto y la ética profesional entre los participantes.
+Este curso sienta las bases fundamentales para asignaturas más avanzadas en el campo del diseño y la ingeniería mecánica. Proporciona una comprensión sólida de los principios y técnicas de dibujo técnico que son esenciales para el desarrollo de proyectos más complejos en áreas como el diseño de máquinas, la ingeniería de manufactura y la ingeniería de productos. De esta manera, establece una conexión trascendente con otros cursos de la carrera, preparando a los estudiantes para enfrentar desafíos en su trayectoria académica y profesional.","Al final del curso el estudiante será capaz de elaborar un plano de una pieza mecánica, según las normas INTE/ISO. Dicho plano debe contener la información necesaria y suficiente para la interpretación de la forma y dimensiones de la pieza. Además, el estudiante será capaz de interpretar correctamente la información contenida en un plano mecánico, realizado de acuerdo con las normas INTE/ISO.","1.	Dar a conocer al estudiante las normas INTE/ISO y similares aplicadas al Dibujo Técnico. 
+2.	Dominar el uso de tablas de la norma INTE/ISO en el Dibujo (Rotulado, líneas, sólidos, cortes, etc.) 
+3.	Representar mediante proyecciones ortogonales y proyecciones axonométricas una pieza. 
+4.	Representar mediante vistas y cortes una pieza. 
+ 5.	Aplicar los criterios para acotar una pieza en las proyecciones ortogonales. ","1.	TEMA: Generalidades (2 hrs)  
+Al final de este tema el estudiante habrá conocido los orígenes del Dibujo Técnico y habrá tomado conciencia de la importancia del Dibujo Técnico, como lenguaje y herramienta de la tecnología.
+1.1	El Dibujo Técnico como lenguaje. Historia del Dibujo Técnico.
+1.2	Objetivos del curso
+1.3	Instrumentos de Dibujo: Escalímetro, escuadras.
+1.4	Rotulado técnico y Formatos para dibujo Técnico
+1.5	Norma de rotulado INTE-ISO 3098/0/2/3-2008
+1.6	Formatos según INTE-ISO 5457-2008
+1.7	Información que debe contener un cajetín INTE-ISO 7200-2008
+
+2.	TEMA: Geometría Descriptiva (2 hrs)
+Al final del tema la persona estudiante comprenderá los conceptos fundamentales de la geometría descriptiva.
+I Consideraciones fundamentales de la Geometría Descriptiva :
+1. Objetivos del curso
+2. Concepto de Geometría Descriptiva y su Historia
+II Proyección del punto, el segmento y los planos en el espacio
+1. Proyección de un punto, el segmento y los planos en las vistas
+2. Proyección de un punto, el segmento y los planos en el espacio
+III Longitudes y dimensiones naturales
+1. Procedimiento de rotación para encontrar la dimensión real de un segmento y un plano;
+2. Procedimiento de sustitución de planos para encontrar la dimensión real de un segmento y un plano;
+3. Procedimiento de superposición para encontrar la dimensión real de un segmento y un plano.
+IV Características particulares de la representación de los Cuerpos Geométricos
+1. Características particulares del prisma y su representación;
+2. Características del cono y su representación;
+3. Características de la pirámide y su representación;
+4. Características del cilindro y su representación;
+5. Características del toroide y su representación;
+6. Características de la esfera y su representación
+
+
+3.	TEMA: Escalas (4 hrs)
+Al final del tema la persona estudiante estará en capacidad de aplicar correctamente el concepto de escalas y las normas ISO correspondientes.
+
+3.1	Concepto de escalas
+3.2	Escalas según INTE ISO 5455-2008
+
+4.	TEMA: Proyecciones ortogonales (14 hrs)
+
+Al finalizar el tema, la persona estudiante deberá ser capaz de dibujar las proyecciones ortogonales de una pieza, según la norma ISO 128/30/34-2008
+4.1	Sistema de proyección y designación de vistas según la norma INTE- ISO 128/30/34-2008
+4.2	Criterios de selección de la vista frontal y la ubicación de las otras vistas.
+4.3	Cantidad de vistas que definen un objeto.
+4.4	Significado y utilización de los tipos de líneas.
+1.1	Tipos de líneas según la norma INTE ISO 128/20/21/22/23/24-2008
+
+5.	TEMA: Presentación de un plano:
+•	Calidad de líneas
+•	Orden y adecuada ubicación de la información
+
+
+5.2	Especificaciones técnicas.
+5.3	Práctica de proyecciones ortogonales croquizando “a mano alzada”.
+5.4	Práctica de proyecciones ortogonales utilizando Software de dibujo.
+
+
+
+
+
+
+
+6.	TEMA: Proyecciones Axonométricas (12 hrs)
+Al finalizar el tema el estudiante será capaz de representar piezas mecánicas por medio de axonometrías, Norma INTE/ISO 5456/1/2/3/4-2008.
+6.1	Ejes de proyección
+6.2	Tipos de axonometrías
+6.3	Proyecciones axonométricas a mano alzada y utilizando software de dibujo.
+
+7.	TEMA: Acotado (4 hrs) 
+Al finalizar el tema el estudiante deberá ser capaz de acotar convenientemente piezas mecánicas.
+7.1	Normas y recomendaciones INTE/ISO 129/1-2008 sobre acotado.
+7.2	Líneas utilizadas en el acotado
+7.3	Posición de la cota
+7.4	Rotulado de cotas
+7.5	Criterios para la acotación correcta de piezas.
+7.6	Relación entre cota y escala.
+
+8.	TEMA: Cortes y secciones (4 hrs)
+Al finalizar el tema el estudiante deberá ser capaz de representar secciones y cortes de una pieza mecánica y tendrá criterios para discernir sobre la conveniencia de este tipo de representación.
+8.1	Concepto de cortes y secciones. Conveniencia de su utilización
+8.2	Representación e indicación de cortes según la norma INTE/ISO 128/40-44- 2008
+8.3	Achurado
+8.4	Tipos de cortes.
+•	Sección en un plano de corte.
+•	Sección en dos planos paralelos.
+•	Sección en tres planos de corte continuos
+•	Sección en dos planos de intersección
+•	Plano de corte posesionado parcialmente fuera de la pieza
+•	Sección removida de una vista
+•	Secciones sucesivas
+•	Cortes oblicuos o auxiliares
+•	Cortes y secciones parciales
+•	Corte y secciones de piezas simétricas
+
+9.	TEMA: Vistas auxiliares simples (4 hrs)
+Al finalizar el tema el estudiante tendrá criterios para discernir sobre la conveniencia de utilizar vistas auxiliares y representarlas adecuadamente.
+
+9.1	Vistas auxiliares
+9.2	Tipos de vistas auxiliares
+9.3	Ubicación de las vistas auxiliares
+9.4	Rotulado de vistas auxiliares.","Modalidad presencial en el horario de clase correspondiente. En las sesiones se expondrán los conceptos teóricos relevantes de cada tema por medio de material escrito o audiovisual, los cuales serán trabajados por el estudiante en numerosas prácticas realizadas en clases y tareas coordinadas.","
+Examen Parcial 1  	25%
+Examen Parcial 2 	 35%
+Proyecto grupal 	25%
+(10) Tareas digitales coordinadas	 15%
+Total	 	 	 	 	 	 	 	 	100%
+** No hay examen de reposición	 	 	 	 	 ","[1] Normas INTE-ISO para Dibujo Técnico
+[2]	Hernández, Barahona, Dibujo Técnico, Editorial Tecnológica, 1 edición, Costa Rica, 2013
+[3]	Lieu, Dennis K., and Sheryl Sorby. Dibujo para diseño de ingeniería, Cengage Learning, 2017. ProQuest Ebook Central, 
+[4]	Bogoliubov S, Dibujo Técnico, Editorial Mir, Moscú, 1985;
+[5]	Bogoliubov S, Dibujo Técnico (Prácticas y Ejercicios), Editorial Mir, Moscú, 1985;
+[6]	Gisecke M, Dibujo y Comunicación Gráfica, Printece Hall, 3 edición, México, 2006
+[7]	Spencer H, Dibujo Técnico, Alfa Omega, 8 edición, México, 2009
+[8]	Material didáctico preparado por el profesor
+","Ing. Luis Felipe Córdoba Ramírez M.Sc. (Coordinador)
+Máster en ciencias Ingeniería Mecánica, Universidad de Utah. 
+Licenciado en Ingeniería en Mantenimiento Industrial, Instituto Tecnológico de Costa Rica. 
+Contacto: lfcordoba@itcr.ac.cr
+Oficina 22, Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica
+
+Ing. Christopher Vega Sánchez, Ph.D. 
+Doctor en filosofía en ciencias (Ph.D.) Universidad de Sídney, Australia. 
+Máster en ciencias (M.Sc.) en Ingeniería de Sistemas Microelectromecánicos de la Universidad de Freiburg, Alemania 
+Licenciatura en Ingeniería en Mantenimiento Industrial, Tecnológico de Costa Rica, Costa Rica 
+Contacto: cvega@itcr.ac.cr 
+Oficina 20, Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica 
+
+
+
+
+Ing. Noel Jacob Ureña Sandí M.Sc.
+Máster en Computer-aided Conception and Production in Mechanical Engineering, de la RWTH Aachen University, Alemania
+Licenciado en Ciencia en Ingeniería de los Materiales, ITCR
+Contacto: nurena@itcr.ac.cr / 2550-9347
+Oficina 22, Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica 
+
+Ing. Juan Luis Guerrero Fernández, Ph.D.
+Ph.D. Universidad de Sheffield, Inglaterra
+Máster en Ciencias en Mecatrónica, FH Aachen University of Applied Sciences, Alemania
+Licenciado en Ingeniería en Mantenimiento Industrial, Instituto Tecnológico de Costa Rica.
+Contacto: jguerrero@itcr.ac.cr 
+Oficina 10, Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica
+
+Ing. Herberth Jackson Quirós
+Maestría profesional en Ingeniería Mecánica, UCR
+Licenciado en Ingeniería Mecánica, UCR
+Bachiller en Ingeniería Electromecánica, U. Fidélitas
+Contacto: hjackson@itcr.ac.cr 
+Oficina 15, Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica 
+
+Ing. Carlos Otárola Zúñiga  
+Máster en Ingeniería, Instituto Tecnológico de Costa Rica.  
+Bachiller en Ingeniería Mecánica, Universidad de Costa Rica.  
+Contacto: cotarola@itcr.ac.cr 
+Oficina 4, Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica 
+
+Ing. Víctor Julio Hernández
+Máster en ciencias con especialización explotación técnica de aviones y motores. Ingeniero aeronáutico, Instituto de Kiev de los Ingenieros de Aviación Civil (KIIGA) Ucrania 
+Contacto: vhernandezg@itcr.ac.cr 
+Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica 
+
+"

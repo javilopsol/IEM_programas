@@ -21,8 +21,8 @@ for area in areas.Area:
 cursos.insert(11, "AreasCurriculares", cursos.mover)
 cursos.drop('mover', axis=1, inplace=True)
 
-cursos.to_csv('datos_EM.csv', index=False)
-areas.to_csv('areas_EM.csv', index=False)
+cursos.to_csv('datos_EM.csv', index=False,encoding='utf-8-sig' )
+areas.to_csv('areas_EM.csv', index=False,encoding='utf-8-sig')
 
 print(cursos.head())
 

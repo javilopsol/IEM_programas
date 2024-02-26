@@ -79,7 +79,6 @@ def generar_malla(programa):
         }
     }'''
     )
-
         
     doc.preamble.append(bloqueCurso)
     
@@ -91,7 +90,7 @@ def generar_malla(programa):
                 )
         )) as malla:
         for codigo in cursos.Codigo:
-            nombre = "HOLA"#cursos[cursos.Codigo == codigo].Nombre.item()
+            nombre = cursos[cursos.Codigo == codigo].Nombre.item()
             columna = cursos[cursos.Codigo == codigo].Columna.item()
             semestre = cursos[cursos.Codigo == codigo].Semestre.item()
             horasteoria = cursos[cursos.Codigo == codigo].HorasTeoria.item()
@@ -102,9 +101,9 @@ def generar_malla(programa):
                 case "Mecánica":
                     color = "teal"
                 case "Eléctrica":
-                    color = "silver"
+                    color = "gray"
                 case "Sistemas":
-                    color = "red"
+                    color = "purple"
                 case "Básicas":
                     color = "lime"
 
@@ -114,4 +113,8 @@ def generar_malla(programa):
     doc.generate_pdf(f"./mallas/{programa}", clean=True, clean_tex=False, compiler='lualatex')
 
 
+# programa = "Electromecánica"
+# cursos = datos[datos.Programa == programa]
+# codigo = "FI2103"
+# print(cursos[cursos.Codigo == codigo].Columna.item())
 generar_malla("Electromecánica")

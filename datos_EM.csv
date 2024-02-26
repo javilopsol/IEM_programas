@@ -1,4 +1,4 @@
-Codigo,Nombre,Programa,Area,Tipo,Electivo,Creditos,HorasTeoria,HorasPractica,HorasClase,HorasExtraclase,AreasCurriculares,Ubicacion,Requisitos,Correquisitos,EsRequisito,Asistencia,PosibilidadReconocimiento,PosibilidadSuficiencia,Vigencia
+﻿Codigo,Nombre,Programa,Area,Tipo,Electivo,Creditos,HorasTeoria,HorasPractica,HorasClase,HorasExtraclase,AreasCurriculares,Ubicacion,Requisitos,Correquisitos,EsRequisito,Asistencia,PosibilidadReconocimiento,PosibilidadSuficiencia,Vigencia
 EM2101,Dibujo Técnico,Licenciatura en Ingeniería Electromecánica,Mecánica,Teórico,No,3,4,0,4,5,6.0,1,,,,,,,
 EM2102,Estática,Licenciatura en Ingeniería Electromecánica,Mecánica,Teórico,No,3,4,0,4,5,6.0,3,,,,,,,
 EM2103,Dinámica,Licenciatura en Ingeniería Electromecánica,Mecánica,Teórico,No,3,4,0,4,5,6.0,4,,,,,,,
@@ -33,10 +33,10 @@ EM2256,Laboratorio de Máquinas Eléctricas 2,Licenciatura en Ingeniería Electr
 EM2301,Transductores,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico,No,2,2,0,2,4,6.7,3,,,,,,,
 EM2302,Instrumentación,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico,No,2,2,0,2,4,6.7,4,,,,,,,
 EM2303,Modelado y Simulación de Sistemas Electromecánicos,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico - Práctico,No,3,3,1,4,5,10.0,6,,,,,,,
-EM2304,Fundamentos de la Gestión de Proyectos,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico,No,2,4,0,4,2,6.7,7,,,,,,,
-EM2305,Gestión de la Ingeniería ElectroMecánica,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico,No,2,3,0,3,3,6.7,7,,,,,,,
+EM2304,Fundamentos de Gestión de Proyectos,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico,No,2,4,0,4,2,6.7,7,,,,,,,
+EM2305,Gestión de la Ingeniería Electromecánica,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico,No,2,3,0,3,3,6.7,7,,,,,,,
 EM2306,Control Automático,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico,No,3,3,0,3,6,10.0,7,,,,,,,
-EM2307,Monitoreo de la condición,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico - Práctico,No,2,3,1,4,2,6.7,8,,,,,,,
+EM2307,Monitoreo de la Condición,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico - Práctico,No,2,3,1,4,2,6.7,8,,,,,,,
 EM2308,Control Eléctrico,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico,No,3,3,0,3,6,10.0,8,,,,,,,
 EM2309,Gestión de la Energía,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico,No,2,4,0,4,2,6.7,9,,,,,,,
 EM2310,Diseño e Integración de Sistemas Electromecánicos,Licenciatura en Ingeniería Electromecánica,Sistemas,Teórico,No,3,2,0,2,7,10.0,9,,,,,,,

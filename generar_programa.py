@@ -21,9 +21,9 @@ def textcolor(size,vspace,color,bold,text,hspace="0"):
         dump += NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())
     return dump
 
-cursos = pd.read_csv("cursos.csv")
-datos_gen = pd.read_csv("datos_gen.csv")
-descrip_obj = pd.read_csv("descrip_obj.csv")
+cursos = pd.read_csv("cursos_EM.csv")
+datos_gen = pd.read_csv("datos_EM.csv")
+descrip_obj = pd.read_csv("descrip_obj_EM.csv")
 
 
 def generar_programa(codigo):
@@ -246,4 +246,4 @@ def generar_programa(codigo):
 # for codigo in cursos.Codigo:
 #      generar_programa(codigo)
     
-generar_programa("MI4305")
+generar_programa("EM2102")
