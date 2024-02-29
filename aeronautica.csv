@@ -1,74 +1,74 @@
-Codigo,Nombre,Programa,Area,Semestre,Columna,HorasTeoria,HorasPractica,Creditos
-MA0101,Matem�tica general,Aeron�utica,-,0,0,5,0,2
-CA2125,Elementos de computaci�n,Aeron�utica,-,1,1,4,0,3
-MA1102,C�lculo diferencial e intregal,Aeron�utica,-,1,2,5,0,4
-FI1101,F�sica general I,Aeron�utica,-,1,3,4,0,3
-FI1201,Laboratorio de F�sica general I,Aeron�utica,-,1,3,0,2,1
-QU1106,Qu�mica b�sica I,Aeron�utica,-,1,4,0,4,3
-QU1102,Laboratorio de Qu�mica b�sica I,Aeron�utica,-,1,4,2,0,1
-CI1106,Comunicaci�n escrita,Aeron�utica,-,1,6,0,3,2
-CS1502,Int. Ciencia y la tecnolog�a,Aeron�utica,-,1,7,0,2,1
-SE1200,Act. Deportiva I,Aeron�utica,-,1,8,2,0,0
-MA1103,C�lculo y �lgebra lineal,Aeron�utica,-,2,2,0,4,4
-FI1102,F�sica general II,Aeron�utica,-,2,3,2,4,3
-FI1202,Laboratorio de F�sica general II,Aeron�utica,-,2,3,0,0,1
-QU1107,Qu�mica b�sica II,Aeron�utica,-,2,4,0,4,3
-QU1104,Laboratorio de Qu�mica b�sica II,Aeron�utica,-,2,4,2,0,1
-IA0001,Geometr�a descriptiva,Aeron�utica,-,2,5,0,4,3
-CI1107,Comunicaci�n oral,Aeron�utica,-,2,6,0,3,1
-CS1502,Derecho laboral,Aeron�utica,-,2,7,0,3,2
-SE1100,Act. Cultural I,Aeron�utica,-,2,8,2,0,0
-MI2205,Electricidad I,Aeron�utica,-,3,1,0,3,3
-MI2202, Laboratorio de Electricidad I,Aeron�utica,-,3,1,2,0,1
-MA2104,C�lculo superior,Aeron�utica,-,3,2,0,4,4
-FI2103,F�sica general III,Aeron�utica,-,3,3,0,4,3
-ME3208,Tecnolog�a de materiales,Aeron�utica,-,3,4,0,3,2
-ME3209,Laboratorio de Tecnolog�a de materiales,Aeron�utica,-,3,4,2,0,1
-MI2101,Dibujo t�cnico,Aeron�utica,-,3,5,0,4,3
-SO2601,Fund. Seg. Hig. Ocup.,Aeron�utica,-,3,7,0,2,1
-SE1400,Act. Cult. - Depor.,Aeron�utica,-,3,8,2,0,0
-MI2207,Electricidad II,Aeron�utica,-,4,1,0,4,4
-MI2204,Laboratorio de Electricidad II,Aeron�utica,-,4,1,2,0,1
-MA2105,Ecuaciones diferenciales,Aeron�utica,-,4,2,0,4,4
-MI2106,Est�tica,Aeron�utica,-,4,4,0,4,3
-IA0002,Dibujo aeron�utico,Aeron�utica,-,4,5,0,4,3
-AE5121,Ing. Econ�mica,Aeron�utica,-,4,7,0,3,3
-FH1000,Centr. Form. Hum,Aeron�utica,-,4,8,0,2,0
-IA0003,Disp. Anal�gicos,Aeron�utica,-,5,1,0,3,2
-IA0004,Mat. Avia. Y hard.,Aeron�utica,-,5,2,0,4,2
-IA0005,Term. Y tran. Cal.,Aeron�utica,-,5,3,0,4,3
-MI3117,Din�mica,Aeron�utica,-,5,4,0,4,3
-MI3103,Proc. de Manufactura ,Aeron�utica,-,5,5,0,3,3
-MI3104,Laboratorio de Proc. de Manuf.,Aeron�utica,-,5,5,4,0,2
-MI3115,Resistencia de materiales,Aeron�utica,-,5,6,0,4,3
-IA0006,Examen Ingl�s EMeMA,Aeron�utica,-,5,8,0,0,0
-IA0007,Disp. Digitales ,Aeron�utica,-,6,1,0,3,2
-IA0008,Lab. Disp. A/D,Aeron�utica,-,6,2,2,0,1
-MT6001,Prob. Y proc. Est.,Aeron�utica,-,6,3,0,3,2
-MI3108,Mec�nica de fluidos,Aeron�utica,-,6,4,0,4,4
-MI3111,Laboratorio de Mec�nica de fluidos,Aeron�utica,-,6,4,2,0,1
-IA0009,Teor. M�q y mec.,Aeron�utica,-,6,5,0,4,3
-IA0010,Sist. De aeronaves,Aeron�utica,-,6,6,0,4,2
-IA0011,Ing. Mant. Aeron.,Aeron�utica,-,6,7,0,4,3
-IA0012,Avi�nica,Aeron�utica,-,7,1,0,4,3
-IA0013,M�t. Num. Electr.,Aeron�utica,-,7,3,0,4,3
-IA0014,Sist. De propuls.,Aeron�utica,-,7,4,0,4,3
-IA0015,Aerod. Din. Vuelo,Aeron�utica,-,7,5,0,4,3
-IA0016,Tall. De med. Aero.,Aeron�utica,-,7,6,4,0,3
-IA0017,El. De maq. Y det,Aeron�utica,-,7,7,0,4,3
-IA0018,Dise�o electr. Ind,Aeron�utica,-,8,1,0,4,3
-IA0019,Sens. Y act. Aero ,Aeron�utica,-,8,2,0,3,2
-IA0020,Ing. Mant. Avion.,Aeron�utica,-,8,3,0,4,3
-IA0021,Fund. Mot. Reac.,Aeron�utica,-,8,4,0,4,3
-IA0022,A. matr. Estr. Avi�n,Aeron�utica,-,8,5,0,4,3
-IA0023,Electiva I,Aeron�utica,-,8,6,0,3,2
-CS3404,Sem. �tica en ing.,Aeron�utica,-,8,8,0,5,2
-IA0024,Dise�o electr. Aero,Aeron�utica,-,9,1,0,4,3
-IA0025,Sist. De cont. Auto,Aeron�utica,-,9,2,0,4,3
-IA0026,Aeromec�nica,Aeron�utica,-,9,4,0,4,3
-IA0027,FGFE aeron�utica,Aeron�utica,-,9,5,0,4,3
-IA0028,Electiva II,Aeron�utica,-,9,6,0,3,2
-IA0029,Seg. Vuelos y am,,Aeron�utica,-,9,7,0,3,2
-CS4402,Sem. Est. C.R,Aeron�utica,-,9,8,0,3,2
-IA0030,Proyecto final de graduaci�n,Aeron�utica,-,10,-,0,20,10
-AE4208,Des. Emprend.,Aeron�utica,-,10,8,0,4,4
+﻿Codigo,Nombre,Programa,Area,Semestre,Columna,HorasTeoria,HorasPractica,Creditos
+MA0101,Matemática general,Aeronáutica,-,0,0,5,0,2
+CA2125,Elementos de computación,Aeronáutica,-,1,1,4,0,3
+MA1102,Cálculo diferencial e intregal,Aeronáutica,-,1,2,5,0,4
+FI1101,Física general I,Aeronáutica,-,1,3,4,0,3
+FI1201,Laboratorio de Física general I,Aeronáutica,-,1,3,0,2,1
+QU1106,Química básica I,Aeronáutica,-,1,4,0,4,3
+QU1102,Laboratorio de Química básica I,Aeronáutica,-,1,4,2,0,1
+CI1106,Comunicación escrita,Aeronáutica,-,1,6,0,3,2
+CS1502,Int. Ciencia y la tecnología,Aeronáutica,-,1,7,0,2,1
+SE1200,Act. Deportiva I,Aeronáutica,-,1,8,2,0,0
+MA1103,Cálculo y álgebra lineal,Aeronáutica,-,2,2,0,4,4
+FI1102,Física general II,Aeronáutica,-,2,3,2,4,3
+FI1202,Laboratorio de Física general II,Aeronáutica,-,2,3,0,0,1
+QU1107,Química básica II,Aeronáutica,-,2,4,0,4,3
+QU1104,Laboratorio de Química básica II,Aeronáutica,-,2,4,2,0,1
+IA0001,Geometría descriptiva,Aeronáutica,-,2,5,0,4,3
+CI1107,Comunicación oral,Aeronáutica,-,2,6,0,3,1
+CS1302,Derecho laboral,Aeronáutica,-,2,7,0,3,2
+SE1100,Act. Cultural I,Aeronáutica,-,2,8,2,0,0
+MI2205,Electricidad I,Aeronáutica,-,3,1,0,3,3
+MI2202,Laboratorio de Electricidad I,Aeronáutica,-,3,1,2,0,1
+MA2104,Cálculo superior,Aeronáutica,-,3,2,0,4,4
+FI2103,Física general III,Aeronáutica,-,3,3,0,4,3
+ME3208,Tecnología de materiales,Aeronáutica,-,3,4,0,3,2
+ME3209,Laboratorio de Tecnología de materiales,Aeronáutica,-,3,4,2,0,1
+MI2101,Dibujo técnico,Aeronáutica,-,3,5,0,4,3
+SO2601,Fund. Seg. Hig. Ocup.,Aeronáutica,-,3,7,0,2,1
+SE1400,Act. Cult. - Depor.,Aeronáutica,-,3,8,2,0,0
+MI2207,Electricidad II,Aeronáutica,-,4,1,0,4,4
+MI2204,Laboratorio de Electricidad II,Aeronáutica,-,4,1,2,0,1
+MA2105,Ecuaciones diferenciales,Aeronáutica,-,4,2,0,4,4
+MI2106,Estática,Aeronáutica,-,4,4,0,4,3
+IA0002,Dibujo aeronáutico,Aeronáutica,-,4,5,0,4,3
+AE5121,Ing. Económica,Aeronáutica,-,4,7,0,3,3
+FH1000,Centr. Form. Hum,Aeronáutica,-,4,8,0,2,0
+IA0003,Disp. Analógicos,Aeronáutica,-,5,1,0,3,2
+IA0004,Mat. Avia. Y hard.,Aeronáutica,-,5,2,0,4,2
+IA0005,Term. Y tran. Cal.,Aeronáutica,-,5,3,0,4,3
+MI3117,Dinámica,Aeronáutica,-,5,4,0,4,3
+MI3103,Proc. de Manufactura ,Aeronáutica,-,5,5,0,3,3
+MI3104,Laboratorio de Proc. de Manuf.,Aeronáutica,-,5,5,4,0,2
+MI3115,Resistencia de materiales,Aeronáutica,-,5,6,0,4,3
+IA0006,Examen Inglés EMeMA,Aeronáutica,-,5,8,0,0,0
+IA0007,Disp. Digitales ,Aeronáutica,-,6,1,0,3,2
+IA0008,Lab. Disp. A/D,Aeronáutica,-,6,2,2,0,1
+MT6001,Prob. Y proc. Est.,Aeronáutica,-,6,3,0,3,2
+MI3108,Mecánica de fluidos,Aeronáutica,-,6,4,0,4,4
+MI3111,Laboratorio de Mecánica de fluidos,Aeronáutica,-,6,4,2,0,1
+IA0009,Teor. Máq y mec.,Aeronáutica,-,6,5,0,4,3
+IA0010,Sist. De aeronaves,Aeronáutica,-,6,6,0,4,2
+IA0011,Ing. Mant. Aeron.,Aeronáutica,-,6,7,0,4,3
+IA0012,Aviónica,Aeronáutica,-,7,1,0,4,3
+IA0013,Mét. Num. Electr.,Aeronáutica,-,7,3,0,4,3
+IA0014,Sist. De propuls.,Aeronáutica,-,7,4,0,4,3
+IA0015,Aerod. Din. Vuelo,Aeronáutica,-,7,5,0,4,3
+IA0016,Tall. De med. Aero.,Aeronáutica,-,7,6,4,0,3
+IA0017,El. De maq. Y det,Aeronáutica,-,7,7,0,4,3
+IA0018,Diseño electr. Ind,Aeronáutica,-,8,1,0,4,3
+IA0019,Sens. Y act. Aero ,Aeronáutica,-,8,2,0,3,2
+IA0020,Ing. Mant. Avion.,Aeronáutica,-,8,3,0,4,3
+IA0021,Fund. Mot. Reac.,Aeronáutica,-,8,4,0,4,3
+IA0022,A. matr. Estr. Avión,Aeronáutica,-,8,5,0,4,3
+IA0023,Electiva I,Aeronáutica,-,8,6,0,3,2
+CS3404,Sem. Ética en ing.,Aeronáutica,-,8,8,0,5,2
+IA0024,Diseño electr. Aero,Aeronáutica,-,9,1,0,4,3
+IA0025,Sist. De cont. Auto,Aeronáutica,-,9,2,0,4,3
+IA0026,Aeromecánica,Aeronáutica,-,9,4,0,4,3
+IA0027,FGFE aeronáutica,Aeronáutica,-,9,5,0,4,3
+IA0028,Electiva II,Aeronáutica,-,9,6,0,3,2
+IA0029,Seg. Vuelos y am,Aeronáutica,-,9,7,0,3,2
+CS4402,Sem. Est. C.R,Aeronáutica,-,9,8,0,3,2
+IA0030,Proyecto final de graduación,Aeronáutica,-,10,-,0,20,10
+AE4208,Des. Emprend.,Aeronáutica,-,10,8,0,4,4
