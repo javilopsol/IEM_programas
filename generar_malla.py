@@ -10,10 +10,11 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
 from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
+#datos = pd.read_csv("malla_EM.csv")
 datos = pd.read_csv("aeronautica.csv")
 
 datos.Semestre = datos.Semestre.astype(int)
-datos.Columna = datos.Semestre.astype(int)
+datos.Columna = datos.Columna.astype(int)
 datos.HorasTeoria = datos.HorasTeoria.astype(int)
 datos.HorasPractica = datos.HorasPractica.astype(int)
 datos.Creditos = datos.Creditos.astype(int)
@@ -141,8 +142,6 @@ def generar_malla(programa):
         for codigo in cursos.Codigo:
             nombre = cursos[cursos.Codigo == codigo].Nombre.item()
             columna = cursos[cursos.Codigo == codigo].Columna.item()
-            print(codigo)
-            print(columna)
             semestre = cursos[cursos.Codigo == codigo].Semestre.item()
             horasteoria = cursos[cursos.Codigo == codigo].HorasTeoria.item()
             horaspractica = cursos[cursos.Codigo == codigo].HorasPractica.item()
