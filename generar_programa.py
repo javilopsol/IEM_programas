@@ -49,6 +49,7 @@ def generar_programa(codigo):
     desGener = descrip_obj[descrip_obj.Codigo == codCurso].Descripcion.item()
     objGener = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivoGeneral.item()
     objEspec = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivosEspecificos.item()
+    conCurso = descrip_obj[descrip_obj.Codigo == codCurso].Contenidos.item()
     nomProfe = "Juan José Rojas Hernández"
     corProfe = "juan.rojas@itcr.ac.cr"
     conProfe = "Miercoles 7:30 a.m. - 10: 30 a.m." #Esto seria mejor construirlo tambien 
@@ -233,7 +234,7 @@ def generar_programa(codigo):
                     vspace="0",
                     color="parte",
                     bold=True,
-                    text="2 Objetivos"
+                    text="3 Objetivos"
                     ),
                     f"{objGener}"
                 ])
@@ -241,9 +242,28 @@ def generar_programa(codigo):
                 "",
                 f"{objEspec}"
                 ])
+            table.add_row([
+                textcolor
+                    (
+                    size="12",
+                    vspace="0",
+                    color="parte",
+                    bold=True,
+                    text="4 Contenidos"
+                    ),
+                    f"{conCurso}"
+                ])
+    doc.append(textcolor
+    (   
+    size="14",
+    vspace="0",
+    color="parte",
+    bold=True,
+    text="II parte: Aspectos operativos"
+    ))
     doc.generate_pdf(f"./programas/{codCurso}", clean=True, clean_tex=False, compiler='lualatex')
 
 # for codigo in cursos.Codigo:
 #      generar_programa(codigo)
     
-generar_programa("EM2102")
+generar_programa("EM2101")
