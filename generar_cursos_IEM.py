@@ -17,9 +17,7 @@ for curso in cursos_IA.loc[:,"Codigo"]:
     if codigoIA=="IE25":
         nombre=cursos_IA.loc[contador,"Nombre"]
         cursos.loc[len(cursos)]={'Codigo': curso, 'Nombre': nombre}
-        contador=contador+1
-
-    else:
-        contador=contador+1
+    
+    contador=contador+1
 
 cursos.to_csv('cursos_IEM.csv', index=False,encoding='utf-8-sig' )
