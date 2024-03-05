@@ -15,7 +15,8 @@ for curso in cursos_IA.loc[:,"Codigo"]:
     codigoIA=codigo[:4]
 
     if codigoIA=="IE25":
-
+        nombre=cursos_IA.loc[contador,"Nombre"]
+        cursos.loc[len(cursos)]={'Codigo': curso, 'Nombre': nombre}
         contador=contador+1
 
     else:
