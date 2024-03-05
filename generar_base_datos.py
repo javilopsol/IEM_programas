@@ -2,7 +2,7 @@ import pandas as pd
 
 
 
-cursos = pd.read_csv("cursos_EM.csv")
+cursos = pd.read_csv("cursos_IE.csv")
 
 cursos['mover'] = cursos.apply(lambda row: row.HorasTeoria + row.HorasPractica, axis=1) #nueva columna "mover"
 cursos.insert(9, "HorasClase", cursos.mover) # copiar la columna "mover" y cambiarle el nombre
@@ -21,8 +21,8 @@ for area in areas.Area:
 cursos.insert(11, "AreasCurriculares", cursos.mover)
 cursos.drop('mover', axis=1, inplace=True)
 
-cursos.to_csv('datos_EM.csv', index=False,encoding='utf-8-sig' )
-areas.to_csv('areas_EM.csv', index=False,encoding='utf-8-sig')
+cursos.to_csv('datos_IE.csv', index=False,encoding='utf-8-sig' )
+areas.to_csv('areas_IE.csv', index=False,encoding='utf-8-sig')
 
 print(cursos.head())
 
