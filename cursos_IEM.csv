@@ -1,117 +1,117 @@
-﻿Codigo,Nombre
-MI4136,Elementos de Máquinas
-MI4300,Administración de Mantenimiento I
-MI2101,Dibujo Técnico
-MI2106,Estática
-MI2202,Laboratorio de Electricidad I
-MI2204,Laboratorio de Electricidad II
-MI2205,Electricidad I
-MI2207,Electricidad II
-MI3103,Procesos de Manufactura
-MI3104,Laboratorio Procesos de Manufactura
-MI3108,Mecánica de fluidos
-MI3111,Laboratorio de Mecánica de Fluidos
-MI3115,Resistencia de Materiales
-MI3116,Turbomáquinas
-MI3117,Dinámica
-MI3119,Laboratorio de Turbomáquinas
-MI3124,Dibujo industrial
-MI3130,Termodinámica
-MI3138,Máquinas y Equipos
-MI3206,Laboratorio de Máquinas Eléctricas
-MI3209,Electricidad III
-MI3210,Máquinas Eléctricas
-MI4125,Laboratorio de Sistemas de Vapor
-MI4126,Refrigeración
-MI4127,Laboratorio de Refrigeración
-MI4129,Sistemas de Vapor
-MI4209,Control Eléctrico
-MI4210,Laboratorio de Control Eléctrico
-MI4212,Instalaciones Eléctricas
-MI4305,Administración de Mantenimiento II
-MI4311,Modelos Cuantitativos para la Toma de Decisiones
-MI4510,Electrotecnia
-MI5135,Ventilación Industrial
-MI5152,Aire Acondicionado
-MI5215,Análisis de Sistemas Eléctricos de Potencia
-MI5411,Automatismo
-MI6153,Ahorro Energético
-MI6252,Neumática
-MI6253,Fundamentos en Administración de Proyectos en Ingeniería
-MI6254,Sistemas de protección contra incendios a base de agua
-MI6255,Sistemas de control automático
-MI6351,Mantenimiento Predictivo
-MI8304,Maquinas y Equipos para Ingeniería en Seguridad Laboral e Higiene Ambiental
-IEM2101,Dibujo Técnico
-IEM2102,Estática
-IEM2103,Dinámica
-IEM2104,Termodinámica
-IEM2105,Manufactura
-IEM2106,Transferencia de Calor
-IEM2107,Resistencia de Materiales
-IEM2108,Dibujo Industrial
-IEM2109,Mecánica de Fluidos
-IEM2110,Máquinas y mecanismos
-IEM2111,Turbomáquinas
-IEM2112,Elementos de Máquinas
-IEM2113,Sistemas Térmicos
-IEM2114,Diseño Mecánico
-IEM2115,Fundamentos de Refrigeración y Aire Acondicionado
-IEM2155,Laboratorio de Manufactura
-IEM2159,Laboratorio de Mecánica de Fluidos
-IEM2161,Laboratorio de Turbomáquinas
-IEM2163,Laboratorio de Sistemas Térmicos
-IEM2201,Análisis de Circuitos 1
-IEM2202,Análisis de Circuitos 2
-IEM2203,Sistemas Analógicos
-IEM2204,Sistemas Digitales
-IEM2205,Máquinas Eléctricas 1
-IEM2206,Máquinas Eléctricas 2
-IEM2207,Sistemas de Potencia
-IEM2208,Instalaciones Eléctricas
-IEM2251,Laboratorio de Análisis de Circuitos 1
-IEM2252,Laboratorio de Análisis de Circuitos 2
-IEM2255,Laboratorio de Máquinas Eléctricas 1
-IEM2256,Laboratorio de Máquinas Eléctricas 2
-IEM2301,Transductores
-IEM2302,Instrumentación
-IEM2303,Modelado y Simulación de Sistemas Electromecánicos
-IEM2304,Fundamentos de Gestión de Proyectos
-IEM2305,Gestión de la Ingeniería Electromecánica
-IEM2306,Control Automático
-IEM2307,Monitoreo de la Condición
-IEM2308,Control Eléctrico
-IEM2309,Gestión de la Energía
-IEM2310,Diseño e Integración de Sistemas Electromecánicos
-IEM2311,Automatización
-IEM2352,Laboratorio de Instrumentación
-IEM2358,Laboratorio de Control
-IEM2360,Laboratorio de Diseño e Integración de Sistemas Electromecánicos
-IEM2400,Metodología de la Investigación
-IEM2401,Electiva I
-IEM2402,Electiva II
-IEM2403,TFG
-IEM2501,Geometría descriptiva
-IEM2502,Dibujo aeronáutico
-IEM2503,Materiales de avición y hardware
-IEM2504,Termodinámica y transferencia de calor
-IEM2505,Examen Inglés para Electromecánica con énfasis en Mantenimiento aeronáutico
-IEM2507,Sistemas de aeronaves
-IEM2508,Ingeniería en Mantenimiento Aeronáutico
-IEM2509,Aviónica
-IEM2510,Métodos Numéricos para electromecánica
-IEM2511,Sistemas de propulsión
-IEM2512,Aerodinámica y Dinámica de vuelo
-IEM2513,Taller de mediciones para aeronáutica
-IEM2514,Elementos de máquinas y dispositivos de elevación y transporte
-IEM2515,Ingeniería en Mantenimiento Aviónico
-IEM2516,Fundamentos del motor de reacción
-IEM2517,Análisis matricial de estructuras del avión
-IEM2518,Electiva I
-IEM2519,Diseño eléctrico aeroportuario
-IEM2520,Sistemas de control automático
-IEM2521,Aeromecánica
-IEM2522,Fundamentos de la construcción y fuerzas actuantes de las estructuras aeronáuticas
-IEM2523,Electiva II
-IEM2524,Seguridad de vuelos y del ambiente
-IEM2525,Proyecto final de graduación
+﻿Codigo,Nombre,Programas
+MI4136,Elementos de Máquinas,
+MI4300,Administración de Mantenimiento I,
+MI2101,Dibujo Técnico,
+MI2106,Estática,Ingeniería en Mantenimiento Industrial;3;Ingeniería Electromecánica;3;Ingeniería en Producción Industrial;4;Ingeniería Mecatrónica;4;Ingeniería Física;3;Ingeniería en Materiales;4
+MI2202,Laboratorio de Electricidad I,
+MI2204,Laboratorio de Electricidad II,
+MI2205,Electricidad I,
+MI2207,Electricidad II,
+MI3103,Procesos de Manufactura,
+MI3104,Laboratorio Procesos de Manufactura,
+MI3108,Mecánica de fluidos,
+MI3111,Laboratorio de Mecánica de Fluidos,
+MI3115,Resistencia de Materiales,
+MI3116,Turbomáquinas,
+MI3117,Dinámica,
+MI3119,Laboratorio de Turbomáquinas,
+MI3124,Dibujo industrial,
+MI3130,Termodinámica,
+MI3138,Máquinas y Equipos,
+MI3206,Laboratorio de Máquinas Eléctricas,
+MI3209,Electricidad III,
+MI3210,Máquinas Eléctricas,
+MI4125,Laboratorio de Sistemas de Vapor,
+MI4126,Refrigeración,
+MI4127,Laboratorio de Refrigeración,
+MI4129,Sistemas de Vapor,
+MI4209,Control Eléctrico,
+MI4210,Laboratorio de Control Eléctrico,
+MI4212,Instalaciones Eléctricas,
+MI4305,Administración de Mantenimiento II,
+MI4311,Modelos Cuantitativos para la Toma de Decisiones,
+MI4510,Electrotecnia,
+MI5135,Ventilación Industrial,
+MI5152,Aire Acondicionado,
+MI5215,Análisis de Sistemas Eléctricos de Potencia,
+MI5411,Automatismo,
+MI6153,Ahorro Energético,
+MI6252,Neumática,
+MI6253,Fundamentos en Administración de Proyectos en Ingeniería,
+MI6254,Sistemas de protección contra incendios a base de agua,
+MI6255,Sistemas de control automático,
+MI6351,Mantenimiento Predictivo,
+MI8304,Maquinas y Equipos para Ingeniería en Seguridad Laboral e Higiene Ambiental,
+IEM2101,Dibujo Técnico,
+IEM2102,Estática,
+IEM2103,Dinámica,
+IEM2104,Termodinámica,
+IEM2105,Manufactura,
+IEM2106,Transferencia de Calor,
+IEM2107,Resistencia de Materiales,
+IEM2108,Dibujo Industrial,
+IEM2109,Mecánica de Fluidos,
+IEM2110,Máquinas y mecanismos,
+IEM2111,Turbomáquinas,
+IEM2112,Elementos de Máquinas,
+IEM2113,Sistemas Térmicos,
+IEM2114,Diseño Mecánico,
+IEM2115,Fundamentos de Refrigeración y Aire Acondicionado,
+IEM2155,Laboratorio de Manufactura,
+IEM2159,Laboratorio de Mecánica de Fluidos,
+IEM2161,Laboratorio de Turbomáquinas,
+IEM2163,Laboratorio de Sistemas Térmicos,
+IEM2201,Análisis de Circuitos 1,
+IEM2202,Análisis de Circuitos 2,
+IEM2203,Sistemas Analógicos,
+IEM2204,Sistemas Digitales,
+IEM2205,Máquinas Eléctricas 1,
+IEM2206,Máquinas Eléctricas 2,
+IEM2207,Sistemas de Potencia,
+IEM2208,Instalaciones Eléctricas,
+IEM2251,Laboratorio de Análisis de Circuitos 1,
+IEM2252,Laboratorio de Análisis de Circuitos 2,
+IEM2255,Laboratorio de Máquinas Eléctricas 1,
+IEM2256,Laboratorio de Máquinas Eléctricas 2,
+IEM2301,Transductores,
+IEM2302,Instrumentación,
+IEM2303,Modelado y Simulación de Sistemas Electromecánicos,
+IEM2304,Fundamentos de Gestión de Proyectos,
+IEM2305,Gestión de la Ingeniería Electromecánica,
+IEM2306,Control Automático,
+IEM2307,Monitoreo de la Condición,
+IEM2308,Control Eléctrico,
+IEM2309,Gestión de la Energía,
+IEM2310,Diseño e Integración de Sistemas Electromecánicos,
+IEM2311,Automatización,
+IEM2352,Laboratorio de Instrumentación,
+IEM2358,Laboratorio de Control,
+IEM2360,Laboratorio de Diseño e Integración de Sistemas Electromecánicos,
+IEM2400,Metodología de la Investigación,
+IEM2401,Electiva I,
+IEM2402,Electiva II,
+IEM2403,TFG,
+IEM2501,Geometría descriptiva,
+IEM2502,Dibujo aeronáutico,
+IEM2503,Materiales de avición y hardware,
+IEM2504,Termodinámica y transferencia de calor,
+IEM2505,Examen Inglés para Electromecánica con énfasis en Mantenimiento aeronáutico,
+IEM2507,Sistemas de aeronaves,
+IEM2508,Ingeniería en Mantenimiento Aeronáutico,
+IEM2509,Aviónica,
+IEM2510,Métodos Numéricos para electromecánica,
+IEM2511,Sistemas de propulsión,
+IEM2512,Aerodinámica y Dinámica de vuelo,
+IEM2513,Taller de mediciones para aeronáutica,
+IEM2514,Elementos de máquinas y dispositivos de elevación y transporte,
+IEM2515,Ingeniería en Mantenimiento Aviónico,
+IEM2516,Fundamentos del motor de reacción,
+IEM2517,Análisis matricial de estructuras del avión,
+IEM2518,Electiva I,
+IEM2519,Diseño eléctrico aeroportuario,
+IEM2520,Sistemas de control automático,
+IEM2521,Aeromecánica,
+IEM2522,Fundamentos de la construcción y fuerzas actuantes de las estructuras aeronáuticas,
+IEM2523,Electiva II,
+IEM2524,Seguridad de vuelos y del ambiente,
+IEM2525,Proyecto final de graduación,
