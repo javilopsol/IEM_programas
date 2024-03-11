@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import numpy as np
 from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
     TextColor, MiniPage, StandAloneGraphic, simple_page_number,\
     TikZ, TikZNode, TikZOptions, TikZCoordinate, TikZNodeAnchor, TikZPath,\
@@ -50,11 +51,14 @@ def generar_programa(codigo):
     nomEscue = "Escuela de Ingeniería Electromecánica"
     lisProgr = pd.DataFrame() 
     lisProgr = cursos[cursos.Codigo == codCurso].Programas.str.split(';',expand=True)
-    if lisProgr.shape[1] > 2:
+    lisProgr.reset_index(inplace = True, drop = True)
+    lisProgrShape = lisProgr.shape[1]
+    print(lisProgr)
+    if lisProgrShape > 2:
         strProgr = "Carreras de: "
     else:
         strProgr = "Carrera de "
-    for columna in range(int(lisProgr.shape[1]/2)):
+    for columna in range(int(lisProgrShape/2)):
         if columna == 0:
             strProgr += lisProgr[columna*2].item()
         else:
@@ -64,16 +68,33 @@ def generar_programa(codigo):
     tipCurso = datos_gen[datos_gen.Codigo == codCurso].Tipo.item()
     eleCurso = datos_gen[datos_gen.Codigo == codCurso].Electivo.item()
     porAreas = datos_gen[datos_gen.Codigo == codCurso].AreasCurriculares.item()
-    #ubiPlane = datos_gen[datos_gen.Codigo == codCurso].Ubicacion.item()
-    ubiPlane = "Curso de "
-    for columna in range(int(lisProgr.shape[1]/2)):
-        if columna == 0:
-            ubiPlane += number_to_ordinals(lisProgr[columna*2+1].item())
+
+    ubiLista = pd.DataFrame("", index=pd.RangeIndex(lisProgrShape/2), columns=["programa", "semestre"])# pd.DataFrame("", index=pd.RangeIndex(10), columns=pd.RangeIndex(10))
+    
+    for pos in range(int(lisProgrShape/2)):
+        ubiLista.iloc[pos, ubiLista.columns.get_loc("programa")] = lisProgr[pos*2].item()
+        ubiLista.iloc[pos, ubiLista.columns.get_loc("semestre")] = lisProgr[pos*2+1].item()
+    print(ubiLista)
+#Genera ubicación en el plan de estudios en las diferentes carreras
+    ubiPlane = ""
+    for sem in range(1,int(ubiLista["semestre"].max())+1):
+        filter = ubiLista["semestre"] == str(sem)
+        filterlist = ubiLista[filter]
+        shape = filterlist.shape[0]
+        if shape  != 0:
+            ubiPlane += "Curso de "
+            ubiPlane += number_to_ordinals(str(sem))
             ubiPlane += " semestre en "
-            ubiPlane += lisProgr[columna*2].item()
-        # else:
-        #     ubiPlane += "\n"
-        #     ubiPlane += lisProgr[columna*2].item()
+            fila = 0
+            for index, row in filterlist.iterrows():
+                ubiPlane += row["programa"]
+                fila += 1
+                if fila == shape:
+                    ubiPlane += ". "
+                elif fila == shape - 1:
+                    ubiPlane += " e "              
+                else:
+                    ubiPlane += "; "
 
     susRequi = datos_gen[datos_gen.Codigo == codCurso].Requisitos.item()
     corRequi = datos_gen[datos_gen.Codigo == codCurso].Correquisitos.item()
