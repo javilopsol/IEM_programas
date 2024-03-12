@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import numpy as np
 from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
     TextColor, MiniPage, StandAloneGraphic, simple_page_number,\
     TikZ, TikZNode, TikZOptions, TikZCoordinate, TikZNodeAnchor, TikZPath,\
@@ -9,8 +10,10 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
 from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
-def textcolor(size,vspace,color,bold,text,hspace="0"):
-    dump = NoEscape(r"\par")
+def textcolor(size,vspace,color,bold,text,hspace="0",par=True):
+    dump = NoEscape(r"")
+    if par==True:
+        dump = NoEscape(r"\par")
     if hspace!="0":
         dump += NoEscape(HorizontalSpace(hspace,star=True).dumps())
     dump += NoEscape(Command("fontsize",arguments=Arguments(size,vspace)).dumps())
@@ -21,21 +24,78 @@ def textcolor(size,vspace,color,bold,text,hspace="0"):
         dump += NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())
     return dump
 
-cursos = pd.read_csv("cursos_EM.csv")
-datos_gen = pd.read_csv("datos_EM.csv")
-descrip_obj = pd.read_csv("descrip_obj_EM.csv")
+def number_to_ordinals(number_str):
+    match number_str:
+        case "1" | "3":
+            number_str += r"\textsuperscript{er}"
+        case "2":
+            number_str += r"\textsuperscript{do}"
+        case "4" | "5" | "6":
+            number_str += r"\textsuperscript{to}"
+        case "7" | "10":
+            number_str += r"\textsuperscript{mo}"
+        case "8":
+            number_str += r"\textsuperscript{vo}"
+        case "9":
+            number_str += r"\textsuperscript{no}"
+    return number_str 
+
+cursos = pd.read_csv("cursos_IEM.csv")
+datos_gen = pd.read_csv("datos_gen.csv")
+descrip_obj = pd.read_csv("descrip_obj.csv")
 
 
 def generar_programa(codigo):
 
     codCurso = codigo
     nomEscue = "Escuela de Ingeniería Electromecánica"
-    nomProgr = cursos[cursos.Codigo == codCurso].Programa.item()
+    lisProgr = pd.DataFrame() 
+    lisProgr = cursos[cursos.Codigo == codCurso].Programas.str.split(';',expand=True)
+    lisProgr.reset_index(inplace = True, drop = True)
+    lisProgrShape = lisProgr.shape[1]
+    print(lisProgr)
+    if lisProgrShape > 2:
+        strProgr = "Carreras de: "
+    else:
+        strProgr = "Carrera de "
+    for columna in range(int(lisProgrShape/2)):
+        if columna == 0:
+            strProgr += lisProgr[columna*2].item()
+        else:
+            strProgr += "; "
+            strProgr += lisProgr[columna*2].item()
     nomCurso = cursos[cursos.Codigo == codCurso].Nombre.item()
     tipCurso = datos_gen[datos_gen.Codigo == codCurso].Tipo.item()
     eleCurso = datos_gen[datos_gen.Codigo == codCurso].Electivo.item()
     porAreas = datos_gen[datos_gen.Codigo == codCurso].AreasCurriculares.item()
-    ubiPlane = datos_gen[datos_gen.Codigo == codCurso].Ubicacion.item()
+
+    ubiLista = pd.DataFrame("", index=pd.RangeIndex(lisProgrShape/2), columns=["programa", "semestre"])# pd.DataFrame("", index=pd.RangeIndex(10), columns=pd.RangeIndex(10))
+    
+    for pos in range(int(lisProgrShape/2)):
+        ubiLista.iloc[pos, ubiLista.columns.get_loc("programa")] = lisProgr[pos*2].item()
+        ubiLista.iloc[pos, ubiLista.columns.get_loc("semestre")] = lisProgr[pos*2+1].item()
+    print(ubiLista)
+#Genera ubicación en el plan de estudios en las diferentes carreras
+    ubiPlane = ""
+    for sem in range(1,int(ubiLista["semestre"].max())+1):
+        filter = ubiLista["semestre"] == str(sem)
+        filterlist = ubiLista[filter]
+        shape = filterlist.shape[0]
+        if shape  != 0:
+            ubiPlane += "Curso de "
+            ubiPlane += number_to_ordinals(str(sem))
+            ubiPlane += " semestre en "
+            fila = 0
+            for index, row in filterlist.iterrows():
+                ubiPlane += row["programa"]
+                fila += 1
+                if fila == shape:
+                    ubiPlane += ". "
+                elif fila == shape - 1:
+                    ubiPlane += " e "              
+                else:
+                    ubiPlane += "; "
+
     susRequi = datos_gen[datos_gen.Codigo == codCurso].Requisitos.item()
     corRequi = datos_gen[datos_gen.Codigo == codCurso].Correquisitos.item()
     essRequi = datos_gen[datos_gen.Codigo == codCurso].EsRequisito.item()
@@ -103,7 +163,18 @@ def generar_programa(codigo):
             logobox.append(StandAloneGraphic(image_options="width=62.5mm", filename='../figuras/Logo.png'))
     #Left foot
     with headerfooter.create(Foot("L")) as footer_left:
-        footer_left.append(TextColor("azulsuaveTEC", f"{nomEscue} - {nomProgr}"))
+        footer_left.append(TextColor("azulsuaveTEC", f"{nomEscue}"))
+        footer_left.append(NoEscape(r"\par \parbox{0.85\linewidth}{"))
+        footer_left.append(textcolor
+            (   
+            par=False,
+            size="8",
+            vspace="0",
+            color="azulsuaveTEC",
+            bold=False,
+            text=f"{strProgr}" 
+            ))
+        footer_left.append(NoEscape(r"}"))
     #Right foot
     with headerfooter.create(Foot("R")) as footer_right:
         footer_right.append(TextColor("azulsuaveTEC", NoEscape(r"Página \thepage \hspace{1pt} de \pageref{LastPage}")))        
@@ -160,24 +231,27 @@ def generar_programa(codigo):
             bold=True,
             text=f"{nomCurso}" 
             ))
-    doc.append(textcolor
-            (
-            hspace="10mm",   
-            size="12",
-            vspace="30",
-            color="gris",
-            bold=True,
-            text=f"{nomEscue}" 
-            ))
-    doc.append(textcolor
+    with doc.create(LongTable(table_spec=r"|m{0.02\linewidth}|m{0.98\linewidth}|",row_height=0.7)) as table:
+            table.add_row(["", textcolor
             (   
-            hspace="10mm",
+            par=False,
+            hspace="0mm",
             size="12",
             vspace="14",
             color="gris",
             bold=True,
-            text=f"{nomProgr}" 
-            ))
+            text=f"{nomEscue}"
+            )])
+            table.add_row(["", textcolor
+            (   
+            par=False,
+            hspace="0mm",
+            size="12",
+            vspace="14",
+            color="gris",
+            bold=True,
+            text=f"{strProgr}" 
+            )])
     doc.append(NewPage())
     doc.change_document_style("headfoot")
     doc.append(textcolor
@@ -206,7 +280,7 @@ def generar_programa(codigo):
             table.add_row([bold("Nº horas de clase por semana:"), f"{horClass}"])
             table.add_row([bold("Nº horas extraclase por semana:"), f"{horExtra}"])
             table.add_row([bold("% de areas curriculares:"), f"{porAreas}"])
-            table.add_row([bold("Ubicación en el plan de estudios:"), f"{ubiPlane}"])
+            table.add_row([bold("Ubicación en el plan de estudios:"), NoEscape(f"{ubiPlane}")])
             table.add_row([bold("Requisitos:"), f"{susRequi}"])
             table.add_row([bold("Correquisitos:"), f"{corRequi}"])
             table.add_row([bold("El curso es requisito de:"), f"{essRequi}"])
@@ -266,4 +340,4 @@ def generar_programa(codigo):
 # for codigo in cursos.Codigo:
 #      generar_programa(codigo)
     
-generar_programa("EM2101")
+generar_programa("MI2106")
