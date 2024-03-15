@@ -10,7 +10,7 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
 from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
-datos = pd.read_csv("malla_IE.csv")
+datos = pd.read_csv("malla_IEM.csv")
 #datos = pd.read_csv("aeronautica.csv")
 
 datos.Semestre = datos.Semestre.astype(int)
