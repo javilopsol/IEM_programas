@@ -10,8 +10,8 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
 from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
-#datos = pd.read_csv("malla_EM.csv")
-datos = pd.read_csv("aeronautica.csv")
+datos = pd.read_csv("malla_IE.csv")
+#datos = pd.read_csv("aeronautica.csv")
 
 datos.Semestre = datos.Semestre.astype(int)
 datos.Columna = datos.Columna.astype(int)
@@ -164,5 +164,5 @@ def generar_malla(programa):
     doc.generate_pdf(f"./mallas/{programa}", clean=True, clean_tex=False, compiler='lualatex')
 
 
-#generar_malla("Electromecánica")
-generar_malla("Aeronáutica")
+generar_malla("Electromecánica")
+#generar_malla("Aeronáutica")
