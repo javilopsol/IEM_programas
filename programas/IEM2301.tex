@@ -1,186 +1,0 @@
-\documentclass[letterpaper]{article}%
-\usepackage{lastpage}%
-\usepackage{parskip}%
-\usepackage{geometry}%
-\geometry{left=22.5mm,right=16.1mm,top=48mm,bottom=25mm,headheight=12.5mm,footskip=12.5mm}%
-\usepackage{fontspec}%
-\usepackage[spanish,activeacute]{babel}%
-\usepackage{graphicx}%
-\usepackage{tikz}%
-\usepackage{anyfontsize}%
-\usepackage{xcolor}%
-\usepackage{colortbl}%
-\usepackage{array}%
-\usepackage{float}%
-\usepackage{longtable}%
-\usepackage{multirow}%
-\usepackage{fancyhdr}%
-\usepackage{color}%
-\usepackage{ragged2e}%
-%
-\setmainfont{Arial}%
-\usetikzlibrary{calc}%
-\definecolor{gris}{rgb}{0.27,0.27,0.27}%
-\definecolor{parte}{rgb}{0.02,0.204,0.404}%
-\definecolor{azulsuaveTEC}{rgb}{0.02,0.455,0.773}%
-\definecolor{fila}{rgb}{0.929,0.929,0.929}%
-\definecolor{linea}{rgb}{0.749,0.749,0.749}%
-\fancypagestyle{headfoot}{%
-\renewcommand{\headrulewidth}{0pt}%
-\renewcommand{\footrulewidth}{0pt}%
-\fancyhead{%
-}%
-\fancyfoot{%
-}%
-\fancyhead[L]{%
-\begin{minipage}{0.5\textwidth}%
-\flushleft%
-\includegraphics[width=62.5mm]{../figuras/Logo.png}%
-\end{minipage}%
-}%
-\fancyfoot[L]{%
-\textcolor{azulsuaveTEC}{%
-Escuela de Ingeniería Electromecánica%
-}%
-\par \parbox{0.85\textwidth}{%
-\fontsize{8}{0}\selectfont \textcolor{azulsuaveTEC}{Carreras de:  Ingeniería Electromecánica; Ingeniería Aeronaútica con énfasis en Mantenimiento}%
-}%
-}%
-\fancyfoot[R]{%
-\textcolor{azulsuaveTEC}{%
-Página \thepage \hspace{1pt} de \pageref{LastPage}%
-}%
-}%
-}%
-%
-\begin{document}%
-\normalsize%
-\thispagestyle{empty}%
-\begin{tikzpicture}[overlay,remember picture]%
-\node[inner sep = 0mm,outer sep = 0mm,anchor = north west,xshift = -23mm,yshift = 22mm] at (0.0,0.0) {\includegraphics[width=21cm]{../figuras/Logo_portada.png}};%
-\end{tikzpicture}%
-\vspace*{150mm}%
-\par\fontsize{14}{0}\selectfont \textcolor{black}{Programa del curso IEM2301}%
-\par\fontsize{18}{25}\selectfont \textbf{\textcolor{azulsuaveTEC}{Transductores}}%
-\renewcommand{\arraystretch}{0.7}%
-\begin{longtable}{|m{0.02\textwidth}|m{0.98\textwidth}|}%
-&\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{gris}{Escuela de Ingeniería Electromecánica}}\\%
-&\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{gris}{Carreras de:  Ingeniería Electromecánica; Ingeniería Aeronaútica con énfasis en Mantenimiento}}\\%
-\end{longtable}%
-\newpage%
-\pagestyle{headfoot}%
-\par\fontsize{14}{0}\selectfont \textbf{\textcolor{parte}{I parte: Aspectos relativos al plan de estudios}}%
-\par\hspace*{4mm}\fontsize{12}{20}\selectfont \textbf{\textcolor{parte}{1 Datos generales}}%
-\renewcommand{\arraystretch}{1.5}%
-\begin{longtable}{m{7cm}m{9cm}}%
-\textbf{Nombre del curso:}&Transductores\\%
-\textbf{Código:}&IEM2301\\%
-\textbf{Tipo de curso:}&Teórico\\%
-\textbf{Electivo o no:}&No\\%
-\textbf{Nº de créditos:}&2\\%
-\textbf{Nº horas de clase por semana:}&2\\%
-\textbf{Nº horas extraclase por semana:}&4\\%
-\textbf{\% de areas curriculares:}&6.7\\%
-\textbf{Ubicación en el plan de estudios:}&Curso de 3\textsuperscript{er} semestre en  Ingeniería Electromecánica. Curso de 8\textsuperscript{vo} semestre en Ingeniería Aeronaútica con énfasis en Mantenimiento. \\%
-\textbf{Requisitos:}&nan\\%
-\textbf{Correquisitos:}&nan\\%
-\textbf{El curso es requisito de:}&nan\\%
-\textbf{Asistencia:}&nan\\%
-\textbf{Suficiencia:}&nan\\%
-\textbf{Posibilidad de reconocimiento:}&nan\\%
-\textbf{Vigencia del programa:}&nan\\%
-\end{longtable}%
-\newpage%
-\begin{longtable}{p{0.18\textwidth}p{0.72\textwidth}}%
-\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{2 Descripción general}}&Los transductores están presentes en toda la maquinaria moderna, por lo que los Ingenieros electromecánicos deben conocerlos, identificarlos, seleccionarlos y usarlos correctamente.  Esta asignatura brinda al estudiante conocimiento sobre la correcta selección y aplicación de los distintos tipos de transductores divididos en dos grupos llamados sensores y actuadores.  Por definición los transductores son elementos que convierten distintas formas de energía entre sí, por ejemplo: un motor eléctrico trasforma energía eléctrica en energía mecánica rotacional, o un micrófono transforma una onda sonora a una señal eléctrica. Sin embargo, el curso se enfoca principalmente en el estudio transductores usados para generar señales eléctricas de pequeña potencia a partir de manifestaciones físicas tales como: presión, temperatura, peso, aceleración, movimientos rotacionales o lineales, caudal, densidad, viscosidad, acidez, ondas sonoras, luz, voltaje, corriente, etc. La parte final de curso se enfoca en dispositivos que reciben una señal eléctrica que se transforma en un movimiento.\newline%
-Esta signatura se ubica en el tercer semestre de la carrera por lo que tienen un carácter inicial, sin embargo, es fundamental la correcta comprensión de los conocimientos, ya que serán utilizados de forma reiterada durante toda la carrera. Se puede indicar que este curso es base para los cursos de instrumentación, modelado, control eléctrico y automático, mantenimiento basado en la condición, automatización, entre otros; por lo que la asignatura posee un carácter de obligatoriedad.\\%
-\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{3 Objetivos}}&Comprender el funcionamiento de los transductores según la situación o aplicación planteada, usando para esto los criterios técnicos entre ellos los errores estáticos y dinámicos de los mismos.\\%
-&Comprender los principios constructivos de los sensores: resistivos, capacitivos, inductivos, ultrasónicos, electromagnéticos, autogeneradores.\newline%
-Conocer el funcionamiento de actuadores magnéticos como los relés y solenoides.\newline%
-Comprender las especificaciones técnicas de los transductores.\newline%
-Experimentar con transductores para lograr aprendizajes significativos.\\%
-\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{4 Contenidos}}&*Señales eléctricas y sus mediciones.\newline%
-**Medición directa e indirecta.\newline%
-**Valores rms, medio, eficaz.\newline%
-*Características estáticas de los sensores\newline%
-**Conceptos de Sensibilidad y Resolución del sensor.\newline%
-**Conceptos de Intervalo y Alcance de la medición.\newline%
-**Índice de protección de los sensores.\newline%
-**Incertidumbre de una medición\newline%
-**Definición de error.\newline%
-**Error exactitud y error de precisión\newline%
-**Tipo de errores de medición\newline%
-***Error de repetición por dos procesos de calibración.\newline%
-***Error de histéresis\newline%
-***Error de zonas muertas\newline%
-***Error por no linealidad\newline%
-***Otros errores. Ejemplo: error de fluencia (creep error)\newline%
-*Sensores industriales discretos de presencia.\newline%
-**Tipos de sensores discretos: inductivos, capacitivos, fotoeléctricos, ultrasónicos  y mecánicos\newline%
-**Materiales que detectan según la tecnología usada\newline%
-**Voltaje de alimentación de sensores\newline%
-**Conexiones eléctricas de sensores tipo PNP, NPN\newline%
-**Código de colores del cableado\newline%
-**Instalación, montaje de sensores\newline%
-**Rangos de operación, limitaciones y errores presentes\newline%
-*Características dinámicas en el tiempo de los sensores \newline%
-**Tiempo de subida, tiempo de asentamiento, tiempo al pico, tiempo de retardo, sobrelongación\newline%
-**Sensores de orden cero \newline%
-**Sensores de orden uno \newline%
-**Sensores de orden dos \newline%
-**Respuesta en el tiempo  de cada tipo de sensor\newline%
-**Ejemplos de cada tipo de sensor\newline%
-*Sensores con funcionamiento resistivo\newline%
-**Tipos de sensores con principio resistivo:\newline%
-***Potenciómetros\newline%
-***Galgas de fuerza\newline%
-***Sensores de temperatura RTD\newline%
-***Termistores\newline%
-***Magneto resistores\newline%
-***Fotorresistencias LDR\newline%
-***Hidrómetros resistivos\newline%
-***Sensores de gas resistivos.\newline%
-**Para cada tipo de sensor se estudia su modelo físico (ecuación)\newline%
-**Para cada sensor se estudia sus aplicaciones\newline%
-*Sensores con funcionamiento capacitivo\newline%
-**Tipos de sensores con principio capacitivo:\newline%
-***Sensores de capacitancia variable\newline%
-***Sensores de capacitancia diferencial\newline%
-**Para cada tipo de sensor se estudia su modelo físico (ecuación)\newline%
-**Para cada sensor se estudia sus aplicaciones\newline%
-*Sensores con funcionamiento electromagnético\newline%
-**Tipos de sensores inductivos:\newline%
-***Sensores de reluctancia variable\newline%
-***Sensores de corrientes de Eddy\newline%
-***Transformadores diferencial variable lineal (LVDT)\newline%
-***Synchros, resolvers e Inductosyn\newline%
-**Tipos de sensores con principio electromegnético:\newline%
-***Sensores basados en la ley de Faraday\newline%
-***Sensores basados en el efecto Hall.\newline%
-**Para cada tipo de sensor se estudia su modelo físico (ecuación)\newline%
-**Para cada sensor se estudia sus aplicaciones industriales o en aeronaves.\newline%
-*Sensores autogeneradores\newline%
-**Termocuplas\newline%
-**Sensores pizoeléctricos\newline%
-**Sensores piroeléctricos\newline%
-**Sensores fotovoltaicos\newline%
-**Para cada tipo de sensor se estudia su modelo físico (ecuación)\newline%
-**Para cada sensor se estudia sus aplicaciones industriales o en aeronaves.\newline%
-*Otros Sensores \newline%
-**Codificadores incremental y absoluto (Encoders)\newline%
-**Sensores basados en resonancia.\newline%
-**Sensores basados en juntas semiconductoras\newline%
-**Sensores basados en ultrasonido.\newline%
-**Sensores de fibra óptica\newline%
-**Biosensores\newline%
-**Aplicaciones y ejemplos.\newline%
-*Actuadores eléctricos \newline%
-**Principios de funcionamiento de:\newline%
-***Relés de estado sólido y mecánico\newline%
-***Solenoides\newline%
-***Piezoeléctricos\newline%
-*Actuadores hidráulicos y neumáticos\newline%
-**Tipo de válvulas solenoides para control de flujo\\%
-\end{longtable}%
-\par\fontsize{14}{0}\selectfont \textbf{\textcolor{parte}{II parte: Aspectos operativos}}%
-\end{document}

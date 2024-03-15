@@ -10,10 +10,6 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
 from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
-class ExampleEnvironment(Environment):
-    _latex_name = 'parcolumns'
-    packages = [Package('parcolumns')]
-
 def textcolor(size,vspace,color,bold,text,hspace="0",par=True):
     dump = NoEscape(r"")
     if par==True:
@@ -45,8 +41,8 @@ def number_to_ordinals(number_str):
     return number_str 
 
 cursos = pd.read_csv("cursos_IEM.csv")
-datos_gen = pd.read_csv("datos_IEM.csv")
-descrip_obj = pd.read_csv("descrip_obj_IEM.csv")
+datos_gen = pd.read_csv("datos_gen.csv")
+descrip_obj = pd.read_csv("descrip_obj.csv")
 
 
 def generar_programa(codigo):
@@ -168,7 +164,7 @@ def generar_programa(codigo):
     #Left foot
     with headerfooter.create(Foot("L")) as footer_left:
         footer_left.append(TextColor("azulsuaveTEC", f"{nomEscue}"))
-        footer_left.append(NoEscape(r"\par \parbox{0.85\textwidth}{"))
+        footer_left.append(NoEscape(r"\par \parbox{0.85\linewidth}{"))
         footer_left.append(textcolor
             (   
             par=False,
@@ -235,7 +231,7 @@ def generar_programa(codigo):
             bold=True,
             text=f"{nomCurso}" 
             ))
-    with doc.create(LongTable(table_spec=r"m{0.02\textwidth}m{0.98\textwidth}",row_height=0.7)) as table:
+    with doc.create(LongTable(table_spec=r"|m{0.02\linewidth}|m{0.98\linewidth}|",row_height=0.7)) as table:
             table.add_row(["", textcolor
             (   
             par=False,
@@ -293,7 +289,7 @@ def generar_programa(codigo):
             table.add_row([bold("Posibilidad de reconocimiento:"), f"{posRecon}"])
             table.add_row([bold("Vigencia del programa:"), f"{vigProgr}"])
     doc.append(NewPage())
-    with doc.create(LongTable(table_spec=r"p{0.18\textwidth}p{0.72\textwidth}")) as table:
+    with doc.create(LongTable(table_spec=r"p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
             table.add_row([
                 textcolor
                     (
@@ -344,4 +340,4 @@ def generar_programa(codigo):
 # for codigo in cursos.Codigo:
 #      generar_programa(codigo)
     
-generar_programa("IEM2301")
+generar_programa("MI2106")
