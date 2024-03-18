@@ -2,7 +2,12 @@
 MI4136,Elementos de Máquinas,
 MI4300,Administración de Mantenimiento I,
 MI2101,Dibujo Técnico,
-MI2106,Estática,Ingeniería en Mantenimiento Industrial;3;Ingeniería Electromecánica;3;Ingeniería en Producción Industrial;4;Ingeniería Mecatrónica;4;Ingeniería Física;3;Ingeniería en Materiales;4
+MI2106,Estática,"Ingeniería en Mantenimiento Industrial;3
+Ingeniería Electromecánica;3
+Ingeniería en Producción Industrial;4
+Ingeniería Mecatrónica;4
+Ingeniería Física;3
+Ingeniería en Materiales;4"
 MI2202,Laboratorio de Electricidad I,
 MI2204,Laboratorio de Electricidad II,
 MI2205,Electricidad I,
@@ -73,8 +78,9 @@ IEM2251,Laboratorio de Análisis de Circuitos 1,
 IEM2252,Laboratorio de Análisis de Circuitos 2,
 IEM2255,Laboratorio de Máquinas Eléctricas 1,
 IEM2256,Laboratorio de Máquinas Eléctricas 2,
-IEM2301,Transductores, Ingeniería Electromecánica;3;Ingeniería Aeronaútica con énfasis en Mantenimiento;8
-IEM2302,Instrumentación,
+IEM2301,Transductores,"Ingeniería Electromecánica;3
+Ingeniería Aeronaútica con énfasis en Mantenimiento;8"
+IEM2302,Instrumentación,Ingeniería Electromecánica;4
 IEM2303,Modelado y Simulación de Sistemas Electromecánicos,
 IEM2304,Fundamentos de Gestión de Proyectos,
 IEM2305,Gestión de la Ingeniería Electromecánica,

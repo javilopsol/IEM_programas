@@ -53,37 +53,23 @@ def generar_programa(codigo):
 
     codCurso = codigo
     nomEscue = "Escuela de Ingeniería Electromecánica"
-    lisProgr = pd.DataFrame() 
-    lisProgr = cursos[cursos.Codigo == codCurso].Programas.str.split(';',expand=True)
+    lisProgr = cursos[cursos.Codigo == codCurso].Programas.str.split('\n',expand=False).explode()
+    lisProgr = lisProgr.str.split(';',expand=True)
     lisProgr.reset_index(inplace = True, drop = True)
-    lisProgrShape = lisProgr.shape[1]
-    print(lisProgr)
-    if lisProgrShape > 2:
-        strProgr = "Carreras de: "
+    lisProgr.columns = ['programa','semestre']
+    if len(lisProgr) > 1:
+        strProgr = "Carreras de: " + ' e'.join(lisProgr['programa'].str.cat(sep='; ').rsplit(';',1))
     else:
-        strProgr = "Carrera de "
-    for columna in range(int(lisProgrShape/2)):
-        if columna == 0:
-            strProgr += lisProgr[columna*2].item()
-        else:
-            strProgr += "; "
-            strProgr += lisProgr[columna*2].item()
+        strProgr = "Carrera de " + lisProgr['programa'].item()
     nomCurso = cursos[cursos.Codigo == codCurso].Nombre.item()
     tipCurso = datos_gen[datos_gen.Codigo == codCurso].Tipo.item()
     eleCurso = datos_gen[datos_gen.Codigo == codCurso].Electivo.item()
     porAreas = datos_gen[datos_gen.Codigo == codCurso].AreasCurriculares.item()
-
-    ubiLista = pd.DataFrame("", index=pd.RangeIndex(lisProgrShape/2), columns=["programa", "semestre"])# pd.DataFrame("", index=pd.RangeIndex(10), columns=pd.RangeIndex(10))
-    
-    for pos in range(int(lisProgrShape/2)):
-        ubiLista.iloc[pos, ubiLista.columns.get_loc("programa")] = lisProgr[pos*2].item()
-        ubiLista.iloc[pos, ubiLista.columns.get_loc("semestre")] = lisProgr[pos*2+1].item()
-    print(ubiLista)
-#Genera ubicación en el plan de estudios en las diferentes carreras
+    #Genera ubicación en el plan de estudios en las diferentes carreras
     ubiPlane = ""
-    for sem in range(1,int(ubiLista["semestre"].max())+1):
-        filter = ubiLista["semestre"] == str(sem)
-        filterlist = ubiLista[filter]
+    for sem in range(1,int(lisProgr["semestre"].max())+1):
+        filter = lisProgr["semestre"] == str(sem)
+        filterlist = lisProgr[filter]
         shape = filterlist.shape[0]
         if shape  != 0:
             ubiPlane += "Curso de "
@@ -99,6 +85,7 @@ def generar_programa(codigo):
                     ubiPlane += " e "              
                 else:
                     ubiPlane += "; "
+    print(lisProgr)
 
     susRequi = datos_gen[datos_gen.Codigo == codCurso].Requisitos.item()
     corRequi = datos_gen[datos_gen.Codigo == codCurso].Correquisitos.item()
@@ -112,8 +99,29 @@ def generar_programa(codigo):
     vigProgr = datos_gen[datos_gen.Codigo == codCurso].Vigencia.item()
     desGener = descrip_obj[descrip_obj.Codigo == codCurso].Descripcion.item()
     objGener = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivoGeneral.item()
-    objEspec = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivosEspecificos.item()
-    conCurso = descrip_obj[descrip_obj.Codigo == codCurso].Contenidos.item()
+    objEspec = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivosEspecificos.str.split('\n',expand=False).explode()
+    objEspec.reset_index(inplace = True, drop = True)
+    for index, row in objEspec.items():
+        objEspec.iloc[index] = r"\hspace{0.05\linewidth}\parbox{0.95\linewidth}{\textbullet\, " + row + r"}"
+    contenidos = descrip_obj[descrip_obj.Codigo == codCurso].Contenidos.str.split('\r\n',expand=False).explode()
+    contenidos.reset_index(inplace = True, drop = True)
+    nivel_1, nivel_2, nivel_3 = [0,0,0]
+    for index, row in contenidos.items():
+        res = 0
+        for pos in range(3):
+            if pos == row.find('*', pos, pos+1):
+                res += 1
+        if res == 1:
+            nivel_1 += 1
+            nivel_2 = 0
+            contenidos.iloc[index] = row.replace('*', f"{str(nivel_1)} ")
+        elif res == 2:
+            nivel_2 += 1
+            nivel_3 = 0
+            contenidos.iloc[index] = r"\hspace{0.05\linewidth}\parbox{0.95\linewidth}{" + row.replace('**', f"{str(nivel_1)}.{str(nivel_2)} ") + r"}"
+        elif res == 3:
+            nivel_3 += 1
+            contenidos.iloc[index] = r"\hspace{0.10\linewidth}\parbox{0.90\linewidth}{" + row.replace('***', f"{str(nivel_1)}.{str(nivel_2)}.{str(nivel_3)} ") + r"}"
     nomProfe = "Juan José Rojas Hernández"
     corProfe = "juan.rojas@itcr.ac.cr"
     conProfe = "Miercoles 7:30 a.m. - 10: 30 a.m." #Esto seria mejor construirlo tambien 
@@ -153,6 +161,7 @@ def generar_programa(codigo):
     #Package options
     doc.preamble.append(Command('setmainfont','Arial'))
     doc.preamble.append(Command('usetikzlibrary','calc'))
+    doc.preamble.append(Command('linespread', '0.9'))
     doc.add_color('gris','rgb','0.27,0.27,0.27') #70,70,70
     doc.add_color('parte','rgb','0.02,0.204,0.404') #5,52,103
     doc.add_color('azulsuaveTEC','rgb','0.02,0.455,0.773') #5,116,197
@@ -316,12 +325,16 @@ def generar_programa(codigo):
                     ),
                     f"{objGener}"
                 ])
-            table.add_row([
-                "",
-                f"{objEspec}"
-                ])
-            table.add_row([
-                textcolor
+            for index, row in objEspec.items():            
+                table.add_row([
+                    "",
+                    NoEscape(row)
+                    ])
+    with doc.create(LongTable(table_spec=r"p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
+        for index, row in contenidos.items():
+            if index == 0:
+                table.add_row([
+                    textcolor
                     (
                     size="12",
                     vspace="0",
@@ -329,7 +342,12 @@ def generar_programa(codigo):
                     bold=True,
                     text="4 Contenidos"
                     ),
-                    f"{conCurso}"
+                    NoEscape(row)
+                ])
+            else:
+                table.add_row([
+                    "",
+                    NoEscape(row)
                 ])
     doc.append(textcolor
     (   
