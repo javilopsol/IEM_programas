@@ -1,17 +1,16 @@
 ﻿Codigo,Descripcion,ObjetivoGeneral,ObjetivosEspecificos,Contenidos,Metodologia,Evaluacion,Bibliografia,Bibtext,Profesor
 IEM2101,"El curso de dibujo técnico contribuye a la formación y desarrollo profesional de las personas estudiantes, equipándolos con las habilidades y herramientas necesarias para la comunicación, el diseño y la ejecución en el ámbito de la ingeniería. 
 Entre los aprendizajes más destacados se encuentran la capacidad para interpretar y aplicar las normas INTE/ISO de dibujo técnico en situaciones prácticas, así como la habilidad para visualizar y representar objetos tridimensionales en un plano bidimensional y viceversa. Asimismo, los estudiantes desarrollan destrezas en el uso de herramientas CAD para la elaboración de planos. Además de las habilidades técnicas, se busca promover el compromiso, el respeto y la ética profesional entre los participantes.
-Este curso sienta las bases fundamentales para asignaturas más avanzadas en el campo del diseño y la ingeniería mecánica. Proporciona una comprensión sólida de los principios y técnicas de dibujo técnico que son esenciales para el desarrollo de proyectos más complejos en las áreas de diseño y manufactura. De esta manera, establece una conexión con otros cursos de la carrera, preparando a los estudiantes para enfrentar desafíos en su trayectoria académica y profesional.","Al final del curso la persona estudiante será capaz de realizar un plano de una pieza mecánica, según las normas INTE/ISO, que contenga información necesaria y suficiente para la interpretación de la forma y dimensiones de la pieza. ","La persona estudiante será capaz de:
-Aplicar las normas INTE/ISO y de otros estándares. 
-Representar mediante proyecciones ortogonales, proyecciones axonométricas, vistas auxiliares y vistas de corte una pieza mecánica. 
+Este curso sienta las bases fundamentales para asignaturas más avanzadas en el campo del diseño y la ingeniería mecánica. Proporciona una comprensión sólida de los principios y técnicas de dibujo técnico que son esenciales para el desarrollo de proyectos más complejos en las áreas de diseño y manufactura. De esta manera, establece una conexión con otros cursos de la carrera, preparando a los estudiantes para enfrentar desafíos en su trayectoria académica y profesional.","Realizar un plano de una pieza mecánica, según las normas INTE/ISO, que contenga información necesaria y suficiente para la interpretación de la forma y dimensiones de la pieza. ","Aplicar las normas INTE/ISO y de otros estándares.
+Representar mediante proyecciones ortogonales, proyecciones axonométricas, vistas auxiliares y vistas de corte una pieza mecánica.
 Acotar adecuadamente una pieza mecánica en las proyecciones ortogonales. ","*Generalidades
-***El Dibujo Técnico como lenguaje. Historia del Dibujo Técnico.
-***Objetivos del curso
-***Instrumentos de Dibujo: Escalímetro, escuadras.
-***Rotulado técnico y Formatos para dibujo Técnico
-***Norma de rotulado INTE-ISO 3098/0/2/3-2008
-***Formatos según INTE-ISO 5457-2008
-***Información que debe contener un cajetín INTE-ISO 7200-2008
+**El Dibujo Técnico como lenguaje. Historia del Dibujo Técnico.
+**Objetivos del curso
+**Instrumentos de Dibujo: Escalímetro, escuadras.
+**Rotulado técnico y Formatos para dibujo Técnico
+**Norma de rotulado INTE-ISO 3098/0/2/3-2008
+**Formatos según INTE-ISO 5457-2008
+**Información que debe contener un cajetín INTE-ISO 7200-2008
 *Geometría Descriptiva (2 hrs)
 **Consideraciones fundamentales de la Geometría Descriptiva :
 ***Objetivos del curso
@@ -73,10 +72,10 @@ Acotar adecuadamente una pieza mecánica en las proyecciones ortogonales. ","*Ge
 **Corte y secciones de piezas simétricas
 
 *Vistas auxiliares simples
-***Vistas auxiliares
-***Tipos de vistas auxiliares
-***Ubicación de las vistas auxiliares
-***Rotulado de vistas auxiliares.","Modalidad presencial en el horario de clase correspondiente. En las sesiones se expondrán los conceptos teóricos relevantes de cada tema por medio de material escrito o audiovisual, los cuales serán trabajados por el estudiante en numerosas prácticas realizadas en clases y tareas coordinadas.","
+**Vistas auxiliares
+**Tipos de vistas auxiliares
+**Ubicación de las vistas auxiliares
+**Rotulado de vistas auxiliares.","Modalidad presencial en el horario de clase correspondiente. En las sesiones se expondrán los conceptos teóricos relevantes de cada tema por medio de material escrito o audiovisual, los cuales serán trabajados por el estudiante en numerosas prácticas realizadas en clases y tareas coordinadas.","
 Examen Parcial 1; 1; 25
 Examen Parcial 2; 2; 25
 Proyecto grupal; 1; 25
@@ -144,23 +143,23 @@ Esta signatura se ubica en el tercer semestre de la carrera por lo que tienen un
 Se puede indicar que este curso es base para los cursos de instrumentación, modelado, control eléctrico y automático, mantenimiento basado en la condición, automatización, entre otros; por lo que la asignatura posee un carácter de obligatoriedad.","Comprender el funcionamiento de los transductores según la situación o aplicación planteada, usando para esto los criterios técnicos entre ellos los errores estáticos y dinámicos de los mismos.","Comprender los principios constructivos de los sensores: resistivos, capacitivos, inductivos, ultrasónicos, electromagnéticos, autogeneradores.
 Conocer el funcionamiento de actuadores magnéticos como los relés y solenoides.
 Comprender las especificaciones técnicas de los transductores.
-Experimentar con transductores para lograr aprendizajes significativos.","*Señales eléctricas y sus mediciones.
-**Medición directa e indirecta.
-**Valores rms, medio, eficaz.
+Experimentar con transductores para lograr aprendizajes significativos.","*Señales eléctricas y sus mediciones
+**Medición directa e indirecta
+**Valores rms, medio, eficaz
 *Características estáticas de los sensores
-**Conceptos de Sensibilidad y Resolución del sensor.
-**Conceptos de Intervalo y Alcance de la medición.
-**Índice de protección de los sensores.
+**Conceptos de Sensibilidad y Resolución del sensor
+**Conceptos de Intervalo y Alcance de la medición
+**Índice de protección de los sensores
 **Incertidumbre de una medición
-**Definición de error.
+**Definición de error
 **Error exactitud y error de precisión
 **Tipo de errores de medición
-***Error de repetición por dos procesos de calibración.
+***Error de repetición por dos procesos de calibración
 ***Error de histéresis
 ***Error de zonas muertas
 ***Error por no linealidad
 ***Otros errores. Ejemplo: error de fluencia (creep error)
-*Sensores industriales discretos de presencia.
+*Sensores industriales discretos de presencia
 **Tipos de sensores discretos: inductivos, capacitivos, fotoeléctricos, ultrasónicos  y mecánicos
 **Materiales que detectan según la tecnología usada
 **Voltaje de alimentación de sensores
@@ -170,8 +169,8 @@ Experimentar con transductores para lograr aprendizajes significativos.","*Seña
 **Rangos de operación, limitaciones y errores presentes
 *Características dinámicas en el tiempo de los sensores 
 **Tiempo de subida, tiempo de asentamiento, tiempo al pico, tiempo de retardo, sobrelongación
-**Sensores de orden cero 
-**Sensores de orden uno 
+**Sensores de orden cero
+**Sensores de orden uno
 **Sensores de orden dos 
 **Respuesta en el tiempo  de cada tipo de sensor
 **Ejemplos de cada tipo de sensor
@@ -201,24 +200,24 @@ Experimentar con transductores para lograr aprendizajes significativos.","*Seña
 ***Synchros, resolvers e Inductosyn
 **Tipos de sensores con principio electromegnético:
 ***Sensores basados en la ley de Faraday
-***Sensores basados en el efecto Hall.
+***Sensores basados en el efecto Hall
 **Para cada tipo de sensor se estudia su modelo físico (ecuación)
-**Para cada sensor se estudia sus aplicaciones industriales o en aeronaves.
+**Para cada sensor se estudia sus aplicaciones industriales o en aeronaves
 *Sensores autogeneradores
 **Termocuplas
 **Sensores pizoeléctricos
 **Sensores piroeléctricos
 **Sensores fotovoltaicos
 **Para cada tipo de sensor se estudia su modelo físico (ecuación)
-**Para cada sensor se estudia sus aplicaciones industriales o en aeronaves.
+**Para cada sensor se estudia sus aplicaciones industriales o en aeronaves
 *Otros Sensores 
 **Codificadores incremental y absoluto (Encoders)
-**Sensores basados en resonancia.
+**Sensores basados en resonancia
 **Sensores basados en juntas semiconductoras
-**Sensores basados en ultrasonido.
+**Sensores basados en ultrasonido
 **Sensores de fibra óptica
 **Biosensores
-**Aplicaciones y ejemplos.
+**Aplicaciones y ejemplos
 *Actuadores eléctricos 
 **Principios de funcionamiento de:
 ***Relés de estado sólido y mecánico
