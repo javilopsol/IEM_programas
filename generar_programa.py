@@ -78,7 +78,6 @@ def generar_programa(codigo):
     for sem in np.sort(lisProgr['semestre'].unique()):
         filter = lisProgr["semestre"] == str(sem)
         filterlist = lisProgr[filter]
-        print(filterlist)
         ubiPlane += "Curso de "
         ubiPlane += number_to_ordinals(str(sem))
         ubiPlane += " semestre en "
@@ -100,10 +99,10 @@ def generar_programa(codigo):
     objGener = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivoGeneral.item()
     objGener = objGener[0].lower() + objGener[1:len(objGener)] # primera letra en minuscula
     objEspec = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivosEspecificos.str.split('\n',expand=False).explode()
-    contenidos = descrip_obj[descrip_obj.Codigo == codCurso].Contenidos.str.split('\r\n',expand=False).explode()
-    contenidos.reset_index(inplace = True, drop = True)
+    conCurso = descrip_obj[descrip_obj.Codigo == codCurso].Contenidos.str.split('\r\n',expand=False).explode()
+    conCurso.reset_index(inplace = True, drop = True)
     nivel_1, nivel_2, nivel_3 = [0,0,0]
-    for index, row in contenidos.items():
+    for index, row in conCurso.items():
         res = 0
         for pos in range(3):
             if pos == row.find('*', pos, pos+1):
@@ -111,14 +110,16 @@ def generar_programa(codigo):
         if res == 1:
             nivel_1 += 1
             nivel_2 = 0
-            contenidos.iloc[index] = row.replace('*', f"{str(nivel_1)}. ")
+            conCurso.iloc[index] = row.replace('*', f"{str(nivel_1)}. ")
         elif res == 2:
             nivel_2 += 1
             nivel_3 = 0
-            contenidos.iloc[index] = r"\hspace{0.02\linewidth}\parbox{0.98\linewidth}{" + row.replace('**', f"{str(nivel_1)}.{str(nivel_2)}. ") + r"}"
+            conCurso.iloc[index] = r"\hspace{0.02\linewidth}\parbox{0.98\linewidth}{" + row.replace('**', f"{str(nivel_1)}.{str(nivel_2)}. ") + r"}"
         elif res == 3:
             nivel_3 += 1
-            contenidos.iloc[index] = r"\hspace{0.04\linewidth}\parbox{0.96\linewidth}{" + row.replace('***', f"{str(nivel_1)}.{str(nivel_2)}.{str(nivel_3)}. ") + r"}"
+            conCurso.iloc[index] = r"\hspace{0.04\linewidth}\parbox{0.96\linewidth}{" + row.replace('***', f"{str(nivel_1)}.{str(nivel_2)}.{str(nivel_3)}. ") + r"}"
+    metCurso = descrip_obj[descrip_obj.Codigo == codCurso].Metodologia.item()
+    evaCurso = descrip_obj[descrip_obj.Codigo == codCurso].Evaluacion.item()
     nomProfe = "Juan José Rojas Hernández"
     corProfe = "juan.rojas@itcr.ac.cr"
     conProfe = "Miercoles 7:30 a.m. - 10: 30 a.m." #Esto seria mejor construirlo tambien 
@@ -298,7 +299,6 @@ def generar_programa(codigo):
             table.add_row([bold("Suficiencia:"), f"{posSufic}"])
             table.add_row([bold("Posibilidad de reconocimiento:"), f"{posRecon}"])
             table.add_row([bold("Vigencia del programa:"), f"{vigProgr}"])
-    doc.append(NewPage())
     with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
             table.add_row([
                 textcolor
@@ -332,8 +332,8 @@ def generar_programa(codigo):
                     NoEscape(r'\textbullet'),
                     NoEscape(row)
                     ])
-    with doc.create(LongTable(table_spec=r"p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
-        for index, row in contenidos.items():
+    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
+        for index, row in conCurso.items():
             if index == 0:
                 table.add_row([
                     textcolor
@@ -359,7 +359,62 @@ def generar_programa(codigo):
     bold=True,
     text="II parte: Aspectos operativos"
     ))
+    doc.append(textcolor
+    (   
+    size="12",
+    vspace="0",
+    color="parte",
+    bold=True,
+    text=" "
+    ))
+    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
+            table.add_row([
+                textcolor
+                (
+                size="12",
+                vspace="0",
+                color="parte",
+                bold=True,
+                text="5 Metodología de enseñanza y aprendizaje"
+                ),
+                f"{metCurso}"
+            ])
+    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
+            table.add_row([
+                textcolor
+                (
+                size="12",
+                vspace="0",
+                color="parte",
+                bold=True,
+                text="6 Evaluación"
+                ),
+                NoEscape(evaCurso)
+            ])
+            table.add_row([
+                textcolor
+                (
+                size="12",
+                vspace="0",
+                color="parte",
+                bold=True,
+                text="7 Bibliografía"
+                ),
+                f"hola"
+            ])
+            table.add_row([
+                textcolor
+                (
+                size="12",
+                vspace="0",
+                color="parte",
+                bold=True,
+                text="8 Profesor"
+                ),
+                f"profesor"
+    ])
     doc.generate_pdf(f"./programas/{codCurso}", clean=True, clean_tex=False, compiler='lualatex')
+
 
 # for codigo in cursos.Codigo:
 #      generar_programa(codigo)
