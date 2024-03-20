@@ -4,13 +4,13 @@ Entre los aprendizajes más destacados se encuentran la capacidad para interpret
 Este curso sienta las bases fundamentales para asignaturas más avanzadas en el campo del diseño y la ingeniería mecánica. Proporciona una comprensión sólida de los principios y técnicas de dibujo técnico que son esenciales para el desarrollo de proyectos más complejos en las áreas de diseño y manufactura. De esta manera, establece una conexión con otros cursos de la carrera, preparando a los estudiantes para enfrentar desafíos en su trayectoria académica y profesional.","Realizar un plano de una pieza mecánica, según las normas INTE/ISO, que contenga información necesaria y suficiente para la interpretación de la forma y dimensiones de la pieza. ","Aplicar las normas INTE/ISO y de otros estándares.
 Representar mediante proyecciones ortogonales, proyecciones axonométricas, vistas auxiliares y vistas de corte una pieza mecánica.
 Acotar adecuadamente una pieza mecánica en las proyecciones ortogonales. ","*Generalidades
-**El Dibujo Técnico como lenguaje. Historia del Dibujo Técnico.
-**Objetivos del curso
-**Instrumentos de Dibujo: Escalímetro, escuadras.
-**Rotulado técnico y Formatos para dibujo Técnico
-**Norma de rotulado INTE-ISO 3098/0/2/3-2008
-**Formatos según INTE-ISO 5457-2008
-**Información que debe contener un cajetín INTE-ISO 7200-2008
+***El Dibujo Técnico como lenguaje. Historia del Dibujo Técnico.
+***Objetivos del curso
+***Instrumentos de Dibujo: Escalímetro, escuadras.
+***Rotulado técnico y Formatos para dibujo Técnico
+***Norma de rotulado INTE-ISO 3098/0/2/3-2008
+***Formatos según INTE-ISO 5457-2008
+***Información que debe contener un cajetín INTE-ISO 7200-2008
 *Geometría Descriptiva (2 hrs)
 **Consideraciones fundamentales de la Geometría Descriptiva :
 ***Objetivos del curso
@@ -72,10 +72,10 @@ Acotar adecuadamente una pieza mecánica en las proyecciones ortogonales. ","*Ge
 **Corte y secciones de piezas simétricas
 
 *Vistas auxiliares simples
-**Vistas auxiliares
-**Tipos de vistas auxiliares
-**Ubicación de las vistas auxiliares
-**Rotulado de vistas auxiliares.","Modalidad presencial en el horario de clase correspondiente. En las sesiones se expondrán los conceptos teóricos relevantes de cada tema por medio de material escrito o audiovisual, los cuales serán trabajados por el estudiante en numerosas prácticas realizadas en clases y tareas coordinadas.","
+***Vistas auxiliares
+***Tipos de vistas auxiliares
+***Ubicación de las vistas auxiliares
+***Rotulado de vistas auxiliares.","Modalidad presencial en el horario de clase correspondiente. En las sesiones se expondrán los conceptos teóricos relevantes de cada tema por medio de material escrito o audiovisual, los cuales serán trabajados por el estudiante en numerosas prácticas realizadas en clases y tareas coordinadas.","
 Examen Parcial 1; 1; 25
 Examen Parcial 2; 2; 25
 Proyecto grupal; 1; 25
@@ -493,7 +493,8 @@ También se desarrollará un proyecto de investigación, el cual se debe present
 Avance #2 TFI; 1; 20
 Trabajo escrito IF; 1; 40
 Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2030. WWW.MINAE.GO.CR: DISPONIBLE http://www.minae.go.cr/recursos/2015/pdf/VII-PNE.pdf
-2. Diego Zárate Montero/ Remigio Ramírez García. (2016). Matriz Energética de Costa Rica Renovabilidad de las fuentes y reversibilidad de los usos de energía. 2018, de fesamericacentral.org Sitio web: http://library.fes.de/pdf-files/bueros/fesamcentral/12979.pdf
+Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2030. https://urldefense.com/v3/__http://WWW.MINAE.GO.CR__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTZ2o9DtYg$ : DISPONIBLE https://urldefense.com/v3/__http://www.minae.go.cr/recursos/2015/pdf/VII-PNE.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTa1MU0IvQ$ 
+2. Diego Zárate Montero/ Remigio Ramírez García. (2016). Matriz Energética de Costa Rica Renovabilidad de las fuentes y reversibilidad de los usos de energía. 2018, de fesamericacentral.org Sitio web: https://urldefense.com/v3/__http://library.fes.de/pdf-files/bueros/fesamcentral/12979.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTbC843cbg$ 
 3. Norma ISO 50000
 4. Base de datos Biblioteca del Tecnológico de Costa Rica.",,"Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
 *
@@ -725,3 +726,792 @@ Prácticas de laboratorio; 0; 20 Proyecto de diseño; 1; 30","Schilling, D. & Be
 Malvino, A. Principios de electrónica. McGraw-Hill, 6 ed. 
 Mohan, N., Undeland, T. M., & Robbins, W. P. (2009). Electrónica de potencia: convertidores, aplicaciones y diseño (3a. ed.). Sunny Isles Beach, US: McGraw-Hill España. 
 Wakerly, J. Diseño digital, principios y prácticas. Pearson Educación - Prentice Hall, 3 ed. · Tocci, R. & Wildmer, N. Sistemas digitales, principios y aplicaciones. Pearson Educación, 10 ed.",,
+IEM2201,"Es un curso introductorio teórico sobre fundamentos de circuitos eléctricos, en el cual se estudian los conceptos básicos, teoremas y métodos de análisis de circuitos resistivos en corriente directa. Además, se estudia el comportamiento dinámico y en estado estable de circuitos de primer orden y segundo orden con bobinas, condensadores y resistencias alimentado con corriente directa, de tipo RL y RC; al final del curso see analizan circuitos RLC de orden superior utilizando transformadas de Laplace.
+El curso es el primero de la rama de ingeniería eléctrica de la carrera, está pensado para sentar las bases necesarias para luego enfrentar la solución de problemas más complejos en cursos posteriores. Busca inculcar el atributo de Herramientas de Ingeniería a nivel intermedio según la acreditación por la AAPIA. Cabe destacar que las herramientas de ingeniería se refieren tanto a las analíticas en el planteamiento del problema, como también la validación de las soluciones por medio de un software de simulación pertinente; el estudiante no solo deberá saber plantear el problema, sino simularlo y validar sus respuestas.
+Como requisitos congnocitivos para llevar el curso el estudiante deberá conocer cómo solucionar sistemas de ecuaciones lineales y cómo operar algebraícamente utilizando números complejos, estos conocimientos se imparten en el curso de Cálculo y Álgebra Lineal de la Escuela de Matemática; así como los fundamentos del fenómeno eléctrico que brinda el curso de Física General II de la Escuela de Física. Además, el estudiante deberá llevar como correquisito un curso de laboratorio en donde se ponga en práctica lo aprendido en teoría. Los conocimientos brindados en este curso serán complementados en el de Análisis de Circuitos II pero en corriente alterna.
+Al ser un curso estrictamente teórico la asistencia será libre, y su impartición podrá ser virtual, semipresencial o regular (presencial) según las necesidades de la Escuela; dejando en claro que los exámenes, quices y demás pruebas donde se evalúe el saber hacer se realizarán de forma presencial siguiendo la normativa aplicable.","Aplicar conceptos, teoremas y métodos de análisis a circuitos eléctricos en corriente directa utilizando herramientas de análisis tradicional y simulación por software","Comprender los conceptos y definiciones aplicables a un circuito eléctrico
+Analizar circuitos eléctricos básicos por medio de las leyes de Kirchhoff y de simplificación de series y paralelos
+Analizar circuitos eléctricos complejos utilizando técnicas como mallas, nodos, superposición, teoremas de Thévenin y Norton.
+Resolver circuitos RLC de primer y segundo orden utilizando la transformada de Laplace.","*Conceptos y definiciones (4 horas)
+**Bandas de energía
+**Carga eléctrica
+**Corriente 
+**Voltaje
+**Resistencia eléctrica
+**Ley de Ohm
+**Potencia eléctrica
+**Energía
+**Elementos activos y pasivos
+**Corto circuito y circuito abierto
+**Fuentes dependientes e independientes
+**Elementos de un circuito
+*Análisis de circuitos básicos. (12 horas)
+**Leyes de Kirchhoff
+**Elementos y circuitos en serie
+**Divisor de voltaje
+**Elementos y circuitos en paralelo
+**Divisor de corriente
+**Fuentes reales
+*Técnicas para el análisis de circuitos complejos. (20 horas)
+**Análisis de mallas y supermallas
+**Análisis de nodos y supernodos
+**Superposición
+**Conversión de fuentes
+**Teoremas de Thévenin y Norton
+**Teorema de máxima transferencia de potencia
+**Conversión de delta-estrella y estrella-delta
+**Circuitos Puente (H, Wheastone, celda de carga)
+*Bobinas y condensadores (12 horas)
+**Definición de elementos reactivos
+**Fundamentos de condensadores y bobinas
+**Arreglo de elementos reactivos en serie y paralelo
+**Respuesta natural y forzada
+**La función de singularidad
+**Circuitos de primer orden RL y RC
+**Circuitos de segundo orden RLC en serie y paralelo
+*Fundamentos de la transformada de Laplace (16 horas)
+**Definición de la transformada de Laplace
+**Propiedades de la transformada de Laplace
+**Definición de elementos en el dominio “s”
+**Análisis de circuitos RLC en estado transitorio y estable utilizando transformada de Laplace","Lecciones de asistencia libre, donde se expondrán los conceptos relevantes de cada tema. Los documentos y noticias se publicarán oficialmente en el TECDigital. Los contenidos serán desarrollados en clases magistrales, presentaciones en PowerPoint, ejemplos resueltos y ejercicios propuestos; siendo evaluados en tareas y exámenes. 
+Se utilizarán además actividades formativas para reforzar el aprendizaje de los conceptos vistos, de forma complementaria se pondrán a disposición guías de estudio, texto de referencia, videos, ejercicios tomados de exámenes de semestres anteriores, entre otros. 
+Los exámenes parciales y cortos se aplicarán de forma presencial en fechas y modos que oportunamente se indicarán según lo previsto por el RREA; la publicación de estos se hará en el TECDigital y los correos oficiales de los estudiantes según la lista del DAR.
+Con el curso se pretende trabajar en el objetivo de desarrollo sostenible (ODS) número 4 “Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos”. En particular las siguientes acciones:
+De aquí a 2030, asegurar el acceso igualitario de todos los hombres y las mujeres a una formación técnica, profesional y superior de calidad, incluida la enseñanza universitaria.
+De aquí a 2030, aumentar considerablemente el número de jóvenes y adultos que tienen las competencias necesarias, en particular técnicas y profesionales, para acceder al empleo, el trabajo decente y el emprendimiento.","Primer parcial; 1;30
+Segundo parcial; 1; 30
+Tercer parcial; 1; 30
+Proyecto programado; 1; 10","[1] Hayt, William H; Kemmerly, Jack E; Durbin, Steven M. “Análisis de circuitos en ingeniería”.  McGraw-Hill, México. Séptima edición, 2007.
+[2] Boylestad, Robert L. “Introducción al análisis de circuitos”. Prentice Hall, México. Decimosegunda edición, 2011.
+[3] Alexander, Charles K.; Sadiku, Matthew N. “Fundamentos de circuitos eléctricos”. McGraw-Hill, México. Quinta edición, 2013.",,
+IEM2202,Este curso profundiza el estudio de señales sinusoidales en circuitos lineales RLC brindando herramientas de análisis en el dominio del tiempo y respuesta en frecuencia. Su aprovechamiento complementa las bases en la teoría general de circuitos eléctricos y aporta conocimientos necesarios para abordar apropiadamente los cursos posteriores.,Brindar las bases teóricas que describen los circuitos de corriente alterna y abordar herramientas computacionales de simulación y análisis,"Comprender el comportamiento de los distintos elementos que conforman un circuito RLC bajo excitación sinusoidal.	
+Analizar el concepto de Función de transferencia y su estructura general con el fin de determinar los diagramas de Bode
+Relacionar las señales periódicas con las series de Fourier y su respuesta ante filtros pasivos
+Utilizar herramientas para el estudio de circuitos en el dominio del tiempo y frecuencia, aplicación del concepto de resonancia pura y compuesta.","*Métodos de análisis en Corriente Alterna 
+**Representación fasorial y vectorial de tensiones, corrientes, impedancias y admitancias
+**Leyes de Kirchhoff en Análisis de mallas y nodos en estado estable
+**Transformación de fuentes tensión y corriente
+**Teoremas de Thévenin y Norton enfocado al principio de máxima transferencia de potencia
+**Linealidad y superposición de tensiones y corrientes, cálculo de potencia 
+*Potencia Eléctrica
+**Cálculo del valor efectivo
+**Potencia instantánea y promedio. 
+**Definición de potencias reactiva, aparente y real. 
+**Concepto del Factor de potencia y su relación con cargas lineales
+**Corrección del Factor de potencia
+**Cálculo de potencia promedio en señales senoidales compuestas
+*Circuito monofásico trifilar
+**Concepto de circuitos polifásicos y su extensión a redes monofásicas 
+**Definición de redes simétricas (fuentes balanceadas)
+**Esquemas de corrección del FP en circuitos monofásicas
+*Respuesta en frecuencia 
+**Teorema de Euler y el concepto de frecuencia compleja
+**Operador s en circuitos RLC y su relación con la transformada de Laplace
+**Función de transferencia, relaciones de impedancia, admitancia y ganancias de tensión o corriente
+**Diagramas de Bode y representación en el plano complejo
+**Análisis de función de transferencia, ganancia, ceros y polos. Atenuación y decibelios
+**Filtros pasivos, ancho de banda, banda rechazada, frecuencia de corte, frecuencia central, factor de calidad
+**Resonancia serie, paralelo, resonancia compuesta en circuitos RLC
+*Series de Fourier
+**Definición. Relación con el valor efectivo y potencia promedio
+**Concepto de contenido armónico, efecto de filtros en el contenido armónico
+**Distorsión armónica total (THD)
+**Relación del THD con el valor efectivo y el factor de potencia desplazado (FPD) en redes a 60Hz
+*Redes bipuertos
+**Concepto de redes de dos puertos
+**Parámetros de Impedancia, Admitancia, Híbridas y Transmisión
+**Modelado y aplicación",,"Primer Parcial; 1; 20
+Segundo Parcial; 1; 20
+Tercer Parcial; 1; 20
+Proyecto de simulación; 1; 20
+Evaluaciones cortas; 0; 20","Alexander, Charles K.; Sadiku, Matthew N. “Fundamentos de circuitos eléctricos”. McGraw-Hill, México. 7 edición, 2022.
+Dorf, Richard; Svoboda, James A. “Circuitos eléctricos”. Alfaomega, México. Octava edición, 2011.
+Boylestad, Robert L. “Introducción al análisis de circuitos”. Prentice Hall, México. Decimosegunda edición, 2011.",,
+IEM2205,"El curso de Máquinas Eléctricas I proporciona una base sólida en corriente alterna, equipando al estudiante con las habilidades necesarias para comprender, plantear y resolver problemas relacionados con sistemas eléctricos, así como máquinas eléctricas estáticas y rotativas, tanto en configuraciones trifásicas como monofásicas.
+Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para efectuar cálculos de tensiones, corrientes, potencias y condiciones de operación en configuraciones tanto trifásicas como monofásicas, aplicables a sistemas y máquinas eléctricos estáticas y rotativas de inducción. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
+El presente curso establece los fundamentos necesarios para el posterior estudio en Máquinas Eléctricas II, donde se abordarán diferentes tipos de máquinas dentro de contextos analíticos diversos. Asimismo, ofrece una comprensión sólida de las máquinas eléctricas estudiadas, que servirán como base para su instalación, operación y mantenimiento. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Al final del curso la persona estudiante será capaz de diferenciar los diversos usos de las máquinas eléctricas para cada una de las aplicaciones de uso industrial, comercial o residencial. ","Analizar sistemas eléctricos trifásicos balanceado y desbalanceados.
+Diferenciar los diversos tipos de transformadores trifásicos y monofásicos para su uso.
+Relacionar los usos de las máquinas eléctricas de inducción monofásico y trifásicas.","1.	Circuitos y elementos lineales, monofásicos y trifásicos balanceados y desbalanceados. (12 horas)
+a.	Sistema Monofásico (2 horas)
+i.	Cargas resistivas, inductivas y capacitivas. 
+ii.	Cálculo de la corriente en el neutro.
+
+2.	Sistemas Trifásicos (6 horas)
+a.	Principio de generación 
+b.	Tensiones trifásicas balanceadas 
+c.	Tipos de circuitos trifásicos 
+d.	Generador trifásico en estrella 
+e.	Tensiones de línea y de fase 
+f.	Desfase entre línea y fase 
+g.	Secuencia de fase 
+h.	Corrientes de línea y fase 
+i.	Conexiones en cargas balanceadas y desbalanceadas.
+
+3.	Potencia Monofásica y Trifásica (4 horas)
+a.	Sistemas balanceados y Desbalanceados
+b.	Potencia activa, reactiva y aparente (triángulo de potencias) 
+c.	Medición del factor de potencia.
+d.	Mejoramiento de factor de potencia.
+
+4.	Estructuras Ferromagnéticas (12 horas)
+a.	Excitadas en Corriente Directa (6 horas)
+i.	Propiedades de los materiales ferromagnéticos.
+ii.	Teoría de los dominios ferromagnéticos.
+iii.	Curvas de magnetización.
+iv.	Lazo de histéresis, flujo residual y fuerza coercitiva.
+v.	El concepto del circuito magnético. Fuerza magnetomotriz, reluctancia y permeancia magnética.
+vi.	Métodos de análisis de circuitos ferromagnéticos.
+vii.	Entrehierros en circuitos ferromagnéticos.
+viii.	Estructuras ferromagnéticas, con varias bobinas de excitación.
+ix.	Circuitos magnéticos, con saturación magnética.
+a.	Excitadas en Corriente Alterna (6 horas)
+i.	Ley de inducción electromagnética de Faraday.
+ii.	Relaciones entre tensión aplicada, tensión inducida y flujo magnético.
+iii.	Forma de onda de la corriente de excitación.
+iv.	Energía almacenada en el núcleo ferromagnético.
+v.	Pérdida de energía en el núcleo ferromagnético.
+vi.	Modelo de la corriente de excitación no senoidal. Armónicas impares.
+vii.	Cálculo de los parámetros de un reactor, con núcleo ferromagnético.
+
+5.	Transformadores (16 horas)
+a.	Transformadores Monofásicos (8 horas) 
+i.	Tipos de transformadores de distribución. Aéreos, subterráneos, sumergibles, convencionales y de pedestal.
+ii.	El transformador ideal.
+iii.	Polaridad de los transformadores.
+iv.	Transformadores aditivos y sustractivos.
+v.	El transformador real. Núcleos laminados, flujos de dispersión, y pérdidas en el núcleo.
+vi.	Circuito del transformador real y diagramas fasoriales.
+vii.	Cálculo de parámetros del transformador real.
+viii.	Regulación de tensión del transformador.
+ix.	Eficiencia, y eficiencia máxima del transformador.
+x.	Sistema en por unidad.
+xi.	Datos de placa.
+xii.	Autotransformador.
+xiii.	Conexión en paralelo de transformadores. Intercambiador de derivaciones (tomas regulables bajo carga.
+b.	Transformadores Trifásicos (8 horas)
+i.	Conexiones simétricas: estrella-estrella, delta-delta, delta-estrella, estrella-delta, estrella-zigzag.
+ii.	Conexión en paralelo. Índice horario.
+iii.	Conexiones asimétricas: estrella renca - delta abierta, conexión en T, conexión de Scott.
+iv.	Datos de placa.
+v.	Autotransformador.
+vi.	Transformadores de tres devanados.
+
+6.	Máquinas de Inducción Asincrónica (24 horas)
+a.	Motor Trifásico de Inducción (16 horas)
+i.	Principio de funcionamiento.
+ii.	Ley de Ampere
+iii.	Ley de Faraday-Lenz
+iv.	Fuerza de Lorentz
+v.	Construcción de las partes principales de una máquina eléctrica rotativa.
+vi.	Velocidad del campo magnético rotatorio, velocidad mecánica, deslizamiento y frecuencia en el rotor.
+vii.	Circuito equivalente.
+viii.	Par desarrollado en función del deslizamiento.
+ix.	Curva característica: Arranque directo.
+x.	Descripción de datos de la placa característica.
+xi.	Métodos de arranque por resistencias estatóricas, estrella-delta, devanado partido, auto transformador, resistencia rotórica y arranque suave.
+xii.	Métodos de control de velocidad y variador de frecuencia.
+xiii.	Pérdidas eléctricas, mecánicas, magnéticas y eficiencia.
+
+b.	Motor Monofásico de Inducción (4 horas)
+i.	Construcción y modelado dinámico de la máquina.
+ii.	Principio de funcionamiento (Doble campo magnético rotatorio):
+iii.	Tipos de motores:
+1.	Fase Partida.
+2.	Capacitor de arranque.
+3.	Capacitor permanente.
+4.	Doble capacitor.
+5.	Polos sombreados.
+
+c.	Generador de inducción trifásico, auto-excitado (4 horas)
+i.	Tipos de generadores de inducción
+ii.	Circuito equivalente.
+iii.	Capacitor de excitación.
+iv.	Desempeño del generador, conectado a una red de potencia infinita.
+v.	Desempeño del generador, conectado en forma aislada.","Se ofrecerán clases magistrales de manera presencial, en las cuales se presentarán los conceptos relevantes de cada tema. Estos conceptos serán luego abordados por los estudiantes a través de numerosas prácticas, tareas y exámenes cortos. Durante el horario establecido, los estudiantes tendrán la oportunidad de consultar al profesor para aclarar dudas relacionadas tanto con el contenido teórico como con las tareas relacionadas a proyectos asignados.
+A lo largo del curso, se fomentará la participación de los estudiantes en diversas actividades en clase, como preguntas dirigidas por el profesor y trabajos en grupos para resolver ejercicios específicos relacionados con los temas tratados en las lecciones correspondientes. Además, se llevarán a cabo exámenes parciales con el fin de evaluar el material cubierto en clase, ya sea presencialmente o a través de tareas de resolución de ejercicios e investigaciones asignadas.","I Examen Parcial; 1; 25
+II Examen Parcial; 1; 25
+III Examen Parcial; 1; 25
+Exámenes cortos y tareas; 1; 25","1.	Garik, M. Whipple, C. Máquinas de Corriente Alterna. Decimosegunda impresión, octubre de 1984. México, CECSA.
+2.	Chapman, S. (2012). Máquinas Eléctricas (5 ed.). Mexico: McGraw Hill.
+3.	Filtgerald, A., Kingsley, C., & Umans, S. D. (2004). Máquinas Eléctricas (6ta ed.). Mexico D.F.: MacGraw Hill.
+4.	Fraile, J. (2008). Máquinas Eléctricas (6ta ed.). Madrid: McGraw-Hill.
+5.	Huberts, C. I. (2002). Electric Machines: Theory, Operation, Application, Ajustment 
+6.	Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
+7.	NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
+8.	ROSERBER, ROBERT. Reparación de Motores Eléctricos. Editorial Gustavo Gili. Barcelona. Sexta Edición.
+9.	Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
+10.	Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
+11.	Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+IEM2255,"El presente laboratorio busca aplicar y demostrar los conceptos y temas principales del curso Máquinas Eléctricas I, comprende mediciones de potencia en redes monofásicas y trifásicas bajo distintas configuraciones. Introduce las máquinas eléctricas llamadas transformadores conectado como autotransformadores y transformadores monofásicos y trifásicos para análisis de reflejo de impedancias y cálculo de potencias. Además, se abarca los motores de inducción, trifásicos como monofásicos, finalizando con el uso especial de un generador asincrónico.
+Además, mediante la práctica, el estudiante tiene la posibilidad de analizar y realizar diagramas de conexión, así como la utilización de instrumentos y equipos, relacionados con la operación de estas máquinas
+","Aplicar los conceptos desarrollados en el curso de Máquinas Eléctricas I, de una forma práctica temas como sistemas de potencia monofásicos y trifásicos, transformadores y motores de inducción, que permita evidenciar los fenómenos y comprobar datos teóricos con mediciones experimentales.","Conocer la construcción y funcionamiento de transformadores de potencia monofásicos y trifásicos
+Verificar de manera práctica los conceptos teóricos estudiados en el curso de Máquinas Eléctricas I
+Aplicar diversos métodos de medición de potencia monofásica y trifásica y comprobar las características eléctricas de estas configuraciones. ","Laboratorio N°1: Circuito monofásico trifilar.
+Laboratorio N°2: Medición de Potencia: Conexión en estrella balanceado y desbalanceado.
+Laboratorio N°3: Medición de Potencia: Conexión en delta. Balanceado y desbalanceado.
+Laboratorio N°4: Mejoramiento del Factor de Potencia en redes trifásicas.
+Laboratorio N°5: Transformador monofásico (Polaridad y Saturación)
+Laboratorio N°6: Transformador monofásicos (Regulación de tensión).
+Laboratorio N°7: Autotransformadores y Pruebas de corto y circuito abierto.
+Laboratorio N°8 Conexiones Trifásicas de transformadores
+Laboratorio N°9 Conexión de devanados estatóricos
+Laboratorio N°10: Motor trifásico de jaula de ardilla y rotor devanado
+Laboratorio N°11 Control de velocidad con VFD
+Laboratorio N°12 Motores monofásicos de inducción con doble capacitor.
+Laboratorio N°13 Pruebas de rotor bloqueado en motor trifásico de inducción.
+Laboratorio N°14 Generador asincrónico.","Los laboratorios serán expuestos por los estudiantes y guiados por el profesor. Los estudiantes asignados darán una breve introducción del laboratorio que incluye. El objetivo, diagramas de conexión, equipo, procedimiento a realizar, tablas de datos experimentales, y los principales cuidados.
+
+Todos los estudiantes presentarán un trabajo previo el día del laboratorio, que incluye el objetivo, diagrama de conexión y tabla de datos. La bitácora de cada laboratorio debe entregarse 8 días después de realizar cada experimento.
+Luego los estudiantes conectan los equipos e instrumentos y realizan la práctica del día; posteriormente con los datos obtenidos se realizará el análisis de los resultados obtenidos.
+
+Se realizarán 2 Casos de Análisis en el aula, la nota de cada caso se dividirá en un 50% individual evaluado a través de una comprobación corta, y el otro 50% a través de una solución grupal del caso","Bitácoras; 0; 40
+Tareas y quices; 0; 20
+Casos de análisis; 0; 40","Chapman, Stephen. “Máquinas eléctricas”. McGraw Hil, México. Quinta Edición, 2012. 
+Rosenberg, Robert. Reparación de Motores Eléctricos. Editorial Gustavo Gili. Barcelona. Sexta Edición.
+Fraile, J. (2008). Máquinas Eléctricas (6ta ed.). Madrid: McGraw-Hill.
+Huberts, C. I. (2002). Electric Machines: Theory, Operation, Application, Ajustment 
+Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
+NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
+Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
+Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+IEM2206,"El curso de Máquinas Eléctricas II, representa la continuidad del estudio de las máquinas eléctricas desarrollado en el curso Máquinas Eléctricas I, es de carácter intermedio-avanzado y aplicado, donde se desarrollan conocimientos previos adquiridos a través de su formación ingenieril, con lo cual se espera que el estudiante desarrolle competencias para la comprensión, planteo y solución de los problemas de las máquinas eléctricas rotativas, especialmente Máquinas Sincrónicas Trifásicas y Máquinas de Corriente Directa. Es un curso de alto nivel.
+Está diseñado a fin de que el estudiante próximo a realizar su proyecto final de graduación, cuente con los conceptos relacionados a las máquinas rotativas de mayor uso en la industria. El curso estudia condiciones en estado estable de las maquinas eléctricas tanto de CA como CD. Se promueve un conocimiento amplio y permite la interacción del futuro ingeniero con profesionales de diversas áreas en el desempeño de sus labores profesionales. Durante el desarrollo de las lecciones se promueve el respeto, la ética profesional y la responsabilidad como futuros ingenieros y las repercusiones tanto éticas ante el Colegio Federado de Ingenieros como por la vía judicial, ya que, en el ejercicio de su profesión, los diseños, cotizaciones y propuestas contemplan declaraciones juradas por parte de los profesionales.
+Al terminar el curso, el estudiante conocerá las características de funcionamiento y usos principales de los Alternadores Sincrónicos, Generadores de Corriente Directa y Motores Sincrónicos y Motores de Corriente Directa, conocimientos que lo capacitarán para su operación y mantenimiento. 
+El estudiante podrá describir funcionamiento, construcción y aplicación en uso comercial e industrial de las máquinas eléctricas rotatorias. Estará en capacidad de analizar su comportamiento bajo ciertas condiciones operativas para la toma de decisiones y brindar mantenimiento. Podrá diagnosticar las fallas que se pueden presentar. 
+Se estudiarán los alternadores y motores sincrónicos, donde el estudiante aprenderá la construcción, funcionamiento y características de estas máquinas en régimen permanente. Estará también en capacidad de realizar análisis matemáticos y fasoriales de operación y hacer diagnósticos de fallas que se pueden presentar. 
+En el curso se estudiará los motores y generadores de corriente directa. Los estudiantes podrán describir las características de operación, construcción y funcionamiento de estas máquinas. También estará en capacidad de diagnosticar fallas y analizar su funcionamiento bajo determinadas condiciones. También se contempla el estudio de máquinas especiales tales como Servomotores y Motores a Pasos.
+Además, el proceso de formación conlleva aprendizaje de otras ramas que les facilitarán su interacción con otros profesionales en el desarrollo de proyectos multidisciplinarios. Al final del curso, el estudiante será capaz de dirigir y coordinar, tomar decisiones técnicas relacionados con el mantenimiento, operación, puesta en marcha de las principales máquinas eléctricas rotativas. Referente al plan de estudios, el curso de Máquinas Eléctricas I es un curso obligatorio del Área Académica XXXXXX","Analizar las máquinas eléctricas rotativas sincrónicas y de corriente directa en régimen permanente, que permita la comprensión, modelado, aplicación y puesta en marcha.","Realizar análisis de las máquinas eléctricas rotativas de Corriente Alterna trifásicas Sincrónicas a partir de modelos matemáticos equivalentes, para el establecimiento del punto de operación ante diversas condiciones de funcionamiento.
+Realizar análisis de las máquinas eléctricas rotativas de Corriente Directa a partir de modelos matemáticos equivalentes, para el establecimiento del punto de operación ante diversas condiciones de funcionamiento.
+Adquirir conocimiento de las partes constructivas de las máquinas eléctricas rotativas Sincrónicas y Corriente Directa, así como su importancia en operación y mantenimiento para la comprensión de la caracterización y modos de fallas.
+Modelar en lenguaje de programación OPENSOURCE para la simulación del funcionamiento de distintas máquinas eléctricas rotativas.","*Máquinas Sincrónicas 
+**Alternador Sincrónico 
+***Principio de funcionamiento
+***Construcción de las partes principales.
+***Tipos de rotor
+***Sistemas de control de máquinas sincrónicas
+***Excitación de alternadores (Con escobillas, sin escobillas)
+***Principios de funcionamiento y curva de magnetización.
+***Modelo en régimen permanente y diagramas fasoriales.
+***Ecuaciones para modelado
+***Inductancias propias de la máquina sincrónica
+***Transformación de Park
+***Diagramas fasoriales
+***Ecuaciones de Potencia activa y reactiva
+***Límites de estabilidad
+***Sistema pu de la máquina sincrónica
+***Alternador en funcionamiento aislado.
+***Regulación de tensión y factor de potencia.
+***Saturación de la máquina sincrónica
+***Características de saturación de circuito abierto
+***Características de saturación del entrehierro y cortocircuito.
+***Pérdidas eléctricas, mecánicas, magnéticas y eficiencia.
+***Modelado de saturación en sistemas de potencia (S1.0 y S1.2)
+***Curva de capacidad de la máquina
+***Generadores operando en paralelo de forma aislada.
+***enerador en funcionamiento en una red de potencia infinita.
+***Análisis de generadores considerando: efecto del gobernador y efecto de la excitación.
+***Operación del generador conectada a una barra infinita.
+**Motor Sincrónico 
+***Principio de funcionamiento.
+***Modelo en régimen permanente y diagramas fasoriales.
+***Par desarrollado.
+***Curvas V y control del factor de potencia.
+***Pérdidas eléctricas, mecánicas, magnéticas y eficiencia
+***Datos de placa.
+***Condensador sincrónico. 
+*Máquinas de Corriente Directa 
+**Principio de Funcionamiento
+***Principio de funcionamiento
+***Partes constructivas (estator, rotor, colector, escobillas, etc.)
+***Modelo matemático de flujos y corrientes de devanados
+***Tensión inducida en una espira giratoria
+***Par inducido por una espira giratoria
+**Conmutación (2 horas, ½ semana)
+***El proceso de conmutación
+***Problemas de conmutación
+***Desplazamiento de escobillas, interpolos y devanados de compensación
+**Generador de Corriente Directa 
+***Construcción.
+***Principio de funcionamiento.
+***Generación en una espira.
+***Generación en una armadura.
+***Conmutación.
+***Reacción de armadura.
+***Métodos para disminuir la reacción de armadura.
+***Desplazamiento de escobillas.
+***Polos de conmutación.
+***Bobinados de compensación.
+***Método de excitación de campo.
+***Generador excitación independiente.
+***Características.
+***Generador auto excitadas:
+***Conexión Shunt.
+***Conexión Serie.
+***Conexión Compuesto-acumulativa.
+***Conexión Compuesto diferencial.
+***Eficiencia.
+***Datos de placa.
+***Escobillas.
+**Motores de Corriente Directa
+***Principio de funcionamiento.
+***Producción de par y circuito equivalente.
+***Motor excitación independiente.
+***Motor excitación paralela (Shunt).
+***Motor excitación serie.
+***Motor excitación compuesta acumulativa.
+***Motor excitación compuesta diferencial.
+***Eficiencia.
+***Control de velocidad.
+***Datos de placa.
+**Maquinas Eléctricas Especiales
+***Motor Universal
+***Servomotores
+***Motor a pasos
+***Motores LinealeS",,"I examen Parcial; 1; 35
+II Examen Parcial; 1; 25
+Exámenes cortos; 0; 20
+Proyecto; 1; 20","Garik, M. Whipple, C. Máquinas de Corriente Alterna. Decimosegunda impresión, octubre de 1984. México, CECSA.
+Chapman, S. (2012). Máquinas Eléctricas (5 ed.). Mexico: McGraw Hill.
+Filtgerald, A., Kingsley, C., & Umans, S. D. (2004). Máquinas Eléctricas (6ta ed.). Mexico D.F.: MacGraw Hill.
+Fraile, J. (2008). Máquinas Eléctricas (6ta ed.). Madrid: McGraw-Hill.
+Huberts, C. I. (2002). Electric Machines: Theory, Operation, Application, Ajustment 
+Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
+NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
+ROSERBER, ROBERT. Reparación de Motores Eléctricos. Editorial Gustavo Gili. Barcelona. Sexta Edición.
+Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
+Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,"Osvaldo Guerrero Castro; Ing; oguerrero@tec.ac.cr
+Ingeniero en Mantenimiento Industrial"
+IEM2256,"El curso pretende ser un complemento del curso teórico de Máquinas Eléctricas II, donde el estudiante tiene la posibilidad de comprobar experimentalmente, los planteamientos teóricos expuestos en la teoría. Busca que el estudiante realice prácticas con Máquinas Sincrónicas (Motor y Alternador) y Máquinas de Corriente Directa analice su comportamiento, bajo diversas condiciones de carga (régimen estable).
+
+Además, mediante la práctica, el estudiante tiene la posibilidad de analizar y realizar diagramas de conexión, así como la utilización de instrumentos y equipos, relacionados con la operación de estas máquinas eléctricas rotativas.","Conocer y analizar las diferentes conexiones que se pueden realizar en las máquinas eléctricas rotativas (motores y generadores sincrónicos) de AC y DC, más comunes en la industria.","Conocer los tipos de conexión que debe realizar en los motores y alternadores sincrónicos, y máquinas de CD según ciertas condiciones operativas.
+Comprobar mediante la utilización de equipos e instrumentos, las características de los motores y generadores en AC y DC.
+Analizar el comportamiento de los motores y generadores en AC y DC bajo ciertas circunstancias de operación y de acuerdo con sus características.
+analice el comportamiento de los motores y generadores en AC y DC bajo ciertas circunstancias de operación y de acuerdo con sus características.","Laboratorio N°1: Alternadores sincrónicos Aislado
+Laboratorio N°2: Pruebas de Máquina Sincrónica (Reactancia y Resistencia armadura)
+Laboratorio N°3 Curva de Capacidad del Alternador
+Laboratorio N°4: Alternador Sincrónico en RED
+Laboratorio N°5 Motores sincrónicos curvas en V
+Laboratorio N°6 Motor sincrónico condensador sincrónico
+Máquinas de Corriente Directa
+Laboratorio N°7 Generador Corriente Directa Conexión Shunt e independiente
+Laboratorio N°8 Generador Corriente Directa Conexión Compuesta
+Laboratorio N°9 Motor Corriente Directa Conexión Shunt
+Laboratorio N°10 Motor Corriente Directa Conexión Compuesta
+Laboratorio N°11 Motor Corriente Directa Métodos Control de Velocidad
+Máquinas especiales
+Laboratorio N°12 Motor a pasos
+Laboratorio N°13 Servomotor
+Laboratorio N°14 Motor universal","Los laboratorios serán expuestos por los estudiantes y guiados por el profesor. Los estudiantes asignados darán una breve introducción del laboratorio que incluye. El objetivo, diagramas de conexión, equipo, procedimiento a realizar, tablas de datos experimentales, y los principales cuidados.
+
+Todos los estudiantes presentarán un trabajo previo el día del laboratorio, que incluye el objetivo, diagrama de conexión y tabla de datos. 
+Luego los estudiantes conectan los equipos e instrumentos y realizan la práctica del día; posteriormente con los datos obtenidos se realizará el análisis de los resultados obtenidos.
+
+Se realizarán dos CASOS de análisis en el aula, la nota de cada caso se dividirá en un 50% individual evaluado a través de una comprobación corta, y el otro 50% a través de una solución grupal del caso","Bitácoras; 0; 40
+Tareas y quices; 0; 20
+Casos de análisis; 0; 40","Chapman, S. (2012). Máquinas Eléctricas (5 ed.). Mexico: McGraw Hill.
+Filtgerald, A., Kingsley, C., & Umans, S. D. (2004). Máquinas Eléctricas (6ta ed.). Mexico D.F.: MacGraw Hill.
+Fraile, J. (2008). Máquinas Eléctricas (6ta ed.). Madrid: McGraw-Hill.
+Huberts, C. I. (2002). Electric Machines: Theory, Operation, Application, Ajustment 
+Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
+NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
+Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
+Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+IEM2208,"El curso de Instalaciones Eléctricas proporciona una base sólida en el diseño eléctrico, preparando al estudiante con las habilidades necesarias para realizar proyectos industriales, comerciales y residenciales en baja tensión sometidos a los criterios del Código Eléctrico del Costa Rica del Colegio Federado de Ingenieros.
+Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para diseñar instalaciones eléctricas de baja tensión, efectuar análisis del desempeño energético y presupuestos, estudios de cortocircuito, selección de protecciones, elaboración de planos bajo la normativa actual. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
+El presente curso brinda las herramientas necesarias para las diferentes situaciones dentro de los contextos tanto analíticos como ingenieriles a los que el estudiante se encuentre. Asimismo, ofrece una comprensión sólida de los sistemas de eléctricos abarcando los cursos anteriores, que servirán como fundamento para proyectos de instalación, operación y mantenimiento en baja tensión. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Diseñar sistemas de potencia de baja tensión industriales, comerciales y residenciales. ","Diseñar instalaciones eléctricas industriales, comerciales y residenciales.
+Calcular conductores de puesta a tierra.
+Seleccionar protecciones térmicas y termomagnéticas a máquinas eléctricas estáticas y rotativas.
+Confeccionar estudios de cortocircuito, luminotécnicos, de bajo factor de potencia a instalaciones de baja tensión.","*Tipos de instalaciones eléctricas en baja tensión (2 horas)
+**Circuito monofásico trifilar.
+**Circuitos trifásicos.
+*Selección de Conductores (8 horas)
+**Según su aplicación 
+**Según la ampacidad
+**Según la caída de voltaje
+**Según la temperatura de operación y temperatura ambiente.
+**Según el número de Conductores
+**Según se encuentre al aire libre o en canalizaciones
+**Otros criterios
+*Cálculo de Circuitos Ramales para diferentes tipos de Cargas Eléctricas (8 horas)
+**Selección de conductores vivos, neutros y conductores de puesta a tierra
+**Factores de demanda
+**Selección de protecciones térmicas y termomagnéticas
+*Seguridad en Instalaciones Eléctricas y Puesta a Tierra (4 horas)
+**Tolerancia del ser humano a la electricidad, tiempo y niveles máximos de exposición, el tiempo máximo permitido para el funcionamiento de las protecciones.
+**Puesta a tierra y operación de las protecciones.
+**Puesta a tierras y neutro, conexión según NEC
+**Cálculo del conductor de puesta a tierra y del conductor del electrodo de puesta a tierra
+**Diferentes sistemas de puesta a tierra. 
+*Dimensionamiento de Alimentadores y acometidas para diferentes tipos de Cargas Eléctricas. (8 horas)
+**Conceptos de carga instalada, carga demandada, factor de carga y manejo de carga.
+**Factores de simultaneidad y diversidad
+**Dimensionamiento de Acometidas (áreas y subterráneas) y Transformadores 
+**Selección de conductores vivos, neutros y conductores de puesta a tierra
+**Selección de protecciones térmicas y termomagnéticas 
+**Dimensionamiento del transformador y su cargabilidad según IEEE
+**Protección de Transformadores 
+*Corrección del Factor de Potencia (4 horas)
+**Importancia.
+**Opciones de corrección (instalación de un banco capacitores o capacitor)
+*Estudio de Corto Circuito (Cálculo manual) (8 horas)
+**Teoría de la corriente simétrica y asimétrica al corto circuito.
+**Métodos para realizar estudios de corto circuito en baja tención:
+***Método de la Impedancia Equivalente.
+***Método de los KVA´s equivalentes.
+*Coordinación de protecciones (8 horas)
+**Teoría y conceptos de la respuesta selectiva de las protecciones.
+**Curvas características de las protecciones eléctricas.
+*Principios de Luminotecnia y Diseño de Sistemas de Iluminación (8 horas)
+**Teoría y conceptos de luminotecnia.
+**Tipos de luminarias y sus datos técnicos.
+**Métodos de diseño de iluminación:
+***Lúmenes.
+***Cavidades zonales.
+***Punto por punto.
+*Calidad de la Energía Eléctrica (2 horas)
+**Niveles de calidad normados por la ARESEP en tensión, corriente, frecuencia, distorsión armónica, etc.
+**Distorsión armónica, transitorios y métodos de mitigación de sus efectos
+*Planos y Especificaciones (2 horas)
+**Simbología.
+**Normativa.
+**Conformación de los planos.","Se ofrecerán clases magistrales de manera presencial, en las cuales se presentarán los conceptos relevantes de cada tema. Estos conceptos serán luego abordados por los estudiantes a través de numerosas prácticas, tareas y exámenes cortos. Durante el horario establecido, los estudiantes tendrán la oportunidad de consultar al profesor para aclarar dudas relacionadas tanto con el contenido teórico como con las tareas relacionadas a proyectos asignados.
+A lo largo del curso, se fomentará la participación de los estudiantes en diversas actividades en clase, como preguntas dirigidas por el profesor y trabajos en grupos para resolver ejercicios específicos relacionados con los temas tratados en las lecciones correspondientes. Además, se llevarán a cabo exámenes parciales con el fin de evaluar el material cubierto en clase, ya sea presencialmente o a través de tareas de resolución de ejercicios e investigaciones asignadas.","I Examen Parcial; 1; 20
+II Examen Parcial; 1; 20
+III Examen Parcial; 0; 30
+Proyecto; 1; 30","*Libros
+**National Fire Protection Association (NFPA 70). Código Eléctrico Nacional última versión en español oficializada en el país.
+**Earley, Coache, Cloutier y Moniz. (NFPA 70) Handbook. USA: National Fire Protection Association. International Electrical Code Series
+**Beeman, D (1995). Industrial Power Systems Handbook. New York: Mc Graw-Hill.
+**Stallcup, J (2002). Stallcup´s Electrical Design Book. USA: Grayboy Publishing.
+*Manuales de referencia (Libros de colores de la IEEE)			
+**IEEE Recommended Practice for Electric Power Distribution for Industrial Plants (Red Book) 						
+**IEEE Recommended Practice for Grounding of Industrial and Commercial Power Systems (Green Book) 				
+**IEEE Recommended Practice for Electric Power Systems in Commercial Buildings (Gray Book) 					
+**IEEE Recommended Practice for Protection and Coordination of Industrial and Commercial Power Systems (Buff Book) 		
+**IEEE Recommended Practice for Industrial and Commercial Power Systems Analysis (Brown Book) 					
+**IEEE Recommended Practice for Emergency and Stanby Power Systems for Industrial and Commercial Applications (Orange Book)
+**IEEE Recommended Practice for the Design of Reliable Industrial and Commercial Power Systems (Gold Book) 		
+**IEEE Recommended Practice for Electrical Systems in Health Care Facilities (White Book) 						
+**IEEE Recommended Practice for Energy Management in Industrial and Commercial Facilities (Bronze Book) 
+**IEEE Guide for Maintenance, Operation and Safety of Industrial and Commercial Power Systems (Yellow Book) 
+**IEEE Recommended Practice for Applying Low Voltage Circuit Breaker Used in Industrial and Commercial Power Systems (Blue Book)",,
+IEM2207,"El curso de Análisis de Sistemas de Potencia proporciona una base sólida en modelado y simulación, preparando al estudiante con las habilidades necesarias para comprender, plantear y resolver problemas complejos relacionados con sistemas de potencia de mediana y alta tensión sometidos a condiciones de operación normal o bajo situaciones extremas.
+Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para diseñar líneas de transmisión, efectuar cálculos del desempeño de las redes eléctricas, estudios de cortocircuitos simétricos y asimétricos, análisis del despacho económico, así como estudios de estabilidad bajo diversos puntos de operación. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
+El presente curso brinda las herramientas necesarias para futuros cursos avanzados tanto en grado como posgrado, donde se abordarán diferentes situaciones dentro de contextos analíticos diversos. Asimismo, ofrece una comprensión sólida de los sistemas de potencia abarcando los cursos anteriores, que servirán como fundamento para proyectos de instalación, operación y mantenimiento en mediana y alta tensión. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Analizar los sistemas de potencia de mediana y alta tensión en su desempeño, operación y diseño. ","Diseñar líneas de transmisión monofásicas y trifásicas.
+Analizar el desempeño del sistema de potencia.
+Confeccionar estudios de cortocircuito, operación económica y estabilidad.","*Centrales y Subestaciones (12 horas)
+**Centrales Eléctricas
+**Tipos de Centrales Eléctricas
+**Generador Sincrónico: Modelo y Parámetros
+**Transformador de Potencia: Modelo y Parámetros
+**Subestaciones eléctricas
+**Cargas Estáticas y dinámicas
+*Elementos Estáticos de la Red Eléctrica (4 horas)
+**Líneas aéreas
+**Líneas subterráneas
+**Resistencia, Inductancia, Capacitancia y Conductancia de la línea de transmisión.
+**Modelado de la línea de transmisión.
+*Desempeño del sistema de potencia (8 horas)
+**Sistema p.u.
+**Modelo de la línea corta
+**Modelo de la línea media
+**Modelo de la línea larga
+*Métodos de Flujos de Potencia (8 horas)
+**Planteamiento del problema de flujo de potencia
+**Métodos Numéricos para la solución de Flujos de Potencia
+**Newton Rapson
+**Desacoplado
+**Flujo de potencia DC
+*Análisis de Fallas y estudio de cortocircuito (12 horas)
+**Planteamiento del problema de cortocircuito
+**Componentes Simétricos 
+**Síntesis de vectores desequilibrados a partir de componentes simétricos
+**Operadores, Componentes simétricos de vectores asimétricos
+**Potencia en función de los componentes simétricos
+**Impedancias de Secuencia, Redes de secuencia
+**Fallas NO Simétricas 
+**Análisis de fallas monofásicas, bifásicas y trifásicas
+**Interpretación de las redes de secuencia interconectadas
+**Análisis de fallas asimétricas utilizando la matriz de impedancias de barras
+*Operación Económica de los Sistemas de Potencia (4 horas)
+**Distribución de cargas entre unidades de una misma central
+**Pérdidas de transmisión en función de la producción, Cálculo de los coeficientes de pérdidas, Distribución de la carga entre centrales
+**Factores de penalización
+**Mercado Eléctrico Regional
+*Análisis de Condiciones de Inestabilidad de la Red (4 horas)
+**Sobretensiones por descargas atmosféricas 
+**Origen de las descargas atmosféricas, Campo eléctrico
+**Variaciones del campo eléctrico y formación de rayos
+**Pararrayos y zonas de protección, Modelo electro-geométrico
+**Parámetros eléctricos de las descargas, Energía descargada
+**Blindaje
+**Sobretensiones por maniobra
+**Sobretensiones temporales, Sobretensiones de frente lento
+**Sobretensiones de frente rápido, Sobretensiones de frente muy rápido
+**Mecanismos de protección, Perturbaciones de baja frecuencia
+**Perturbaciones de Alta Frecuencia, Problemas por Baja tensión
+*Estabilidad Transitoria (12 horas) 
+**El problema de estabilidad
+**Estabilidad en régimen permanente
+**Estabilidad en régimen transitorio
+**Ecuación de oscilación
+**Realizar ejercicio de estabilidad transitoria
+**Principios de Regulación de tensión y frecuencia en un sistema Interconectado","Se ofrecerán clases magistrales de manera presencial, en las cuales se presentarán los conceptos relevantes de cada tema. Estos conceptos serán luego abordados por los estudiantes a través de numerosas prácticas, tareas y exámenes cortos. Durante el horario establecido, los estudiantes tendrán la oportunidad de consultar al profesor para aclarar dudas relacionadas tanto con el contenido teórico como con las tareas relacionadas a proyectos asignados.
+A lo largo del curso, se fomentará la participación de los estudiantes en diversas actividades en clase, como preguntas dirigidas por el profesor y trabajos en grupos para resolver ejercicios específicos relacionados con los temas tratados en las lecciones correspondientes. Además, se llevarán a cabo exámenes parciales con el fin de evaluar el material cubierto en clase, ya sea presencialmente o a través de tareas de resolución de ejercicios e investigaciones asignadas.","I Examen Parcial; 1; 20
+II Examen Parcial; 1; 20
+III Examen Parcial; 0; 30
+Proyecto; 1; 30","Grainger, J. J., & Stevenson Jr., W. D. (1996). Análisis de Sistemas de Potencia. México: McGraw-Hill.
+Kothari, D. P., & Nagrath, I. J. (2008). Sistemas Eléctricos de Potencia. México: McGraw-Hill.
+Wildi, T. (2007). Máquinas Eléctricas y Sistemas de Potencia. México: PEARSON.",,
+IEM2203,"Este curso está diseñado para brindar al estudiante conocimientos básicos requeridos para describir, analizar y diseñar sistemas electrónicos simples. Se introducen los temas de dispositivos analógicos y sus aplicaciones, así como aplicaciones con semiconductores. 
+El curso incluirá experiencias de mediciones en laboratorio para entender mejor el funcionamiento de los dispositivos; además de un proyecto simulado de diseño usando circuitos lineales.","Aplicar herramientas de simulación y análisis para el diseño de sistemas electrónicos con amplificadores operacionales, elementos semiconductores","Comprender las características y operación de los amplificadores operacionales en sus topologías básicas.
+Estudiar aplicaciones de IC especiales: como monostable, astable, comparadores, reguladores de voltaje, convertidores, entre otros.
+Comprender el funcionamiento de dispositivos electrónicos básicos diodo semiconductor, al transistor de unión bipolar, MOSFET e IGBT.","*Conceptos básicos de electrónica 
+**Definición de electrónica analógica y digital
+**Conversión de analógica a digital y viceversa, teorema del muestreo, cuantización del error.
+*Diodo semiconductor 
+**Cristales semiconductores. Enlaces covalentes, semiconductores intrínsecos y extrínsecos, la unión P-N
+**Polarización de diodos
+**Curva característica
+**Valores nominales y parámetros. Dependencia con temperatura.
+**Diodos de propósito general (Si, Ge) y especiales (Schottky, LEDs, Zener)
+**Aplicaciones del diodo semiconductor y circuitos con diodos.
+*Transistores BJT (12 horas)
+**Estructura y definición
+**Polarización
+**Funcionamiento del transistor BJT
+**Aplicaciones con transistores BJT
+**Optoacoples
+*MOSFET
+**Estructura y definición
+**Polarización
+**Funcionamiento
+**Aplicaciones
+**IGBT
+*Fundamentos de electrónica de potencia (10 horas)
+**Amplificadores de gran señal
+**Convertidores de DC-AC (rectificaciones)
+**Fuentes de voltaje reguladas y conmutadas (Buck - Boost)
+**Puente H y Modulación por ancho de pulso (PWM)
+*Circuitos integrados lineales (10 horas)
+**Características del amplificador operacional 
+**Corto circuito virtual y topologías básicas: inversor, no inversor, sumador, restador, integrador, derivador. Diseño y modelado de filtros activos
+**IC especiales: reguladores de tensión, comparadores, astables, monostables, convertidores V/F y F/V",,"Exámenes parciales; 2; 40
+Informe de pruebas de laboratorio; 0: 30
+Proyecto de diseño : 1: 30",,,
+IEM2204,"Es un curso introductorio teórico sobre fundamentos de lógica digital, sistemas combinacionales y secuenciales pensados para complementar la formación de las personas profesionales en ingeniería electromecánica, para luego ser aplicado tanto en ingeniería eléctrica como mecánica.
+El curso está pensado para sentar las bases necesarias para luego enfrentar la solución de problemas más complejos que involucren sistemas digitales en cursos posteriores. Busca inculcar el atributo de Aplicar herramientas de análisis y diseño de sistemas digitales enfocadas en su solución de problemas en ingeniería electromecánica. a nivel intermedio según la acreditación por la AAPIA. Cabe destacar que las herramientas de ingeniería se refieren tanto a las analíticas en el planteamiento del problema, así como el diseño de soluciones innovadoras.
+Como requisitos congnocitivos para llevar el curso el estudiante deberá conocer analizar circuitos eléctricos básicos, estos conocimientos se imparten en los cursos de Análisis de Circuitos I y II; así como los fundamentos del análisis de sistemas analógicos en ingeniería electromecánica que brinda el curso de Sistemas Analógico para Ingeniería Electromecánica todos ellos impartidos por esta Escuela. Además, el estudiante deberá llevar como correquisito un curso de laboratorio en donde se ponga en práctica lo aprendido en teoría. Los conocimientos brindados en este curso serán complementados en cursos del área de Sistemas de la carrera.
+Al ser un curso estrictamente teórico la asistencia será libre, y su impartición podrá ser virtual, semipresencial o regular (presencial) según las necesidades de la Escuela; dejando en claro que los exámenes, quices y demás pruebas donde se evalúe el saber hacer se realizarán de forma presencial siguiendo la normativa aplicable.",Aplicar herramientas de análisis y diseño de sistemas digitales enfocadas en su solución de problemas en ingeniería electromecánica.,"Comprender el álgebra y uso de sistemas de código base N.
+Analizar problemas compuestos de sistemas digitales combinacionales y secuenciales
+Diseñar propuestas de solución para problemas de ingeniería electromecánica utilizando sistemas digitales.
+Programar soluciones en lenguajes de alto nivel aplicados a ingeniería electromecánica","*Fundamentos de sistemas binarios
+**Sistemas de numeración en códigos base-N, hexadecimal, binario, ASCII, conversiones de base
+**Tipos de códigos binarios
+**Álgebra de Boole
+**Compuertas lógicas
+**Teoremas fundamentales
+**Tabla de verdad
+**Reducción de expresiones lógicas mediante álgebra de Boole
+*Diseño lógico combinacional
+**Mintérminos y maxtérminos.
+**Funciones completamente e incompletamente especificadas.
+**Mapas de Karnaugh
+**Representación de las condiciones no importa y no pueden ocurrir.
+**Suma de Productos y Producto de Sumas. 
+*Lógica digital combinacional
+**Multiplexores, demultiplexores
+**Decodificadores
+**Código Grey
+*Circuitos Secuenciales. 
+**Modelos de los circuitos secuenciales vrs los combinacionales 
+**Máquinas secuenciales 
+**Elementos básicos de los circuitos secuénciales Biestables, cerrojos (latch) y Flip-Flop. 
+**Contadores
+**Desplazamientos de Registros
+*Máquinas de estado...
+**Circuitos combinacionales iterativos vrs Máquinas de estado
+**Diagrama de estados
+**Diseño de Máquinas de estado
+**Máquinas de estado a partir de listas de transición
+*Dispositivos lógicos programables
+**Descripción de arquitecturas PPGA y sistema con CPU: hilos en paralelo vrs hilos secuenciales
+**Generalidades de lenguajes de descripción de Hardware (HDL): VHDL - Verilog
+**Herramientas de generación de código y compilación
+**Descripción del testbench (datos de prueba)
+**Validación de DUT
+*Introducción al lenguaje de programación C. 
+**Tipo de datos y constantes. 
+**Declaración de variables: Bolean, Entero, Flotante, etc. 
+**Lectura / Escritura Digitales 
+**Lectura / Escritura Analógica 
+**Estructuras: IF THEN, SWITCH, FOR, etc 
+**Diagrama de flujo de un programa. 
+**Creación de funciones. 
+**Llamado de librerías. 
+**Programación en IDE","Lecciones de asistencia libre, donde se expondrán los conceptos relevantes de cada tema. Los documentos y noticias se publicarán oficialmente en el TEC-Digital. Los contenidos serán desarrollados en clases magistrales, presentaciones en PowerPoint, ejemplos resueltos y ejercicios propuestos; siendo evaluados en tareas y exámenes. 
+
+Se utilizarán además actividades formativas para reforzar el aprendizaje de los conceptos vistos, de forma complementaria se pondrán a disposición guías de estudio, texto de referencia, videos, ejercicios tomados de exámenes de semestres anteriores, entre otros.
+
+Se realizarán proyectos de diseño en donde se buscará una solución creativa a un problema de ingeniería utilizando lógica digital, esta solución será presentada en un simulador o bien se programará en C.
+Los exámenes parciales y cortos se aplicarán de forma presencial en fechas y modos que oportunamente se indicarán según lo previsto por el RREA; la publicación de estos se hará en el TEC-Digital y los correos oficiales de los estudiantes según la lista del DAR.
+
+Con el curso se pretende trabajar en el objetivo de desarrollo sostenible (ODS) número 4 “Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos”. En particular las siguientes acciones:
+","Primer parcial; 1; 25
+Segundo parcial; 1; 25
+Proyecto programado; 1; 25
+Proyecto de diseño  -- 25%","[01] Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003. 
+[02] Mano, Morris; “Lógica Digital y Diseño de Computadores”. 3 era ed. Prentice Hall: México. 1982. 
+[03] Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003. """,,
+IEM2302,"El curso de Instrumentación contribuye a formar profesionales con una compresión profunda de las técnicas modernas de instrumentación que son esenciales para cualquier aplicación moderna en ingeniería. 
+Entre los aprendizajes más destacados se encuentran: seleccionar transductores como parte de un sistema de instrumentación diseñado para una aplicación específica; adquirir, acondicionar y visualizar señales e identificar y calcular los componentes de su incertidumbre; usar adecuadamente la normativa de representación gráfica de los sistemas de instrumentación; y diseñar instrumentos virtuales para aplicaciones específicas.  
+Este curso: introduce los lenguajes de programación gráfica que luego se retoman en el curso de Modelado y Simulación de Sistemas Electromecánicos; habilita la adquisición y acondicionamiento de las señales que serán las entradas y salidas de los sistemas de control que se estudiaran en los cursos de Control Eléctrico y Control Automático; y permite la instrumentación de un sistema complejo como los que se desarrollaran en el curso de Diseño e Integración de Sistemas Electromecánicos. ","Diseñar sistemas de instrumentación, usando los dispositivos y el software adecuado de acuerdo a la aplicación planteada","Seleccionar los transductores adecuados según la aplicación del sistema de instrumentación
+Conocer los principios sobre adquisición, acondicionamiento y visualización de señales
+Identificar y calcular los componentes de la incertidumbre de una señal
+Diseñar instrumentos virtuales para aplicaciones específicas","*Conceptos introductorios
+**Tipos de señales y estímulos
+**Sistemas y sus entradas y salidas
+**Modelo de un sistema
+**Concepto de transductor, sensor y actuador
+**Sistemas de instrumentación basados en transductores
+*Características estáticas
+**Rango, salida a escala completa
+**Sesgo de sensado e histeresis
+**Exactitud y precisión
+**Repetibilidad y reproducibilidad
+**Linealidad y resolución
+**Sensibilidad, saturación y banda muerta
+**Valor real, error absoluto y error relativo
+**Errores sistemáticos y aleatorios
+*Características dinámicas 
+**Error dinámico
+**Rapidez de respuesta
+**Función de transferencia
+**Sistemas de orden cero
+**Sistemas de primer y segundo orden
+*Otras características
+**Impedancia
+**Ruido
+**Ancho de banda
+**Referencia de la señal
+**Confiabilidad
+*Adquisición de señales
+**Conversión analógica-digital
+**Muestreo, cuantización y codificación
+**Tipos de convertidores A-D
+**Propagación de errores
+*Acondicionamiento de señales.
+**Divisores de voltaje
+**Puentes de Wheatstone
+**Amplificadores diferenciales y de instrumentación 
+**Interferencia
+**Amplificadores de aislamiento
+**Puente transformador
+**Puente capacitivo
+**Conmutación de capacitores
+**Convertidores ca-cc
+**Amplificador de portador
+**Amplificador recortador
+**Convertidores avanzados y de estado del arte
+*Estucturas de datos 
+**Cadenas
+**Numéricos
+**Boolenaos
+**Arreglos
+**Clústers
+**Enums
+**Mediciones multicanal y multimuestral
+*Estructuras de ejecución
+**While	
+**For
+**Case
+**Túneles
+*Protocolos de comunicación serial
+**Comunicación serial básica entre dos dispositivos
+**Tipos de comunicación serial
+**Sensores I2C, SPI, UART y OneWire
+**Control de instrumentos usando SCPI
+**Introducción a las redes industriales
+*Instrumentos virtuales
+**Interfaz de LabView
+**Aplicaciones modulares
+**Documentación de programas
+**Métodos de depuración de programas
+**Accionamiento de actuadores ",Los contenidos del curso se desarrollarán mediante sesiones presenciales con exposiciones magistrales de la materia seguidas por sesiones de trabajo con metodologías de simulación e inmersión. Además se desarrollaran trabajos grupales que permitan evaluar el aprendizaje significativo.,"Tareas; 6;  40
+Exámenes; 2; 40
+Exposiciones; 2; 20","Pallas-Areny, Ramón. Sensores y Acondicionadores de señal. 4 Ed. Marcombo: Mexico 2007. 
+Fraden, Jacob. Handbook of modern sensors. 4 ed. Springer: San Diego. 2010.  
+Creus, Antonio. Instrumentación Industrial. 7 ed. Alfaomega: Mexico 2011. 
+Kalantar-Zadeh, Kourosh. Sensors: An Introductory course. Springer: New York. 2013.
+Janocha, H. Actuators: Basics and Applications. Springer: Berlin, Germany. 2004. 
+Dunn, William. Fundamental of Industrial Instrumentations and process control. MacGraw Hill. 2005.
+Benedict, Robert. Fundamentals of temperature, pressure and flow measurements.3 ed. John-Wiley: Canada. 1984. 
+Creus Antonio, Neumática e Hidráulica. 2 Ed Alfaomega 2011. 
+Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",,"Juan José Rojas Hernández; Dr-Ing.: jrojas@itcer.ac.cr
+Doctor en Integración de Sistemas
+Master en Electrónica
+Licenciado en Mantenimiento Industrial"
+IEM2111,"La asignatura de Turbomáquinas es un curso aplicado, en donde se utilizan los principios fundamentales de la Física, Termodinámica y Mecánica a la materia fluida. Se trata de que los alumnos de Ingeniería Electromecánica adquieran los conocimientos y herramientas necesarias para saber analizar y comprender la hidráulica de tuberías orientado a problemas reales en el campo de la ingeniería mecánica. Se fomenta asimismo el desarrollo de habilidades y competencias genéricas como el trabajo en equipo y el aprendizaje autónomo. 
+La asignatura Turbomáquinas se estudia en el séptimo semestre del plan de estudios. Precede a la asignatura EM2113 Sistema Térmicos, que es un curso de ingeniería o bien, más aplicado, y que se estudia en el octavo semestre del plan de estudios.
+En Turbomáquinas se estudia los sistemas de suministros de agua fría/caliente que típicamente se encuentran en el sector doméstico, comercial e industrial, así como criterios para la selección de diámetros y tuberías recomendados para el trasiego del agua, aire comprimido y aire en sistemas de ventilación. El bombeo de fluidos es de suma importancia en el ejercicio profesional de un ingeniero en Mantenimiento Industrial, por tanto, en este curso se estudia los principales tipos de bombas que se utilizan en la industria costarricense, como también los criterios fundamentales para la selección y estimación del desempeño de las bombas centrífugas y de desplazamiento positivo. 
+En Costa Rica el aire comprimido es una de las formas más baratas a nivel industrial de transportar grandes cantidades de energía de un lugar a otro. En este curso se evalúa, selecciona y diseña los sistemas de aire comprimido y todos los componentes fundamentales para la distribución y tratamiento del aire comprimido. En este curso también se estudia los conceptos fundamentales de la ventilación mecánica, diseño y selección de la distribución de ductos, como también la descripción de los principios de funcionamiento y desempeño de los ventiladores más usados en la industria costarricense.
+
+Un curso de turbomáquinas es crucial en la formación de ingenieros electromecánicos a nivel de licenciatura por varias razones fundamentales:
+
+Aplicación práctica: Las turbomáquinas son componentes fundamentales en una amplia gama de industrias, incluyendo la generación de energía, la industria aeroespacial, la industria petroquímica y la industria automotriz, entre otras. Por lo tanto, entender los principios de funcionamiento y diseño de las turbomáquinas es esencial para los ingenieros electromecánicos que trabajarán en estas áreas.
+Integración de conocimientos: El estudio de las turbomáquinas requiere la comprensión y aplicación de principios de mecánica de fluidos, termodinámica y otros conceptos relacionados. Esto proporciona una oportunidad para integrar y aplicar conocimientos de diferentes áreas de la ingeniería en un contexto específico.
+
+Desarrollo de habilidades técnicas: El diseño, selección y mantenimiento de turbomáquinas requiere habilidades técnicas específicas, como análisis termodinámico, modelado de flujo, evaluación de rendimiento y control de sistemas. Un curso de turbomáquinas proporciona a los estudiantes la oportunidad de desarrollar y perfeccionar estas habilidades prácticas.
+Adaptabilidad y versatilidad profesional: Los ingenieros electromecánicos que poseen conocimientos en turbomáquinas están mejor preparados para adaptarse a diferentes entornos industriales y enfrentar desafíos técnicos diversos. Esta versatilidad aumenta su empleabilidad y les permite contribuir de manera significativa en una variedad de roles y proyectos.
+
+Innovación y avance tecnológico: El campo de las turbomáquinas está en constante evolución, con nuevas tecnologías y tendencias emergentes que buscan mejorar la eficiencia, la confiabilidad y la sostenibilidad de estos dispositivos. Los ingenieros electromecánicos capacitados en este campo están bien posicionados para contribuir al desarrollo y la implementación de estas innovaciones.
+
+En resumen, un curso de turbomáquinas es esencial para la formación de ingenieros electromecánicos porque proporciona los conocimientos, habilidades y perspectivas necesarias para abordar los desafíos técnicos del mundo real en una variedad de industrias y contribuir al avance continuo de la tecnología en este campo.","Comprender de forma integral de los principios fundamentales, el funcionamiento, el diseño y la aplicación de turbomáquinas en el contexto de la ingeniería electromecánica en problemas prácticos de proyección de sistemas de distribución de agua fría/caliente, aire comprimido y ventilación mecánica.","Comprender los principios fundamentales de las turbomáquinas y su relevancia en la ingeniería electromecánica.
+Analizar el funcionamiento y el rendimiento de diferentes tipos de turbomáquinas, incluidos compresores, bombas y ventiladores.
+Evaluar el rendimiento y la eficiencia de las turbomáquinas mediante métodos de análisis y pruebas experimentales.
+Aplicar conceptos de mecánica de fluidos y termodinámica en el estudio y análisis de sistemas mecánicos (agua fría y caliente; aire comprimido y ventilación) que incluyen turbomáquinas en aplicaciones industriales específicas.
+5.	Desarrollar habilidades para el diseño, selección y mantenimiento de sistemas mecánicos (agua fría y caliente; aire comprimido y ventilación) que incluyen turbomáquinas en aplicaciones industriales específicas.","*Módulo 1: Fundamentos de Turbomáquinas.
+**Introducción a las turbomáquinas y sus aplicaciones.
+**Principios básicos de funcionamiento.
+**Clasificación y tipos de turbomáquinas.
+**Módulo 2: Compresores, Bombas Hidráulicas y Ventiladores.
+**Compresores: tipos, características y aplicaciones.
+**Bombas: clasificación, curvas de rendimiento y selección.
+**Análisis de sistemas de bombeo.
+*Modulo 3: Suministro de agua y Bombas Hidráulicas: 
+**Normativa costarricense para la proyección de instalaciones hidráulicas y sanitarias en edificaciones. 
+**Métodos para la estimación de caudal.
+**Métodos para la estimación de diámetro de las tuberías.
+**Métodos para proporcionar presión independiente y la determinación de las presiones de trabajo y los niveles de agua en el tanque hidroneumático. 
+**Bombas Centrífugas: curvas características, funcionamiento, partes principales, mantenimiento. 
+**Fundamentos para proyección de sistemas suministro agua.
+*Modulo 4: Sistemas de Aire Comprimido:
+**Compresores: tipos, funcionamiento, enfriadores, purgadores, mantenimiento. 
+**Dispositivos en redes de aire comprimido. 
+**Cálculo de Sistemas de Aire Comprimido.
+*Modulo 5: Ventilación:
+**Ventiladores: Tipos, funcionamiento, curvas características. 
+**Introducción al cálculo de sistemas de ventilación.","Clases magistrales de asistencia opcional, donde se expondrán los conceptos relevantes de cada tema, los cuales serán trabajados por el estudiante en numerosas prácticas de tareas y quices. El alumno podrá consultar al profesor en el horario preestablecido para evacuar cualquier duda, sea del contenido teórico y/o de las tareas relativas a proyectos asignados. Durante el curso el estudiante participará de actividades en clase, como preguntas dirigidas por el profesor, trabajos en grupos para resolver ejercicios dirigidos puntuales y específicos sobre un tema desarrollado en la lección correspondiente. Se realizarán exámenes parciales que pretenden evaluar la materia vista en clases, presenciales y/o materia asignada a través de tareas de resolución de ejercicios e investigaciones asignadas. Se asignará a los estudiantes de dos proyectos de curso que se realizarán en grupos de no más de 3 integrantes. En cada proyecto se desarrollará uno de los 3 grandes temas del curso (Suministro de Agua, Aire Comprimido, Ventilación). Estos proyectos tienen una salida de Diseño, en donde se solicitará cumplir con ciertos requerimientos.  ","Quices y Tareas; 0; 25  
+Proyectos; 0; 25  
+Exámenes Parciales; 3; 50  ","Cengel, Y. y Cimbala, J. (2018). Mecánica de Fluidos. Fundamentos y aplicaciones (4ta ed). México: McGraw Hill.
+Soriano, A. y Pancorbo, F. (2012). Suministro, distribución y evacuación interior de agua sanitaria. España: Marcombo.
+Colegio Federado de Ingenieros y de Arquitectos de Costa Rica. (2017). Código de Instalaciones Hidráulicas y Sanitarias en Edificaciones (3ra Edición). Editorial Tecnológica de Costa Rica.
+Hunter, R B. (2011). Methods of Estimating Loads in Plumbing Systems. USA: United States Department of Commerce.
+Jutglar, L. y Miranda, A. (2012). Manual de Calefacción. España: Marcombo.
+Garro, A. (2016). Suministro de agua en edificaciones. Costa Rica: Tecnológico de Costa Rica.
+ATLAS COPCO (2015). Altas Copco Compressed Air Manual (7a. ed.), [en línea]. Bélgica: Atlas Copco Airpower NV. Disponible en: https://urldefense.com/v3/__http://www.atlascopco.es/Images/Compressed_Air_Manual_tcm57-1249312.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTax6yjfOw$  [2012, 26 de julio] 
+ASHRAE (2009). ASHRAE Handbook Fundamentals. Atlanta, Estados Unidos: American Society of Heating, Refrigerating and Air-Conditioning Engineers. 
+BOGE Kompressoren (2004). Compressed Air Compendium (6a. ed.), [en línea]. Alemania: Hoppenstedt-Verlag. Disponible en: https://urldefense.com/v3/__http://www.drucklufttechnik.de/english/__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTbccoc1Pg$  [2012, 25 de julio] 
+British Compressed Air Society. (2002). Compressed Air Systems. En D. A. Snow (Ed.), Plant Engineer's Reference Book (2da. ed.) (pp. 26/3-26/13). Oxford: Butterworth-Heinemann. 
+FESTO. (2013). Procesos seguros con una preparación perfecta del aire comprimido, [en línea]. Alemania: Festo AG & Co. Disponible en: https://urldefense.com/v3/__https://www.festo.com/net/SupportPortal/Downloads/53737/Druckluftaufbereitung___;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTaT8iM_MA$  es.pdf [2012, 30 de julio]
+Frankel, M. (2012). Facility Piping Systems Handbook (4a. ed.). New York City: The McGraw-Hill Companies, Inc. 
+Hesse, S. (2002). Aire comprimido, fuente de energía. Preparación y distribución. Alemania: Festo AG & Co. 
+Mott, R. (2014). Mecánica de Fluidos Aplicada (8va ed.). Prentice Hall. 
+Manual de Instalaciones Eléctricas y Mecánicas en Edificios. Tao/Manis. Prentice Hall, 2010. 
+Nacional Plumbing Codes Handbook. McGraw Hill, 2005. 
+Plumber`s and Pipefitter`s Calculation Manual. McGraw Hill, 17. Standard Handbook of Engineering Calculations McGraw Hill, 2008.",,"Alberto Garro Zavaleta; Ing; jagarro@itcer.ac.cr
+Escuela Ingeniería Electromecánica
+"
