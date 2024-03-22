@@ -1,4 +1,4 @@
-﻿Codigo,Descripcion,ObjetivoGeneral,ObjetivosEspecificos,Contenidos,Metodologia,Evaluacion,Bibliografia,Bibtext,Profesor
+﻿Codigo,Descripcion,ObjetivoGeneral,ObjetivosEspecificos,Contenidos,Metodologia,Evaluacion,Bibliografia,Bibtex,Profesor
 IEM2101,"El curso de dibujo técnico contribuye a la formación y desarrollo profesional de las personas estudiantes, equipándolos con las habilidades y herramientas necesarias para la comunicación, el diseño y la ejecución en el ámbito de la ingeniería. 
 Entre los aprendizajes más destacados se encuentran la capacidad para interpretar y aplicar las normas INTE/ISO de dibujo técnico en situaciones prácticas, así como la habilidad para visualizar y representar objetos tridimensionales en un plano bidimensional y viceversa. Asimismo, los estudiantes desarrollan destrezas en el uso de herramientas CAD para la elaboración de planos. Además de las habilidades técnicas, se busca promover el compromiso, el respeto y la ética profesional entre los participantes.
 Este curso sienta las bases fundamentales para asignaturas más avanzadas en el campo del diseño y la ingeniería mecánica. Proporciona una comprensión sólida de los principios y técnicas de dibujo técnico que son esenciales para el desarrollo de proyectos más complejos en las áreas de diseño y manufactura. De esta manera, establece una conexión con otros cursos de la carrera, preparando a los estudiantes para enfrentar desafíos en su trayectoria académica y profesional.","Realizar un plano de una pieza mecánica, según las normas INTE/ISO, que contenga información necesaria y suficiente para la interpretación de la forma y dimensiones de la pieza. ","Aplicar las normas INTE/ISO y de otros estándares.
@@ -226,7 +226,8 @@ Experimentar con transductores para lograr aprendizajes significativos.","*Seña
 *Actuadores hidráulicos y neumáticos
 **Tipo de válvulas solenoides para control de flujo","El modelo pedagógico del ITCR busca que el estudiante adquiera un aprendizaje significativo, constructivista e interaccionista, para lograr este objetivo de aprendizaje el curso utiliza una combinación de la metodología de simulación, la metodología de Inmersión y las metodologías participativas.
 Los 3 proyectos colaborativos buscan que los estudiantes experimenten con los transductores, sus características, usos y brinden ejemplos con aplicaciones reales de los mismos. Para esto los estudiantes usaran equipos como multímetros u osciloscopios para medir la respuesta de los sensores. Así mismo las presentaciones orales de un grupo de estudiantes muestran la teoría asociada y ejemplos de aplicaciones del tema signado para el desarrollo. Finalmente, el profesor en desarrollará temas complejos con ejemplos demostrativos, visitas a laboratorio y videos entre otros.","Proyectos; 2; 35
-Exámenes; 3; 45 Exposiciones; 2; 20","Pallas-Areny, Ramón. Sensores y Acondicionadores de señal. 4 Ed. Marcombo: Mexico 2007. 
+Exámenes; 3; 45
+Exposiciones; 2; 20","Pallas-Areny, Ramón. Sensores y Acondicionadores de señal. 4 Ed. Marcombo: Mexico 2007. 
 Fraden, Jacob. Handbook of modern sensors. 4 ed. Springer: San Diego. 2010.  
 Creus, Antonio. Instrumentación Industrial. 7 ed. Alfaomega: Mexico 2011. 
 Kalantar-Zadeh, Kourosh. Sensors: An Introductory course. Springer: New York. 2013.
@@ -234,7 +235,7 @@ Janocha, H. Actuators: Basics and Applications. Springer: Berlin, Germany. 2004.
 Dunn, William. Fundamental of Industrial Instrumentations and process control. MacGraw Hill. 2005.
 Benedict, Robert. Fundamentals of temperature, pressure and flow measurements.3 ed. John-Wiley: Canada. 1984. 
 Creus Antonio, Neumática e Hidráulica. 2 Ed Alfaomega 2011. 
-Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",,"Luis Diego Murillo Soto; Dr.-Ing; lmurillo@itcr.ac.cr
+Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",pallas2012sensors;fraden2016handbook,"Luis Diego Murillo Soto; Dr.-Ing; lmurillo@itcr.ac.cr
 *Profesor Catedrático I e Investigador Consolidado 2
 Doctor en Ingeniería (TEC, 2022)
 Máster en Ciencias de la Ingeniería Eléctrica (UCR, 2016)
@@ -496,7 +497,7 @@ Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2
 Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2030. https://urldefense.com/v3/__http://WWW.MINAE.GO.CR__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTZ2o9DtYg$ : DISPONIBLE https://urldefense.com/v3/__http://www.minae.go.cr/recursos/2015/pdf/VII-PNE.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTa1MU0IvQ$ 
 2. Diego Zárate Montero/ Remigio Ramírez García. (2016). Matriz Energética de Costa Rica Renovabilidad de las fuentes y reversibilidad de los usos de energía. 2018, de fesamericacentral.org Sitio web: https://urldefense.com/v3/__http://library.fes.de/pdf-files/bueros/fesamcentral/12979.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTbC843cbg$ 
 3. Norma ISO 50000
-4. Base de datos Biblioteca del Tecnológico de Costa Rica.",,"Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
+4. Base de datos Biblioteca del Tecnológico de Costa Rica.","Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
 *
 Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. 
 "

@@ -48,15 +48,6 @@ cursos = pd.read_csv("cursos_IEM.csv")
 datos_gen = pd.read_csv("datos_IEM.csv")
 descrip_obj = pd.read_csv("descrip_obj_IEM.csv")
 
-# def to_lowercase(string):
-#     new_str = ""
-#     for char in string:
-#     if char.isupper():
-#         new_str += "_" + char
-#     else:
-#         new_value += char
-#     print(new_value)  # Output: "_He_L_Lo _Capital _Letters"
-
 def generar_programa(codigo):
 
     codCurso = codigo
@@ -119,7 +110,13 @@ def generar_programa(codigo):
             nivel_3 += 1
             conCurso.iloc[index] = r"\hspace{0.04\linewidth}\parbox{0.96\linewidth}{" + row.replace('***', f"{str(nivel_1)}.{str(nivel_2)}.{str(nivel_3)}. ") + r"}"
     metCurso = descrip_obj[descrip_obj.Codigo == codCurso].Metodologia.item()
-    evaCurso = descrip_obj[descrip_obj.Codigo == codCurso].Evaluacion.item()
+    evaCurso = descrip_obj[descrip_obj.Codigo == codCurso].Evaluacion.str.split('\n',expand=False).explode()
+    evaCurso = evaCurso.str.split(';',expand=True)
+    evaCurso.reset_index(inplace = True, drop = True)
+    evaCurso.columns = ['tipo','cantidad','porcentaje']
+    print(evaCurso)
+    bibCurso = '\n'+ r'\nocite{' + ('}\n'+r'\nocite{').join(descrip_obj[descrip_obj.Codigo == codCurso].Bibtex.item().split(';')) + '}\n' + r'\printbibliography[heading=none]'
+
     nomProfe = "Juan José Rojas Hernández"
     corProfe = "juan.rojas@itcr.ac.cr"
     conProfe = "Miercoles 7:30 a.m. - 10: 30 a.m." #Esto seria mejor construirlo tambien 
@@ -144,7 +141,7 @@ def generar_programa(codigo):
                    geometry_options=geometry_options)
     #Packages
     doc.packages.append(Package(name="fontspec", options=None))
-    doc.packages.append(Package(name="babel", options=['spanish',"activeacute"]))
+    doc.packages.append(Package(name="babel", options=['spanish','activeacute']))
     doc.packages.append(Package(name="graphicx"))
     doc.packages.append(Package(name="tikz"))
     doc.packages.append(Package(name="anyfontsize"))
@@ -156,10 +153,13 @@ def generar_programa(codigo):
     doc.packages.append(Package(name="longtable"))
     doc.packages.append(Package(name="multirow"))
     doc.packages.append(Package(name="fancyhdr"))
+    doc.packages.append(Package(name="biblatex", options=['style=authoryear']))
     #Package options
     doc.preamble.append(Command('setmainfont','Arial'))
     doc.preamble.append(Command('usetikzlibrary','calc'))
     doc.preamble.append(Command('linespread', '0.9'))
+    doc.preamble.append(Command('addbibresource', '../bibliografia.bib'))
+    doc.preamble.append(NoEscape(r'\renewcommand*{\bibfont}{\fontsize{12}{16}\selectfont}'))
     doc.add_color('gris','rgb','0.27,0.27,0.27') #70,70,70
     doc.add_color('parte','rgb','0.02,0.204,0.404') #5,52,103
     doc.add_color('azulsuaveTEC','rgb','0.02,0.455,0.773') #5,116,197
@@ -379,7 +379,7 @@ def generar_programa(codigo):
                 ),
                 f"{metCurso}"
             ])
-    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
+    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.07\textwidth}p{0.17\textwidth}p{0.17\textwidth}p{0.17\textwidth}p{0.04\textwidth}",row_height=2)) as table:
             table.add_row([
                 textcolor
                 (
@@ -389,8 +389,43 @@ def generar_programa(codigo):
                 bold=True,
                 text="6 Evaluación"
                 ),
-                NoEscape(evaCurso)
+                '',
+                textcolor
+                (
+                size="12",
+                vspace="16",
+                color="black",
+                bold=True,
+                text="Tipo"
+                ),
+                textcolor
+                (
+                size="12",
+                vspace="16",
+                color="black",
+                bold=True,
+                text="Cantidad"
+                ),
+                textcolor
+                (
+                size="12",
+                vspace="16",
+                color="black",
+                bold=True,
+                text="Porcentaje" 
+                ),
+                ''
             ])
+            for index, row in evaCurso.iterrows():
+                table.add_row([
+                    '',
+                    '',
+                    row['tipo'],
+                    row['cantidad'],
+                    row['porcentaje'],
+                    ''
+                ])
+    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
             table.add_row([
                 textcolor
                 (
@@ -399,9 +434,9 @@ def generar_programa(codigo):
                 color="parte",
                 bold=True,
                 text="7 Bibliografía"
-                ),
-                f"hola"
+                ),NoEscape(bibCurso)
             ])
+    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
             table.add_row([
                 textcolor
                 (
@@ -412,11 +447,10 @@ def generar_programa(codigo):
                 text="8 Profesor"
                 ),
                 f"profesor"
-    ])
+            ])
     doc.generate_pdf(f"./programas/{codCurso}", clean=True, clean_tex=False, compiler='lualatex')
-
 
 # for codigo in cursos.Codigo:
 #      generar_programa(codigo)
     
-generar_programa("IEM2101")
+generar_programa("IEM2301")
