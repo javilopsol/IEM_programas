@@ -6,7 +6,8 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
     TikZ, TikZNode, TikZOptions, TikZCoordinate, TikZNodeAnchor, TikZPath,\
     UnsafeCommand,\
     VerticalSpace, HorizontalSpace, NewLine,\
-    LongTable
+    LongTable, LongTabu, LongTabularx, Tabularx, Tabular,\
+    config
 from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
@@ -49,7 +50,6 @@ datos_gen = pd.read_csv("datos_IEM.csv")
 descrip_obj = pd.read_csv("descrip_obj_IEM.csv")
 
 def generar_programa(codigo):
-
     codCurso = codigo
     nomEscue = "Escuela de Ingeniería Electromecánica"
     lisProgr = cursos[cursos.Codigo == codCurso].Programas.str.split('\n',expand=False).explode()
@@ -61,6 +61,8 @@ def generar_programa(codigo):
     else:
         strProgr = "Carrera de " + lisProgr['programa'].item() + "."
     nomCurso = cursos[cursos.Codigo == codCurso].Nombre.item()
+    areCurso = datos_gen[datos_gen.Codigo == codCurso].Area.item()
+    areCurso = areCurso[0].lower() + areCurso[1:len(areCurso)]
     tipCurso = datos_gen[datos_gen.Codigo == codCurso].Tipo.item()
     eleCurso = datos_gen[datos_gen.Codigo == codCurso].Electivo.item()
     porAreas = datos_gen[datos_gen.Codigo == codCurso].AreasCurriculares.item()
@@ -113,13 +115,15 @@ def generar_programa(codigo):
     evaCurso = descrip_obj[descrip_obj.Codigo == codCurso].Evaluacion.str.split('\n',expand=False).explode()
     evaCurso = evaCurso.str.split(';',expand=True)
     evaCurso.reset_index(inplace = True, drop = True)
-    evaCurso.columns = ['tipo','cantidad','porcentaje']
-    print(evaCurso)
+    evaCurso.columns = ['2','3','4']
+    evaCurso[['0','1','5']] = ""
+    evaCurso.sort_index(axis=1, inplace=True)
     bibCurso = '\n'+ r'\nocite{' + ('}\n'+r'\nocite{').join(descrip_obj[descrip_obj.Codigo == codCurso].Bibtex.item().split(';')) + '}\n' + r'\printbibliography[heading=none]'
-
     nomProfe = "Juan José Rojas Hernández"
     corProfe = "juan.rojas@itcr.ac.cr"
     conProfe = "Miercoles 7:30 a.m. - 10: 30 a.m." #Esto seria mejor construirlo tambien 
+    #Config
+    config.active = config.Version1(row_heigth=1.5)
     #Geometry
     geometry_options = { 
         "left": "22.5mm",
@@ -142,22 +146,13 @@ def generar_programa(codigo):
     #Packages
     doc.packages.append(Package(name="fontspec", options=None))
     doc.packages.append(Package(name="babel", options=['spanish','activeacute']))
-    doc.packages.append(Package(name="graphicx"))
-    doc.packages.append(Package(name="tikz"))
     doc.packages.append(Package(name="anyfontsize"))
-    doc.packages.append(Package(name="xcolor"))
-    doc.packages.append(Package(name="colortbl"))
-    doc.packages.append(Package(name="array"))
-    doc.packages.append(Package(name="float"))
-    #doc.packages.append(Package(name="lastpage")) con pagenumbers+true
-    doc.packages.append(Package(name="longtable"))
-    doc.packages.append(Package(name="multirow"))
     doc.packages.append(Package(name="fancyhdr"))
     doc.packages.append(Package(name="biblatex", options=['style=authoryear']))
     #Package options
     doc.preamble.append(Command('setmainfont','Arial'))
-    doc.preamble.append(Command('usetikzlibrary','calc'))
-    doc.preamble.append(Command('linespread', '0.9'))
+    #doc.preamble.append(Command('usetikzlibrary','calc'))
+    #doc.preamble.append(Command('linespread', '0.9'))
     doc.preamble.append(Command('addbibresource', '../bibliografia.bib'))
     doc.preamble.append(NoEscape(r'\renewcommand*{\bibfont}{\fontsize{12}{16}\selectfont}'))
     doc.add_color('gris','rgb','0.27,0.27,0.27') #70,70,70
@@ -242,7 +237,7 @@ def generar_programa(codigo):
             bold=True,
             text=f"{nomCurso}" 
             ))
-    with doc.create(LongTable(table_spec=r"m{0.02\textwidth}m{0.98\textwidth}",row_height=0.7)) as table:
+    with doc.create(Tabularx(table_spec=r"m{0.02\textwidth}m{0.98\textwidth}")) as table:
             table.add_row(["", textcolor
             (   
             par=False,
@@ -253,6 +248,7 @@ def generar_programa(codigo):
             bold=True,
             text=f"{nomEscue}"
             )])
+            table.append(NoEscape('[-4pt]'))
             table.add_row(["", textcolor
             (   
             par=False,
@@ -282,24 +278,40 @@ def generar_programa(codigo):
             bold=True,
             text="1 Datos generales"
             ))
-    with doc.create(LongTable(table_spec=r"m{7cm}m{9cm}",row_height=1.5)) as table:
+    with doc.create(Tabularx(table_spec=r"p{7cm}p{9cm}")) as table:
             table.add_row([bold("Nombre del curso:"), f"{nomCurso}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Código:"), f"{codCurso}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Tipo de curso:"), f"{tipCurso}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Electivo o no:"), f"{eleCurso}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Nº de créditos:"), f"{numCredi}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Nº horas de clase por semana:"), f"{horClass}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Nº horas extraclase por semana:"), f"{horExtra}"])
-            table.add_row([bold("% de areas curriculares:"), f"{porAreas}"])
+            table.append(NoEscape('[10pt]'))
+            table.add_row([bold("% de areas curriculares:"), NoEscape(f"{porAreas}" + r'\% del area: ' + bold(f"{areCurso}"))])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Ubicación en el plan de estudios:"), NoEscape(f"{ubiPlane}")])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Requisitos:"), f"{susRequi}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Correquisitos:"), f"{corRequi}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("El curso es requisito de:"), f"{essRequi}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Asistencia:"), f"{tipAsist}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Suficiencia:"), f"{posSufic}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Posibilidad de reconocimiento:"), f"{posRecon}"])
+            table.append(NoEscape('[10pt]'))
             table.add_row([bold("Vigencia del programa:"), f"{vigProgr}"])
-    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
+            table.append(NoEscape('[10pt]'))
+    with doc.create(Tabularx(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}")) as table:
             table.add_row([
                 textcolor
                     (
@@ -311,6 +323,7 @@ def generar_programa(codigo):
                     ),
                     f"{desGener}"
                 ])
+    with doc.create(Tabularx(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}")) as table:
             table.add_row([
                 textcolor
                     (
@@ -322,7 +335,7 @@ def generar_programa(codigo):
                     ),
                     f"Al final del curso la persona estudiante será capaz de {objGener}"
                 ])
-    with doc.create(LongTable(table_spec=r">{\raggedleft}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
+    with doc.create(Tabularx(table_spec=r">{\raggedleft}p{0.18\textwidth}p{0.72\textwidth}")) as table:
             table.add_row([
                     "",
                     "La persona estudiante será capaz de:"
@@ -367,7 +380,7 @@ def generar_programa(codigo):
     bold=True,
     text=" "
     ))
-    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
+    with doc.create(LongTabularx(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
             table.add_row([
                 textcolor
                 (
@@ -379,7 +392,8 @@ def generar_programa(codigo):
                 ),
                 f"{metCurso}"
             ])
-    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.07\textwidth}p{0.17\textwidth}p{0.17\textwidth}p{0.17\textwidth}p{0.04\textwidth}",row_height=2)) as table:
+    with doc.create(Tabularx(table_spec=r">{\raggedright}m{0.18\textwidth}m{0.07\textwidth}m{0.17\textwidth}m{0.17\textwidth}m{0.17\textwidth}m{0.04\textwidth}")) as table:
+            table.add_hline(start=3, end=5)
             table.add_row([
                 textcolor
                 (
@@ -416,15 +430,11 @@ def generar_programa(codigo):
                 ),
                 ''
             ])
-            for index, row in evaCurso.iterrows():
-                table.add_row([
-                    '',
-                    '',
-                    row['tipo'],
-                    row['cantidad'],
-                    row['porcentaje'],
-                    ''
-                ])
+            table.append(NoEscape('[12pt]'))
+            for row in evaCurso.itertuples(index=False):
+                table.add_hline(start=3, end=5)
+                table.add_row(row)
+                table.append(NoEscape('[12pt]'))
     with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
             table.add_row([
                 textcolor
