@@ -178,7 +178,7 @@ Fabricius, Eugene; “Diseño lógico moderno y teoría de conmutación”. CECS
 Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003.                              Romera, Pedro; Lorite, Antonio; Montero, Sebastián “Automatización: Problemas resueltos con autómatas programables”. 3 era ed. Thomson: Madrid. 2003.                         Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003
 ",,"Luis Gómez Guitiérrez; Ing; lugomez@itcr.a.cr
 *
-Ingeniero en Mantenimiento industrial. Maestria en Gestión de Activos Físicos. "
+Ingeniero en Mantenimiento industrial. Maestria en Gestión de Activos Físicos. ",
 IEM2111,"La asignatura de Turbomáquinas es un curso aplicado, en donde se utilizan los principios fundamentales de la Física, Termodinámica y Mecánica a la materia fluida. Se trata de que los alumnos de Ingeniería Electromecánica adquieran los conocimientos y herramientas necesarias para saber analizar y comprender la hidráulica de tuberías orientado a problemas reales en el campo de la ingeniería mecánica. Se fomenta asimismo el desarrollo de habilidades y competencias genéricas como el trabajo en equipo y el aprendizaje autónomo. 
 La asignatura Turbomáquinas se estudia en el séptimo semestre del plan de estudios. Precede a la asignatura EM2113 Sistema Térmicos, que es un curso de ingeniería o bien, más aplicado, y que se estudia en el octavo semestre del plan de estudios.
 En Turbomáquinas se estudia los sistemas de suministros de agua fría/caliente que típicamente se encuentran en el sector doméstico, comercial e industrial, así como criterios para la selección de diámetros y tuberías recomendados para el trasiego del agua, aire comprimido y aire en sistemas de ventilación. El bombeo de fluidos es de suma importancia en el ejercicio profesional de un ingeniero en Mantenimiento Industrial, por tanto, en este curso se estudia los principales tipos de bombas que se utilizan en la industria costarricense, como también los criterios fundamentales para la selección y estimación del desempeño de las bombas centrífugas y de desplazamiento positivo. 
@@ -239,7 +239,7 @@ Manual de Instalaciones Eléctricas y Mecánicas en Edificios. Tao/Manis. Prenti
 Nacional Plumbing Codes Handbook. McGraw Hill, 2005. 
 Plumber`s and Pipefitter`s Calculation Manual. McGraw Hill, 17. Standard Handbook of Engineering Calculations McGraw Hill, 2008.",,"Alberto Garro Zavaleta; Ing; jagarro@itcer.ac.cr
 Escuela Ingeniería Electromecánica
-"
+",
 IEM2201,"Es un curso introductorio teórico sobre fundamentos de circuitos eléctricos, en el cual se estudian los conceptos básicos, teoremas y métodos de análisis de circuitos resistivos en corriente directa. Además, se estudia el comportamiento dinámico y en estado estable de circuitos de primer orden y segundo orden con bobinas, condensadores y resistencias alimentado con corriente directa, de tipo RL y RC; al final del curso see analizan circuitos RLC de orden superior utilizando transformadas de Laplace.
 El curso es el primero de la rama de ingeniería eléctrica de la carrera, está pensado para sentar las bases necesarias para luego enfrentar la solución de problemas más complejos en cursos posteriores. Busca inculcar el atributo de Herramientas de Ingeniería a nivel intermedio según la acreditación por la AAPIA. Cabe destacar que las herramientas de ingeniería se refieren tanto a las analíticas en el planteamiento del problema, como también la validación de las soluciones por medio de un software de simulación pertinente; el estudiante no solo deberá saber plantear el problema, sino simularlo y validar sus respuestas.
 Como requisitos congnocitivos para llevar el curso el estudiante deberá conocer cómo solucionar sistemas de ecuaciones lineales y cómo operar algebraícamente utilizando números complejos, estos conocimientos se imparten en el curso de Cálculo y Álgebra Lineal de la Escuela de Matemática; así como los fundamentos del fenómeno eléctrico que brinda el curso de Física General II de la Escuela de Física. Además, el estudiante deberá llevar como correquisito un curso de laboratorio en donde se ponga en práctica lo aprendido en teoría. Los conocimientos brindados en este curso serán complementados en el de Análisis de Circuitos II pero en corriente alterna.
@@ -340,7 +340,7 @@ Tercer Parcial; 1; 20
 Proyecto de simulación; 1; 20
 Evaluaciones cortas; 0; 20","Alexander, Charles K.; Sadiku, Matthew N. “Fundamentos de circuitos eléctricos”. McGraw-Hill, México. 7 edición, 2022.
 Dorf, Richard; Svoboda, James A. “Circuitos eléctricos”. Alfaomega, México. Octava edición, 2011.
-Boylestad, Robert L. “Introducción al análisis de circuitos”. Prentice Hall, México. Decimosegunda edición, 2011.",,
+Boylestad, Robert L. “Introducción al análisis de circuitos”. Prentice Hall, México. Decimosegunda edición, 2011.",,,
 IEM2203,"Este curso está diseñado para brindar al estudiante conocimientos básicos requeridos para describir, analizar y diseñar sistemas electrónicos simples. Se introducen los temas de dispositivos analógicos y sus aplicaciones, principios de lógica combinacional, así como aplicaciones con semiconductores. 
 Se implementará programación en alto nivel y simulación de circuitos electrónicos con las herramientas apropiadas. El curso incluirá el diseño de una solución por medio de dispositivos analógicos y digitales de un problema simulado.","Aplicar herramientas de simulación y análisis para el diseño de sistemas electrónicos con amplificadores operacionales, elementos semiconductores y circuitos digitales combinacionales","Comprender las características y operación de los amplificadores operacionales en sus topologías básicas.
 Estudiar aplicaciones de IC especiales como monostables, astable, comparadores, reguladores de voltaje, convertidores V/f y V/I, entre otros.
@@ -377,7 +377,7 @@ Diseñar aplicaciones electrónicas utilizando circuitos lógicos combinacionale
 Prácticas de laboratorio; 0; 20 Proyecto de diseño; 1; 30","Schilling, D. & Belove, C. Circuitos Electrónicos discretos e integrados. McGraw-Hill, 3 ed. 1993. 
 Malvino, A. Principios de electrónica. McGraw-Hill, 6 ed. 
 Mohan, N., Undeland, T. M., & Robbins, W. P. (2009). Electrónica de potencia: convertidores, aplicaciones y diseño (3a. ed.). Sunny Isles Beach, US: McGraw-Hill España. 
-Wakerly, J. Diseño digital, principios y prácticas. Pearson Educación - Prentice Hall, 3 ed. · Tocci, R. & Wildmer, N. Sistemas digitales, principios y aplicaciones. Pearson Educación, 10 ed.",,
+Wakerly, J. Diseño digital, principios y prácticas. Pearson Educación - Prentice Hall, 3 ed. · Tocci, R. & Wildmer, N. Sistemas digitales, principios y aplicaciones. Pearson Educación, 10 ed.",,,
 IEM2203,"Este curso está diseñado para brindar al estudiante conocimientos básicos requeridos para describir, analizar y diseñar sistemas electrónicos simples. Se introducen los temas de dispositivos analógicos y sus aplicaciones, así como aplicaciones con semiconductores. 
 El curso incluirá experiencias de mediciones en laboratorio para entender mejor el funcionamiento de los dispositivos; además de un proyecto simulado de diseño usando circuitos lineales.","Aplicar herramientas de simulación y análisis para el diseño de sistemas electrónicos con amplificadores operacionales, elementos semiconductores","Comprender las características y operación de los amplificadores operacionales en sus topologías básicas.
 Estudiar aplicaciones de IC especiales: como monostable, astable, comparadores, reguladores de voltaje, convertidores, entre otros.
@@ -413,7 +413,7 @@ Comprender el funcionamiento de dispositivos electrónicos básicos diodo semico
 **Corto circuito virtual y topologías básicas: inversor, no inversor, sumador, restador, integrador, derivador. Diseño y modelado de filtros activos
 **IC especiales: reguladores de tensión, comparadores, astables, monostables, convertidores V/F y F/V",,"Exámenes parciales; 2; 40
 Informe de pruebas de laboratorio; 0: 30
-Proyecto de diseño : 1: 30",,,
+Proyecto de diseño : 1: 30",,,,
 IEM2204,"Es un curso introductorio teórico sobre fundamentos de lógica digital, sistemas combinacionales y secuenciales pensados para complementar la formación de las personas profesionales en ingeniería electromecánica, para luego ser aplicado tanto en ingeniería eléctrica como mecánica.
 El curso está pensado para sentar las bases necesarias para luego enfrentar la solución de problemas más complejos que involucren sistemas digitales en cursos posteriores. Busca inculcar el atributo de Aplicar herramientas de análisis y diseño de sistemas digitales enfocadas en su solución de problemas en ingeniería electromecánica. a nivel intermedio según la acreditación por la AAPIA. Cabe destacar que las herramientas de ingeniería se refieren tanto a las analíticas en el planteamiento del problema, así como el diseño de soluciones innovadoras.
 Como requisitos congnocitivos para llevar el curso el estudiante deberá conocer analizar circuitos eléctricos básicos, estos conocimientos se imparten en los cursos de Análisis de Circuitos I y II; así como los fundamentos del análisis de sistemas analógicos en ingeniería electromecánica que brinda el curso de Sistemas Analógico para Ingeniería Electromecánica todos ellos impartidos por esta Escuela. Además, el estudiante deberá llevar como correquisito un curso de laboratorio en donde se ponga en práctica lo aprendido en teoría. Los conocimientos brindados en este curso serán complementados en cursos del área de Sistemas de la carrera.
@@ -477,7 +477,7 @@ Segundo parcial; 1; 25
 Proyecto programado; 1; 25
 Proyecto de diseño  -- 25%","[01] Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003. 
 [02] Mano, Morris; “Lógica Digital y Diseño de Computadores”. 3 era ed. Prentice Hall: México. 1982. 
-[03] Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003. """,,
+[03] Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003. """,,,
 IEM2205,"El curso de Máquinas Eléctricas I proporciona una base sólida en corriente alterna, equipando al estudiante con las habilidades necesarias para comprender, plantear y resolver problemas relacionados con sistemas eléctricos, así como máquinas eléctricas estáticas y rotativas, tanto en configuraciones trifásicas como monofásicas.
 Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para efectuar cálculos de tensiones, corrientes, potencias y condiciones de operación en configuraciones tanto trifásicas como monofásicas, aplicables a sistemas y máquinas eléctricos estáticas y rotativas de inducción. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
 El presente curso establece los fundamentos necesarios para el posterior estudio en Máquinas Eléctricas II, donde se abordarán diferentes tipos de máquinas dentro de contextos analíticos diversos. Asimismo, ofrece una comprensión sólida de las máquinas eléctricas estudiadas, que servirán como base para su instalación, operación y mantenimiento. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Al final del curso la persona estudiante será capaz de diferenciar los diversos usos de las máquinas eléctricas para cada una de las aplicaciones de uso industrial, comercial o residencial. ","Analizar sistemas eléctricos trifásicos balanceado y desbalanceados.
@@ -592,7 +592,7 @@ Exámenes cortos y tareas; 1; 25","1.	Garik, M. Whipple, C. Máquinas de Corrien
 8.	ROSERBER, ROBERT. Reparación de Motores Eléctricos. Editorial Gustavo Gili. Barcelona. Sexta Edición.
 9.	Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
 10.	Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
-11.	Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+11.	Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,,
 IEM2206,"El curso de Máquinas Eléctricas II, representa la continuidad del estudio de las máquinas eléctricas desarrollado en el curso Máquinas Eléctricas I, es de carácter intermedio-avanzado y aplicado, donde se desarrollan conocimientos previos adquiridos a través de su formación ingenieril, con lo cual se espera que el estudiante desarrolle competencias para la comprensión, planteo y solución de los problemas de las máquinas eléctricas rotativas, especialmente Máquinas Sincrónicas Trifásicas y Máquinas de Corriente Directa. Es un curso de alto nivel.
 Está diseñado a fin de que el estudiante próximo a realizar su proyecto final de graduación, cuente con los conceptos relacionados a las máquinas rotativas de mayor uso en la industria. El curso estudia condiciones en estado estable de las maquinas eléctricas tanto de CA como CD. Se promueve un conocimiento amplio y permite la interacción del futuro ingeniero con profesionales de diversas áreas en el desempeño de sus labores profesionales. Durante el desarrollo de las lecciones se promueve el respeto, la ética profesional y la responsabilidad como futuros ingenieros y las repercusiones tanto éticas ante el Colegio Federado de Ingenieros como por la vía judicial, ya que, en el ejercicio de su profesión, los diseños, cotizaciones y propuestas contemplan declaraciones juradas por parte de los profesionales.
 Al terminar el curso, el estudiante conocerá las características de funcionamiento y usos principales de los Alternadores Sincrónicos, Generadores de Corriente Directa y Motores Sincrónicos y Motores de Corriente Directa, conocimientos que lo capacitarán para su operación y mantenimiento. 
@@ -768,7 +768,7 @@ II Examen Parcial; 1; 20
 III Examen Parcial; 0; 30
 Proyecto; 1; 30","Grainger, J. J., & Stevenson Jr., W. D. (1996). Análisis de Sistemas de Potencia. México: McGraw-Hill.
 Kothari, D. P., & Nagrath, I. J. (2008). Sistemas Eléctricos de Potencia. México: McGraw-Hill.
-Wildi, T. (2007). Máquinas Eléctricas y Sistemas de Potencia. México: PEARSON.",,
+Wildi, T. (2007). Máquinas Eléctricas y Sistemas de Potencia. México: PEARSON.",,,
 IEM2208,"El curso de Instalaciones Eléctricas proporciona una base sólida en el diseño eléctrico, preparando al estudiante con las habilidades necesarias para realizar proyectos industriales, comerciales y residenciales en baja tensión sometidos a los criterios del Código Eléctrico del Costa Rica del Colegio Federado de Ingenieros.
 Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para diseñar instalaciones eléctricas de baja tensión, efectuar análisis del desempeño energético y presupuestos, estudios de cortocircuito, selección de protecciones, elaboración de planos bajo la normativa actual. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
 El presente curso brinda las herramientas necesarias para las diferentes situaciones dentro de los contextos tanto analíticos como ingenieriles a los que el estudiante se encuentre. Asimismo, ofrece una comprensión sólida de los sistemas de eléctricos abarcando los cursos anteriores, que servirán como fundamento para proyectos de instalación, operación y mantenimiento en baja tensión. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Diseñar sistemas de potencia de baja tensión industriales, comerciales y residenciales. ","Diseñar instalaciones eléctricas industriales, comerciales y residenciales.
@@ -847,7 +847,7 @@ Proyecto; 1; 30","*Libros
 **IEEE Recommended Practice for Electrical Systems in Health Care Facilities (White Book) 						
 **IEEE Recommended Practice for Energy Management in Industrial and Commercial Facilities (Bronze Book) 
 **IEEE Guide for Maintenance, Operation and Safety of Industrial and Commercial Power Systems (Yellow Book) 
-**IEEE Recommended Practice for Applying Low Voltage Circuit Breaker Used in Industrial and Commercial Power Systems (Blue Book)",,
+**IEEE Recommended Practice for Applying Low Voltage Circuit Breaker Used in Industrial and Commercial Power Systems (Blue Book)",,,
 IEM2255,"El presente laboratorio busca aplicar y demostrar los conceptos y temas principales del curso Máquinas Eléctricas I, comprende mediciones de potencia en redes monofásicas y trifásicas bajo distintas configuraciones. Introduce las máquinas eléctricas llamadas transformadores conectado como autotransformadores y transformadores monofásicos y trifásicos para análisis de reflejo de impedancias y cálculo de potencias. Además, se abarca los motores de inducción, trifásicos como monofásicos, finalizando con el uso especial de un generador asincrónico.
 Además, mediante la práctica, el estudiante tiene la posibilidad de analizar y realizar diagramas de conexión, así como la utilización de instrumentos y equipos, relacionados con la operación de estas máquinas
 ","Aplicar los conceptos desarrollados en el curso de Máquinas Eléctricas I, de una forma práctica temas como sistemas de potencia monofásicos y trifásicos, transformadores y motores de inducción, que permita evidenciar los fenómenos y comprobar datos teóricos con mediciones experimentales.","Conocer la construcción y funcionamiento de transformadores de potencia monofásicos y trifásicos
@@ -880,7 +880,7 @@ Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
 NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
 Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
 Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
-Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,,
 IEM2256,"El curso pretende ser un complemento del curso teórico de Máquinas Eléctricas II, donde el estudiante tiene la posibilidad de comprobar experimentalmente, los planteamientos teóricos expuestos en la teoría. Busca que el estudiante realice prácticas con Máquinas Sincrónicas (Motor y Alternador) y Máquinas de Corriente Directa analice su comportamiento, bajo diversas condiciones de carga (régimen estable).
 
 Además, mediante la práctica, el estudiante tiene la posibilidad de analizar y realizar diagramas de conexión, así como la utilización de instrumentos y equipos, relacionados con la operación de estas máquinas eléctricas rotativas.","Conocer y analizar las diferentes conexiones que se pueden realizar en las máquinas eléctricas rotativas (motores y generadores sincrónicos) de AC y DC, más comunes en la industria.","Conocer los tipos de conexión que debe realizar en los motores y alternadores sincrónicos, y máquinas de CD según ciertas condiciones operativas.
@@ -916,7 +916,7 @@ Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
 NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
 Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
 Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
-Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,,
 IEM2301,"Los transductores están presentes en toda la maquinaria moderna, por lo que los Ingenieros electromecánicos deben conocerlos, identificarlos, seleccionarlos y usarlos correctamente.  Esta asignatura brinda al estudiante conocimiento sobre la correcta selección y aplicación de los distintos tipos de transductores divididos en dos grupos llamados sensores y actuadores.
 Por definición los transductores son elementos que convierten distintas formas de energía entre sí, por ejemplo: un motor eléctrico trasforma energía eléctrica en energía mecánica rotacional, o un micrófono transforma una onda sonora a una señal eléctrica. Sin embargo, el curso se enfoca principalmente en el estudio transductores usados para generar señales eléctricas de pequeña potencia a partir de manifestaciones físicas tales como: presión, temperatura, peso, aceleración, movimientos rotacionales o lineales, caudal, densidad, viscosidad, acidez, ondas sonoras, luz, voltaje, corriente, etc. La parte final de curso se enfoca en dispositivos que reciben una señal eléctrica que se transforma en un movimiento.
 Esta signatura se ubica en el tercer semestre de la carrera por lo que tienen un carácter inicial, sin embargo, es fundamental la correcta comprensión de los conocimientos, ya que serán utilizados de forma reiterada durante toda la carrera. 
@@ -1022,7 +1022,7 @@ Máster en Ciencias de la Ingeniería Eléctrica (UCR, 2016)
 Máster en Computación (TEC, 2004)
 Ingeniero en Mantenimiento Industrial (TEC, 1999)
 Técnico en Electrónica (COVAO, 1994)
-*lmurillo@itcr.ac.cr"
+*lmurillo@itcr.ac.cr",
 IEM2302,"El curso de Instrumentación contribuye a formar profesionales con una compresión profunda de las técnicas modernas de instrumentación que son esenciales para cualquier aplicación moderna en ingeniería. 
 Entre los aprendizajes más destacados se encuentran: seleccionar transductores como parte de un sistema de instrumentación diseñado para una aplicación específica; adquirir, acondicionar y visualizar señales e identificar y calcular los componentes de su incertidumbre; usar adecuadamente la normativa de representación gráfica de los sistemas de instrumentación; y diseñar instrumentos virtuales para aplicaciones específicas.  
 Este curso: introduce los lenguajes de programación gráfica que luego se retoman en el curso de Modelado y Simulación de Sistemas Electromecánicos; habilita la adquisición y acondicionamiento de las señales que serán las entradas y salidas de los sistemas de control que se estudiaran en los cursos de Control Eléctrico y Control Automático; y permite la instrumentación de un sistema complejo como los que se desarrollaran en el curso de Diseño e Integración de Sistemas Electromecánicos. ","Diseñar sistemas de instrumentación, usando los dispositivos y el software adecuado de acuerdo a la aplicación planteada","Seleccionar los transductores adecuados según la aplicación del sistema de instrumentación
@@ -1110,7 +1110,7 @@ Creus Antonio, Neumática e Hidráulica. 2 Ed Alfaomega 2011.
 Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",pallas2012sensors;fraden2016handbook,"Juan José Rojas Hernández; Dr-Ing.: jrojas@itcer.ac.cr
 Doctor en Integración de Sistemas
 Master en Electrónica
-Licenciado en Mantenimiento Industrial"
+Licenciado en Mantenimiento Industrial",
 IEM2303,"Este curso introduce a la persona estudiante en el modelado y análisis matemático de sistemas físicos mediante el uso de diversas herramientas teóricas y experimentales. Así mismo, se hace uso de software especializado para la simulación de estos modelos de manera que sea un complemento para el análisis de la respuesta de los sistemas tanto en el dominio del tiempo como en el de la frecuencia. La obtención y análisis de modelos que representen la realidad y permitan derivar conclusiones y predicciones, es un pilar fundamental tanto en el área de las ciencias como en el de la ingeniería. Este curso ofrece además las bases para los cursos de sistemas de control automático, control eléctrico,  mantenimiento basado en la condición, automatización, entre otros.",,,"*Introducción al modelado y análisis de sistemas
 **Introducción a la teoría general de sistemas 
 **Importancia del análisis de sistemas en ingeniería
@@ -1193,7 +1193,7 @@ Charles M. Close and Dean K. Frederick and Jonathan C. Newel
 John Wiley & Sons, 2002.",,"Juan Luis Guerrero Fernández; Ph. D; jguerrero@itcr.ac.cr
 *
 Doctor en filosofía en ciencias (Ph.D.), Universidad de Sheffield, Inglaterra 
-Máster en Ciencias (M. Sc.) en Mecatrónica, Universidad de Ciencias Aplicadas Aachen, Alemania "
+Máster en Ciencias (M. Sc.) en Mecatrónica, Universidad de Ciencias Aplicadas Aachen, Alemania ",
 IEM2304,"Se establecen las bases de conocimiento mínimas para la gestión de proyectos de ingeniería, como medio para la toma de decisiones alineadas con los objetivos y metas estratégicas de una organización, así como con el área de investigación científica. Este curso forma parte de los cursos del área de sistemas que, en conjunto con cursos de las demás áreas académicas de la carrera, contribuye a formar profesionales en el campo de la Ingeniería Electromecánica. En la primera parte del curso se describe y analizan las herramientas necesarias para la formulación y evaluación de proyectos; en la segunda parte del curso se estudian los aspectos relacionados con una adecuada administración de proyectos, como estrategia de optimización de costos, recursos y tiempo para garantizar la consecución exitosa de los proyectos; en la tercera parte del curso se analizan las nuevas estrategias y metodologías para la administración de proyectos.","Desarrollar en el estudiante habilidades para la gestión de proyectos en ingeniería, en sectores tales como Pymes, empresas nacionales y transnacionales, brindando herramientas que permitan la comunicación con los mandos ejecutivos, de manera que se otorgue el oportuno soporte para la toma de decisiones alineadas con la estrategia de la organización.","Definir las herramientas técnico-administrativas, legales y ambientales, para el análisis del entorno (contexto nacional e internacional) en la determinación de oportunidades innovadoras de desarrollo, alineadas con los objetivos y metas estratégicas de la organización.
 Aplicar las herramientas de planificación, estimación, implementación, evaluación y seguimiento de proyectos, para la adecuada gestión de un proyecto, basado en literatura correspondiente.
 Desarrollar herramientas de análisis de entorno para la optimización máxima de los recursos durante la ejecución de proyectos, estableciendo sus indicadores de gestión.
@@ -1250,7 +1250,7 @@ Gray F. Clifford, Larson W. Erik. (2007). Edición en español (2009). Administr
 Gray F. Clifford, Larson W. Erik. (2010). Project Management: The Managerial Process. (Quinta edición). Estados Unidos. McGraw-Hill.",,"Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
 *
 Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. 
-"
+",
 IEM2305,"La gestión efectiva de proyectos en el campo de la ingeniería electromecánica es crucial para el éxito en el desarrollo, implementación y mantenimiento de sistemas que integran componentes eléctricos y mecánicos. Este curso de Gestión de la Ingeniería Electromecánica está diseñado para proporcionar al estudiante una comprensión profunda de los principios, metodologías y prácticas necesarias para liderar proyectos en este ámbito complejo y multidisciplinario.
 La ingeniería electromecánica se centra en la integración sinérgica de sistemas eléctricos y mecánicos para crear soluciones que aborden problemas en una variedad de sectores, como la industria manufacturera, médica, energética, servicios, entre otros.
 Durante este curso, el estudiante  logrará comprender los conceptos básicos de la Gestión de la Ingeniería Electromecánica, incluyendo los conceptos de mantenimiento,  fundamentos de sistemas, los principios de diseño y análisis, y las tecnologías relevantes. 
@@ -1286,7 +1286,7 @@ Segundo parcial; 1; 25","1. INCOSE, A guide for system life cicle processes and 
 4. ""Introduction to Mechanical Engineering"" por J. Paulo Davim (2017) ",,"Carlos Piedra Santamaría; Ing; cpiedra@itcr.ac.cr
 *
 Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración del Mantenimiento. 
-"
+",
 IEM2306,"Los sistemas de control automático son parte integral e indispensable de los procesos productivos modernos. No solamente para asegurar las características y la calidad de los productos, sino también para hacer un uso eficiente de la energía y las materias, para garantizar la seguridad de los equipos y el personal encargado de su operación, y para preservar el medio ambiente. Los sistemas de control se pueden encontrar en industrias de procesos y manufactura muy diversas, como la industria aeroespacial, aeronáutica, del transporte, agroindustrial, de alimentos, automotriz, de equipo médico, de fabricación de componentes y equipos electrónicos, la farmacéutica, de generación y distribución de energía, la metalmecánica, robótica, sistemas microelectromecánicos (MEMS), nanotecnología y muchos otros. 
 Esta asignatura busca ofrecer a la persona estudiante una introducción a la ingeniería de sistemas de control mediante la presentación de los principios, conceptos y técnicas fundamentales necesarios para el análisis y diseño práctico de sistemas de control por realimentación. Se fomenta asimismo el desarrollo de habilidades y competencias como el trabajo en equipo, el uso de herramientas computaciones para el diseño y simulación de los controladores, así como el aprendizaje autónomo.","Brindar una introducción a los principios, conceptos y técnicas fundamentales necesarios para el análisis y diseño práctico de sistemas de control por realimentación. Se enfatiza el tratamiento de sistemas lineales de una entrada y una salida, para los que se presentan las herramientas clásicas de análisis (e.g., lugar de las raíces, diagrama de Nyquist, diagramas de Bode), y métodos de diseño de controladores clásicos (PI, PID), y modernos (parametrización afín).","Comprender el concepto de sistema de control, el de lazo de control realimentado y definir la función de sus componentes.
 Usar herramientas computacionales para la simulación y el diseño de compensadores y reguladores.
@@ -1350,7 +1350,7 @@ Proyecto; 1; 25","•	Graham Clifford Goodwin, Stefan F. Graebe, Mario E. Salgad
 •	F. Golnaraghi, K. Benjamin; Automatic Control Systems; 9ed; Wiley Online Library,2010",,"Juan Luis Guerrero Fernández; Ph. D; jguerrero@itcr.ac.cr
 *
 Doctor en filosofía en ciencias (Ph.D.), Universidad de Sheffield, Inglaterra 
-Máster en Ciencias (M. Sc.) en Mecatrónica, Universidad de Ciencias Aplicadas Aachen, Alemania "
+Máster en Ciencias (M. Sc.) en Mecatrónica, Universidad de Ciencias Aplicadas Aachen, Alemania ",
 IEM2307,"El curso de Mantenimiento Basado en Condición (MBC) está diseñado para proporcionar a los participantes los conocimientos y habilidades necesarios para implementar y gestionar estrategias efectivas de mantenimiento predictivo en entornos industriales. A través de este curso, los participantes aprenderán a utilizar tecnologías de monitoreo de estado para identificar y prevenir fallas en equipos y maquinaria, maximizando así la disponibilidad operativa y prolongando la vida útil de los activos.","Desarrollar las habilidades en la persona estudiante para gestión e implementación de estrategias efectivas de Mantenimiento Basado en Condición, con el fin de que se identifiquen oportunidades para la optimización de la confiabilidad y disponibilidad de los activos industriales mediante la detección temprana de posibles problemas de funcionamiento y la aplicación de técnicas de monitoreo continuo del estado de los activos.","Desarrollar habilidades en la persona estudiante la comprensión de los  fundamentos teóricos del Mantenimiento Basado en Condición, permitiéndole la adquisición de un conocimiento sólido para su aplicación en estrategias efectivas para la gestión de activos industriales, mediante el estudio de análisis de datos, interpretación de análisis de monitoreo y toma de decisiones.
 Desarrollar habilidades en la persona estudiante para el uso de  tecnologías de monitoreo de estado, incluyendo análisis de vibraciones, termografía, análisis de aceite y ultrasonido, de manera que le permita la selección y aplicación mas adecuada para la detección temprana de posibles fallas de funcionamiento , tomando decisiones informadas en la gestión de activos.
 Adquirir las habilidades de aprendizaje  para la interpretación de datos de monitoreo de estado , de manera que se identifiquen los patrones de deterioro y predicción de posibles fallas en equipos y maquinaria.
@@ -1386,7 +1386,7 @@ Segundo parcial; 1; 25","1. ""Condition-Based Maintenance in Aerospace: A Compre
 3. ""Condition Monitoring of Machinery in Non-Stationary Operations: Proceedings of the International Conference on Condition Monitoring of Machinery in Non-Stationary Operations"" editado por Robert Randall y Dimitrios Kouroussis (2018).",,"Carlos Piedra Santamaría; Ing; cpiedra@itcr.ac.cr
 *
 Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración del Mantenimiento. 
-"
+",
 IEM2309,"Este curso sobre Gestión de Energía está diseñado para proveer a los estudiantes un conocimiento profundo y habilidades prácticas en la gestión eficiente y sostenible tanto de energía como de agua potable. Abordando los fundamentos, la descarbonización, la implementación de normas ISO 50000, el aprovechamiento de energías renovables, y la gestión del agua potable, el curso cubre aspectos cruciales y actuales de ambos sectores. Mediante una combinación de teoría, estudios de caso, y proyectos prácticos, se promueve el desarrollo de competencias para la implementación de estrategias sostenibles en la gestión de energía y agua, enfocándose en eficiencia, innovación y sostenibilidad. Finalmente, el estudiante tendrá la capacidad de explorar fuentes de energía renovable y evaluará su papel en la reducción de la dependencia de los combustibles fósiles. Asimismo, tendrá comprensión acerca de la legislación, políticas y normativas relacionadas con la eficiencia energética y la sostenibilidad.","Proporcionar a los estudiantes un conocimiento integral sobre la gestión de energía y recursos hídricos, con énfasis en la descarbonización, el aprovechamiento de energías renovables, la implementación de la familia de normas ISO 50000, exploración de nuevas tecnologías de generación de energía y gestión eficiente del agua potable, para capacitarlos en el desarrollo e implementación de estrategias eficientes y sostenibles en diversos contextos.","Introducir los conceptos fundamentales de la gestión de energía, incluyendo la terminología básica, principios y la importancia de una gestión energética eficiente y sostenible.
 Analizar las estrategias de descarbonización, su relevancia en la lucha contra el cambio climático y su impacto en las prácticas de gestión de energía.
 Profundizar en los detalles, aplicaciones y beneficios de la familia de normas ISO 50000 para la gestión de energía, incluyendo cómo pueden ser implementadas en organizaciones de diversos sectores.
@@ -1432,7 +1432,7 @@ Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2
 4. Base de datos Biblioteca del Tecnológico de Costa Rica.","Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
 *
 Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. 
-"
+",
 IEM2311,"El curso de Automatización brinda al estudiante a conocimientos avanzados en el campo de la automatización de procesos continuos y discretos, de manera que los estudiantes puedan plantear y desarrollar soluciones de automatización de mediana complejidad, utilizando herramientas y conceptos propios de la disciplina. Se profundiza en el uso de las herramientas, métodos y funcionalidades del software de automatización, procesamiento de imágenes, robótica y de manera complementaria, se integra con otros tipos de equipos, dispositivos y componentes para construir sistemas automatizados de mayor complejidad.
 El curso impulsa a los estudiantes para que diseñen e implementen sistemas SCADA (Supervisory Control and Data Acquisition) por lo que la programación de autómatas, configuración de redes de comunicación, tratamiento de señales digitales y analógicas con autómatas programables (PLCs) son pilares fundamentales.  Así mismo, el modelado y diseño de celdas de manufactura, la interacción con robots y el control de calidad mediante sistemas de visión son parte de la automatización de tareas industriales.  La parte final del curso busca introducir al estudiante en la simulación moderna de sistemas productivos  mediante herramientas de alto nivel que permite la creación de gemelos digitales.
 Esta signatura se ubica en el último semestre de la carrera por lo que tienen un carácter avanzado e integrador que le brinda un carácter de obligatoriedad a la asignatura.","Implementar sistemas de automatización industriales, comerciales o domésticos mediante la integración de controladores programables, robots, sistemas de visión, transductores y sistemas informáticos para el  control supervisorio.","Desarrollar sistemas de comunicación industrial entre distintos tipos de dispositivos
@@ -1515,4 +1515,131 @@ Máster en Ciencias de la Ingeniería Eléctrica (UCR, 2016)
 Máster en Computación (TEC, 2004)
 Ingeniero en Mantenimiento Industrial (TEC, 1999)
 Técnico en Electrónica (COVAO, 1994)
-*lmurillo@itcr.ac.cr"
+*lmurillo@itcr.ac.cr",
+EM2109,"El curso de Estática contribuye a comprender la mecánica del cuerpo rígido que es la base para el diseño y análisis de muchos tipos de dispositivos estructurales, mecánicos o eléctricos, que se encuentran en la ingeniería. Además, la mecánica del cuerpo rígido proporciona parte de la base necesaria para el estudio de la mecánica de los cuerpos deformables y la mecánica de los fluidos. 
+Entre los aprendizajes más destacados se encuentran:  determinar cargas mecánicas (fuerzas y momentos) que actúan en sistemas mecánicos en equilibrio estático, tanto estructurales cómo de máquinas y mecanismos; conocer las bases fundamentales de la mecánica vectorial que luego son necesarias para el cálculo de fuerzas y momentos en cuerpos rígidos, armaduras simples, máquinas y bastidores; comprender la fricción de Coulomb, en superficies planas y en bandas; y calcular el centroide y momento de inercia de áreas. 
+Este curso: Les una introducción a la mecánica, que puede ser definida como la rama de la física que trata acerca del estado de reposo o movimiento de cuerpos que están sometidos a la acción de fuerzas. En general, este tema se subdivide en tres ramas: mecánica del cuerpo rígido, mecánica del cuerpo deformable y mecánica de fluidos. La mecánica del cuerpo rígido se divide en dos áreas: estática y dinámica. La estática trata con el equilibrio de los cuerpos, esto es, aquellos que están en reposo o se mueve con velocidad constante; aunque la estática puede ser considerada como un caso especial de la dinámica, en el sentido de que la aceleración es cero, merece un tratamiento especial en la enseñanza de la ingeniería ya que muchos objetos son diseñados con la intención de que permanezcan en equilibrio. 
+En caso de que un estudiante requiera apoyos educativos, podrá solicitarlos a través del Departamento de Orientación y Psicología.","•	Desarrollar en el estudiante la capacidad para solucionar y analizar problemas de mecanismos mecánicos de manera simple y lógica, aplicando en su solución los principios fundamentales de la Estática.","1. Analizar y resolver problemas de partículas en dos y tres dimensiones, utilizando los conceptos fundamentales de la Estática, como vectores, componentes rectangulares, triángulos de fuerzas y las ecuaciones de equilibrio.
+2. Analizar y resolver problemas de sistemas de fuerzas y pares aplicados a cuerpos rígidos.
+3. Analizar y resolver problemas de cuerpos rígidos en equilibrio estático, en dos y tres dimensiones, haciendo uso de las leyes fundamentales del equilibrio. El estudiante podrá calcular el centroide o el centro de gravedad de cuerpos simples y compuestos, tanto en dos como en tres dimensiones.
+4. Calcular el centroide o el centro de gravedad de cuerpos simples y compuestos, tanto en dos como en tres dimensiones.
+5. Calcular Momentos de Inercia de áreas conocidas y por integración.
+6. Analizar diferentes tipos de estructuras (armaduras, marcos y máquinas) y calcular la magnitud de las fuerzas a que están sometidos sus elementos.
+7. Calcular y dibujar los diagramas de fuerza cortante y momento flector de una viga estáticamente determinada, sometida a cargas concentradas y distribuidas.
+8. Analizar y resolver problemas de cuerpos que presentan rozamiento, a partir de un análisis general del sistema.","Principios generales
+	Que es mecánica
+	Conceptos fundamentales 
+	Unidades de Medición 
+	Sistema Internacional de unidades
+	Cálculos Numéricos
+	Procedimiento general para el análisis
+ores fuerza
+	Escalares y vectores
+	Operaciones vectoriales
+	Suma vectorial de fuerzas
+	Suma de un sistema de fuerzas coplanares
+	Vectores cartesianos
+	Suma de vectores cartesianos 
+	Vectores de posición
+	Vector fuerza dirigido a lo largo de una línea
+	Producto punto
+Equilibrio de una partícula
+	Condiciones para el equilibrio de una partícula
+	Diagrama Cuerpo Libre
+	Sistemas de fuerzas Coplanares
+	Sistemas de Fuerzas Tridimensionales
+Resultante de un Sistema de Fuerzas
+	Momento de Una Fuerza, formulación escalar.
+	Producto Cruz
+	Momento de Una Fuerza, formulación vectorial
+	Principio de Momentos
+	Momento de una Fuerza con Respecto a un Eje Específico
+	Momento de Un Par
+	Simplificación de Un Sistema Fuerza Par (fuerza y un par, llave de torsión)
+	Reducción de una Carga Distribuida a una puntua
+Equilibrio de un Cuerpo Rígido
+	Condiciones para el Equilibrio de un Cuerpo Rígido
+	Diagrama de Cuerpo Libre 
+	Ecuaciones de Equilibrio
+	Elementos a Dos Fuerzas y Tres Fuerzas
+	Diagramas de Cuerpo Libre 3D
+	Ecuaciones de Equilibrio 3D
+	Restricciones y Determinación Estática 3D
+Análisis Estructural
+	Armaduras Simples
+	Método de Nodos
+	Elementos de Fuerza Cero
+	Método de Secciones
+	Bastidores y Máquinas
+	Cables
+Fuerzas Internas
+	Cargas Internas desarrolladas en elementos estructurales
+	Ecuaciones y Diagramas de Fuerza Cortante y Momento Flexionante
+	Relaciones Entre Carga Distribuida, Fuerza Cortante y Momento Flexionante
+Fricción
+	Fricción Seca
+	Bandas Planas
+	Cuñas
+	Tornillos
+	Chumaceras
+	**Resistencia al rodamiento.
+Centroides
+	Centro de Gravedad, centro de masa y centroide de un cuerpo
+	Cuerpos Compuestos
+	Teorema de Pappus y Guldinus
+	Resultante de una carga general distribuida
+**Momentos de inercia
+	Definición de Momentos de Inercia para Áreas
+	Teorema de los Ejes Paralelos para un Área
+	Radio de Giro de un Área
+	Momentos de Inercia para Áreas Compuestas
+**Trabajo Virtual
+Contenidos con (**) no son esenciales","Sesiones de clases magistrales o educación a distancia (según la modalidad matriculada). Se asignarán una serie de actividades semanales donde se expondrán los conceptos relevantes de cada tema y serán analizados con ejemplos reales, además se asignará a los estudiantes la realización de ejercicios de práctica de los libros de texto recomendados.
+Independiente de la modalidad matriculada las clases combinaran el trabajo previo de los estudiantes, la exposición y reforzamiento de conceptos por parte del profesor, y el trabajo grupal de los y las estudiantes. ","	5 Pruebas cortas 25%
+(5% cada una) 
+
+	2 Exámenes parciales 55%
+(25% el primer parcial y 30% el segundo)
+
+	1 Proyecto en parejas (20 %)","R. C. Hibbeler, Mecánica para Ingenieros: Estática, Prentice Hall, Decimocuarta edición, 2016.
+F. P. Beer y R. Johnston, Mecánica Vectorial para Ingenieros. Estática, McGraw-Hill, Undécima edición, 2017. 
+A. Bedford y W. Fowler, Mecánica para Ingeniería: Estática, Prentice Hall, 2011. 
+J. L. Meriam y L.G. Kraige, Engineering Mechanics, Statics, John Wiley and Sons, Seventh Edition, 2004",,"Julio Andrés Morera Hidalgo 
+Máster en Ingeniería de la Energía y Energías Renovables, Universidad Politécnica de Madrid.
+Licenciado en Ingeniería en Mantenimiento Industrial, Instituto Tecnológico de Costa Rica.
+Contacto: jmorera@itcr.ac.cr
+
+Manuel Francisco Mata Coto
+Máster en Ciencias en Ingeniería Mecánica especialidad en diseño Mecánico, Centro Nacional de Investigación y Desarrollo Tecnológico (Cenidet) Cuernavaca México.
+Licenciado en Ingeniería en Mantenimiento Industrial, Instituto Tecnológico de Costa Rica.
+Contacto:  mfmata@itcr.ac.cr mfmata@gmail.com, 
+
+Gustavo Richmond Navarro 
+Doctor en ingeniería (Dr.-Ing.), Universidad de Costa Rica
+Máster en ciencias de la ingeniería mecánica, Universidad de Chile
+Licenciado en ingeniería en mantenimiento industrial, Instituto tecnológico de Costa Rica.
+Bachiller en física, Universidad de Costa Rica.
+Contacto: grichmond@tec.ac.cr
+Oficina 8, Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica
+
+Laura Salas Moya
+Máster en Administración de Proyectos de Construcción, Universidad de Costa Rica
+Licenciada en Ingeniería Mecánica, Universidad de Costa Rica
+Contacto: lausalas@itcr.ac.cr
+Oficina 15, Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica
+
+Luis Felipe Córdoba Ramírez
+Máster en Ciencias en Ingeniería Mecánica, Universidad de Utah. 
+Licenciado en Ingeniería en Mantenimiento Industrial, Instituto Tecnológico de Costa Rica. 
+Contacto: lfcordoba@itcr.ac.cr
+Oficina 22, Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica
+
+Christopher Vega Sánchez (coordinador del curso)
+Doctor en filosofía en ciencias (Ph.D.) Universidad de Sídney, Australia.
+Máster en ciencias (M.Sc.) en Ingeniería de Sistemas Microelectromecánicos de la Universidad de Freiburg, Alemania
+Licenciatura en Ingeniería en Mantenimiento Industrial, Tecnológico de Costa Rica, Costa Rica
+cvega@itcr.ac.cr
+Oficina 20, Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica
+
+
+",
