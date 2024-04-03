@@ -1,4 +1,4 @@
-﻿Codigo,Descripcion,ObjetivoGeneral,ObjetivosEspecificos,Contenidos,Metodologia,Evaluacion,Bibliografia,Bibtex,Profesor
+﻿Codigo,Descripcion,ObjetivoGeneral,ObjetivosEspecificos,Contenidos,Metodologia,Evaluacion,Bibliografia,Bibtex,Profesores,Profesor
 IEM2101,"El curso de dibujo técnico contribuye a la formación y desarrollo profesional de las personas estudiantes, equipándolos con las habilidades y herramientas necesarias para la comunicación, el diseño y la ejecución en el ámbito de la ingeniería. 
 Entre los aprendizajes más destacados se encuentran la capacidad para interpretar y aplicar las normas INTE/ISO de dibujo técnico en situaciones prácticas, así como la habilidad para visualizar y representar objetos tridimensionales en un plano bidimensional y viceversa. Asimismo, los estudiantes desarrollan destrezas en el uso de herramientas CAD para la elaboración de planos. Además de las habilidades técnicas, se busca promover el compromiso, el respeto y la ética profesional entre los participantes.
 Este curso sienta las bases fundamentales para asignaturas más avanzadas en el campo del diseño y la ingeniería mecánica. Proporciona una comprensión sólida de los principios y técnicas de dibujo técnico que son esenciales para el desarrollo de proyectos más complejos en las áreas de diseño y manufactura. De esta manera, establece una conexión con otros cursos de la carrera, preparando a los estudiantes para enfrentar desafíos en su trayectoria académica y profesional.","Realizar un plano de una pieza mecánica, según las normas INTE/ISO, que contenga información necesaria y suficiente para la interpretación de la forma y dimensiones de la pieza. ","Aplicar las normas INTE/ISO y de otros estándares.
@@ -89,7 +89,7 @@ Tareas digitales coordinadas; 10; 15
 [6]	Gisecke M, Dibujo y Comunicación Gráfica, Printece Hall, 3 edición, México, 2006
 [7]	Spencer H, Dibujo Técnico, Alfa Omega, 8 edición, México, 2009
 [8]	Material didáctico preparado por el profesor
-",,"Ing. Luis Felipe Córdoba Ramírez M.Sc. (Coordinador)
+",hernandez2013dibujo;lieu2011dibujo,LCR0;CVS0;NUS0;JGF0;HJQ0;COZ0;VJH0,"Ing. Luis Felipe Córdoba Ramírez M.Sc. (Coordinador)
 Máster en ciencias Ingeniería Mecánica, Universidad de Utah. 
 Licenciado en Ingeniería en Mantenimiento Industrial, Instituto Tecnológico de Costa Rica. 
 Contacto: lfcordoba@itcr.ac.cr
@@ -157,7 +157,7 @@ Proyecto de investigación; 0; 0","Valdivia, Carlos. ""Sistemas de control conti
 Balcells, Josep; Romeral, José. “Autómatas Programables”. Alfaomega: México. 1998.
 Fabricius, Eugene; “Diseño lógico moderno y teoría de conmutación”. CECSA: México. 1996 García M, Emilio; “Automatización de Procesos Industriales”. Alfaomega: Mexico. 2001.
 Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003.                              Romera, Pedro; Lorite, Antonio; Montero, Sebastián “Automatización: Problemas resueltos con autómatas programables”. 3 era ed. Thomson: Madrid. 2003.                         Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003
-",,"Luis Gómez Guitiérrez; Ing; lugomez@itcr.a.cr
+",,,"Luis Gómez Guitiérrez; Ing; lugomez@itcr.a.cr
 *
 Ingeniero en Mantenimiento industrial. Maestria en Gestión de Activos Físicos. "
 IEM2110,"El curso de Laboratorio de  control eléctrico es el complemento práctico del curso de teoría, en este curso se realizan una serie de laboratorios  que demuestran de forma práctica los conocimientos adquiridos, ademas promueve el desarrollo de otros tipos de habilidades y herramientas de conocimiento para el estudiante, las cuales serán de su utilidad en el ejercicio de la profesión.  Se destaca que al ser un curso paralelo al de teoría y posterior al de Control Automático, se ofrece la posibilidad de incluir entre las practicas, algunos conocimientos aplicados de control automático, como una forma de fortalacer los conocimientos en el area de control y automatización de procesos.  Al ser un curso práctico el estudiante deberá hacer uso de herramientas de ingenieria para el diseño, simulación y analisis de comportamiento de los sistemas de  control propuestos en la guia de prácticas del curso. Otras habilidades que adquiere la persona estudiante del curso,  lo son trabajo en equipo, autoprendizaje e investigacion, habilidades de comunicación oral y escrita, no obstante para garantizar el cumplimiento y adquisición de nuevos conocimientos se hace necesario  el compromiso y la proactividad del estudiante en el desarrollo de las prácticas. ",Al finalizar el curso la persona estudiante estará en capacidad de desarrollar habilidades prácticas para comprender y diseñar  soluciones de automatización de pequeña y mediana complejidad con una perspectiva analitica de su comportamiento a traves de su implementación y simulación. ,"Al finalizar el curso la persona estudiante estará en capacidad de integrar los conocimientos teoricos, mediante la realizacion de prácticas que demuestran  el comportamiento de sistemas de control y automatización de procesos.     
@@ -297,7 +297,7 @@ Segundo parcial; 1; 30
 Tercer parcial; 1; 30
 Proyecto programado; 1; 10","[1] Hayt, William H; Kemmerly, Jack E; Durbin, Steven M. “Análisis de circuitos en ingeniería”.  McGraw-Hill, México. Séptima edición, 2007.
 [2] Boylestad, Robert L. “Introducción al análisis de circuitos”. Prentice Hall, México. Decimosegunda edición, 2011.
-[3] Alexander, Charles K.; Sadiku, Matthew N. “Fundamentos de circuitos eléctricos”. McGraw-Hill, México. Quinta edición, 2013.",,
+[3] Alexander, Charles K.; Sadiku, Matthew N. “Fundamentos de circuitos eléctricos”. McGraw-Hill, México. Quinta edición, 2013.",,,
 IEM2202,Este curso profundiza el estudio de señales sinusoidales en circuitos lineales RLC brindando herramientas de análisis en el dominio del tiempo y respuesta en frecuencia. Su aprovechamiento complementa las bases en la teoría general de circuitos eléctricos y aporta conocimientos necesarios para abordar apropiadamente los cursos posteriores.,Brindar las bases teóricas que describen los circuitos de corriente alterna y abordar herramientas computacionales de simulación y análisis,"Comprender el comportamiento de los distintos elementos que conforman un circuito RLC bajo excitación sinusoidal.	
 Analizar el concepto de Función de transferencia y su estructura general con el fin de determinar los diagramas de Bode
 Relacionar las señales periódicas con las series de Fourier y su respuesta ante filtros pasivos
@@ -699,7 +699,7 @@ NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
 ROSERBER, ROBERT. Reparación de Motores Eléctricos. Editorial Gustavo Gili. Barcelona. Sexta Edición.
 Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
 Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
-Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,"Osvaldo Guerrero Castro; Ing; oguerrero@tec.ac.cr
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,,"Osvaldo Guerrero Castro; Ing; oguerrero@tec.ac.cr
 Ingeniero en Mantenimiento Industrial"
 IEM2207,"El curso de Análisis de Sistemas de Potencia proporciona una base sólida en modelado y simulación, preparando al estudiante con las habilidades necesarias para comprender, plantear y resolver problemas complejos relacionados con sistemas de potencia de mediana y alta tensión sometidos a condiciones de operación normal o bajo situaciones extremas.
 Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para diseñar líneas de transmisión, efectuar cálculos del desempeño de las redes eléctricas, estudios de cortocircuitos simétricos y asimétricos, análisis del despacho económico, así como estudios de estabilidad bajo diversos puntos de operación. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.

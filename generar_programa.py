@@ -1,4 +1,5 @@
-import os
+import subprocess
+import time
 import pandas as pd
 import numpy as np
 from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
@@ -148,7 +149,7 @@ def generar_programa(codigo):
     doc.packages.append(Package(name="babel", options=['spanish','activeacute']))
     doc.packages.append(Package(name="anyfontsize"))
     doc.packages.append(Package(name="fancyhdr"))
-    doc.packages.append(Package(name="biblatex", options=['style=authoryear']))
+    doc.packages.append(Package(name="biblatex", options=['style=ieee','backend=biber']))
     #Package options
     doc.preamble.append(Command('setmainfont','Arial'))
     #doc.preamble.append(Command('usetikzlibrary','calc'))
@@ -458,9 +459,12 @@ def generar_programa(codigo):
                 ),
                 f"profesor"
             ])
-    doc.generate_pdf(f"./programas/{codCurso}", clean=True, clean_tex=False, compiler='lualatex')
+    doc.generate_pdf(f"./programas/{codCurso}", clean=False, clean_tex=False, compiler='lualatex')
+    subprocess.run(["biber", "C:\\Repositories\\IEM_programas\\programas\\IEM2101"])
+    doc.generate_pdf(f"./programas/{codCurso}", clean=False, clean_tex=False, compiler='lualatex')
+    doc.generate_pdf(f"./programas/{codCurso}", clean=True, clean_tex=False, compiler='lualatex') 
 
 # for codigo in cursos.Codigo:
 #      generar_programa(codigo)
     
-generar_programa("IEM2301")
+generar_programa("IEM2101")
