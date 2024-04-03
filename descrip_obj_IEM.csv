@@ -137,389 +137,6 @@ Contacto: vhernandezg@itcr.ac.cr
 Escuela de Ingeniería Electromecánica, Campus Cartago, Tecnológico de Costa Rica 
 
 "
-IEM2301,"Los transductores están presentes en toda la maquinaria moderna, por lo que los Ingenieros electromecánicos deben conocerlos, identificarlos, seleccionarlos y usarlos correctamente.  Esta asignatura brinda al estudiante conocimiento sobre la correcta selección y aplicación de los distintos tipos de transductores divididos en dos grupos llamados sensores y actuadores.
-Por definición los transductores son elementos que convierten distintas formas de energía entre sí, por ejemplo: un motor eléctrico trasforma energía eléctrica en energía mecánica rotacional, o un micrófono transforma una onda sonora a una señal eléctrica. Sin embargo, el curso se enfoca principalmente en el estudio transductores usados para generar señales eléctricas de pequeña potencia a partir de manifestaciones físicas tales como: presión, temperatura, peso, aceleración, movimientos rotacionales o lineales, caudal, densidad, viscosidad, acidez, ondas sonoras, luz, voltaje, corriente, etc. La parte final de curso se enfoca en dispositivos que reciben una señal eléctrica que se transforma en un movimiento.
-Esta signatura se ubica en el tercer semestre de la carrera por lo que tienen un carácter inicial, sin embargo, es fundamental la correcta comprensión de los conocimientos, ya que serán utilizados de forma reiterada durante toda la carrera. 
-Se puede indicar que este curso es base para los cursos de instrumentación, modelado, control eléctrico y automático, mantenimiento basado en la condición, automatización, entre otros; por lo que la asignatura posee un carácter de obligatoriedad.","Comprender el funcionamiento de los transductores según la situación o aplicación planteada, usando para esto los criterios técnicos entre ellos los errores estáticos y dinámicos de los mismos.","Comprender los principios constructivos de los sensores: resistivos, capacitivos, inductivos, ultrasónicos, electromagnéticos, autogeneradores.
-Conocer el funcionamiento de actuadores magnéticos como los relés y solenoides.
-Comprender las especificaciones técnicas de los transductores.
-Experimentar con transductores para lograr aprendizajes significativos.","*Señales eléctricas y sus mediciones
-**Medición directa e indirecta
-**Valores rms, medio, eficaz
-*Características estáticas de los sensores
-**Conceptos de Sensibilidad y Resolución del sensor
-**Conceptos de Intervalo y Alcance de la medición
-**Índice de protección de los sensores
-**Incertidumbre de una medición
-**Definición de error
-**Error exactitud y error de precisión
-**Tipo de errores de medición
-***Error de repetición por dos procesos de calibración
-***Error de histéresis
-***Error de zonas muertas
-***Error por no linealidad
-***Otros errores. Ejemplo: error de fluencia (creep error)
-*Sensores industriales discretos de presencia
-**Tipos de sensores discretos: inductivos, capacitivos, fotoeléctricos, ultrasónicos  y mecánicos
-**Materiales que detectan según la tecnología usada
-**Voltaje de alimentación de sensores
-**Conexiones eléctricas de sensores tipo PNP, NPN
-**Código de colores del cableado
-**Instalación, montaje de sensores
-**Rangos de operación, limitaciones y errores presentes
-*Características dinámicas en el tiempo de los sensores 
-**Tiempo de subida, tiempo de asentamiento, tiempo al pico, tiempo de retardo, sobrelongación
-**Sensores de orden cero
-**Sensores de orden uno
-**Sensores de orden dos 
-**Respuesta en el tiempo  de cada tipo de sensor
-**Ejemplos de cada tipo de sensor
-*Sensores con funcionamiento resistivo
-**Tipos de sensores con principio resistivo:
-***Potenciómetros
-***Galgas de fuerza
-***Sensores de temperatura RTD
-***Termistores
-***Magneto resistores
-***Fotorresistencias LDR
-***Hidrómetros resistivos
-***Sensores de gas resistivos.
-**Para cada tipo de sensor se estudia su modelo físico (ecuación)
-**Para cada sensor se estudia sus aplicaciones
-*Sensores con funcionamiento capacitivo
-**Tipos de sensores con principio capacitivo:
-***Sensores de capacitancia variable
-***Sensores de capacitancia diferencial
-**Para cada tipo de sensor se estudia su modelo físico (ecuación)
-**Para cada sensor se estudia sus aplicaciones
-*Sensores con funcionamiento electromagnético
-**Tipos de sensores inductivos:
-***Sensores de reluctancia variable
-***Sensores de corrientes de Eddy
-***Transformadores diferencial variable lineal (LVDT)
-***Synchros, resolvers e Inductosyn
-**Tipos de sensores con principio electromegnético:
-***Sensores basados en la ley de Faraday
-***Sensores basados en el efecto Hall
-**Para cada tipo de sensor se estudia su modelo físico (ecuación)
-**Para cada sensor se estudia sus aplicaciones industriales o en aeronaves
-*Sensores autogeneradores
-**Termocuplas
-**Sensores pizoeléctricos
-**Sensores piroeléctricos
-**Sensores fotovoltaicos
-**Para cada tipo de sensor se estudia su modelo físico (ecuación)
-**Para cada sensor se estudia sus aplicaciones industriales o en aeronaves
-*Otros Sensores 
-**Codificadores incremental y absoluto (Encoders)
-**Sensores basados en resonancia
-**Sensores basados en juntas semiconductoras
-**Sensores basados en ultrasonido
-**Sensores de fibra óptica
-**Biosensores
-**Aplicaciones y ejemplos
-*Actuadores eléctricos 
-**Principios de funcionamiento de:
-***Relés de estado sólido y mecánico
-***Solenoides
-***Piezoeléctricos
-*Actuadores hidráulicos y neumáticos
-**Tipo de válvulas solenoides para control de flujo","El modelo pedagógico del ITCR busca que el estudiante adquiera un aprendizaje significativo, constructivista e interaccionista, para lograr este objetivo de aprendizaje el curso utiliza una combinación de la metodología de simulación, la metodología de Inmersión y las metodologías participativas.
-Los 3 proyectos colaborativos buscan que los estudiantes experimenten con los transductores, sus características, usos y brinden ejemplos con aplicaciones reales de los mismos. Para esto los estudiantes usaran equipos como multímetros u osciloscopios para medir la respuesta de los sensores. Así mismo las presentaciones orales de un grupo de estudiantes muestran la teoría asociada y ejemplos de aplicaciones del tema signado para el desarrollo. Finalmente, el profesor en desarrollará temas complejos con ejemplos demostrativos, visitas a laboratorio y videos entre otros.","Proyectos; 2; 35
-Exámenes; 3; 45
-Exposiciones; 2; 20","Pallas-Areny, Ramón. Sensores y Acondicionadores de señal. 4 Ed. Marcombo: Mexico 2007. 
-Fraden, Jacob. Handbook of modern sensors. 4 ed. Springer: San Diego. 2010.  
-Creus, Antonio. Instrumentación Industrial. 7 ed. Alfaomega: Mexico 2011. 
-Kalantar-Zadeh, Kourosh. Sensors: An Introductory course. Springer: New York. 2013.
-Janocha, H. Actuators: Basics and Applications. Springer: Berlin, Germany. 2004. 
-Dunn, William. Fundamental of Industrial Instrumentations and process control. MacGraw Hill. 2005.
-Benedict, Robert. Fundamentals of temperature, pressure and flow measurements.3 ed. John-Wiley: Canada. 1984. 
-Creus Antonio, Neumática e Hidráulica. 2 Ed Alfaomega 2011. 
-Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",pallas2012sensors;fraden2016handbook,"Luis Diego Murillo Soto; Dr.-Ing; lmurillo@itcr.ac.cr
-*Profesor Catedrático I e Investigador Consolidado 2
-Doctor en Ingeniería (TEC, 2022)
-Máster en Ciencias de la Ingeniería Eléctrica (UCR, 2016)
-Máster en Computación (TEC, 2004)
-Ingeniero en Mantenimiento Industrial (TEC, 1999)
-Técnico en Electrónica (COVAO, 1994)
-*lmurillo@itcr.ac.cr"
-IEM2311,"El curso de Automatización brinda al estudiante a conocimientos avanzados en el campo de la automatización de procesos continuos y discretos, de manera que los estudiantes puedan plantear y desarrollar soluciones de automatización de mediana complejidad, utilizando herramientas y conceptos propios de la disciplina. Se profundiza en el uso de las herramientas, métodos y funcionalidades del software de automatización, procesamiento de imágenes, robótica y de manera complementaria, se integra con otros tipos de equipos, dispositivos y componentes para construir sistemas automatizados de mayor complejidad.
-El curso impulsa a los estudiantes para que diseñen e implementen sistemas SCADA (Supervisory Control and Data Acquisition) por lo que la programación de autómatas, configuración de redes de comunicación, tratamiento de señales digitales y analógicas con autómatas programables (PLCs) son pilares fundamentales.  Así mismo, el modelado y diseño de celdas de manufactura, la interacción con robots y el control de calidad mediante sistemas de visión son parte de la automatización de tareas industriales.  La parte final del curso busca introducir al estudiante en la simulación moderna de sistemas productivos  mediante herramientas de alto nivel que permite la creación de gemelos digitales.
-Esta signatura se ubica en el último semestre de la carrera por lo que tienen un carácter avanzado e integrador que le brinda un carácter de obligatoriedad a la asignatura.","Implementar sistemas de automatización industriales, comerciales o domésticos mediante la integración de controladores programables, robots, sistemas de visión, transductores y sistemas informáticos para el  control supervisorio.","Desarrollar sistemas de comunicación industrial entre distintos tipos de dispositivos
-Desarrollar sistemas de automatizados usando técnicas de diseño para procesos continuos o discretos.
-Simular y desarrollar algoritmos para el control de calidad de procesos usando sistemas de visión.
-Integrar distintos controladores o sistemas de monitoreo dentro de un sistema SCADA.
-Simular y desarrollar algoritmos para el control para robots manipuladores, vehículos guidos autónomos (AVG) y  Robots móviles autónomos(AMR).","*Redes de comunicación
-**Modelo OSI y sus protocolos
-**Protocolos de comunicación modelo TCP/IP. 
-***Medios físicos y acceso a red. (Direccionamiento físico, MAC)
-***Nivel de red (IP)
-***Nivel de transporte (TCP)
-***Nivel de aplicación 
-**Protocolos de industriales y la pirámide de la automatización
-***Redes de campo o sensores
-***Redes de control
-***Redes de supervisión
-***Redes de Operación
-***Redes de información
-**Topologías de las redes.
-**Simulación de redes de computadores
-*Manipulación de señales digitales y/o analógicas en PLCs
-**Comunicación entre PLCs
-*Diseño de sistemas SCADA 
-**Levantamiento de requerimientos.
-**Definición de topología de red y protocolos.
-**Desarrollo de bases de datos.
-**Desarrollo de Interfaces gráficas.
-**Integración de Interfaces con PLCS.
-**Validación de los sistemas.
-*Máquinas de visión basadas en cámaras inteligentes
-**Levantamiento de requerimientos.
-**Geometría de la adquisición de imágenes
-***Selección del objetivo en función de la distancia focal, distancia de trabajo, escena y tamaño del sensor CCD.
-***Distorsiones ópticas
-**Selección del hardware en función de la resolución deseada.
-**Tipo de iluminación y selección.
-**Algoritmos de procesamiento, detección y segmentación enfocadas en:
-***Detección defectos
-***Clasificación de elementos.
-***Control dimensional.
-***Lectura de códigos barras, datamatrix.
-***Detección de posición 
-***Reconocimiento de caracteres alfanuméricos.
-**Programación de la secuencia de inspección.
-*Robots Industriales
-**Tipos de robots manipuladores, AGV y AMR
-***Grados de libertad.
-***Cinemática del robot.
-**Partes del Robots
-**Planeación y calendarización.
-**Lenguajes de programación: orientados en la tarea y en el robot.
-**Simulación de programas.
-**Practica de Robótica
-*Modelado y simulación de procesos productivos
-**Arboles de ensamble del producto
-**Modelado matemático de celda o proceso
-**Ambientes de simulación: Tecnomatrix o ARENA.
-**Métricas de evaluación de rendimiento","El modelo pedagógico del ITCR busca que el estudiante adquiera un aprendizaje significativo, constructivista e interaccionista, para lograr este objetivo de aprendizaje el curso utiliza una combinación de la metodología de simulación, la metodología de Inmersión y las metodologías participativas.
-En el curso se desarrollan 3 proyectos colaborativos busca que los estudiantes se inmersan en las tecnologías de automatización.  Los estudiantes usaran utilizarán PLC, sensores, redes industriales, sistemas  SCADA y ambientes de simulación para integrar sus respectivos proyectos. Así mismo existirán don presentaciones orales de temas de investigación y desarrollo donde se muestre la teoría asociada y ejemplos de su uso. Finalmente, el profesor en desarrollará temas complejos con ejemplos demostrativos clases Teórico-Practicas.","Proyectos; 3;  60
-Exposición de investigación; 2; 20
-Quices; 4; 20%","Piedrafita R. (2004) Ingeniería de la automatización industrial. México.  Editorial Alfaomega 
-Jimenez, V. G., Yuste, R. Y., & Martínez, L. (2012). Comunicaciones Industriales Siemens. Marcombo.
-Rodriguez A. (2013). Sistemas Scada. México. Editorial Alfaomega 
-Soria S. (2013). Sistemas Automáticos industriales de eventos discretos. México. Editorial Alfaomega
-Torres, F., Gil, P., Puente, S. T., & Aracil, R. (2002). Robots y sistemas sensoriales. Pearson Educación.
-Craig. J (2017). Introduction to Robotics: Mechanics and Control.  4th Edition. Person.
-Niku, S. B. (2020). Introduction to robotics: analysis, control, applications. John Wiley & Sons.
-Nehmzow, U. (2012). Mobile robotics: a practical introduction. Springer Science & Business Media.
-Siegwart, R., Nourbakhsh, I. R., & Scaramuzza, D. (2011). Introduction to autonomous mobile robots. 2 ed. MIT press.
-Fragapane, G., De Koster, R., Sgarbossa, F., & Strandhagen, J. O. (2021). Planning and control of autonomous mobile robots for intralogistics: Literature review and research agenda. European Journal of Operational Research, 294(2), 405-426.
-Curry, G. L., & Feldman, R. M. (2010). Manufacturing systems modeling and analysis. Springer Science & Business Media.
-Groover, M. P. (2019). Automation, production systems, and computer-integrated manufacturing. 5 ed. Pearson Education.
-STEFFEN. BANGSOW. (2021). Tecnomatix plant simulation: Modeling and programming by means of examples. Springer.
-Altiok, T., & Melamed, B. (2010). Simulation modeling and analysis with Arena. Academic Press.
-La filosofía oriental y su influencia en el manga. Luffy M.D. Nihon Publishers.",,"Luis Diego Murillo Soto; Dr.-Ing; lmurillo@itcr.ac.cr
-*Profesor Catedrático I e Investigador Consolidado 2
-Doctor en Ingeniería (TEC, 2022)
-Máster en Ciencias de la Ingeniería Eléctrica (UCR, 2016)
-Máster en Computación (TEC, 2004)
-Ingeniero en Mantenimiento Industrial (TEC, 1999)
-Técnico en Electrónica (COVAO, 1994)
-*lmurillo@itcr.ac.cr"
-IEM2304,"Se establecen las bases de conocimiento mínimas para la gestión de proyectos de ingeniería, como medio para la toma de decisiones alineadas con los objetivos y metas estratégicas de una organización, así como con el área de investigación científica. Este curso forma parte de los cursos del área de sistemas que, en conjunto con cursos de las demás áreas académicas de la carrera, contribuye a formar profesionales en el campo de la Ingeniería Electromecánica. En la primera parte del curso se describe y analizan las herramientas necesarias para la formulación y evaluación de proyectos; en la segunda parte del curso se estudian los aspectos relacionados con una adecuada administración de proyectos, como estrategia de optimización de costos, recursos y tiempo para garantizar la consecución exitosa de los proyectos; en la tercera parte del curso se analizan las nuevas estrategias y metodologías para la administración de proyectos.","Desarrollar en el estudiante habilidades para la gestión de proyectos en ingeniería, en sectores tales como Pymes, empresas nacionales y transnacionales, brindando herramientas que permitan la comunicación con los mandos ejecutivos, de manera que se otorgue el oportuno soporte para la toma de decisiones alineadas con la estrategia de la organización.","Definir las herramientas técnico-administrativas, legales y ambientales, para el análisis del entorno (contexto nacional e internacional) en la determinación de oportunidades innovadoras de desarrollo, alineadas con los objetivos y metas estratégicas de la organización.
-Aplicar las herramientas de planificación, estimación, implementación, evaluación y seguimiento de proyectos, para la adecuada gestión de un proyecto, basado en literatura correspondiente.
-Desarrollar herramientas de análisis de entorno para la optimización máxima de los recursos durante la ejecución de proyectos, estableciendo sus indicadores de gestión.
-Explorar las nuevas tendencias y desarrollos en el tema de la gestión de proyectos y su aplicación dependiendo del tipo de proyecto.","*Formulación de proyectos. (2 semanas)
-**El estudio de proyectos.
-***Definición y características de un proyecto.
-***Generación de ideas de proyecto.
-***Tipología de los proyectos (público-privado-investigación académica).
-***Toma de decisiones asociadas a un proyecto.
-***Antecedentes-Problema-Justificación-Objetivos-Metodología.
-**Oportunidades de negocio e investigación.
-***El proceso de identificación de oportunidades de negocio e investigación.
-***Análisis del contexto local y del contexto internacional.
-***Modelo de negocio.
-***Estrategias de implementación.
-*Presupuestos electromecánicos. (2 semanas)
-**Construcción de presupuestos electromecánicos.
-***Creación de herramientas para desarrollar presupuestos.
-***Casos de estudio de presupuestos.
-*Evaluación de proyectos. (4 semanas)
-**Alcances del estudio de proyectos.
-***Perfil, prefactibilidad, factibilidad.
-***Estudios de viabilidad de un proyecto.
-**Técnicas de proyección del mercado.
-***Métodos cualitativos y modelos causales para proyección de mercado.
-**Evaluación financiera de proyectos.
-***Estimación de costos asociados a un proyecto.
-***Estimación de capital de trabajo.
-***Construcción de flujos de caja.
-***Estimación de horizontes de evaluación.
-***Estimación de tasas de descuento para proyectos.
-***Determinación de puntos de equilibrio.
-***Criterios financieros de evaluación de proyectos.
-*Gestión de proyectos. (7 semanas)
-**Fundamentos de la gestión de proyectos.
-***Ciclo de vida de un proyecto.
-***Integración de proyectos con el plan estratégico.
-**Estimación de costos y tiempos del proyecto.
-***Lineamientos por seguir en la estimación de costos, tiempos y recursos.
-***Estimación ascendente/descendente y métodos para cálculo de costos y tiempos del proyecto.
-**Construcción de redes de proyectos.
-***Desarrollo de la red para el proyecto.
-***Construcción de una red de proyecto.
-***Proceso de cálculo de la red de proyecto.
-*Nuevas tendencias en formulación y administración de proyectos. (1 semana)
-**Agile Project Management.
-***Metodologías tradicionales vs. Metodologías ágiles para administración de proyectos.","Clases magistrales, análisis de casos, temas de investigación a desarrollar en grupos y/o individual, exámenes cortos.","Avance #1 TFI; 1; 25
-Avance #2 TFI; 1; 25
-Informe final TFI; 1; 15
-Defensa TFI; 1; 10%
-Exámenes cortos; 1; 25%","Sapag Chain N., Sapag Chain R., Sapag Puelma J. (2014). Preparación y evaluación de proyectos. (Sexta edición). España. McGraw-Hill.
-Hernández Sampieri R. (2014). Metodología de la Investigación. (Sexta edición). Mexico. McGraw-Hill.
-Gray F. Clifford, Larson W. Erik. (2007). Edición en español (2009). Administración de proyectos. (Cuarta edición). Mexico. McGraw-Hill.
-Gray F. Clifford, Larson W. Erik. (2010). Project Management: The Managerial Process. (Quinta edición). Estados Unidos. McGraw-Hill.",,"Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
-*
-Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. 
-"
-IEM2305,"La gestión efectiva de proyectos en el campo de la ingeniería electromecánica es crucial para el éxito en el desarrollo, implementación y mantenimiento de sistemas que integran componentes eléctricos y mecánicos. Este curso de Gestión de la Ingeniería Electromecánica está diseñado para proporcionar al estudiante una comprensión profunda de los principios, metodologías y prácticas necesarias para liderar proyectos en este ámbito complejo y multidisciplinario.
-La ingeniería electromecánica se centra en la integración sinérgica de sistemas eléctricos y mecánicos para crear soluciones que aborden problemas en una variedad de sectores, como la industria manufacturera, médica, energética, servicios, entre otros.
-Durante este curso, el estudiante  logrará comprender los conceptos básicos de la Gestión de la Ingeniería Electromecánica, incluyendo los conceptos de mantenimiento,  fundamentos de sistemas, los principios de diseño y análisis, y las tecnologías relevantes. 
-El curso se desarrollará a lo largo de 16 semanas, que al finalizar el mismo, los participantes estarán formados con las habilidades y conocimientos necesarios para liderar proyectos del área de gestión descrita.","Desarrollar en el estudiante una comprensión integral de los principios, metodologías y mejores prácticas necesarias para la Gestión de la Ingeniería Electromecánica sectores tales como las industrias manufacturera, salud, energética, y/o la investigación, asegurando la alineación de las actividades con los objetivos estratégicos de la organización, optmizando recursos y garantizando la consecusión exitosa en términos de costos, plazos y calidad.","Desarrollar competencias en la gestión integral de sistemas electromecánicos en el estudiante, para la aplicación de metodologías y herramientas reconocidas que permitan la planificación,ejecución y control de un sistema electromecánico, garantizando la entrega exitosa de productos y sistemas que cumplan con los requisitos y estándares de calidad establecidos.Fomentar el pensamiento sistémico y la integración de disciplinas técnicas que promuevan una comprensión profunda de la interacción entre los componentes eléctricos y mecánicos en sistemas electromecánicos, dando como resultado  su adecuada gestión.
-Construir habilidades de liderazgo y trabajo en equipo que faciliten la coordinación entre diferentes áreas funcionales promoviendo una comunicación efectiva dentro de los equipos de trabajo, asegurando un ambiente colaborativo que impulse el éxito del proyecto electromecánico.
-Investigar las tendencias emergentes y avances en la gestión de la Ingeniería Electromecánica, analizando su aplicabilidad según las características específicas de cada sistema electromecánico.","*Introducción a la Ingeniería Electromecánica. (5 semanas)
-**Fundamentos de ingeniería electromecánica y estrategias de mantenimiento. 3h
-**Mantenimiento Centrado en la Confiabilidad (RCM). 3h
-**Indicadores de Mantenibilidad,Confiabilidad y Disponibilidad.3h
-**Conceptos básicos de sistemas y su aplicación en ingeniería electromecánica.3h
-**Introducción a los estándares y enfoques de INCOSE en gestión de sistemas. 3h
-*Procesos de Ingeniería de Sistemas. (3 semanas)
-**Ciclo de vida del sistema según INCOSE.6h
-**Procesos de ingeniería de sistemas según INCOSE. 2h
-**Documentación y gestión de requisitos en ingeniería electromecánica. 1h
-*Gestión de Riesgos y Fiabilidad. (2 semanas)
-**Identificación y evaluación de riesgos en sistemas electromecánicos.1h
-**Métodos de mitigación y gestión de riesgos. 2h
-**Análisis de fiabilidad y mantenibilidad.3h
-*Integración de Sistemas. (2 semanas)
-**Estrategias de integración de sistemas electromecánicos.3h
-**Coordinación de subsistemas.3h
-*Verificación y Validación de Sistemas. (3 semanas)
-**Planificación de verificación y validación. 3 h
-**Técnicas de verificacion y validación de sistemas electromecánicos. 3h
-**Documentación y reporte de resultados. 3h","Clases magistrales, análisis de casos, temas de investigación a desarrollar en grupos y/o individual, exámenes cortos y examenes parciales.","Informe escrito PFC; 1; 20
-Defensa PFC; 1; 10
-Exámenes cortos; 1; 20
-Primer parcial; 1; 25
-Segundo parcial; 1; 25","1. INCOSE, A guide for system life cicle processes and activities. (Cuarta Edición). San Diego, EEUU. Wiley.
-2. ""Integrated Engineering Asset Management"" por Joe E. Amadi-Echendu, Changela Hoohlo, Roger Swan, and Kingsley O. Nnaji-Okpara (2019).
-3. ""Maintenance Engineering and Management"" por R. Keith Mobley (2017).
-4. ""Introduction to Mechanical Engineering"" por J. Paulo Davim (2017) ",,"Carlos Piedra Santamaría; Ing; cpiedra@itcr.ac.cr
-*
-Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración del Mantenimiento. 
-"
-IEM2307,"El curso de Mantenimiento Basado en Condición (MBC) está diseñado para proporcionar a los participantes los conocimientos y habilidades necesarios para implementar y gestionar estrategias efectivas de mantenimiento predictivo en entornos industriales. A través de este curso, los participantes aprenderán a utilizar tecnologías de monitoreo de estado para identificar y prevenir fallas en equipos y maquinaria, maximizando así la disponibilidad operativa y prolongando la vida útil de los activos.","Desarrollar las habilidades en la persona estudiante para gestión e implementación de estrategias efectivas de Mantenimiento Basado en Condición, con el fin de que se identifiquen oportunidades para la optimización de la confiabilidad y disponibilidad de los activos industriales mediante la detección temprana de posibles problemas de funcionamiento y la aplicación de técnicas de monitoreo continuo del estado de los activos.","Desarrollar habilidades en la persona estudiante la comprensión de los  fundamentos teóricos del Mantenimiento Basado en Condición, permitiéndole la adquisición de un conocimiento sólido para su aplicación en estrategias efectivas para la gestión de activos industriales, mediante el estudio de análisis de datos, interpretación de análisis de monitoreo y toma de decisiones.
-Desarrollar habilidades en la persona estudiante para el uso de  tecnologías de monitoreo de estado, incluyendo análisis de vibraciones, termografía, análisis de aceite y ultrasonido, de manera que le permita la selección y aplicación mas adecuada para la detección temprana de posibles fallas de funcionamiento , tomando decisiones informadas en la gestión de activos.
-Adquirir las habilidades de aprendizaje  para la interpretación de datos de monitoreo de estado , de manera que se identifiquen los patrones de deterioro y predicción de posibles fallas en equipos y maquinaria.
-Diseñar programas de Mantenimiento Basado en Condición adaptados a las necesidades específicas de una planta industrial, contribuyendo a la mejora de la eficiencia operativa de la organización","*Introducción al Mantenimiento Basado en Condición. 1 semana
-**Conceptos básicos de Mantenimiento Predictivo y Mantenimiento Basado en Condición.
-**Beneficios y aplicaciones en la industria.
-*Tecnologías de Monitoreo Estado I. 2 semanas
-**Análisis de vibraciones.
-**Patrones de vibración.
-**Espectros de frecuencia.
-*Tecnologías de Monitoreo de Estado II. 4 semanas.
-**Tribología (Análisis de aceite).
-**Termografía.
-**Ultrasonido
-*Interpretación de Datos y Diagnóstico. 3 semanas.
-**Análisis de datos de monitoreo.
-**Identificación de patrones de deterioro.
-**Diagnóstico de posibles fallas.
-*Implementación de programas de MBC. 3 semanas
-**Diseño de programas de MBC.
-**Integración con sistemas de gestión de mantenimiento existentes.
-**Planificación de recursos y presupuestos.
-*Mantenimiento Basado en la Condición Avanzado. 2 semanas
-**Tendencias y desarrollos actuales en MBC.
-**Norma ISO 17359
-**Uso de tecnologías emergentes y herramientas digitales.
-**Inteligencia artificial y análisis predictivo.","Clases magistrales, análisis de casos, temas de investigación a desarrollar en grupos y/o individual, exámenes cortos.","Informe escrito PFC; 1; 20
-Defensa PFC; 1; 10
-Exámenes cortos; 1; 20
-Primer parcial; 1; 25
-Segundo parcial; 1; 25","1. ""Condition-Based Maintenance in Aerospace: A Comprehensive Approach"" por Louis Cattafesta y Antonio Conte (2017)
-2. ""Condition-Based Maintenance and Machine Diagnostics"" por Piotr Kozłowski y Dariusz Młyńczak (2019).
-3. ""Condition Monitoring of Machinery in Non-Stationary Operations: Proceedings of the International Conference on Condition Monitoring of Machinery in Non-Stationary Operations"" editado por Robert Randall y Dimitrios Kouroussis (2018).",,"Carlos Piedra Santamaría; Ing; cpiedra@itcr.ac.cr
-*
-Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración del Mantenimiento. 
-"
-IEM2309,"Este curso sobre Gestión de Energía está diseñado para proveer a los estudiantes un conocimiento profundo y habilidades prácticas en la gestión eficiente y sostenible tanto de energía como de agua potable. Abordando los fundamentos, la descarbonización, la implementación de normas ISO 50000, el aprovechamiento de energías renovables, y la gestión del agua potable, el curso cubre aspectos cruciales y actuales de ambos sectores. Mediante una combinación de teoría, estudios de caso, y proyectos prácticos, se promueve el desarrollo de competencias para la implementación de estrategias sostenibles en la gestión de energía y agua, enfocándose en eficiencia, innovación y sostenibilidad. Finalmente, el estudiante tendrá la capacidad de explorar fuentes de energía renovable y evaluará su papel en la reducción de la dependencia de los combustibles fósiles. Asimismo, tendrá comprensión acerca de la legislación, políticas y normativas relacionadas con la eficiencia energética y la sostenibilidad.","Proporcionar a los estudiantes un conocimiento integral sobre la gestión de energía y recursos hídricos, con énfasis en la descarbonización, el aprovechamiento de energías renovables, la implementación de la familia de normas ISO 50000, exploración de nuevas tecnologías de generación de energía y gestión eficiente del agua potable, para capacitarlos en el desarrollo e implementación de estrategias eficientes y sostenibles en diversos contextos.","Introducir los conceptos fundamentales de la gestión de energía, incluyendo la terminología básica, principios y la importancia de una gestión energética eficiente y sostenible.
-Analizar las estrategias de descarbonización, su relevancia en la lucha contra el cambio climático y su impacto en las prácticas de gestión de energía.
-Profundizar en los detalles, aplicaciones y beneficios de la familia de normas ISO 50000 para la gestión de energía, incluyendo cómo pueden ser implementadas en organizaciones de diversos sectores.
-Estudiar diferentes tipos de energías renovables (solar, eólica, hidroeléctrica, biomasa, geotérmica, entre otras), su funcionamiento, aplicaciones prácticas y cómo pueden ser integradas en sistemas de gestión de energía existentes.
-Investigar las últimas tecnologías y tendencias en la generación de energía, incluyendo almacenamiento de energía, microredes, y otras innovaciones tecnológicas que están modelando el futuro del sector energético.
-Profundizar en la importancia de la gestión sostenible del agua, explorar las normas AWWA para la calidad y gestión del agua potable y su integración en sistemas de gestión ambiental y energética.
-Proporcionar las herramientas y conocimientos necesarios para planificar, implementar y evaluar proyectos de gestión de energía, con un enfoque en la sostenibilidad y la eficiencia energética.","*Introducción a la Gestión de Energía. 
-**Conceptos básicos y terminología.
-**Importancia de la eficiencia energética.
-*Balance de energía.
-**Metodología paso a paso de un balance de energía en distintas fuentes energéticas (vapor, aire comprimido, electricidad, LPG).
-*Descarbonización y Gestión Energética.
-**Estrategias de descarbonización global.
-**Impacto en la industria energética
-*La Familia de Normas ISO 50000.
-**Modelos de gestión de energía.
-**Contribución de la famila de normas en la gestión energética.
-**Implementación y certificación.
-*Energías Renovables
-**Tipos y fuentes de energías renovables.
-**Integración de energías renovables en la gestión de energía.
-*Evaluación y Mejora de la Eficiencia Energética.
-**Herramientas y técnicas de auditoría energética.
-**Mejoras y optimización de la eficiencia energética.
-*Gestión Sostenible del Agua Potable.
-**Principios de la gestión sostenible del agua.
-**Normas AWWA: visión general, importancia y aplicación práctica.
-**Tecnologías y prácticas para la eficiencia en el uso y tratamiento del agua.
-**Sinergias entre la eficiencia energética y la gestión eficiente del agua.
-*Políticas Energéticas y Regulaciones.
-**Marco regulatorio internacional y nacional.
-**Incentivos para la promoción de energías renovables y prácticas de sostenibilidad.
-*Impacto Social y Económico de la Gestión de Energía.
-**Beneficios económicos de la gestión eficiente de energía.
-*Contribución a la sostenibilidad y responsabilidad social.","Clases magistrales, análisis de casos, temas de investigación a desarrollar en grupos y/o individual.
-También se desarrollará un proyecto de investigación, el cual se debe presentar en forma escrita como parte del trabajo en clase, donde se evidencia la aplicación de los temas desarrollados en clase.","Avance #1 TFI; 1; 20
-Avance #2 TFI; 1; 20
-Trabajo escrito IF; 1; 40
-Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2030. WWW.MINAE.GO.CR: DISPONIBLE http://www.minae.go.cr/recursos/2015/pdf/VII-PNE.pdf
-Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2030. https://urldefense.com/v3/__http://WWW.MINAE.GO.CR__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTZ2o9DtYg$ : DISPONIBLE https://urldefense.com/v3/__http://www.minae.go.cr/recursos/2015/pdf/VII-PNE.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTa1MU0IvQ$ 
-2. Diego Zárate Montero/ Remigio Ramírez García. (2016). Matriz Energética de Costa Rica Renovabilidad de las fuentes y reversibilidad de los usos de energía. 2018, de fesamericacentral.org Sitio web: https://urldefense.com/v3/__http://library.fes.de/pdf-files/bueros/fesamcentral/12979.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTbC843cbg$ 
-3. Norma ISO 50000
-4. Base de datos Biblioteca del Tecnológico de Costa Rica.","Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
-*
-Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. 
-"
-IEM2110,"El curso de Laboratorio de  control eléctrico es el complemento práctico del curso de teoría, en este curso se realizan una serie de laboratorios  que demuestran de forma práctica los conocimientos adquiridos, ademas promueve el desarrollo de otros tipos de habilidades y herramientas de conocimiento para el estudiante, las cuales serán de su utilidad en el ejercicio de la profesión.  Se destaca que al ser un curso paralelo al de teoría y posterior al de Control Automático, se ofrece la posibilidad de incluir entre las practicas, algunos conocimientos aplicados de control automático, como una forma de fortalacer los conocimientos en el area de control y automatización de procesos.  Al ser un curso práctico el estudiante deberá hacer uso de herramientas de ingenieria para el diseño, simulación y analisis de comportamiento de los sistemas de  control propuestos en la guia de prácticas del curso. Otras habilidades que adquiere la persona estudiante del curso,  lo son trabajo en equipo, autoprendizaje e investigacion, habilidades de comunicación oral y escrita, no obstante para garantizar el cumplimiento y adquisición de nuevos conocimientos se hace necesario  el compromiso y la proactividad del estudiante en el desarrollo de las prácticas. ",Al finalizar el curso la persona estudiante estará en capacidad de desarrollar habilidades prácticas para comprender y diseñar  soluciones de automatización de pequeña y mediana complejidad con una perspectiva analitica de su comportamiento a traves de su implementación y simulación. ,"Al finalizar el curso la persona estudiante estará en capacidad de integrar los conocimientos teoricos, mediante la realizacion de prácticas que demuestran  el comportamiento de sistemas de control y automatización de procesos.     
-Al finalizar  el curso la persona estudiante estará en capacidad de utilizar herramientas de software  para el diseño y simulación de sistemas de control de procesos.   
-Al finalizar el curso la persona estudiante estará en capacidad de aplicar estandares internacionales para el diseño de soluciones de control de procesos. 
-Al finalizar el curso la persona estudiante estará en capacidad de  desarrollar habilidades de trabajo en equipo y comunicación al colaborar con otros estudiantes en prácticas de laboratorio.                                                                                        ","Simulación de sistemas de eventos discretos.
-Analisis de estabibilidad en sistemas continuos y discretos.
-Diseño de sistemas de control de procesos continuos.
-Diseño e implementación de sistemas de control  de eventos discretos.
-Comparación de sistemas discretos y continuos.
-Implementación de controladores digitales.
-Programación de  sistemas de eventos discretos y continuos en programadores lógicos controlables. ","Lecciones prácticas realizadas en el laboratorio, en el que estudiante sigue las instrucciones del manual de laboratorio para el desarrollo de las prácticas,  desarrolladas en parejas de estudiantes, haciendo uso de equipos, instrumentos y materiales disponibles  en la escuela. Se espera que las prácticas  representen una comprobación de los conceptos teoricos y aplicaciones vistos en el curso de teoria, lo que quiere decir que este curso debe estar alineado con el curso de teoría. 
-Semanalmente se brindan indicaciones y recomendaciones para el desarrollo de la práctica, de las cuales se tienen que entregar reportes, con las evidencias y análisis de los resulados y experiencias de los estudiantes. A cada estudiante se le asigna la presentación de un laboratorio, con la intención de que investigue y diriga a los demas estudiantes, bajo la supervisión del profesor.  Para el desarrollo de las prácticas propuestas, el estudiante deben investigar por su cuenta,  lo que se requiera hacer y  puede recurir a la hora de consulta, para evacuar consultas y validar lo realizado, de tal forma que durante la lección se enfoque en la presentación de resultados y evidencias de los hallazgos. Semanalmente el profesor evalua el desempeño del estudiante, calificando el trabajo cotidiano  y aporte para cumplir  con los entregables de las prácticas, las cuales deben ser presentadas en forma oral, siendo evaluadas a traves de una rúbrica, utilizando la plataforma de Tec Digital. ","Trabajo cotidiano  y presentación oral de las prácticas; 0; 0
-Examenes cortos; 0; 0
-Bitacoras de laboratorio; 0; 0","Guía de laborotorio del curso Laboratorio de Control Eléctrico.                                                                            Manuales de fabricantes de sistemas y equipos de automatización                                                                                                                              Valdivia, Carlos. ""Sistemas de control continuos y discretos"". Editorial Paraninfo. Madrid. 2012                                                                 Ortiz, Manuel. ""Sistemas dinámicos en tiempo continuo"" Omnia Science. Mexico. 2015                 Edwards Gonzalo. ""Introducción al análsis de sistems dinámicos"" Ediciones UC. Santiago Chile. 2013                                               Balabanian, Norman; Carlson, Bradley.                        “Principios de diseño lógico digital”. CECSA: México. 2002.
-Balcells, Josep; Romeral, José. “Autómatas Programables”. Alfaomega: México. 1998.
-Fabricius, Eugene; “Diseño lógico moderno y teoría de conmutación”. CECSA: México. 1996 García M, Emilio; “Automatización de Procesos Industriales”. Alfaomega: Mexico. 2001.
-Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003.                              Romera, Pedro; Lorite, Antonio; Montero, Sebastián “Automatización: Problemas resueltos con autómatas programables”. 3 era ed. Thomson: Madrid. 2003.                         Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003
-",,"Luis Gómez Guitiérrez; Ing; lugomez@itcr.a.cr
-*
-Ingeniero en Mantenimiento industrial. Maestria en Gestión de Activos Físicos. "
 IEM2109,"El curso de Sistemas de control establece las bases de conocimiento para la comprensión, análisis y diseño de sistemas de control de  eventos continuos  y discretos  de sistemas  productivos de pequeña y mediana escala, la persona estudiante adquiere conocimiento específico, que le permitirán una mayor comprension, para el diseño e implementacion de sistemas de control de procesos.  A partir del conocimiento y comprensión estará en capacidad de utilizar herramientas para simulacion, que son utiles en el diseño y análisis de los sistemas, se parte de un fundamento teórico que explica y define cada uno de estos sistemas de control, sus caracteristicas y métodos de implementación. Entre los aprendizajes más importantes se destacan la fundamentación de los sistemas de control, tanto para eventos continuos como discretos, analisis  operativo de sistemas de control, automatización industrial y habilidad para resolucion e implementación de problemas de automatización. En este curso se hace uso de los conocimientos previos del curso de Control Automatico para profundizar en el diseño y  analisis de sistemas de control de procesos. Adicionalmente las personas estudiantes fortalecen sus habilidades de trabajo en equipo, autoaprendizaje y resolucion de conflictos, entre otras habilidades blandas. ",Al finalizar el curso  la persona  estudiante estará en capacidad de comprender y proponer soluciones de automatización de pequeña y mediana complejidad con una perspectiva analitica de su comportamiento a traves de su implementación y simulación. ,"Al finalizar el curso la persona estudiante estará en capacidad de reconocer las características de sistemas de control en eventos continuos y discretos asi como sus aplicaciones. 
 Al finalizar el curso la persona  estudiante estar en capacidad de analizar el comportamiento de sistemas de  control  haciendo uso de herramientas de simulación. 
 Al finalizar el curso la persona estudiante estará en capacidad de utilizar herramientas de ingeniería para el diseño de circuitos de  control de procesos industriales.                                                 ","Historia y evolucion de los sistemas de control de procesos.
@@ -543,190 +160,86 @@ Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003.          
 ",,"Luis Gómez Guitiérrez; Ing; lugomez@itcr.a.cr
 *
 Ingeniero en Mantenimiento industrial. Maestria en Gestión de Activos Físicos. "
-IEM2303,"Este curso introduce a la persona estudiante en el modelado y análisis matemático de sistemas físicos mediante el uso de diversas herramientas teóricas y experimentales. Así mismo, se hace uso de software especializado para la simulación de estos modelos de manera que sea un complemento para el análisis de la respuesta de los sistemas tanto en el dominio del tiempo como en el de la frecuencia. La obtención y análisis de modelos que representen la realidad y permitan derivar conclusiones y predicciones, es un pilar fundamental tanto en el área de las ciencias como en el de la ingeniería. Este curso ofrece además las bases para los cursos de sistemas de control automático, control eléctrico,  mantenimiento basado en la condición, automatización, entre otros.",,,"*Introducción al modelado y análisis de sistemas
-**Introducción a la teoría general de sistemas 
-**Importancia del análisis de sistemas en ingeniería
-**Concepto de sistema
-**Tipos de sistemas
-**Variables de un sistema
-**Concepto de modelo de un sistema 
-**Tipos de modelos
-**Obtención de los modelos
-*Introducción al espacio de estados
-**El concepto de estado
-**Propiedades de las variables de estado 
-**Linealidad e invarianza en el tiempo 
-**Modelado en variables de estado
-**Ecuación de estados y salidas
-**Elección de las variables de estado
-**Respuesta a entrada cero y respuesta a estado cero 
-**La función de transferencia 
-**La función de transferencia a partir de la respuesta a estado cero
-**La ecuación característica del sistema 
-**Función de transferencia para sistemas multivariables
-**Relaciones entre los modelos matemáticos
-*Representación gráfica de modelos
-**Diagramas de bloques 
-**Simplificación de diagramas de bloques
-**El modelo en variables de estado a partir del diagrama de bloques
-**Diagramas de flujo
-**Propiedades de los diagramas de flujo
-**Fórmula de Mason
-*Caracterización en el dominio del tiempo
-**Análisis de estabilidad
-**Representación del retardo en sistemas lineales 
-**Sistemas de primer orden 
-**Sistemas de segundo orden
-**Efecto de los ceros en el sistema
-**Concepto de polos dominantes 
-*Modelado analítico de sistemas
-**Leyes fundamentales
-**Balance de masa
-**Balance de energía
-**Conservación de la cantidad de movimiento
-**Otras leyes de conservación
-**La red generalizada
-**Modelado de sistemas eléctricos
-**Modelado de sistemas mecánicos traslacionales
-**Modelado de sistemas mecánicos rotacionales
-**Conversión entre traslación y rotación
-**Modelado de Sistemas electromecánicos
-**Modelado de motores DC
-**Modelado de sistemas térmicos
-**Modelado de sistemas hidráulicos
-**Modelos estáticos
-**Linealización
-*Identificación de sistemas en el dominio del tiempo
-**Descripción del problema
-**Modelos utilizados en la identificación
-**Métodos de identificación en el tiempo
-*Análisis en el dominio de la frecuencia
-**La respuesta en frecuencia
-**El diagrama de Bode
-**Aproximación asintótica del diagrama de Bode
-**Obtención de la FT a partir del diagrama de Bode
-**Diagrama Polar
-*Análisis en el espacio de estados
-**Transformación de los MVE
-**Forma canónica de Jordan
-**Análisis de controlabilidad
-**Análisis de observabilidad
-**Principio de dualidad
-**Descomposición de Kalman","El modelo pedagógico del ITCR busca que el estudiante adquiera un aprendizaje significativo, constructivista e interaccionista, para lograr este objetivo de aprendizaje el curso utiliza una combinación de la metodología de simulación, la metodología de integración y las metodologías participativas. Por lo que en curso combinará la presentación del contenido por parte de la persona docente, trabajo individual por parte de la persona estudiante, prácticas de laboratorio guiadas y el desarrollo de un proyecto final del curso cuyo objetivo es integral el material visto en este cuso.
-Se espera que fuera de clase la persona estudiante trabajará de forma individual repasando la materia, haciendo lecturas, realizando ejercicios y simulaciones y resolviendo problemas; también trabajará en grupos estudiando de forma cooperativa y en el desarrollo del proyecto.","Exámenes; 2; 40
-Tareas; 5; 25 
-Prácticas dirigidas; 2; 10
-Proyecto; 1; 25","Modelling and Analysis of Dynamic Systems
-Ramin S. Esfandiari and Bei Lu
-Third Edition, CRC Press, 2018.
+IEM2110,"El curso de Laboratorio de  control eléctrico es el complemento práctico del curso de teoría, en este curso se realizan una serie de laboratorios  que demuestran de forma práctica los conocimientos adquiridos, ademas promueve el desarrollo de otros tipos de habilidades y herramientas de conocimiento para el estudiante, las cuales serán de su utilidad en el ejercicio de la profesión.  Se destaca que al ser un curso paralelo al de teoría y posterior al de Control Automático, se ofrece la posibilidad de incluir entre las practicas, algunos conocimientos aplicados de control automático, como una forma de fortalacer los conocimientos en el area de control y automatización de procesos.  Al ser un curso práctico el estudiante deberá hacer uso de herramientas de ingenieria para el diseño, simulación y analisis de comportamiento de los sistemas de  control propuestos en la guia de prácticas del curso. Otras habilidades que adquiere la persona estudiante del curso,  lo son trabajo en equipo, autoprendizaje e investigacion, habilidades de comunicación oral y escrita, no obstante para garantizar el cumplimiento y adquisición de nuevos conocimientos se hace necesario  el compromiso y la proactividad del estudiante en el desarrollo de las prácticas. ",Al finalizar el curso la persona estudiante estará en capacidad de desarrollar habilidades prácticas para comprender y diseñar  soluciones de automatización de pequeña y mediana complejidad con una perspectiva analitica de su comportamiento a traves de su implementación y simulación. ,"Al finalizar el curso la persona estudiante estará en capacidad de integrar los conocimientos teoricos, mediante la realizacion de prácticas que demuestran  el comportamiento de sistemas de control y automatización de procesos.     
+Al finalizar  el curso la persona estudiante estará en capacidad de utilizar herramientas de software  para el diseño y simulación de sistemas de control de procesos.   
+Al finalizar el curso la persona estudiante estará en capacidad de aplicar estandares internacionales para el diseño de soluciones de control de procesos. 
+Al finalizar el curso la persona estudiante estará en capacidad de  desarrollar habilidades de trabajo en equipo y comunicación al colaborar con otros estudiantes en prácticas de laboratorio.                                                                                        ","Simulación de sistemas de eventos discretos.
+Analisis de estabibilidad en sistemas continuos y discretos.
+Diseño de sistemas de control de procesos continuos.
+Diseño e implementación de sistemas de control  de eventos discretos.
+Comparación de sistemas discretos y continuos.
+Implementación de controladores digitales.
+Programación de  sistemas de eventos discretos y continuos en programadores lógicos controlables. ","Lecciones prácticas realizadas en el laboratorio, en el que estudiante sigue las instrucciones del manual de laboratorio para el desarrollo de las prácticas,  desarrolladas en parejas de estudiantes, haciendo uso de equipos, instrumentos y materiales disponibles  en la escuela. Se espera que las prácticas  representen una comprobación de los conceptos teoricos y aplicaciones vistos en el curso de teoria, lo que quiere decir que este curso debe estar alineado con el curso de teoría. 
+Semanalmente se brindan indicaciones y recomendaciones para el desarrollo de la práctica, de las cuales se tienen que entregar reportes, con las evidencias y análisis de los resulados y experiencias de los estudiantes. A cada estudiante se le asigna la presentación de un laboratorio, con la intención de que investigue y diriga a los demas estudiantes, bajo la supervisión del profesor.  Para el desarrollo de las prácticas propuestas, el estudiante deben investigar por su cuenta,  lo que se requiera hacer y  puede recurir a la hora de consulta, para evacuar consultas y validar lo realizado, de tal forma que durante la lección se enfoque en la presentación de resultados y evidencias de los hallazgos. Semanalmente el profesor evalua el desempeño del estudiante, calificando el trabajo cotidiano  y aporte para cumplir  con los entregables de las prácticas, las cuales deben ser presentadas en forma oral, siendo evaluadas a traves de una rúbrica, utilizando la plataforma de Tec Digital. ","Trabajo cotidiano  y presentación oral de las prácticas; 0; 0
+Examenes cortos; 0; 0
+Bitacoras de laboratorio; 0; 0","Guía de laborotorio del curso Laboratorio de Control Eléctrico.                                                                            Manuales de fabricantes de sistemas y equipos de automatización                                                                                                                              Valdivia, Carlos. ""Sistemas de control continuos y discretos"". Editorial Paraninfo. Madrid. 2012                                                                 Ortiz, Manuel. ""Sistemas dinámicos en tiempo continuo"" Omnia Science. Mexico. 2015                 Edwards Gonzalo. ""Introducción al análsis de sistems dinámicos"" Ediciones UC. Santiago Chile. 2013                                               Balabanian, Norman; Carlson, Bradley.                        “Principios de diseño lógico digital”. CECSA: México. 2002.
+Balcells, Josep; Romeral, José. “Autómatas Programables”. Alfaomega: México. 1998.
+Fabricius, Eugene; “Diseño lógico moderno y teoría de conmutación”. CECSA: México. 1996 García M, Emilio; “Automatización de Procesos Industriales”. Alfaomega: Mexico. 2001.
+Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003.                              Romera, Pedro; Lorite, Antonio; Montero, Sebastián “Automatización: Problemas resueltos con autómatas programables”. 3 era ed. Thomson: Madrid. 2003.                         Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003
+",,"Luis Gómez Guitiérrez; Ing; lugomez@itcr.a.cr
+*
+Ingeniero en Mantenimiento industrial. Maestria en Gestión de Activos Físicos. "
+IEM2111,"La asignatura de Turbomáquinas es un curso aplicado, en donde se utilizan los principios fundamentales de la Física, Termodinámica y Mecánica a la materia fluida. Se trata de que los alumnos de Ingeniería Electromecánica adquieran los conocimientos y herramientas necesarias para saber analizar y comprender la hidráulica de tuberías orientado a problemas reales en el campo de la ingeniería mecánica. Se fomenta asimismo el desarrollo de habilidades y competencias genéricas como el trabajo en equipo y el aprendizaje autónomo. 
+La asignatura Turbomáquinas se estudia en el séptimo semestre del plan de estudios. Precede a la asignatura EM2113 Sistema Térmicos, que es un curso de ingeniería o bien, más aplicado, y que se estudia en el octavo semestre del plan de estudios.
+En Turbomáquinas se estudia los sistemas de suministros de agua fría/caliente que típicamente se encuentran en el sector doméstico, comercial e industrial, así como criterios para la selección de diámetros y tuberías recomendados para el trasiego del agua, aire comprimido y aire en sistemas de ventilación. El bombeo de fluidos es de suma importancia en el ejercicio profesional de un ingeniero en Mantenimiento Industrial, por tanto, en este curso se estudia los principales tipos de bombas que se utilizan en la industria costarricense, como también los criterios fundamentales para la selección y estimación del desempeño de las bombas centrífugas y de desplazamiento positivo. 
+En Costa Rica el aire comprimido es una de las formas más baratas a nivel industrial de transportar grandes cantidades de energía de un lugar a otro. En este curso se evalúa, selecciona y diseña los sistemas de aire comprimido y todos los componentes fundamentales para la distribución y tratamiento del aire comprimido. En este curso también se estudia los conceptos fundamentales de la ventilación mecánica, diseño y selección de la distribución de ductos, como también la descripción de los principios de funcionamiento y desempeño de los ventiladores más usados en la industria costarricense.
 
-Modelling and analysis of dynamic systems
-Charles M. Close and Dean K. Frederick and Jonathan C. Newel
-John Wiley & Sons, 2002.",,"Juan Luis Guerrero Fernández; Ph. D; jguerrero@itcr.ac.cr
-*
-Doctor en filosofía en ciencias (Ph.D.), Universidad de Sheffield, Inglaterra 
-Máster en Ciencias (M. Sc.) en Mecatrónica, Universidad de Ciencias Aplicadas Aachen, Alemania "
-IEM2306,"Los sistemas de control automático son parte integral e indispensable de los procesos productivos modernos. No solamente para asegurar las características y la calidad de los productos, sino también para hacer un uso eficiente de la energía y las materias, para garantizar la seguridad de los equipos y el personal encargado de su operación, y para preservar el medio ambiente. Los sistemas de control se pueden encontrar en industrias de procesos y manufactura muy diversas, como la industria aeroespacial, aeronáutica, del transporte, agroindustrial, de alimentos, automotriz, de equipo médico, de fabricación de componentes y equipos electrónicos, la farmacéutica, de generación y distribución de energía, la metalmecánica, robótica, sistemas microelectromecánicos (MEMS), nanotecnología y muchos otros. 
-Esta asignatura busca ofrecer a la persona estudiante una introducción a la ingeniería de sistemas de control mediante la presentación de los principios, conceptos y técnicas fundamentales necesarios para el análisis y diseño práctico de sistemas de control por realimentación. Se fomenta asimismo el desarrollo de habilidades y competencias como el trabajo en equipo, el uso de herramientas computaciones para el diseño y simulación de los controladores, así como el aprendizaje autónomo.","Brindar una introducción a los principios, conceptos y técnicas fundamentales necesarios para el análisis y diseño práctico de sistemas de control por realimentación. Se enfatiza el tratamiento de sistemas lineales de una entrada y una salida, para los que se presentan las herramientas clásicas de análisis (e.g., lugar de las raíces, diagrama de Nyquist, diagramas de Bode), y métodos de diseño de controladores clásicos (PI, PID), y modernos (parametrización afín).","Comprender el concepto de sistema de control, el de lazo de control realimentado y definir la función de sus componentes.
-Usar herramientas computacionales para la simulación y el diseño de compensadores y reguladores.
-Diseñar compensadores y reguladores utilizando los diferentes métodos en estudio.
-Implementar reguladores y compensadores usando electrónica digital (computadores y microcontroladores).","*Introducción
-**Motivación a Ingeniería en Control
-**Reseña histórica de la Teoría de Control
-**Tipos de diseños de sistemas de control
-**Integración de sistemas
-*Principios de realimentación
-**El objetivo del control
-**Definición del problema de control
-**Solución del problema de control vía inversión
-**Realimentación con ganancia elevada e inversión
-**De lazo abierto a lazo cerrado
-**Compromisos en la elección de la ganancia de realimentación
-*Modelos, señales y sistemas
-**Modelos en control
-**Linealización y escalamiento de variables
-**Funciones transferencia y diagramas de bloques
-**Obtención experimental de modelos
-**Respuesta en frecuencia y diagramas de Bode
-*Análisis de sistemas realimentados
-**Estructuras de realimentación
-**Funciones de sensibilidad
-**Estabilidad a lazo cerrado en base al polinomio característico
-**Estabilidad y análisis polinomial
-**Lugar de las raíces
-**Estabilidad y respuesta en frecuencia
-**Estabilidad relativa: márgenes de estabilidad
-**Robustez
-*Control PID clásico
-**Estructura PID
-**Ajuste empírico
-**Método de oscilación de Ziegler-Nichols
-**Métodos basados en la respuesta al escalón
-**Compensadores en atraso-adelanto
-*Diseño básico de controladores SISO
-**Enfoque polinomial
-**Ajuste de PI y PID mediante asignación de polos
-**El predictor de Smith
-*Limitaciones fundamentales en control SISO
-**Sensores
-**Actuadores
-**Perturbaciones
-**Limitaciones debidas a errores en modelado
-**Limitaciones estructurales
-*Consideraciones estructurales en control SISO
-**Modelos de perturbaciones y referencias determinísticas
-**Principio del modelo interno para perturbaciones
-**Principio del modelo interno para seguimiento de referencias
-**Control en avance
-**Aplicación industrial de control en avance
-**Control en cascada","El modelo pedagógico del ITCR busca que el estudiante adquiera un aprendizaje significativo, constructivista e interaccionista, para lograr este objetivo de aprendizaje el curso utiliza una combinación de la metodología de simulación, la metodología de integración y las metodologías participativas. Por lo que en curso combinará la presentación del contenido por parte de la persona docente, trabajo individual por parte de la persona estudiante, prácticas de laboratorio guiadas y el desarrollo de un proyecto final del curso cuyo objetivo es integral el material visto en este curso.
-Se espera que fuera de clase la persona estudiante trabajará de forma individual repasando la materia, haciendo lecturas, realizando ejercicios y simulaciones y resolviendo problemas; también trabajará en grupos estudiando de forma cooperativa y en el desarrollo del proyecto.","Exámenes; 2; 40
-Tareas; 5; 25 
-Prácticas dirigidas; 2; 10
-Proyecto; 1; 25","•	Graham Clifford Goodwin, Stefan F. Graebe, Mario E. Salgado; Control System Design; Pearson Education; 2000.
-•	Ogata, Katsuhiko. Ingeniería de control moderna. Pearson-Prentice Hall, México, 1998.
-•	R. Dorf y R. Bishop, Sistemas de Control Moderno, 10 ed., Prentice Hall, 2005. 
-•	F. Golnaraghi, K. Benjamin; Automatic Control Systems; 9ed; Wiley Online Library,2010",,"Juan Luis Guerrero Fernández; Ph. D; jguerrero@itcr.ac.cr
-*
-Doctor en filosofía en ciencias (Ph.D.), Universidad de Sheffield, Inglaterra 
-Máster en Ciencias (M. Sc.) en Mecatrónica, Universidad de Ciencias Aplicadas Aachen, Alemania "
-IEM2203,"Este curso está diseñado para brindar al estudiante conocimientos básicos requeridos para describir, analizar y diseñar sistemas electrónicos simples. Se introducen los temas de dispositivos analógicos y sus aplicaciones, principios de lógica combinacional, así como aplicaciones con semiconductores. 
-Se implementará programación en alto nivel y simulación de circuitos electrónicos con las herramientas apropiadas. El curso incluirá el diseño de una solución por medio de dispositivos analógicos y digitales de un problema simulado.","Aplicar herramientas de simulación y análisis para el diseño de sistemas electrónicos con amplificadores operacionales, elementos semiconductores y circuitos digitales combinacionales","Comprender las características y operación de los amplificadores operacionales en sus topologías básicas.
-Estudiar aplicaciones de IC especiales como monostables, astable, comparadores, reguladores de voltaje, convertidores V/f y V/I, entre otros.
-Comprender el funcionamiento de dispositivos electrónicos básicos diodo semiconductor, al transistor de unión bipolar.
-Diseñar aplicaciones electrónicas utilizando circuitos lógicos combinacionales.","*Conceptos básicos de electrónica 
-**Definición de electrónica analógica y digital 
-**Conversión de analógica a digital y viceversa, teorema del muestreo, cuantización del error. 
-**Sistemas de numeración en códigos base-N, hexadecimal, binario, ASCII, conversiones de base 
-**Tipos de códigos binarios 
-*Circuitos integrados lineales 
-**Características del amplificador operacional 
-**Corto circuito virtual y topologías básicas: inversor, no inversor, sumador, restador, integrador, derivador. Diseño y modelado de filtros activos 
-**IC especiales: reguladores de tensión, comparadores, astables, monostables, convertidores 
-*Diodo semiconductor 3.1. Cristales semiconductores. Enlaces covalentes, semiconductores intrínsecos y extrínsecos, la unión P-N 
-**Polarización de diodos 
-**Curva característica 
-**Valores nominales y parámetros. Dependencia con temperatura. 
-**Diodos de propósito general (Si, Ge) y especiales (Schottky, LEDs, Zener, varistores) 
-**Aplicaciones del diodo semiconductor y circuitos con diodos. 
-*Transistores BJT y MOSFET 
-**Estructura y definición 
-**Polarización 
-**Funcionamiento del transistor BJT y MOSFET 
-**Aplicaciones con transistores BJT y MOSFET 
-*Fundamentos de sistemas binarios 
-**Álgebra de Boole 
-**Compuertas lógicas 
-**Teoremas fundamentales 
-**Tabla de verdad 
-**Reducción de expresiones lógicas mediante álgebra de Boole 
-*Diseño lógico combinacional 
-**Mintérminos y maxtérminos.","Lecciones regulares de asistencia opcional, donde se expondrán conceptos relevantes de cada tema y se asignarán lecturas o prácticas del material bibliográfico. Se propiciará el trabajo en equipo y las experiencias de diseño en ingeniería por medio de proyectos en grupo. Se implementarán prácticas guiadas de laboratorio para complementar la teoría desarrollada en clases, estas prácticas se realizarán fuera del horario de clase, el número de estas prácticas y el momento de realizarlas se negociarán con los estudiantes. Cada una de estas prácticas generará un informe formal técnico con los resultados, conclusiones y recomendaciones. Se realizará un proyecto de diseño para que los estudiantes resuelvan un problema simulado por medio de dispositivos electrónicos analógicos y digitales. El producto entregado será una solución implementada y probada en un simulador (a escoger por cada grupo de trabajo) y un informe técnico donde se explique el diseño.","Examen parcial 1; 1; 25
- Examen parcial 2; 1; 25
-Prácticas de laboratorio; 0; 20 Proyecto de diseño; 1; 30","Schilling, D. & Belove, C. Circuitos Electrónicos discretos e integrados. McGraw-Hill, 3 ed. 1993. 
-Malvino, A. Principios de electrónica. McGraw-Hill, 6 ed. 
-Mohan, N., Undeland, T. M., & Robbins, W. P. (2009). Electrónica de potencia: convertidores, aplicaciones y diseño (3a. ed.). Sunny Isles Beach, US: McGraw-Hill España. 
-Wakerly, J. Diseño digital, principios y prácticas. Pearson Educación - Prentice Hall, 3 ed. · Tocci, R. & Wildmer, N. Sistemas digitales, principios y aplicaciones. Pearson Educación, 10 ed.",,
+Un curso de turbomáquinas es crucial en la formación de ingenieros electromecánicos a nivel de licenciatura por varias razones fundamentales:
+
+Aplicación práctica: Las turbomáquinas son componentes fundamentales en una amplia gama de industrias, incluyendo la generación de energía, la industria aeroespacial, la industria petroquímica y la industria automotriz, entre otras. Por lo tanto, entender los principios de funcionamiento y diseño de las turbomáquinas es esencial para los ingenieros electromecánicos que trabajarán en estas áreas.
+Integración de conocimientos: El estudio de las turbomáquinas requiere la comprensión y aplicación de principios de mecánica de fluidos, termodinámica y otros conceptos relacionados. Esto proporciona una oportunidad para integrar y aplicar conocimientos de diferentes áreas de la ingeniería en un contexto específico.
+
+Desarrollo de habilidades técnicas: El diseño, selección y mantenimiento de turbomáquinas requiere habilidades técnicas específicas, como análisis termodinámico, modelado de flujo, evaluación de rendimiento y control de sistemas. Un curso de turbomáquinas proporciona a los estudiantes la oportunidad de desarrollar y perfeccionar estas habilidades prácticas.
+Adaptabilidad y versatilidad profesional: Los ingenieros electromecánicos que poseen conocimientos en turbomáquinas están mejor preparados para adaptarse a diferentes entornos industriales y enfrentar desafíos técnicos diversos. Esta versatilidad aumenta su empleabilidad y les permite contribuir de manera significativa en una variedad de roles y proyectos.
+
+Innovación y avance tecnológico: El campo de las turbomáquinas está en constante evolución, con nuevas tecnologías y tendencias emergentes que buscan mejorar la eficiencia, la confiabilidad y la sostenibilidad de estos dispositivos. Los ingenieros electromecánicos capacitados en este campo están bien posicionados para contribuir al desarrollo y la implementación de estas innovaciones.
+
+En resumen, un curso de turbomáquinas es esencial para la formación de ingenieros electromecánicos porque proporciona los conocimientos, habilidades y perspectivas necesarias para abordar los desafíos técnicos del mundo real en una variedad de industrias y contribuir al avance continuo de la tecnología en este campo.","Comprender de forma integral de los principios fundamentales, el funcionamiento, el diseño y la aplicación de turbomáquinas en el contexto de la ingeniería electromecánica en problemas prácticos de proyección de sistemas de distribución de agua fría/caliente, aire comprimido y ventilación mecánica.","Comprender los principios fundamentales de las turbomáquinas y su relevancia en la ingeniería electromecánica.
+Analizar el funcionamiento y el rendimiento de diferentes tipos de turbomáquinas, incluidos compresores, bombas y ventiladores.
+Evaluar el rendimiento y la eficiencia de las turbomáquinas mediante métodos de análisis y pruebas experimentales.
+Aplicar conceptos de mecánica de fluidos y termodinámica en el estudio y análisis de sistemas mecánicos (agua fría y caliente; aire comprimido y ventilación) que incluyen turbomáquinas en aplicaciones industriales específicas.
+5.	Desarrollar habilidades para el diseño, selección y mantenimiento de sistemas mecánicos (agua fría y caliente; aire comprimido y ventilación) que incluyen turbomáquinas en aplicaciones industriales específicas.","*Módulo 1: Fundamentos de Turbomáquinas.
+**Introducción a las turbomáquinas y sus aplicaciones.
+**Principios básicos de funcionamiento.
+**Clasificación y tipos de turbomáquinas.
+**Módulo 2: Compresores, Bombas Hidráulicas y Ventiladores.
+**Compresores: tipos, características y aplicaciones.
+**Bombas: clasificación, curvas de rendimiento y selección.
+**Análisis de sistemas de bombeo.
+*Modulo 3: Suministro de agua y Bombas Hidráulicas: 
+**Normativa costarricense para la proyección de instalaciones hidráulicas y sanitarias en edificaciones. 
+**Métodos para la estimación de caudal.
+**Métodos para la estimación de diámetro de las tuberías.
+**Métodos para proporcionar presión independiente y la determinación de las presiones de trabajo y los niveles de agua en el tanque hidroneumático. 
+**Bombas Centrífugas: curvas características, funcionamiento, partes principales, mantenimiento. 
+**Fundamentos para proyección de sistemas suministro agua.
+*Modulo 4: Sistemas de Aire Comprimido:
+**Compresores: tipos, funcionamiento, enfriadores, purgadores, mantenimiento. 
+**Dispositivos en redes de aire comprimido. 
+**Cálculo de Sistemas de Aire Comprimido.
+*Modulo 5: Ventilación:
+**Ventiladores: Tipos, funcionamiento, curvas características. 
+**Introducción al cálculo de sistemas de ventilación.","Clases magistrales de asistencia opcional, donde se expondrán los conceptos relevantes de cada tema, los cuales serán trabajados por el estudiante en numerosas prácticas de tareas y quices. El alumno podrá consultar al profesor en el horario preestablecido para evacuar cualquier duda, sea del contenido teórico y/o de las tareas relativas a proyectos asignados. Durante el curso el estudiante participará de actividades en clase, como preguntas dirigidas por el profesor, trabajos en grupos para resolver ejercicios dirigidos puntuales y específicos sobre un tema desarrollado en la lección correspondiente. Se realizarán exámenes parciales que pretenden evaluar la materia vista en clases, presenciales y/o materia asignada a través de tareas de resolución de ejercicios e investigaciones asignadas. Se asignará a los estudiantes de dos proyectos de curso que se realizarán en grupos de no más de 3 integrantes. En cada proyecto se desarrollará uno de los 3 grandes temas del curso (Suministro de Agua, Aire Comprimido, Ventilación). Estos proyectos tienen una salida de Diseño, en donde se solicitará cumplir con ciertos requerimientos.  ","Quices y Tareas; 0; 25  
+Proyectos; 0; 25  
+Exámenes Parciales; 3; 50  ","Cengel, Y. y Cimbala, J. (2018). Mecánica de Fluidos. Fundamentos y aplicaciones (4ta ed). México: McGraw Hill.
+Soriano, A. y Pancorbo, F. (2012). Suministro, distribución y evacuación interior de agua sanitaria. España: Marcombo.
+Colegio Federado de Ingenieros y de Arquitectos de Costa Rica. (2017). Código de Instalaciones Hidráulicas y Sanitarias en Edificaciones (3ra Edición). Editorial Tecnológica de Costa Rica.
+Hunter, R B. (2011). Methods of Estimating Loads in Plumbing Systems. USA: United States Department of Commerce.
+Jutglar, L. y Miranda, A. (2012). Manual de Calefacción. España: Marcombo.
+Garro, A. (2016). Suministro de agua en edificaciones. Costa Rica: Tecnológico de Costa Rica.
+ATLAS COPCO (2015). Altas Copco Compressed Air Manual (7a. ed.), [en línea]. Bélgica: Atlas Copco Airpower NV. Disponible en: https://urldefense.com/v3/__http://www.atlascopco.es/Images/Compressed_Air_Manual_tcm57-1249312.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTax6yjfOw$  [2012, 26 de julio] 
+ASHRAE (2009). ASHRAE Handbook Fundamentals. Atlanta, Estados Unidos: American Society of Heating, Refrigerating and Air-Conditioning Engineers. 
+BOGE Kompressoren (2004). Compressed Air Compendium (6a. ed.), [en línea]. Alemania: Hoppenstedt-Verlag. Disponible en: https://urldefense.com/v3/__http://www.drucklufttechnik.de/english/__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTbccoc1Pg$  [2012, 25 de julio] 
+British Compressed Air Society. (2002). Compressed Air Systems. En D. A. Snow (Ed.), Plant Engineer's Reference Book (2da. ed.) (pp. 26/3-26/13). Oxford: Butterworth-Heinemann. 
+FESTO. (2013). Procesos seguros con una preparación perfecta del aire comprimido, [en línea]. Alemania: Festo AG & Co. Disponible en: https://urldefense.com/v3/__https://www.festo.com/net/SupportPortal/Downloads/53737/Druckluftaufbereitung___;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTaT8iM_MA$  es.pdf [2012, 30 de julio]
+Frankel, M. (2012). Facility Piping Systems Handbook (4a. ed.). New York City: The McGraw-Hill Companies, Inc. 
+Hesse, S. (2002). Aire comprimido, fuente de energía. Preparación y distribución. Alemania: Festo AG & Co. 
+Mott, R. (2014). Mecánica de Fluidos Aplicada (8va ed.). Prentice Hall. 
+Manual de Instalaciones Eléctricas y Mecánicas en Edificios. Tao/Manis. Prentice Hall, 2010. 
+Nacional Plumbing Codes Handbook. McGraw Hill, 2005. 
+Plumber`s and Pipefitter`s Calculation Manual. McGraw Hill, 17. Standard Handbook of Engineering Calculations McGraw Hill, 2008.",,"Alberto Garro Zavaleta; Ing; jagarro@itcer.ac.cr
+Escuela Ingeniería Electromecánica
+"
 IEM2201,"Es un curso introductorio teórico sobre fundamentos de circuitos eléctricos, en el cual se estudian los conceptos básicos, teoremas y métodos de análisis de circuitos resistivos en corriente directa. Además, se estudia el comportamiento dinámico y en estado estable de circuitos de primer orden y segundo orden con bobinas, condensadores y resistencias alimentado con corriente directa, de tipo RL y RC; al final del curso see analizan circuitos RLC de orden superior utilizando transformadas de Laplace.
 El curso es el primero de la rama de ingeniería eléctrica de la carrera, está pensado para sentar las bases necesarias para luego enfrentar la solución de problemas más complejos en cursos posteriores. Busca inculcar el atributo de Herramientas de Ingeniería a nivel intermedio según la acreditación por la AAPIA. Cabe destacar que las herramientas de ingeniería se refieren tanto a las analíticas en el planteamiento del problema, como también la validación de las soluciones por medio de un software de simulación pertinente; el estudiante no solo deberá saber plantear el problema, sino simularlo y validar sus respuestas.
 Como requisitos congnocitivos para llevar el curso el estudiante deberá conocer cómo solucionar sistemas de ecuaciones lineales y cómo operar algebraícamente utilizando números complejos, estos conocimientos se imparten en el curso de Cálculo y Álgebra Lineal de la Escuela de Matemática; así como los fundamentos del fenómeno eléctrico que brinda el curso de Física General II de la Escuela de Física. Además, el estudiante deberá llevar como correquisito un curso de laboratorio en donde se ponga en práctica lo aprendido en teoría. Los conocimientos brindados en este curso serán complementados en el de Análisis de Circuitos II pero en corriente alterna.
@@ -828,6 +341,143 @@ Proyecto de simulación; 1; 20
 Evaluaciones cortas; 0; 20","Alexander, Charles K.; Sadiku, Matthew N. “Fundamentos de circuitos eléctricos”. McGraw-Hill, México. 7 edición, 2022.
 Dorf, Richard; Svoboda, James A. “Circuitos eléctricos”. Alfaomega, México. Octava edición, 2011.
 Boylestad, Robert L. “Introducción al análisis de circuitos”. Prentice Hall, México. Decimosegunda edición, 2011.",,
+IEM2203,"Este curso está diseñado para brindar al estudiante conocimientos básicos requeridos para describir, analizar y diseñar sistemas electrónicos simples. Se introducen los temas de dispositivos analógicos y sus aplicaciones, principios de lógica combinacional, así como aplicaciones con semiconductores. 
+Se implementará programación en alto nivel y simulación de circuitos electrónicos con las herramientas apropiadas. El curso incluirá el diseño de una solución por medio de dispositivos analógicos y digitales de un problema simulado.","Aplicar herramientas de simulación y análisis para el diseño de sistemas electrónicos con amplificadores operacionales, elementos semiconductores y circuitos digitales combinacionales","Comprender las características y operación de los amplificadores operacionales en sus topologías básicas.
+Estudiar aplicaciones de IC especiales como monostables, astable, comparadores, reguladores de voltaje, convertidores V/f y V/I, entre otros.
+Comprender el funcionamiento de dispositivos electrónicos básicos diodo semiconductor, al transistor de unión bipolar.
+Diseñar aplicaciones electrónicas utilizando circuitos lógicos combinacionales.","*Conceptos básicos de electrónica 
+**Definición de electrónica analógica y digital 
+**Conversión de analógica a digital y viceversa, teorema del muestreo, cuantización del error. 
+**Sistemas de numeración en códigos base-N, hexadecimal, binario, ASCII, conversiones de base 
+**Tipos de códigos binarios 
+*Circuitos integrados lineales 
+**Características del amplificador operacional 
+**Corto circuito virtual y topologías básicas: inversor, no inversor, sumador, restador, integrador, derivador. Diseño y modelado de filtros activos 
+**IC especiales: reguladores de tensión, comparadores, astables, monostables, convertidores 
+*Diodo semiconductor 3.1. Cristales semiconductores. Enlaces covalentes, semiconductores intrínsecos y extrínsecos, la unión P-N 
+**Polarización de diodos 
+**Curva característica 
+**Valores nominales y parámetros. Dependencia con temperatura. 
+**Diodos de propósito general (Si, Ge) y especiales (Schottky, LEDs, Zener, varistores) 
+**Aplicaciones del diodo semiconductor y circuitos con diodos. 
+*Transistores BJT y MOSFET 
+**Estructura y definición 
+**Polarización 
+**Funcionamiento del transistor BJT y MOSFET 
+**Aplicaciones con transistores BJT y MOSFET 
+*Fundamentos de sistemas binarios 
+**Álgebra de Boole 
+**Compuertas lógicas 
+**Teoremas fundamentales 
+**Tabla de verdad 
+**Reducción de expresiones lógicas mediante álgebra de Boole 
+*Diseño lógico combinacional 
+**Mintérminos y maxtérminos.","Lecciones regulares de asistencia opcional, donde se expondrán conceptos relevantes de cada tema y se asignarán lecturas o prácticas del material bibliográfico. Se propiciará el trabajo en equipo y las experiencias de diseño en ingeniería por medio de proyectos en grupo. Se implementarán prácticas guiadas de laboratorio para complementar la teoría desarrollada en clases, estas prácticas se realizarán fuera del horario de clase, el número de estas prácticas y el momento de realizarlas se negociarán con los estudiantes. Cada una de estas prácticas generará un informe formal técnico con los resultados, conclusiones y recomendaciones. Se realizará un proyecto de diseño para que los estudiantes resuelvan un problema simulado por medio de dispositivos electrónicos analógicos y digitales. El producto entregado será una solución implementada y probada en un simulador (a escoger por cada grupo de trabajo) y un informe técnico donde se explique el diseño.","Examen parcial 1; 1; 25
+ Examen parcial 2; 1; 25
+Prácticas de laboratorio; 0; 20 Proyecto de diseño; 1; 30","Schilling, D. & Belove, C. Circuitos Electrónicos discretos e integrados. McGraw-Hill, 3 ed. 1993. 
+Malvino, A. Principios de electrónica. McGraw-Hill, 6 ed. 
+Mohan, N., Undeland, T. M., & Robbins, W. P. (2009). Electrónica de potencia: convertidores, aplicaciones y diseño (3a. ed.). Sunny Isles Beach, US: McGraw-Hill España. 
+Wakerly, J. Diseño digital, principios y prácticas. Pearson Educación - Prentice Hall, 3 ed. · Tocci, R. & Wildmer, N. Sistemas digitales, principios y aplicaciones. Pearson Educación, 10 ed.",,
+IEM2203,"Este curso está diseñado para brindar al estudiante conocimientos básicos requeridos para describir, analizar y diseñar sistemas electrónicos simples. Se introducen los temas de dispositivos analógicos y sus aplicaciones, así como aplicaciones con semiconductores. 
+El curso incluirá experiencias de mediciones en laboratorio para entender mejor el funcionamiento de los dispositivos; además de un proyecto simulado de diseño usando circuitos lineales.","Aplicar herramientas de simulación y análisis para el diseño de sistemas electrónicos con amplificadores operacionales, elementos semiconductores","Comprender las características y operación de los amplificadores operacionales en sus topologías básicas.
+Estudiar aplicaciones de IC especiales: como monostable, astable, comparadores, reguladores de voltaje, convertidores, entre otros.
+Comprender el funcionamiento de dispositivos electrónicos básicos diodo semiconductor, al transistor de unión bipolar, MOSFET e IGBT.","*Conceptos básicos de electrónica 
+**Definición de electrónica analógica y digital
+**Conversión de analógica a digital y viceversa, teorema del muestreo, cuantización del error.
+*Diodo semiconductor 
+**Cristales semiconductores. Enlaces covalentes, semiconductores intrínsecos y extrínsecos, la unión P-N
+**Polarización de diodos
+**Curva característica
+**Valores nominales y parámetros. Dependencia con temperatura.
+**Diodos de propósito general (Si, Ge) y especiales (Schottky, LEDs, Zener)
+**Aplicaciones del diodo semiconductor y circuitos con diodos.
+*Transistores BJT (12 horas)
+**Estructura y definición
+**Polarización
+**Funcionamiento del transistor BJT
+**Aplicaciones con transistores BJT
+**Optoacoples
+*MOSFET
+**Estructura y definición
+**Polarización
+**Funcionamiento
+**Aplicaciones
+**IGBT
+*Fundamentos de electrónica de potencia (10 horas)
+**Amplificadores de gran señal
+**Convertidores de DC-AC (rectificaciones)
+**Fuentes de voltaje reguladas y conmutadas (Buck - Boost)
+**Puente H y Modulación por ancho de pulso (PWM)
+*Circuitos integrados lineales (10 horas)
+**Características del amplificador operacional 
+**Corto circuito virtual y topologías básicas: inversor, no inversor, sumador, restador, integrador, derivador. Diseño y modelado de filtros activos
+**IC especiales: reguladores de tensión, comparadores, astables, monostables, convertidores V/F y F/V",,"Exámenes parciales; 2; 40
+Informe de pruebas de laboratorio; 0: 30
+Proyecto de diseño : 1: 30",,,
+IEM2204,"Es un curso introductorio teórico sobre fundamentos de lógica digital, sistemas combinacionales y secuenciales pensados para complementar la formación de las personas profesionales en ingeniería electromecánica, para luego ser aplicado tanto en ingeniería eléctrica como mecánica.
+El curso está pensado para sentar las bases necesarias para luego enfrentar la solución de problemas más complejos que involucren sistemas digitales en cursos posteriores. Busca inculcar el atributo de Aplicar herramientas de análisis y diseño de sistemas digitales enfocadas en su solución de problemas en ingeniería electromecánica. a nivel intermedio según la acreditación por la AAPIA. Cabe destacar que las herramientas de ingeniería se refieren tanto a las analíticas en el planteamiento del problema, así como el diseño de soluciones innovadoras.
+Como requisitos congnocitivos para llevar el curso el estudiante deberá conocer analizar circuitos eléctricos básicos, estos conocimientos se imparten en los cursos de Análisis de Circuitos I y II; así como los fundamentos del análisis de sistemas analógicos en ingeniería electromecánica que brinda el curso de Sistemas Analógico para Ingeniería Electromecánica todos ellos impartidos por esta Escuela. Además, el estudiante deberá llevar como correquisito un curso de laboratorio en donde se ponga en práctica lo aprendido en teoría. Los conocimientos brindados en este curso serán complementados en cursos del área de Sistemas de la carrera.
+Al ser un curso estrictamente teórico la asistencia será libre, y su impartición podrá ser virtual, semipresencial o regular (presencial) según las necesidades de la Escuela; dejando en claro que los exámenes, quices y demás pruebas donde se evalúe el saber hacer se realizarán de forma presencial siguiendo la normativa aplicable.",Aplicar herramientas de análisis y diseño de sistemas digitales enfocadas en su solución de problemas en ingeniería electromecánica.,"Comprender el álgebra y uso de sistemas de código base N.
+Analizar problemas compuestos de sistemas digitales combinacionales y secuenciales
+Diseñar propuestas de solución para problemas de ingeniería electromecánica utilizando sistemas digitales.
+Programar soluciones en lenguajes de alto nivel aplicados a ingeniería electromecánica","*Fundamentos de sistemas binarios
+**Sistemas de numeración en códigos base-N, hexadecimal, binario, ASCII, conversiones de base
+**Tipos de códigos binarios
+**Álgebra de Boole
+**Compuertas lógicas
+**Teoremas fundamentales
+**Tabla de verdad
+**Reducción de expresiones lógicas mediante álgebra de Boole
+*Diseño lógico combinacional
+**Mintérminos y maxtérminos.
+**Funciones completamente e incompletamente especificadas.
+**Mapas de Karnaugh
+**Representación de las condiciones no importa y no pueden ocurrir.
+**Suma de Productos y Producto de Sumas. 
+*Lógica digital combinacional
+**Multiplexores, demultiplexores
+**Decodificadores
+**Código Grey
+*Circuitos Secuenciales. 
+**Modelos de los circuitos secuenciales vrs los combinacionales 
+**Máquinas secuenciales 
+**Elementos básicos de los circuitos secuénciales Biestables, cerrojos (latch) y Flip-Flop. 
+**Contadores
+**Desplazamientos de Registros
+*Máquinas de estado...
+**Circuitos combinacionales iterativos vrs Máquinas de estado
+**Diagrama de estados
+**Diseño de Máquinas de estado
+**Máquinas de estado a partir de listas de transición
+*Dispositivos lógicos programables
+**Descripción de arquitecturas PPGA y sistema con CPU: hilos en paralelo vrs hilos secuenciales
+**Generalidades de lenguajes de descripción de Hardware (HDL): VHDL - Verilog
+**Herramientas de generación de código y compilación
+**Descripción del testbench (datos de prueba)
+**Validación de DUT
+*Introducción al lenguaje de programación C. 
+**Tipo de datos y constantes. 
+**Declaración de variables: Bolean, Entero, Flotante, etc. 
+**Lectura / Escritura Digitales 
+**Lectura / Escritura Analógica 
+**Estructuras: IF THEN, SWITCH, FOR, etc 
+**Diagrama de flujo de un programa. 
+**Creación de funciones. 
+**Llamado de librerías. 
+**Programación en IDE","Lecciones de asistencia libre, donde se expondrán los conceptos relevantes de cada tema. Los documentos y noticias se publicarán oficialmente en el TEC-Digital. Los contenidos serán desarrollados en clases magistrales, presentaciones en PowerPoint, ejemplos resueltos y ejercicios propuestos; siendo evaluados en tareas y exámenes. 
+
+Se utilizarán además actividades formativas para reforzar el aprendizaje de los conceptos vistos, de forma complementaria se pondrán a disposición guías de estudio, texto de referencia, videos, ejercicios tomados de exámenes de semestres anteriores, entre otros.
+
+Se realizarán proyectos de diseño en donde se buscará una solución creativa a un problema de ingeniería utilizando lógica digital, esta solución será presentada en un simulador o bien se programará en C.
+Los exámenes parciales y cortos se aplicarán de forma presencial en fechas y modos que oportunamente se indicarán según lo previsto por el RREA; la publicación de estos se hará en el TEC-Digital y los correos oficiales de los estudiantes según la lista del DAR.
+
+Con el curso se pretende trabajar en el objetivo de desarrollo sostenible (ODS) número 4 “Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos”. En particular las siguientes acciones:
+","Primer parcial; 1; 25
+Segundo parcial; 1; 25
+Proyecto programado; 1; 25
+Proyecto de diseño  -- 25%","[01] Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003. 
+[02] Mano, Morris; “Lógica Digital y Diseño de Computadores”. 3 era ed. Prentice Hall: México. 1982. 
+[03] Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003. """,,
 IEM2205,"El curso de Máquinas Eléctricas I proporciona una base sólida en corriente alterna, equipando al estudiante con las habilidades necesarias para comprender, plantear y resolver problemas relacionados con sistemas eléctricos, así como máquinas eléctricas estáticas y rotativas, tanto en configuraciones trifásicas como monofásicas.
 Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para efectuar cálculos de tensiones, corrientes, potencias y condiciones de operación en configuraciones tanto trifásicas como monofásicas, aplicables a sistemas y máquinas eléctricos estáticas y rotativas de inducción. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
 El presente curso establece los fundamentos necesarios para el posterior estudio en Máquinas Eléctricas II, donde se abordarán diferentes tipos de máquinas dentro de contextos analíticos diversos. Asimismo, ofrece una comprensión sólida de las máquinas eléctricas estudiadas, que servirán como base para su instalación, operación y mantenimiento. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Al final del curso la persona estudiante será capaz de diferenciar los diversos usos de las máquinas eléctricas para cada una de las aplicaciones de uso industrial, comercial o residencial. ","Analizar sistemas eléctricos trifásicos balanceado y desbalanceados.
@@ -943,39 +593,6 @@ Exámenes cortos y tareas; 1; 25","1.	Garik, M. Whipple, C. Máquinas de Corrien
 9.	Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
 10.	Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
 11.	Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
-IEM2255,"El presente laboratorio busca aplicar y demostrar los conceptos y temas principales del curso Máquinas Eléctricas I, comprende mediciones de potencia en redes monofásicas y trifásicas bajo distintas configuraciones. Introduce las máquinas eléctricas llamadas transformadores conectado como autotransformadores y transformadores monofásicos y trifásicos para análisis de reflejo de impedancias y cálculo de potencias. Además, se abarca los motores de inducción, trifásicos como monofásicos, finalizando con el uso especial de un generador asincrónico.
-Además, mediante la práctica, el estudiante tiene la posibilidad de analizar y realizar diagramas de conexión, así como la utilización de instrumentos y equipos, relacionados con la operación de estas máquinas
-","Aplicar los conceptos desarrollados en el curso de Máquinas Eléctricas I, de una forma práctica temas como sistemas de potencia monofásicos y trifásicos, transformadores y motores de inducción, que permita evidenciar los fenómenos y comprobar datos teóricos con mediciones experimentales.","Conocer la construcción y funcionamiento de transformadores de potencia monofásicos y trifásicos
-Verificar de manera práctica los conceptos teóricos estudiados en el curso de Máquinas Eléctricas I
-Aplicar diversos métodos de medición de potencia monofásica y trifásica y comprobar las características eléctricas de estas configuraciones. ","Laboratorio N°1: Circuito monofásico trifilar.
-Laboratorio N°2: Medición de Potencia: Conexión en estrella balanceado y desbalanceado.
-Laboratorio N°3: Medición de Potencia: Conexión en delta. Balanceado y desbalanceado.
-Laboratorio N°4: Mejoramiento del Factor de Potencia en redes trifásicas.
-Laboratorio N°5: Transformador monofásico (Polaridad y Saturación)
-Laboratorio N°6: Transformador monofásicos (Regulación de tensión).
-Laboratorio N°7: Autotransformadores y Pruebas de corto y circuito abierto.
-Laboratorio N°8 Conexiones Trifásicas de transformadores
-Laboratorio N°9 Conexión de devanados estatóricos
-Laboratorio N°10: Motor trifásico de jaula de ardilla y rotor devanado
-Laboratorio N°11 Control de velocidad con VFD
-Laboratorio N°12 Motores monofásicos de inducción con doble capacitor.
-Laboratorio N°13 Pruebas de rotor bloqueado en motor trifásico de inducción.
-Laboratorio N°14 Generador asincrónico.","Los laboratorios serán expuestos por los estudiantes y guiados por el profesor. Los estudiantes asignados darán una breve introducción del laboratorio que incluye. El objetivo, diagramas de conexión, equipo, procedimiento a realizar, tablas de datos experimentales, y los principales cuidados.
-
-Todos los estudiantes presentarán un trabajo previo el día del laboratorio, que incluye el objetivo, diagrama de conexión y tabla de datos. La bitácora de cada laboratorio debe entregarse 8 días después de realizar cada experimento.
-Luego los estudiantes conectan los equipos e instrumentos y realizan la práctica del día; posteriormente con los datos obtenidos se realizará el análisis de los resultados obtenidos.
-
-Se realizarán 2 Casos de Análisis en el aula, la nota de cada caso se dividirá en un 50% individual evaluado a través de una comprobación corta, y el otro 50% a través de una solución grupal del caso","Bitácoras; 0; 40
-Tareas y quices; 0; 20
-Casos de análisis; 0; 40","Chapman, Stephen. “Máquinas eléctricas”. McGraw Hil, México. Quinta Edición, 2012. 
-Rosenberg, Robert. Reparación de Motores Eléctricos. Editorial Gustavo Gili. Barcelona. Sexta Edición.
-Fraile, J. (2008). Máquinas Eléctricas (6ta ed.). Madrid: McGraw-Hill.
-Huberts, C. I. (2002). Electric Machines: Theory, Operation, Application, Ajustment 
-Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
-NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
-Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
-Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
-Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
 IEM2206,"El curso de Máquinas Eléctricas II, representa la continuidad del estudio de las máquinas eléctricas desarrollado en el curso Máquinas Eléctricas I, es de carácter intermedio-avanzado y aplicado, donde se desarrollan conocimientos previos adquiridos a través de su formación ingenieril, con lo cual se espera que el estudiante desarrolle competencias para la comprensión, planteo y solución de los problemas de las máquinas eléctricas rotativas, especialmente Máquinas Sincrónicas Trifásicas y Máquinas de Corriente Directa. Es un curso de alto nivel.
 Está diseñado a fin de que el estudiante próximo a realizar su proyecto final de graduación, cuente con los conceptos relacionados a las máquinas rotativas de mayor uso en la industria. El curso estudia condiciones en estado estable de las maquinas eléctricas tanto de CA como CD. Se promueve un conocimiento amplio y permite la interacción del futuro ingeniero con profesionales de diversas áreas en el desempeño de sus labores profesionales. Durante el desarrollo de las lecciones se promueve el respeto, la ética profesional y la responsabilidad como futuros ingenieros y las repercusiones tanto éticas ante el Colegio Federado de Ingenieros como por la vía judicial, ya que, en el ejercicio de su profesión, los diseños, cotizaciones y propuestas contemplan declaraciones juradas por parte de los profesionales.
 Al terminar el curso, el estudiante conocerá las características de funcionamiento y usos principales de los Alternadores Sincrónicos, Generadores de Corriente Directa y Motores Sincrónicos y Motores de Corriente Directa, conocimientos que lo capacitarán para su operación y mantenimiento. 
@@ -1084,42 +701,74 @@ Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón
 Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
 Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,"Osvaldo Guerrero Castro; Ing; oguerrero@tec.ac.cr
 Ingeniero en Mantenimiento Industrial"
-IEM2256,"El curso pretende ser un complemento del curso teórico de Máquinas Eléctricas II, donde el estudiante tiene la posibilidad de comprobar experimentalmente, los planteamientos teóricos expuestos en la teoría. Busca que el estudiante realice prácticas con Máquinas Sincrónicas (Motor y Alternador) y Máquinas de Corriente Directa analice su comportamiento, bajo diversas condiciones de carga (régimen estable).
-
-Además, mediante la práctica, el estudiante tiene la posibilidad de analizar y realizar diagramas de conexión, así como la utilización de instrumentos y equipos, relacionados con la operación de estas máquinas eléctricas rotativas.","Conocer y analizar las diferentes conexiones que se pueden realizar en las máquinas eléctricas rotativas (motores y generadores sincrónicos) de AC y DC, más comunes en la industria.","Conocer los tipos de conexión que debe realizar en los motores y alternadores sincrónicos, y máquinas de CD según ciertas condiciones operativas.
-Comprobar mediante la utilización de equipos e instrumentos, las características de los motores y generadores en AC y DC.
-Analizar el comportamiento de los motores y generadores en AC y DC bajo ciertas circunstancias de operación y de acuerdo con sus características.
-analice el comportamiento de los motores y generadores en AC y DC bajo ciertas circunstancias de operación y de acuerdo con sus características.","Laboratorio N°1: Alternadores sincrónicos Aislado
-Laboratorio N°2: Pruebas de Máquina Sincrónica (Reactancia y Resistencia armadura)
-Laboratorio N°3 Curva de Capacidad del Alternador
-Laboratorio N°4: Alternador Sincrónico en RED
-Laboratorio N°5 Motores sincrónicos curvas en V
-Laboratorio N°6 Motor sincrónico condensador sincrónico
-Máquinas de Corriente Directa
-Laboratorio N°7 Generador Corriente Directa Conexión Shunt e independiente
-Laboratorio N°8 Generador Corriente Directa Conexión Compuesta
-Laboratorio N°9 Motor Corriente Directa Conexión Shunt
-Laboratorio N°10 Motor Corriente Directa Conexión Compuesta
-Laboratorio N°11 Motor Corriente Directa Métodos Control de Velocidad
-Máquinas especiales
-Laboratorio N°12 Motor a pasos
-Laboratorio N°13 Servomotor
-Laboratorio N°14 Motor universal","Los laboratorios serán expuestos por los estudiantes y guiados por el profesor. Los estudiantes asignados darán una breve introducción del laboratorio que incluye. El objetivo, diagramas de conexión, equipo, procedimiento a realizar, tablas de datos experimentales, y los principales cuidados.
-
-Todos los estudiantes presentarán un trabajo previo el día del laboratorio, que incluye el objetivo, diagrama de conexión y tabla de datos. 
-Luego los estudiantes conectan los equipos e instrumentos y realizan la práctica del día; posteriormente con los datos obtenidos se realizará el análisis de los resultados obtenidos.
-
-Se realizarán dos CASOS de análisis en el aula, la nota de cada caso se dividirá en un 50% individual evaluado a través de una comprobación corta, y el otro 50% a través de una solución grupal del caso","Bitácoras; 0; 40
-Tareas y quices; 0; 20
-Casos de análisis; 0; 40","Chapman, S. (2012). Máquinas Eléctricas (5 ed.). Mexico: McGraw Hill.
-Filtgerald, A., Kingsley, C., & Umans, S. D. (2004). Máquinas Eléctricas (6ta ed.). Mexico D.F.: MacGraw Hill.
-Fraile, J. (2008). Máquinas Eléctricas (6ta ed.). Madrid: McGraw-Hill.
-Huberts, C. I. (2002). Electric Machines: Theory, Operation, Application, Ajustment 
-Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
-NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
-Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
-Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
-Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+IEM2207,"El curso de Análisis de Sistemas de Potencia proporciona una base sólida en modelado y simulación, preparando al estudiante con las habilidades necesarias para comprender, plantear y resolver problemas complejos relacionados con sistemas de potencia de mediana y alta tensión sometidos a condiciones de operación normal o bajo situaciones extremas.
+Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para diseñar líneas de transmisión, efectuar cálculos del desempeño de las redes eléctricas, estudios de cortocircuitos simétricos y asimétricos, análisis del despacho económico, así como estudios de estabilidad bajo diversos puntos de operación. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
+El presente curso brinda las herramientas necesarias para futuros cursos avanzados tanto en grado como posgrado, donde se abordarán diferentes situaciones dentro de contextos analíticos diversos. Asimismo, ofrece una comprensión sólida de los sistemas de potencia abarcando los cursos anteriores, que servirán como fundamento para proyectos de instalación, operación y mantenimiento en mediana y alta tensión. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Analizar los sistemas de potencia de mediana y alta tensión en su desempeño, operación y diseño. ","Diseñar líneas de transmisión monofásicas y trifásicas.
+Analizar el desempeño del sistema de potencia.
+Confeccionar estudios de cortocircuito, operación económica y estabilidad.","*Centrales y Subestaciones (12 horas)
+**Centrales Eléctricas
+**Tipos de Centrales Eléctricas
+**Generador Sincrónico: Modelo y Parámetros
+**Transformador de Potencia: Modelo y Parámetros
+**Subestaciones eléctricas
+**Cargas Estáticas y dinámicas
+*Elementos Estáticos de la Red Eléctrica (4 horas)
+**Líneas aéreas
+**Líneas subterráneas
+**Resistencia, Inductancia, Capacitancia y Conductancia de la línea de transmisión.
+**Modelado de la línea de transmisión.
+*Desempeño del sistema de potencia (8 horas)
+**Sistema p.u.
+**Modelo de la línea corta
+**Modelo de la línea media
+**Modelo de la línea larga
+*Métodos de Flujos de Potencia (8 horas)
+**Planteamiento del problema de flujo de potencia
+**Métodos Numéricos para la solución de Flujos de Potencia
+**Newton Rapson
+**Desacoplado
+**Flujo de potencia DC
+*Análisis de Fallas y estudio de cortocircuito (12 horas)
+**Planteamiento del problema de cortocircuito
+**Componentes Simétricos 
+**Síntesis de vectores desequilibrados a partir de componentes simétricos
+**Operadores, Componentes simétricos de vectores asimétricos
+**Potencia en función de los componentes simétricos
+**Impedancias de Secuencia, Redes de secuencia
+**Fallas NO Simétricas 
+**Análisis de fallas monofásicas, bifásicas y trifásicas
+**Interpretación de las redes de secuencia interconectadas
+**Análisis de fallas asimétricas utilizando la matriz de impedancias de barras
+*Operación Económica de los Sistemas de Potencia (4 horas)
+**Distribución de cargas entre unidades de una misma central
+**Pérdidas de transmisión en función de la producción, Cálculo de los coeficientes de pérdidas, Distribución de la carga entre centrales
+**Factores de penalización
+**Mercado Eléctrico Regional
+*Análisis de Condiciones de Inestabilidad de la Red (4 horas)
+**Sobretensiones por descargas atmosféricas 
+**Origen de las descargas atmosféricas, Campo eléctrico
+**Variaciones del campo eléctrico y formación de rayos
+**Pararrayos y zonas de protección, Modelo electro-geométrico
+**Parámetros eléctricos de las descargas, Energía descargada
+**Blindaje
+**Sobretensiones por maniobra
+**Sobretensiones temporales, Sobretensiones de frente lento
+**Sobretensiones de frente rápido, Sobretensiones de frente muy rápido
+**Mecanismos de protección, Perturbaciones de baja frecuencia
+**Perturbaciones de Alta Frecuencia, Problemas por Baja tensión
+*Estabilidad Transitoria (12 horas) 
+**El problema de estabilidad
+**Estabilidad en régimen permanente
+**Estabilidad en régimen transitorio
+**Ecuación de oscilación
+**Realizar ejercicio de estabilidad transitoria
+**Principios de Regulación de tensión y frecuencia en un sistema Interconectado","Se ofrecerán clases magistrales de manera presencial, en las cuales se presentarán los conceptos relevantes de cada tema. Estos conceptos serán luego abordados por los estudiantes a través de numerosas prácticas, tareas y exámenes cortos. Durante el horario establecido, los estudiantes tendrán la oportunidad de consultar al profesor para aclarar dudas relacionadas tanto con el contenido teórico como con las tareas relacionadas a proyectos asignados.
+A lo largo del curso, se fomentará la participación de los estudiantes en diversas actividades en clase, como preguntas dirigidas por el profesor y trabajos en grupos para resolver ejercicios específicos relacionados con los temas tratados en las lecciones correspondientes. Además, se llevarán a cabo exámenes parciales con el fin de evaluar el material cubierto en clase, ya sea presencialmente o a través de tareas de resolución de ejercicios e investigaciones asignadas.","I Examen Parcial; 1; 20
+II Examen Parcial; 1; 20
+III Examen Parcial; 0; 30
+Proyecto; 1; 30","Grainger, J. J., & Stevenson Jr., W. D. (1996). Análisis de Sistemas de Potencia. México: McGraw-Hill.
+Kothari, D. P., & Nagrath, I. J. (2008). Sistemas Eléctricos de Potencia. México: McGraw-Hill.
+Wildi, T. (2007). Máquinas Eléctricas y Sistemas de Potencia. México: PEARSON.",,
 IEM2208,"El curso de Instalaciones Eléctricas proporciona una base sólida en el diseño eléctrico, preparando al estudiante con las habilidades necesarias para realizar proyectos industriales, comerciales y residenciales en baja tensión sometidos a los criterios del Código Eléctrico del Costa Rica del Colegio Federado de Ingenieros.
 Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para diseñar instalaciones eléctricas de baja tensión, efectuar análisis del desempeño energético y presupuestos, estudios de cortocircuito, selección de protecciones, elaboración de planos bajo la normativa actual. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
 El presente curso brinda las herramientas necesarias para las diferentes situaciones dentro de los contextos tanto analíticos como ingenieriles a los que el estudiante se encuentre. Asimismo, ofrece una comprensión sólida de los sistemas de eléctricos abarcando los cursos anteriores, que servirán como fundamento para proyectos de instalación, operación y mantenimiento en baja tensión. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Diseñar sistemas de potencia de baja tensión industriales, comerciales y residenciales. ","Diseñar instalaciones eléctricas industriales, comerciales y residenciales.
@@ -1199,174 +848,181 @@ Proyecto; 1; 30","*Libros
 **IEEE Recommended Practice for Energy Management in Industrial and Commercial Facilities (Bronze Book) 
 **IEEE Guide for Maintenance, Operation and Safety of Industrial and Commercial Power Systems (Yellow Book) 
 **IEEE Recommended Practice for Applying Low Voltage Circuit Breaker Used in Industrial and Commercial Power Systems (Blue Book)",,
-IEM2207,"El curso de Análisis de Sistemas de Potencia proporciona una base sólida en modelado y simulación, preparando al estudiante con las habilidades necesarias para comprender, plantear y resolver problemas complejos relacionados con sistemas de potencia de mediana y alta tensión sometidos a condiciones de operación normal o bajo situaciones extremas.
-Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para diseñar líneas de transmisión, efectuar cálculos del desempeño de las redes eléctricas, estudios de cortocircuitos simétricos y asimétricos, análisis del despacho económico, así como estudios de estabilidad bajo diversos puntos de operación. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
-El presente curso brinda las herramientas necesarias para futuros cursos avanzados tanto en grado como posgrado, donde se abordarán diferentes situaciones dentro de contextos analíticos diversos. Asimismo, ofrece una comprensión sólida de los sistemas de potencia abarcando los cursos anteriores, que servirán como fundamento para proyectos de instalación, operación y mantenimiento en mediana y alta tensión. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Analizar los sistemas de potencia de mediana y alta tensión en su desempeño, operación y diseño. ","Diseñar líneas de transmisión monofásicas y trifásicas.
-Analizar el desempeño del sistema de potencia.
-Confeccionar estudios de cortocircuito, operación económica y estabilidad.","*Centrales y Subestaciones (12 horas)
-**Centrales Eléctricas
-**Tipos de Centrales Eléctricas
-**Generador Sincrónico: Modelo y Parámetros
-**Transformador de Potencia: Modelo y Parámetros
-**Subestaciones eléctricas
-**Cargas Estáticas y dinámicas
-*Elementos Estáticos de la Red Eléctrica (4 horas)
-**Líneas aéreas
-**Líneas subterráneas
-**Resistencia, Inductancia, Capacitancia y Conductancia de la línea de transmisión.
-**Modelado de la línea de transmisión.
-*Desempeño del sistema de potencia (8 horas)
-**Sistema p.u.
-**Modelo de la línea corta
-**Modelo de la línea media
-**Modelo de la línea larga
-*Métodos de Flujos de Potencia (8 horas)
-**Planteamiento del problema de flujo de potencia
-**Métodos Numéricos para la solución de Flujos de Potencia
-**Newton Rapson
-**Desacoplado
-**Flujo de potencia DC
-*Análisis de Fallas y estudio de cortocircuito (12 horas)
-**Planteamiento del problema de cortocircuito
-**Componentes Simétricos 
-**Síntesis de vectores desequilibrados a partir de componentes simétricos
-**Operadores, Componentes simétricos de vectores asimétricos
-**Potencia en función de los componentes simétricos
-**Impedancias de Secuencia, Redes de secuencia
-**Fallas NO Simétricas 
-**Análisis de fallas monofásicas, bifásicas y trifásicas
-**Interpretación de las redes de secuencia interconectadas
-**Análisis de fallas asimétricas utilizando la matriz de impedancias de barras
-*Operación Económica de los Sistemas de Potencia (4 horas)
-**Distribución de cargas entre unidades de una misma central
-**Pérdidas de transmisión en función de la producción, Cálculo de los coeficientes de pérdidas, Distribución de la carga entre centrales
-**Factores de penalización
-**Mercado Eléctrico Regional
-*Análisis de Condiciones de Inestabilidad de la Red (4 horas)
-**Sobretensiones por descargas atmosféricas 
-**Origen de las descargas atmosféricas, Campo eléctrico
-**Variaciones del campo eléctrico y formación de rayos
-**Pararrayos y zonas de protección, Modelo electro-geométrico
-**Parámetros eléctricos de las descargas, Energía descargada
-**Blindaje
-**Sobretensiones por maniobra
-**Sobretensiones temporales, Sobretensiones de frente lento
-**Sobretensiones de frente rápido, Sobretensiones de frente muy rápido
-**Mecanismos de protección, Perturbaciones de baja frecuencia
-**Perturbaciones de Alta Frecuencia, Problemas por Baja tensión
-*Estabilidad Transitoria (12 horas) 
-**El problema de estabilidad
-**Estabilidad en régimen permanente
-**Estabilidad en régimen transitorio
-**Ecuación de oscilación
-**Realizar ejercicio de estabilidad transitoria
-**Principios de Regulación de tensión y frecuencia en un sistema Interconectado","Se ofrecerán clases magistrales de manera presencial, en las cuales se presentarán los conceptos relevantes de cada tema. Estos conceptos serán luego abordados por los estudiantes a través de numerosas prácticas, tareas y exámenes cortos. Durante el horario establecido, los estudiantes tendrán la oportunidad de consultar al profesor para aclarar dudas relacionadas tanto con el contenido teórico como con las tareas relacionadas a proyectos asignados.
-A lo largo del curso, se fomentará la participación de los estudiantes en diversas actividades en clase, como preguntas dirigidas por el profesor y trabajos en grupos para resolver ejercicios específicos relacionados con los temas tratados en las lecciones correspondientes. Además, se llevarán a cabo exámenes parciales con el fin de evaluar el material cubierto en clase, ya sea presencialmente o a través de tareas de resolución de ejercicios e investigaciones asignadas.","I Examen Parcial; 1; 20
-II Examen Parcial; 1; 20
-III Examen Parcial; 0; 30
-Proyecto; 1; 30","Grainger, J. J., & Stevenson Jr., W. D. (1996). Análisis de Sistemas de Potencia. México: McGraw-Hill.
-Kothari, D. P., & Nagrath, I. J. (2008). Sistemas Eléctricos de Potencia. México: McGraw-Hill.
-Wildi, T. (2007). Máquinas Eléctricas y Sistemas de Potencia. México: PEARSON.",,
-IEM2203,"Este curso está diseñado para brindar al estudiante conocimientos básicos requeridos para describir, analizar y diseñar sistemas electrónicos simples. Se introducen los temas de dispositivos analógicos y sus aplicaciones, así como aplicaciones con semiconductores. 
-El curso incluirá experiencias de mediciones en laboratorio para entender mejor el funcionamiento de los dispositivos; además de un proyecto simulado de diseño usando circuitos lineales.","Aplicar herramientas de simulación y análisis para el diseño de sistemas electrónicos con amplificadores operacionales, elementos semiconductores","Comprender las características y operación de los amplificadores operacionales en sus topologías básicas.
-Estudiar aplicaciones de IC especiales: como monostable, astable, comparadores, reguladores de voltaje, convertidores, entre otros.
-Comprender el funcionamiento de dispositivos electrónicos básicos diodo semiconductor, al transistor de unión bipolar, MOSFET e IGBT.","*Conceptos básicos de electrónica 
-**Definición de electrónica analógica y digital
-**Conversión de analógica a digital y viceversa, teorema del muestreo, cuantización del error.
-*Diodo semiconductor 
-**Cristales semiconductores. Enlaces covalentes, semiconductores intrínsecos y extrínsecos, la unión P-N
-**Polarización de diodos
-**Curva característica
-**Valores nominales y parámetros. Dependencia con temperatura.
-**Diodos de propósito general (Si, Ge) y especiales (Schottky, LEDs, Zener)
-**Aplicaciones del diodo semiconductor y circuitos con diodos.
-*Transistores BJT (12 horas)
-**Estructura y definición
-**Polarización
-**Funcionamiento del transistor BJT
-**Aplicaciones con transistores BJT
-**Optoacoples
-*MOSFET
-**Estructura y definición
-**Polarización
-**Funcionamiento
-**Aplicaciones
-**IGBT
-*Fundamentos de electrónica de potencia (10 horas)
-**Amplificadores de gran señal
-**Convertidores de DC-AC (rectificaciones)
-**Fuentes de voltaje reguladas y conmutadas (Buck - Boost)
-**Puente H y Modulación por ancho de pulso (PWM)
-*Circuitos integrados lineales (10 horas)
-**Características del amplificador operacional 
-**Corto circuito virtual y topologías básicas: inversor, no inversor, sumador, restador, integrador, derivador. Diseño y modelado de filtros activos
-**IC especiales: reguladores de tensión, comparadores, astables, monostables, convertidores V/F y F/V",,"Exámenes parciales; 2; 40
-Informe de pruebas de laboratorio; 0: 30
-Proyecto de diseño : 1: 30",,,
-IEM2204,"Es un curso introductorio teórico sobre fundamentos de lógica digital, sistemas combinacionales y secuenciales pensados para complementar la formación de las personas profesionales en ingeniería electromecánica, para luego ser aplicado tanto en ingeniería eléctrica como mecánica.
-El curso está pensado para sentar las bases necesarias para luego enfrentar la solución de problemas más complejos que involucren sistemas digitales en cursos posteriores. Busca inculcar el atributo de Aplicar herramientas de análisis y diseño de sistemas digitales enfocadas en su solución de problemas en ingeniería electromecánica. a nivel intermedio según la acreditación por la AAPIA. Cabe destacar que las herramientas de ingeniería se refieren tanto a las analíticas en el planteamiento del problema, así como el diseño de soluciones innovadoras.
-Como requisitos congnocitivos para llevar el curso el estudiante deberá conocer analizar circuitos eléctricos básicos, estos conocimientos se imparten en los cursos de Análisis de Circuitos I y II; así como los fundamentos del análisis de sistemas analógicos en ingeniería electromecánica que brinda el curso de Sistemas Analógico para Ingeniería Electromecánica todos ellos impartidos por esta Escuela. Además, el estudiante deberá llevar como correquisito un curso de laboratorio en donde se ponga en práctica lo aprendido en teoría. Los conocimientos brindados en este curso serán complementados en cursos del área de Sistemas de la carrera.
-Al ser un curso estrictamente teórico la asistencia será libre, y su impartición podrá ser virtual, semipresencial o regular (presencial) según las necesidades de la Escuela; dejando en claro que los exámenes, quices y demás pruebas donde se evalúe el saber hacer se realizarán de forma presencial siguiendo la normativa aplicable.",Aplicar herramientas de análisis y diseño de sistemas digitales enfocadas en su solución de problemas en ingeniería electromecánica.,"Comprender el álgebra y uso de sistemas de código base N.
-Analizar problemas compuestos de sistemas digitales combinacionales y secuenciales
-Diseñar propuestas de solución para problemas de ingeniería electromecánica utilizando sistemas digitales.
-Programar soluciones en lenguajes de alto nivel aplicados a ingeniería electromecánica","*Fundamentos de sistemas binarios
-**Sistemas de numeración en códigos base-N, hexadecimal, binario, ASCII, conversiones de base
-**Tipos de códigos binarios
-**Álgebra de Boole
-**Compuertas lógicas
-**Teoremas fundamentales
-**Tabla de verdad
-**Reducción de expresiones lógicas mediante álgebra de Boole
-*Diseño lógico combinacional
-**Mintérminos y maxtérminos.
-**Funciones completamente e incompletamente especificadas.
-**Mapas de Karnaugh
-**Representación de las condiciones no importa y no pueden ocurrir.
-**Suma de Productos y Producto de Sumas. 
-*Lógica digital combinacional
-**Multiplexores, demultiplexores
-**Decodificadores
-**Código Grey
-*Circuitos Secuenciales. 
-**Modelos de los circuitos secuenciales vrs los combinacionales 
-**Máquinas secuenciales 
-**Elementos básicos de los circuitos secuénciales Biestables, cerrojos (latch) y Flip-Flop. 
-**Contadores
-**Desplazamientos de Registros
-*Máquinas de estado...
-**Circuitos combinacionales iterativos vrs Máquinas de estado
-**Diagrama de estados
-**Diseño de Máquinas de estado
-**Máquinas de estado a partir de listas de transición
-*Dispositivos lógicos programables
-**Descripción de arquitecturas PPGA y sistema con CPU: hilos en paralelo vrs hilos secuenciales
-**Generalidades de lenguajes de descripción de Hardware (HDL): VHDL - Verilog
-**Herramientas de generación de código y compilación
-**Descripción del testbench (datos de prueba)
-**Validación de DUT
-*Introducción al lenguaje de programación C. 
-**Tipo de datos y constantes. 
-**Declaración de variables: Bolean, Entero, Flotante, etc. 
-**Lectura / Escritura Digitales 
-**Lectura / Escritura Analógica 
-**Estructuras: IF THEN, SWITCH, FOR, etc 
-**Diagrama de flujo de un programa. 
-**Creación de funciones. 
-**Llamado de librerías. 
-**Programación en IDE","Lecciones de asistencia libre, donde se expondrán los conceptos relevantes de cada tema. Los documentos y noticias se publicarán oficialmente en el TEC-Digital. Los contenidos serán desarrollados en clases magistrales, presentaciones en PowerPoint, ejemplos resueltos y ejercicios propuestos; siendo evaluados en tareas y exámenes. 
+IEM2255,"El presente laboratorio busca aplicar y demostrar los conceptos y temas principales del curso Máquinas Eléctricas I, comprende mediciones de potencia en redes monofásicas y trifásicas bajo distintas configuraciones. Introduce las máquinas eléctricas llamadas transformadores conectado como autotransformadores y transformadores monofásicos y trifásicos para análisis de reflejo de impedancias y cálculo de potencias. Además, se abarca los motores de inducción, trifásicos como monofásicos, finalizando con el uso especial de un generador asincrónico.
+Además, mediante la práctica, el estudiante tiene la posibilidad de analizar y realizar diagramas de conexión, así como la utilización de instrumentos y equipos, relacionados con la operación de estas máquinas
+","Aplicar los conceptos desarrollados en el curso de Máquinas Eléctricas I, de una forma práctica temas como sistemas de potencia monofásicos y trifásicos, transformadores y motores de inducción, que permita evidenciar los fenómenos y comprobar datos teóricos con mediciones experimentales.","Conocer la construcción y funcionamiento de transformadores de potencia monofásicos y trifásicos
+Verificar de manera práctica los conceptos teóricos estudiados en el curso de Máquinas Eléctricas I
+Aplicar diversos métodos de medición de potencia monofásica y trifásica y comprobar las características eléctricas de estas configuraciones. ","Laboratorio N°1: Circuito monofásico trifilar.
+Laboratorio N°2: Medición de Potencia: Conexión en estrella balanceado y desbalanceado.
+Laboratorio N°3: Medición de Potencia: Conexión en delta. Balanceado y desbalanceado.
+Laboratorio N°4: Mejoramiento del Factor de Potencia en redes trifásicas.
+Laboratorio N°5: Transformador monofásico (Polaridad y Saturación)
+Laboratorio N°6: Transformador monofásicos (Regulación de tensión).
+Laboratorio N°7: Autotransformadores y Pruebas de corto y circuito abierto.
+Laboratorio N°8 Conexiones Trifásicas de transformadores
+Laboratorio N°9 Conexión de devanados estatóricos
+Laboratorio N°10: Motor trifásico de jaula de ardilla y rotor devanado
+Laboratorio N°11 Control de velocidad con VFD
+Laboratorio N°12 Motores monofásicos de inducción con doble capacitor.
+Laboratorio N°13 Pruebas de rotor bloqueado en motor trifásico de inducción.
+Laboratorio N°14 Generador asincrónico.","Los laboratorios serán expuestos por los estudiantes y guiados por el profesor. Los estudiantes asignados darán una breve introducción del laboratorio que incluye. El objetivo, diagramas de conexión, equipo, procedimiento a realizar, tablas de datos experimentales, y los principales cuidados.
 
-Se utilizarán además actividades formativas para reforzar el aprendizaje de los conceptos vistos, de forma complementaria se pondrán a disposición guías de estudio, texto de referencia, videos, ejercicios tomados de exámenes de semestres anteriores, entre otros.
+Todos los estudiantes presentarán un trabajo previo el día del laboratorio, que incluye el objetivo, diagrama de conexión y tabla de datos. La bitácora de cada laboratorio debe entregarse 8 días después de realizar cada experimento.
+Luego los estudiantes conectan los equipos e instrumentos y realizan la práctica del día; posteriormente con los datos obtenidos se realizará el análisis de los resultados obtenidos.
 
-Se realizarán proyectos de diseño en donde se buscará una solución creativa a un problema de ingeniería utilizando lógica digital, esta solución será presentada en un simulador o bien se programará en C.
-Los exámenes parciales y cortos se aplicarán de forma presencial en fechas y modos que oportunamente se indicarán según lo previsto por el RREA; la publicación de estos se hará en el TEC-Digital y los correos oficiales de los estudiantes según la lista del DAR.
+Se realizarán 2 Casos de Análisis en el aula, la nota de cada caso se dividirá en un 50% individual evaluado a través de una comprobación corta, y el otro 50% a través de una solución grupal del caso","Bitácoras; 0; 40
+Tareas y quices; 0; 20
+Casos de análisis; 0; 40","Chapman, Stephen. “Máquinas eléctricas”. McGraw Hil, México. Quinta Edición, 2012. 
+Rosenberg, Robert. Reparación de Motores Eléctricos. Editorial Gustavo Gili. Barcelona. Sexta Edición.
+Fraile, J. (2008). Máquinas Eléctricas (6ta ed.). Madrid: McGraw-Hill.
+Huberts, C. I. (2002). Electric Machines: Theory, Operation, Application, Ajustment 
+Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
+NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
+Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
+Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+IEM2256,"El curso pretende ser un complemento del curso teórico de Máquinas Eléctricas II, donde el estudiante tiene la posibilidad de comprobar experimentalmente, los planteamientos teóricos expuestos en la teoría. Busca que el estudiante realice prácticas con Máquinas Sincrónicas (Motor y Alternador) y Máquinas de Corriente Directa analice su comportamiento, bajo diversas condiciones de carga (régimen estable).
 
-Con el curso se pretende trabajar en el objetivo de desarrollo sostenible (ODS) número 4 “Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos”. En particular las siguientes acciones:
-","Primer parcial; 1; 25
-Segundo parcial; 1; 25
-Proyecto programado; 1; 25
-Proyecto de diseño  -- 25%","[01] Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003. 
-[02] Mano, Morris; “Lógica Digital y Diseño de Computadores”. 3 era ed. Prentice Hall: México. 1982. 
-[03] Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003. """,,
+Además, mediante la práctica, el estudiante tiene la posibilidad de analizar y realizar diagramas de conexión, así como la utilización de instrumentos y equipos, relacionados con la operación de estas máquinas eléctricas rotativas.","Conocer y analizar las diferentes conexiones que se pueden realizar en las máquinas eléctricas rotativas (motores y generadores sincrónicos) de AC y DC, más comunes en la industria.","Conocer los tipos de conexión que debe realizar en los motores y alternadores sincrónicos, y máquinas de CD según ciertas condiciones operativas.
+Comprobar mediante la utilización de equipos e instrumentos, las características de los motores y generadores en AC y DC.
+Analizar el comportamiento de los motores y generadores en AC y DC bajo ciertas circunstancias de operación y de acuerdo con sus características.
+analice el comportamiento de los motores y generadores en AC y DC bajo ciertas circunstancias de operación y de acuerdo con sus características.","Laboratorio N°1: Alternadores sincrónicos Aislado
+Laboratorio N°2: Pruebas de Máquina Sincrónica (Reactancia y Resistencia armadura)
+Laboratorio N°3 Curva de Capacidad del Alternador
+Laboratorio N°4: Alternador Sincrónico en RED
+Laboratorio N°5 Motores sincrónicos curvas en V
+Laboratorio N°6 Motor sincrónico condensador sincrónico
+Máquinas de Corriente Directa
+Laboratorio N°7 Generador Corriente Directa Conexión Shunt e independiente
+Laboratorio N°8 Generador Corriente Directa Conexión Compuesta
+Laboratorio N°9 Motor Corriente Directa Conexión Shunt
+Laboratorio N°10 Motor Corriente Directa Conexión Compuesta
+Laboratorio N°11 Motor Corriente Directa Métodos Control de Velocidad
+Máquinas especiales
+Laboratorio N°12 Motor a pasos
+Laboratorio N°13 Servomotor
+Laboratorio N°14 Motor universal","Los laboratorios serán expuestos por los estudiantes y guiados por el profesor. Los estudiantes asignados darán una breve introducción del laboratorio que incluye. El objetivo, diagramas de conexión, equipo, procedimiento a realizar, tablas de datos experimentales, y los principales cuidados.
+
+Todos los estudiantes presentarán un trabajo previo el día del laboratorio, que incluye el objetivo, diagrama de conexión y tabla de datos. 
+Luego los estudiantes conectan los equipos e instrumentos y realizan la práctica del día; posteriormente con los datos obtenidos se realizará el análisis de los resultados obtenidos.
+
+Se realizarán dos CASOS de análisis en el aula, la nota de cada caso se dividirá en un 50% individual evaluado a través de una comprobación corta, y el otro 50% a través de una solución grupal del caso","Bitácoras; 0; 40
+Tareas y quices; 0; 20
+Casos de análisis; 0; 40","Chapman, S. (2012). Máquinas Eléctricas (5 ed.). Mexico: McGraw Hill.
+Filtgerald, A., Kingsley, C., & Umans, S. D. (2004). Máquinas Eléctricas (6ta ed.). Mexico D.F.: MacGraw Hill.
+Fraile, J. (2008). Máquinas Eléctricas (6ta ed.). Madrid: McGraw-Hill.
+Huberts, C. I. (2002). Electric Machines: Theory, Operation, Application, Ajustment 
+Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
+NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
+Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
+Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+IEM2301,"Los transductores están presentes en toda la maquinaria moderna, por lo que los Ingenieros electromecánicos deben conocerlos, identificarlos, seleccionarlos y usarlos correctamente.  Esta asignatura brinda al estudiante conocimiento sobre la correcta selección y aplicación de los distintos tipos de transductores divididos en dos grupos llamados sensores y actuadores.
+Por definición los transductores son elementos que convierten distintas formas de energía entre sí, por ejemplo: un motor eléctrico trasforma energía eléctrica en energía mecánica rotacional, o un micrófono transforma una onda sonora a una señal eléctrica. Sin embargo, el curso se enfoca principalmente en el estudio transductores usados para generar señales eléctricas de pequeña potencia a partir de manifestaciones físicas tales como: presión, temperatura, peso, aceleración, movimientos rotacionales o lineales, caudal, densidad, viscosidad, acidez, ondas sonoras, luz, voltaje, corriente, etc. La parte final de curso se enfoca en dispositivos que reciben una señal eléctrica que se transforma en un movimiento.
+Esta signatura se ubica en el tercer semestre de la carrera por lo que tienen un carácter inicial, sin embargo, es fundamental la correcta comprensión de los conocimientos, ya que serán utilizados de forma reiterada durante toda la carrera. 
+Se puede indicar que este curso es base para los cursos de instrumentación, modelado, control eléctrico y automático, mantenimiento basado en la condición, automatización, entre otros; por lo que la asignatura posee un carácter de obligatoriedad.","Comprender el funcionamiento de los transductores según la situación o aplicación planteada, usando para esto los criterios técnicos entre ellos los errores estáticos y dinámicos de los mismos.","Comprender los principios constructivos de los sensores: resistivos, capacitivos, inductivos, ultrasónicos, electromagnéticos, autogeneradores.
+Conocer el funcionamiento de actuadores magnéticos como los relés y solenoides.
+Comprender las especificaciones técnicas de los transductores.
+Experimentar con transductores para lograr aprendizajes significativos.","*Señales eléctricas y sus mediciones
+**Medición directa e indirecta
+**Valores rms, medio, eficaz
+*Características estáticas de los sensores
+**Conceptos de Sensibilidad y Resolución del sensor
+**Conceptos de Intervalo y Alcance de la medición
+**Índice de protección de los sensores
+**Incertidumbre de una medición
+**Definición de error
+**Error exactitud y error de precisión
+**Tipo de errores de medición
+***Error de repetición por dos procesos de calibración
+***Error de histéresis
+***Error de zonas muertas
+***Error por no linealidad
+***Otros errores. Ejemplo: error de fluencia (creep error)
+*Sensores industriales discretos de presencia
+**Tipos de sensores discretos: inductivos, capacitivos, fotoeléctricos, ultrasónicos  y mecánicos
+**Materiales que detectan según la tecnología usada
+**Voltaje de alimentación de sensores
+**Conexiones eléctricas de sensores tipo PNP, NPN
+**Código de colores del cableado
+**Instalación, montaje de sensores
+**Rangos de operación, limitaciones y errores presentes
+*Características dinámicas en el tiempo de los sensores 
+**Tiempo de subida, tiempo de asentamiento, tiempo al pico, tiempo de retardo, sobrelongación
+**Sensores de orden cero
+**Sensores de orden uno
+**Sensores de orden dos 
+**Respuesta en el tiempo  de cada tipo de sensor
+**Ejemplos de cada tipo de sensor
+*Sensores con funcionamiento resistivo
+**Tipos de sensores con principio resistivo:
+***Potenciómetros
+***Galgas de fuerza
+***Sensores de temperatura RTD
+***Termistores
+***Magneto resistores
+***Fotorresistencias LDR
+***Hidrómetros resistivos
+***Sensores de gas resistivos.
+**Para cada tipo de sensor se estudia su modelo físico (ecuación)
+**Para cada sensor se estudia sus aplicaciones
+*Sensores con funcionamiento capacitivo
+**Tipos de sensores con principio capacitivo:
+***Sensores de capacitancia variable
+***Sensores de capacitancia diferencial
+**Para cada tipo de sensor se estudia su modelo físico (ecuación)
+**Para cada sensor se estudia sus aplicaciones
+*Sensores con funcionamiento electromagnético
+**Tipos de sensores inductivos:
+***Sensores de reluctancia variable
+***Sensores de corrientes de Eddy
+***Transformadores diferencial variable lineal (LVDT)
+***Synchros, resolvers e Inductosyn
+**Tipos de sensores con principio electromegnético:
+***Sensores basados en la ley de Faraday
+***Sensores basados en el efecto Hall
+**Para cada tipo de sensor se estudia su modelo físico (ecuación)
+**Para cada sensor se estudia sus aplicaciones industriales o en aeronaves
+*Sensores autogeneradores
+**Termocuplas
+**Sensores pizoeléctricos
+**Sensores piroeléctricos
+**Sensores fotovoltaicos
+**Para cada tipo de sensor se estudia su modelo físico (ecuación)
+**Para cada sensor se estudia sus aplicaciones industriales o en aeronaves
+*Otros Sensores 
+**Codificadores incremental y absoluto (Encoders)
+**Sensores basados en resonancia
+**Sensores basados en juntas semiconductoras
+**Sensores basados en ultrasonido
+**Sensores de fibra óptica
+**Biosensores
+**Aplicaciones y ejemplos
+*Actuadores eléctricos 
+**Principios de funcionamiento de:
+***Relés de estado sólido y mecánico
+***Solenoides
+***Piezoeléctricos
+*Actuadores hidráulicos y neumáticos
+**Tipo de válvulas solenoides para control de flujo","El modelo pedagógico del ITCR busca que el estudiante adquiera un aprendizaje significativo, constructivista e interaccionista, para lograr este objetivo de aprendizaje el curso utiliza una combinación de la metodología de simulación, la metodología de Inmersión y las metodologías participativas.
+Los 3 proyectos colaborativos buscan que los estudiantes experimenten con los transductores, sus características, usos y brinden ejemplos con aplicaciones reales de los mismos. Para esto los estudiantes usaran equipos como multímetros u osciloscopios para medir la respuesta de los sensores. Así mismo las presentaciones orales de un grupo de estudiantes muestran la teoría asociada y ejemplos de aplicaciones del tema signado para el desarrollo. Finalmente, el profesor en desarrollará temas complejos con ejemplos demostrativos, visitas a laboratorio y videos entre otros.","Proyectos; 2; 35
+Exámenes; 3; 45
+Exposiciones; 2; 20","Pallas-Areny, Ramón. Sensores y Acondicionadores de señal. 4 Ed. Marcombo: Mexico 2007. 
+Fraden, Jacob. Handbook of modern sensors. 4 ed. Springer: San Diego. 2010.  
+Creus, Antonio. Instrumentación Industrial. 7 ed. Alfaomega: Mexico 2011. 
+Kalantar-Zadeh, Kourosh. Sensors: An Introductory course. Springer: New York. 2013.
+Janocha, H. Actuators: Basics and Applications. Springer: Berlin, Germany. 2004. 
+Dunn, William. Fundamental of Industrial Instrumentations and process control. MacGraw Hill. 2005.
+Benedict, Robert. Fundamentals of temperature, pressure and flow measurements.3 ed. John-Wiley: Canada. 1984. 
+Creus Antonio, Neumática e Hidráulica. 2 Ed Alfaomega 2011. 
+Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",pallas2012sensors;fraden2016handbook,"Luis Diego Murillo Soto; Dr.-Ing; lmurillo@itcr.ac.cr
+*Profesor Catedrático I e Investigador Consolidado 2
+Doctor en Ingeniería (TEC, 2022)
+Máster en Ciencias de la Ingeniería Eléctrica (UCR, 2016)
+Máster en Computación (TEC, 2004)
+Ingeniero en Mantenimiento Industrial (TEC, 1999)
+Técnico en Electrónica (COVAO, 1994)
+*lmurillo@itcr.ac.cr"
 IEM2302,"El curso de Instrumentación contribuye a formar profesionales con una compresión profunda de las técnicas modernas de instrumentación que son esenciales para cualquier aplicación moderna en ingeniería. 
 Entre los aprendizajes más destacados se encuentran: seleccionar transductores como parte de un sistema de instrumentación diseñado para una aplicación específica; adquirir, acondicionar y visualizar señales e identificar y calcular los componentes de su incertidumbre; usar adecuadamente la normativa de representación gráfica de los sistemas de instrumentación; y diseñar instrumentos virtuales para aplicaciones específicas.  
 Este curso: introduce los lenguajes de programación gráfica que luego se retoman en el curso de Modelado y Simulación de Sistemas Electromecánicos; habilita la adquisición y acondicionamiento de las señales que serán las entradas y salidas de los sistemas de control que se estudiaran en los cursos de Control Eléctrico y Control Automático; y permite la instrumentación de un sistema complejo como los que se desarrollaran en el curso de Diseño e Integración de Sistemas Electromecánicos. ","Diseñar sistemas de instrumentación, usando los dispositivos y el software adecuado de acuerdo a la aplicación planteada","Seleccionar los transductores adecuados según la aplicación del sistema de instrumentación
@@ -1451,68 +1107,412 @@ Janocha, H. Actuators: Basics and Applications. Springer: Berlin, Germany. 2004.
 Dunn, William. Fundamental of Industrial Instrumentations and process control. MacGraw Hill. 2005.
 Benedict, Robert. Fundamentals of temperature, pressure and flow measurements.3 ed. John-Wiley: Canada. 1984. 
 Creus Antonio, Neumática e Hidráulica. 2 Ed Alfaomega 2011. 
-Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",,"Juan José Rojas Hernández; Dr-Ing.: jrojas@itcer.ac.cr
+Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",pallas2012sensors;fraden2016handbook,"Juan José Rojas Hernández; Dr-Ing.: jrojas@itcer.ac.cr
 Doctor en Integración de Sistemas
 Master en Electrónica
 Licenciado en Mantenimiento Industrial"
-IEM2111,"La asignatura de Turbomáquinas es un curso aplicado, en donde se utilizan los principios fundamentales de la Física, Termodinámica y Mecánica a la materia fluida. Se trata de que los alumnos de Ingeniería Electromecánica adquieran los conocimientos y herramientas necesarias para saber analizar y comprender la hidráulica de tuberías orientado a problemas reales en el campo de la ingeniería mecánica. Se fomenta asimismo el desarrollo de habilidades y competencias genéricas como el trabajo en equipo y el aprendizaje autónomo. 
-La asignatura Turbomáquinas se estudia en el séptimo semestre del plan de estudios. Precede a la asignatura EM2113 Sistema Térmicos, que es un curso de ingeniería o bien, más aplicado, y que se estudia en el octavo semestre del plan de estudios.
-En Turbomáquinas se estudia los sistemas de suministros de agua fría/caliente que típicamente se encuentran en el sector doméstico, comercial e industrial, así como criterios para la selección de diámetros y tuberías recomendados para el trasiego del agua, aire comprimido y aire en sistemas de ventilación. El bombeo de fluidos es de suma importancia en el ejercicio profesional de un ingeniero en Mantenimiento Industrial, por tanto, en este curso se estudia los principales tipos de bombas que se utilizan en la industria costarricense, como también los criterios fundamentales para la selección y estimación del desempeño de las bombas centrífugas y de desplazamiento positivo. 
-En Costa Rica el aire comprimido es una de las formas más baratas a nivel industrial de transportar grandes cantidades de energía de un lugar a otro. En este curso se evalúa, selecciona y diseña los sistemas de aire comprimido y todos los componentes fundamentales para la distribución y tratamiento del aire comprimido. En este curso también se estudia los conceptos fundamentales de la ventilación mecánica, diseño y selección de la distribución de ductos, como también la descripción de los principios de funcionamiento y desempeño de los ventiladores más usados en la industria costarricense.
+IEM2303,"Este curso introduce a la persona estudiante en el modelado y análisis matemático de sistemas físicos mediante el uso de diversas herramientas teóricas y experimentales. Así mismo, se hace uso de software especializado para la simulación de estos modelos de manera que sea un complemento para el análisis de la respuesta de los sistemas tanto en el dominio del tiempo como en el de la frecuencia. La obtención y análisis de modelos que representen la realidad y permitan derivar conclusiones y predicciones, es un pilar fundamental tanto en el área de las ciencias como en el de la ingeniería. Este curso ofrece además las bases para los cursos de sistemas de control automático, control eléctrico,  mantenimiento basado en la condición, automatización, entre otros.",,,"*Introducción al modelado y análisis de sistemas
+**Introducción a la teoría general de sistemas 
+**Importancia del análisis de sistemas en ingeniería
+**Concepto de sistema
+**Tipos de sistemas
+**Variables de un sistema
+**Concepto de modelo de un sistema 
+**Tipos de modelos
+**Obtención de los modelos
+*Introducción al espacio de estados
+**El concepto de estado
+**Propiedades de las variables de estado 
+**Linealidad e invarianza en el tiempo 
+**Modelado en variables de estado
+**Ecuación de estados y salidas
+**Elección de las variables de estado
+**Respuesta a entrada cero y respuesta a estado cero 
+**La función de transferencia 
+**La función de transferencia a partir de la respuesta a estado cero
+**La ecuación característica del sistema 
+**Función de transferencia para sistemas multivariables
+**Relaciones entre los modelos matemáticos
+*Representación gráfica de modelos
+**Diagramas de bloques 
+**Simplificación de diagramas de bloques
+**El modelo en variables de estado a partir del diagrama de bloques
+**Diagramas de flujo
+**Propiedades de los diagramas de flujo
+**Fórmula de Mason
+*Caracterización en el dominio del tiempo
+**Análisis de estabilidad
+**Representación del retardo en sistemas lineales 
+**Sistemas de primer orden 
+**Sistemas de segundo orden
+**Efecto de los ceros en el sistema
+**Concepto de polos dominantes 
+*Modelado analítico de sistemas
+**Leyes fundamentales
+**Balance de masa
+**Balance de energía
+**Conservación de la cantidad de movimiento
+**Otras leyes de conservación
+**La red generalizada
+**Modelado de sistemas eléctricos
+**Modelado de sistemas mecánicos traslacionales
+**Modelado de sistemas mecánicos rotacionales
+**Conversión entre traslación y rotación
+**Modelado de Sistemas electromecánicos
+**Modelado de motores DC
+**Modelado de sistemas térmicos
+**Modelado de sistemas hidráulicos
+**Modelos estáticos
+**Linealización
+*Identificación de sistemas en el dominio del tiempo
+**Descripción del problema
+**Modelos utilizados en la identificación
+**Métodos de identificación en el tiempo
+*Análisis en el dominio de la frecuencia
+**La respuesta en frecuencia
+**El diagrama de Bode
+**Aproximación asintótica del diagrama de Bode
+**Obtención de la FT a partir del diagrama de Bode
+**Diagrama Polar
+*Análisis en el espacio de estados
+**Transformación de los MVE
+**Forma canónica de Jordan
+**Análisis de controlabilidad
+**Análisis de observabilidad
+**Principio de dualidad
+**Descomposición de Kalman","El modelo pedagógico del ITCR busca que el estudiante adquiera un aprendizaje significativo, constructivista e interaccionista, para lograr este objetivo de aprendizaje el curso utiliza una combinación de la metodología de simulación, la metodología de integración y las metodologías participativas. Por lo que en curso combinará la presentación del contenido por parte de la persona docente, trabajo individual por parte de la persona estudiante, prácticas de laboratorio guiadas y el desarrollo de un proyecto final del curso cuyo objetivo es integral el material visto en este cuso.
+Se espera que fuera de clase la persona estudiante trabajará de forma individual repasando la materia, haciendo lecturas, realizando ejercicios y simulaciones y resolviendo problemas; también trabajará en grupos estudiando de forma cooperativa y en el desarrollo del proyecto.","Exámenes; 2; 40
+Tareas; 5; 25 
+Prácticas dirigidas; 2; 10
+Proyecto; 1; 25","Modelling and Analysis of Dynamic Systems
+Ramin S. Esfandiari and Bei Lu
+Third Edition, CRC Press, 2018.
 
-Un curso de turbomáquinas es crucial en la formación de ingenieros electromecánicos a nivel de licenciatura por varias razones fundamentales:
-
-Aplicación práctica: Las turbomáquinas son componentes fundamentales en una amplia gama de industrias, incluyendo la generación de energía, la industria aeroespacial, la industria petroquímica y la industria automotriz, entre otras. Por lo tanto, entender los principios de funcionamiento y diseño de las turbomáquinas es esencial para los ingenieros electromecánicos que trabajarán en estas áreas.
-Integración de conocimientos: El estudio de las turbomáquinas requiere la comprensión y aplicación de principios de mecánica de fluidos, termodinámica y otros conceptos relacionados. Esto proporciona una oportunidad para integrar y aplicar conocimientos de diferentes áreas de la ingeniería en un contexto específico.
-
-Desarrollo de habilidades técnicas: El diseño, selección y mantenimiento de turbomáquinas requiere habilidades técnicas específicas, como análisis termodinámico, modelado de flujo, evaluación de rendimiento y control de sistemas. Un curso de turbomáquinas proporciona a los estudiantes la oportunidad de desarrollar y perfeccionar estas habilidades prácticas.
-Adaptabilidad y versatilidad profesional: Los ingenieros electromecánicos que poseen conocimientos en turbomáquinas están mejor preparados para adaptarse a diferentes entornos industriales y enfrentar desafíos técnicos diversos. Esta versatilidad aumenta su empleabilidad y les permite contribuir de manera significativa en una variedad de roles y proyectos.
-
-Innovación y avance tecnológico: El campo de las turbomáquinas está en constante evolución, con nuevas tecnologías y tendencias emergentes que buscan mejorar la eficiencia, la confiabilidad y la sostenibilidad de estos dispositivos. Los ingenieros electromecánicos capacitados en este campo están bien posicionados para contribuir al desarrollo y la implementación de estas innovaciones.
-
-En resumen, un curso de turbomáquinas es esencial para la formación de ingenieros electromecánicos porque proporciona los conocimientos, habilidades y perspectivas necesarias para abordar los desafíos técnicos del mundo real en una variedad de industrias y contribuir al avance continuo de la tecnología en este campo.","Comprender de forma integral de los principios fundamentales, el funcionamiento, el diseño y la aplicación de turbomáquinas en el contexto de la ingeniería electromecánica en problemas prácticos de proyección de sistemas de distribución de agua fría/caliente, aire comprimido y ventilación mecánica.","Comprender los principios fundamentales de las turbomáquinas y su relevancia en la ingeniería electromecánica.
-Analizar el funcionamiento y el rendimiento de diferentes tipos de turbomáquinas, incluidos compresores, bombas y ventiladores.
-Evaluar el rendimiento y la eficiencia de las turbomáquinas mediante métodos de análisis y pruebas experimentales.
-Aplicar conceptos de mecánica de fluidos y termodinámica en el estudio y análisis de sistemas mecánicos (agua fría y caliente; aire comprimido y ventilación) que incluyen turbomáquinas en aplicaciones industriales específicas.
-5.	Desarrollar habilidades para el diseño, selección y mantenimiento de sistemas mecánicos (agua fría y caliente; aire comprimido y ventilación) que incluyen turbomáquinas en aplicaciones industriales específicas.","*Módulo 1: Fundamentos de Turbomáquinas.
-**Introducción a las turbomáquinas y sus aplicaciones.
-**Principios básicos de funcionamiento.
-**Clasificación y tipos de turbomáquinas.
-**Módulo 2: Compresores, Bombas Hidráulicas y Ventiladores.
-**Compresores: tipos, características y aplicaciones.
-**Bombas: clasificación, curvas de rendimiento y selección.
-**Análisis de sistemas de bombeo.
-*Modulo 3: Suministro de agua y Bombas Hidráulicas: 
-**Normativa costarricense para la proyección de instalaciones hidráulicas y sanitarias en edificaciones. 
-**Métodos para la estimación de caudal.
-**Métodos para la estimación de diámetro de las tuberías.
-**Métodos para proporcionar presión independiente y la determinación de las presiones de trabajo y los niveles de agua en el tanque hidroneumático. 
-**Bombas Centrífugas: curvas características, funcionamiento, partes principales, mantenimiento. 
-**Fundamentos para proyección de sistemas suministro agua.
-*Modulo 4: Sistemas de Aire Comprimido:
-**Compresores: tipos, funcionamiento, enfriadores, purgadores, mantenimiento. 
-**Dispositivos en redes de aire comprimido. 
-**Cálculo de Sistemas de Aire Comprimido.
-*Modulo 5: Ventilación:
-**Ventiladores: Tipos, funcionamiento, curvas características. 
-**Introducción al cálculo de sistemas de ventilación.","Clases magistrales de asistencia opcional, donde se expondrán los conceptos relevantes de cada tema, los cuales serán trabajados por el estudiante en numerosas prácticas de tareas y quices. El alumno podrá consultar al profesor en el horario preestablecido para evacuar cualquier duda, sea del contenido teórico y/o de las tareas relativas a proyectos asignados. Durante el curso el estudiante participará de actividades en clase, como preguntas dirigidas por el profesor, trabajos en grupos para resolver ejercicios dirigidos puntuales y específicos sobre un tema desarrollado en la lección correspondiente. Se realizarán exámenes parciales que pretenden evaluar la materia vista en clases, presenciales y/o materia asignada a través de tareas de resolución de ejercicios e investigaciones asignadas. Se asignará a los estudiantes de dos proyectos de curso que se realizarán en grupos de no más de 3 integrantes. En cada proyecto se desarrollará uno de los 3 grandes temas del curso (Suministro de Agua, Aire Comprimido, Ventilación). Estos proyectos tienen una salida de Diseño, en donde se solicitará cumplir con ciertos requerimientos.  ","Quices y Tareas; 0; 25  
-Proyectos; 0; 25  
-Exámenes Parciales; 3; 50  ","Cengel, Y. y Cimbala, J. (2018). Mecánica de Fluidos. Fundamentos y aplicaciones (4ta ed). México: McGraw Hill.
-Soriano, A. y Pancorbo, F. (2012). Suministro, distribución y evacuación interior de agua sanitaria. España: Marcombo.
-Colegio Federado de Ingenieros y de Arquitectos de Costa Rica. (2017). Código de Instalaciones Hidráulicas y Sanitarias en Edificaciones (3ra Edición). Editorial Tecnológica de Costa Rica.
-Hunter, R B. (2011). Methods of Estimating Loads in Plumbing Systems. USA: United States Department of Commerce.
-Jutglar, L. y Miranda, A. (2012). Manual de Calefacción. España: Marcombo.
-Garro, A. (2016). Suministro de agua en edificaciones. Costa Rica: Tecnológico de Costa Rica.
-ATLAS COPCO (2015). Altas Copco Compressed Air Manual (7a. ed.), [en línea]. Bélgica: Atlas Copco Airpower NV. Disponible en: https://urldefense.com/v3/__http://www.atlascopco.es/Images/Compressed_Air_Manual_tcm57-1249312.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTax6yjfOw$  [2012, 26 de julio] 
-ASHRAE (2009). ASHRAE Handbook Fundamentals. Atlanta, Estados Unidos: American Society of Heating, Refrigerating and Air-Conditioning Engineers. 
-BOGE Kompressoren (2004). Compressed Air Compendium (6a. ed.), [en línea]. Alemania: Hoppenstedt-Verlag. Disponible en: https://urldefense.com/v3/__http://www.drucklufttechnik.de/english/__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTbccoc1Pg$  [2012, 25 de julio] 
-British Compressed Air Society. (2002). Compressed Air Systems. En D. A. Snow (Ed.), Plant Engineer's Reference Book (2da. ed.) (pp. 26/3-26/13). Oxford: Butterworth-Heinemann. 
-FESTO. (2013). Procesos seguros con una preparación perfecta del aire comprimido, [en línea]. Alemania: Festo AG & Co. Disponible en: https://urldefense.com/v3/__https://www.festo.com/net/SupportPortal/Downloads/53737/Druckluftaufbereitung___;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTaT8iM_MA$  es.pdf [2012, 30 de julio]
-Frankel, M. (2012). Facility Piping Systems Handbook (4a. ed.). New York City: The McGraw-Hill Companies, Inc. 
-Hesse, S. (2002). Aire comprimido, fuente de energía. Preparación y distribución. Alemania: Festo AG & Co. 
-Mott, R. (2014). Mecánica de Fluidos Aplicada (8va ed.). Prentice Hall. 
-Manual de Instalaciones Eléctricas y Mecánicas en Edificios. Tao/Manis. Prentice Hall, 2010. 
-Nacional Plumbing Codes Handbook. McGraw Hill, 2005. 
-Plumber`s and Pipefitter`s Calculation Manual. McGraw Hill, 17. Standard Handbook of Engineering Calculations McGraw Hill, 2008.",,"Alberto Garro Zavaleta; Ing; jagarro@itcer.ac.cr
-Escuela Ingeniería Electromecánica
+Modelling and analysis of dynamic systems
+Charles M. Close and Dean K. Frederick and Jonathan C. Newel
+John Wiley & Sons, 2002.",,"Juan Luis Guerrero Fernández; Ph. D; jguerrero@itcr.ac.cr
+*
+Doctor en filosofía en ciencias (Ph.D.), Universidad de Sheffield, Inglaterra 
+Máster en Ciencias (M. Sc.) en Mecatrónica, Universidad de Ciencias Aplicadas Aachen, Alemania "
+IEM2304,"Se establecen las bases de conocimiento mínimas para la gestión de proyectos de ingeniería, como medio para la toma de decisiones alineadas con los objetivos y metas estratégicas de una organización, así como con el área de investigación científica. Este curso forma parte de los cursos del área de sistemas que, en conjunto con cursos de las demás áreas académicas de la carrera, contribuye a formar profesionales en el campo de la Ingeniería Electromecánica. En la primera parte del curso se describe y analizan las herramientas necesarias para la formulación y evaluación de proyectos; en la segunda parte del curso se estudian los aspectos relacionados con una adecuada administración de proyectos, como estrategia de optimización de costos, recursos y tiempo para garantizar la consecución exitosa de los proyectos; en la tercera parte del curso se analizan las nuevas estrategias y metodologías para la administración de proyectos.","Desarrollar en el estudiante habilidades para la gestión de proyectos en ingeniería, en sectores tales como Pymes, empresas nacionales y transnacionales, brindando herramientas que permitan la comunicación con los mandos ejecutivos, de manera que se otorgue el oportuno soporte para la toma de decisiones alineadas con la estrategia de la organización.","Definir las herramientas técnico-administrativas, legales y ambientales, para el análisis del entorno (contexto nacional e internacional) en la determinación de oportunidades innovadoras de desarrollo, alineadas con los objetivos y metas estratégicas de la organización.
+Aplicar las herramientas de planificación, estimación, implementación, evaluación y seguimiento de proyectos, para la adecuada gestión de un proyecto, basado en literatura correspondiente.
+Desarrollar herramientas de análisis de entorno para la optimización máxima de los recursos durante la ejecución de proyectos, estableciendo sus indicadores de gestión.
+Explorar las nuevas tendencias y desarrollos en el tema de la gestión de proyectos y su aplicación dependiendo del tipo de proyecto.","*Formulación de proyectos. (2 semanas)
+**El estudio de proyectos.
+***Definición y características de un proyecto.
+***Generación de ideas de proyecto.
+***Tipología de los proyectos (público-privado-investigación académica).
+***Toma de decisiones asociadas a un proyecto.
+***Antecedentes-Problema-Justificación-Objetivos-Metodología.
+**Oportunidades de negocio e investigación.
+***El proceso de identificación de oportunidades de negocio e investigación.
+***Análisis del contexto local y del contexto internacional.
+***Modelo de negocio.
+***Estrategias de implementación.
+*Presupuestos electromecánicos. (2 semanas)
+**Construcción de presupuestos electromecánicos.
+***Creación de herramientas para desarrollar presupuestos.
+***Casos de estudio de presupuestos.
+*Evaluación de proyectos. (4 semanas)
+**Alcances del estudio de proyectos.
+***Perfil, prefactibilidad, factibilidad.
+***Estudios de viabilidad de un proyecto.
+**Técnicas de proyección del mercado.
+***Métodos cualitativos y modelos causales para proyección de mercado.
+**Evaluación financiera de proyectos.
+***Estimación de costos asociados a un proyecto.
+***Estimación de capital de trabajo.
+***Construcción de flujos de caja.
+***Estimación de horizontes de evaluación.
+***Estimación de tasas de descuento para proyectos.
+***Determinación de puntos de equilibrio.
+***Criterios financieros de evaluación de proyectos.
+*Gestión de proyectos. (7 semanas)
+**Fundamentos de la gestión de proyectos.
+***Ciclo de vida de un proyecto.
+***Integración de proyectos con el plan estratégico.
+**Estimación de costos y tiempos del proyecto.
+***Lineamientos por seguir en la estimación de costos, tiempos y recursos.
+***Estimación ascendente/descendente y métodos para cálculo de costos y tiempos del proyecto.
+**Construcción de redes de proyectos.
+***Desarrollo de la red para el proyecto.
+***Construcción de una red de proyecto.
+***Proceso de cálculo de la red de proyecto.
+*Nuevas tendencias en formulación y administración de proyectos. (1 semana)
+**Agile Project Management.
+***Metodologías tradicionales vs. Metodologías ágiles para administración de proyectos.","Clases magistrales, análisis de casos, temas de investigación a desarrollar en grupos y/o individual, exámenes cortos.","Avance #1 TFI; 1; 25
+Avance #2 TFI; 1; 25
+Informe final TFI; 1; 15
+Defensa TFI; 1; 10%
+Exámenes cortos; 1; 25%","Sapag Chain N., Sapag Chain R., Sapag Puelma J. (2014). Preparación y evaluación de proyectos. (Sexta edición). España. McGraw-Hill.
+Hernández Sampieri R. (2014). Metodología de la Investigación. (Sexta edición). Mexico. McGraw-Hill.
+Gray F. Clifford, Larson W. Erik. (2007). Edición en español (2009). Administración de proyectos. (Cuarta edición). Mexico. McGraw-Hill.
+Gray F. Clifford, Larson W. Erik. (2010). Project Management: The Managerial Process. (Quinta edición). Estados Unidos. McGraw-Hill.",,"Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
+*
+Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. 
 "
+IEM2305,"La gestión efectiva de proyectos en el campo de la ingeniería electromecánica es crucial para el éxito en el desarrollo, implementación y mantenimiento de sistemas que integran componentes eléctricos y mecánicos. Este curso de Gestión de la Ingeniería Electromecánica está diseñado para proporcionar al estudiante una comprensión profunda de los principios, metodologías y prácticas necesarias para liderar proyectos en este ámbito complejo y multidisciplinario.
+La ingeniería electromecánica se centra en la integración sinérgica de sistemas eléctricos y mecánicos para crear soluciones que aborden problemas en una variedad de sectores, como la industria manufacturera, médica, energética, servicios, entre otros.
+Durante este curso, el estudiante  logrará comprender los conceptos básicos de la Gestión de la Ingeniería Electromecánica, incluyendo los conceptos de mantenimiento,  fundamentos de sistemas, los principios de diseño y análisis, y las tecnologías relevantes. 
+El curso se desarrollará a lo largo de 16 semanas, que al finalizar el mismo, los participantes estarán formados con las habilidades y conocimientos necesarios para liderar proyectos del área de gestión descrita.","Desarrollar en el estudiante una comprensión integral de los principios, metodologías y mejores prácticas necesarias para la Gestión de la Ingeniería Electromecánica sectores tales como las industrias manufacturera, salud, energética, y/o la investigación, asegurando la alineación de las actividades con los objetivos estratégicos de la organización, optmizando recursos y garantizando la consecusión exitosa en términos de costos, plazos y calidad.","Desarrollar competencias en la gestión integral de sistemas electromecánicos en el estudiante, para la aplicación de metodologías y herramientas reconocidas que permitan la planificación,ejecución y control de un sistema electromecánico, garantizando la entrega exitosa de productos y sistemas que cumplan con los requisitos y estándares de calidad establecidos.Fomentar el pensamiento sistémico y la integración de disciplinas técnicas que promuevan una comprensión profunda de la interacción entre los componentes eléctricos y mecánicos en sistemas electromecánicos, dando como resultado  su adecuada gestión.
+Construir habilidades de liderazgo y trabajo en equipo que faciliten la coordinación entre diferentes áreas funcionales promoviendo una comunicación efectiva dentro de los equipos de trabajo, asegurando un ambiente colaborativo que impulse el éxito del proyecto electromecánico.
+Investigar las tendencias emergentes y avances en la gestión de la Ingeniería Electromecánica, analizando su aplicabilidad según las características específicas de cada sistema electromecánico.","*Introducción a la Ingeniería Electromecánica. (5 semanas)
+**Fundamentos de ingeniería electromecánica y estrategias de mantenimiento. 3h
+**Mantenimiento Centrado en la Confiabilidad (RCM). 3h
+**Indicadores de Mantenibilidad,Confiabilidad y Disponibilidad.3h
+**Conceptos básicos de sistemas y su aplicación en ingeniería electromecánica.3h
+**Introducción a los estándares y enfoques de INCOSE en gestión de sistemas. 3h
+*Procesos de Ingeniería de Sistemas. (3 semanas)
+**Ciclo de vida del sistema según INCOSE.6h
+**Procesos de ingeniería de sistemas según INCOSE. 2h
+**Documentación y gestión de requisitos en ingeniería electromecánica. 1h
+*Gestión de Riesgos y Fiabilidad. (2 semanas)
+**Identificación y evaluación de riesgos en sistemas electromecánicos.1h
+**Métodos de mitigación y gestión de riesgos. 2h
+**Análisis de fiabilidad y mantenibilidad.3h
+*Integración de Sistemas. (2 semanas)
+**Estrategias de integración de sistemas electromecánicos.3h
+**Coordinación de subsistemas.3h
+*Verificación y Validación de Sistemas. (3 semanas)
+**Planificación de verificación y validación. 3 h
+**Técnicas de verificacion y validación de sistemas electromecánicos. 3h
+**Documentación y reporte de resultados. 3h","Clases magistrales, análisis de casos, temas de investigación a desarrollar en grupos y/o individual, exámenes cortos y examenes parciales.","Informe escrito PFC; 1; 20
+Defensa PFC; 1; 10
+Exámenes cortos; 1; 20
+Primer parcial; 1; 25
+Segundo parcial; 1; 25","1. INCOSE, A guide for system life cicle processes and activities. (Cuarta Edición). San Diego, EEUU. Wiley.
+2. ""Integrated Engineering Asset Management"" por Joe E. Amadi-Echendu, Changela Hoohlo, Roger Swan, and Kingsley O. Nnaji-Okpara (2019).
+3. ""Maintenance Engineering and Management"" por R. Keith Mobley (2017).
+4. ""Introduction to Mechanical Engineering"" por J. Paulo Davim (2017) ",,"Carlos Piedra Santamaría; Ing; cpiedra@itcr.ac.cr
+*
+Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración del Mantenimiento. 
+"
+IEM2306,"Los sistemas de control automático son parte integral e indispensable de los procesos productivos modernos. No solamente para asegurar las características y la calidad de los productos, sino también para hacer un uso eficiente de la energía y las materias, para garantizar la seguridad de los equipos y el personal encargado de su operación, y para preservar el medio ambiente. Los sistemas de control se pueden encontrar en industrias de procesos y manufactura muy diversas, como la industria aeroespacial, aeronáutica, del transporte, agroindustrial, de alimentos, automotriz, de equipo médico, de fabricación de componentes y equipos electrónicos, la farmacéutica, de generación y distribución de energía, la metalmecánica, robótica, sistemas microelectromecánicos (MEMS), nanotecnología y muchos otros. 
+Esta asignatura busca ofrecer a la persona estudiante una introducción a la ingeniería de sistemas de control mediante la presentación de los principios, conceptos y técnicas fundamentales necesarios para el análisis y diseño práctico de sistemas de control por realimentación. Se fomenta asimismo el desarrollo de habilidades y competencias como el trabajo en equipo, el uso de herramientas computaciones para el diseño y simulación de los controladores, así como el aprendizaje autónomo.","Brindar una introducción a los principios, conceptos y técnicas fundamentales necesarios para el análisis y diseño práctico de sistemas de control por realimentación. Se enfatiza el tratamiento de sistemas lineales de una entrada y una salida, para los que se presentan las herramientas clásicas de análisis (e.g., lugar de las raíces, diagrama de Nyquist, diagramas de Bode), y métodos de diseño de controladores clásicos (PI, PID), y modernos (parametrización afín).","Comprender el concepto de sistema de control, el de lazo de control realimentado y definir la función de sus componentes.
+Usar herramientas computacionales para la simulación y el diseño de compensadores y reguladores.
+Diseñar compensadores y reguladores utilizando los diferentes métodos en estudio.
+Implementar reguladores y compensadores usando electrónica digital (computadores y microcontroladores).","*Introducción
+**Motivación a Ingeniería en Control
+**Reseña histórica de la Teoría de Control
+**Tipos de diseños de sistemas de control
+**Integración de sistemas
+*Principios de realimentación
+**El objetivo del control
+**Definición del problema de control
+**Solución del problema de control vía inversión
+**Realimentación con ganancia elevada e inversión
+**De lazo abierto a lazo cerrado
+**Compromisos en la elección de la ganancia de realimentación
+*Modelos, señales y sistemas
+**Modelos en control
+**Linealización y escalamiento de variables
+**Funciones transferencia y diagramas de bloques
+**Obtención experimental de modelos
+**Respuesta en frecuencia y diagramas de Bode
+*Análisis de sistemas realimentados
+**Estructuras de realimentación
+**Funciones de sensibilidad
+**Estabilidad a lazo cerrado en base al polinomio característico
+**Estabilidad y análisis polinomial
+**Lugar de las raíces
+**Estabilidad y respuesta en frecuencia
+**Estabilidad relativa: márgenes de estabilidad
+**Robustez
+*Control PID clásico
+**Estructura PID
+**Ajuste empírico
+**Método de oscilación de Ziegler-Nichols
+**Métodos basados en la respuesta al escalón
+**Compensadores en atraso-adelanto
+*Diseño básico de controladores SISO
+**Enfoque polinomial
+**Ajuste de PI y PID mediante asignación de polos
+**El predictor de Smith
+*Limitaciones fundamentales en control SISO
+**Sensores
+**Actuadores
+**Perturbaciones
+**Limitaciones debidas a errores en modelado
+**Limitaciones estructurales
+*Consideraciones estructurales en control SISO
+**Modelos de perturbaciones y referencias determinísticas
+**Principio del modelo interno para perturbaciones
+**Principio del modelo interno para seguimiento de referencias
+**Control en avance
+**Aplicación industrial de control en avance
+**Control en cascada","El modelo pedagógico del ITCR busca que el estudiante adquiera un aprendizaje significativo, constructivista e interaccionista, para lograr este objetivo de aprendizaje el curso utiliza una combinación de la metodología de simulación, la metodología de integración y las metodologías participativas. Por lo que en curso combinará la presentación del contenido por parte de la persona docente, trabajo individual por parte de la persona estudiante, prácticas de laboratorio guiadas y el desarrollo de un proyecto final del curso cuyo objetivo es integral el material visto en este curso.
+Se espera que fuera de clase la persona estudiante trabajará de forma individual repasando la materia, haciendo lecturas, realizando ejercicios y simulaciones y resolviendo problemas; también trabajará en grupos estudiando de forma cooperativa y en el desarrollo del proyecto.","Exámenes; 2; 40
+Tareas; 5; 25 
+Prácticas dirigidas; 2; 10
+Proyecto; 1; 25","•	Graham Clifford Goodwin, Stefan F. Graebe, Mario E. Salgado; Control System Design; Pearson Education; 2000.
+•	Ogata, Katsuhiko. Ingeniería de control moderna. Pearson-Prentice Hall, México, 1998.
+•	R. Dorf y R. Bishop, Sistemas de Control Moderno, 10 ed., Prentice Hall, 2005. 
+•	F. Golnaraghi, K. Benjamin; Automatic Control Systems; 9ed; Wiley Online Library,2010",,"Juan Luis Guerrero Fernández; Ph. D; jguerrero@itcr.ac.cr
+*
+Doctor en filosofía en ciencias (Ph.D.), Universidad de Sheffield, Inglaterra 
+Máster en Ciencias (M. Sc.) en Mecatrónica, Universidad de Ciencias Aplicadas Aachen, Alemania "
+IEM2307,"El curso de Mantenimiento Basado en Condición (MBC) está diseñado para proporcionar a los participantes los conocimientos y habilidades necesarios para implementar y gestionar estrategias efectivas de mantenimiento predictivo en entornos industriales. A través de este curso, los participantes aprenderán a utilizar tecnologías de monitoreo de estado para identificar y prevenir fallas en equipos y maquinaria, maximizando así la disponibilidad operativa y prolongando la vida útil de los activos.","Desarrollar las habilidades en la persona estudiante para gestión e implementación de estrategias efectivas de Mantenimiento Basado en Condición, con el fin de que se identifiquen oportunidades para la optimización de la confiabilidad y disponibilidad de los activos industriales mediante la detección temprana de posibles problemas de funcionamiento y la aplicación de técnicas de monitoreo continuo del estado de los activos.","Desarrollar habilidades en la persona estudiante la comprensión de los  fundamentos teóricos del Mantenimiento Basado en Condición, permitiéndole la adquisición de un conocimiento sólido para su aplicación en estrategias efectivas para la gestión de activos industriales, mediante el estudio de análisis de datos, interpretación de análisis de monitoreo y toma de decisiones.
+Desarrollar habilidades en la persona estudiante para el uso de  tecnologías de monitoreo de estado, incluyendo análisis de vibraciones, termografía, análisis de aceite y ultrasonido, de manera que le permita la selección y aplicación mas adecuada para la detección temprana de posibles fallas de funcionamiento , tomando decisiones informadas en la gestión de activos.
+Adquirir las habilidades de aprendizaje  para la interpretación de datos de monitoreo de estado , de manera que se identifiquen los patrones de deterioro y predicción de posibles fallas en equipos y maquinaria.
+Diseñar programas de Mantenimiento Basado en Condición adaptados a las necesidades específicas de una planta industrial, contribuyendo a la mejora de la eficiencia operativa de la organización","*Introducción al Mantenimiento Basado en Condición. 1 semana
+**Conceptos básicos de Mantenimiento Predictivo y Mantenimiento Basado en Condición.
+**Beneficios y aplicaciones en la industria.
+*Tecnologías de Monitoreo Estado I. 2 semanas
+**Análisis de vibraciones.
+**Patrones de vibración.
+**Espectros de frecuencia.
+*Tecnologías de Monitoreo de Estado II. 4 semanas.
+**Tribología (Análisis de aceite).
+**Termografía.
+**Ultrasonido
+*Interpretación de Datos y Diagnóstico. 3 semanas.
+**Análisis de datos de monitoreo.
+**Identificación de patrones de deterioro.
+**Diagnóstico de posibles fallas.
+*Implementación de programas de MBC. 3 semanas
+**Diseño de programas de MBC.
+**Integración con sistemas de gestión de mantenimiento existentes.
+**Planificación de recursos y presupuestos.
+*Mantenimiento Basado en la Condición Avanzado. 2 semanas
+**Tendencias y desarrollos actuales en MBC.
+**Norma ISO 17359
+**Uso de tecnologías emergentes y herramientas digitales.
+**Inteligencia artificial y análisis predictivo.","Clases magistrales, análisis de casos, temas de investigación a desarrollar en grupos y/o individual, exámenes cortos.","Informe escrito PFC; 1; 20
+Defensa PFC; 1; 10
+Exámenes cortos; 1; 20
+Primer parcial; 1; 25
+Segundo parcial; 1; 25","1. ""Condition-Based Maintenance in Aerospace: A Comprehensive Approach"" por Louis Cattafesta y Antonio Conte (2017)
+2. ""Condition-Based Maintenance and Machine Diagnostics"" por Piotr Kozłowski y Dariusz Młyńczak (2019).
+3. ""Condition Monitoring of Machinery in Non-Stationary Operations: Proceedings of the International Conference on Condition Monitoring of Machinery in Non-Stationary Operations"" editado por Robert Randall y Dimitrios Kouroussis (2018).",,"Carlos Piedra Santamaría; Ing; cpiedra@itcr.ac.cr
+*
+Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración del Mantenimiento. 
+"
+IEM2309,"Este curso sobre Gestión de Energía está diseñado para proveer a los estudiantes un conocimiento profundo y habilidades prácticas en la gestión eficiente y sostenible tanto de energía como de agua potable. Abordando los fundamentos, la descarbonización, la implementación de normas ISO 50000, el aprovechamiento de energías renovables, y la gestión del agua potable, el curso cubre aspectos cruciales y actuales de ambos sectores. Mediante una combinación de teoría, estudios de caso, y proyectos prácticos, se promueve el desarrollo de competencias para la implementación de estrategias sostenibles en la gestión de energía y agua, enfocándose en eficiencia, innovación y sostenibilidad. Finalmente, el estudiante tendrá la capacidad de explorar fuentes de energía renovable y evaluará su papel en la reducción de la dependencia de los combustibles fósiles. Asimismo, tendrá comprensión acerca de la legislación, políticas y normativas relacionadas con la eficiencia energética y la sostenibilidad.","Proporcionar a los estudiantes un conocimiento integral sobre la gestión de energía y recursos hídricos, con énfasis en la descarbonización, el aprovechamiento de energías renovables, la implementación de la familia de normas ISO 50000, exploración de nuevas tecnologías de generación de energía y gestión eficiente del agua potable, para capacitarlos en el desarrollo e implementación de estrategias eficientes y sostenibles en diversos contextos.","Introducir los conceptos fundamentales de la gestión de energía, incluyendo la terminología básica, principios y la importancia de una gestión energética eficiente y sostenible.
+Analizar las estrategias de descarbonización, su relevancia en la lucha contra el cambio climático y su impacto en las prácticas de gestión de energía.
+Profundizar en los detalles, aplicaciones y beneficios de la familia de normas ISO 50000 para la gestión de energía, incluyendo cómo pueden ser implementadas en organizaciones de diversos sectores.
+Estudiar diferentes tipos de energías renovables (solar, eólica, hidroeléctrica, biomasa, geotérmica, entre otras), su funcionamiento, aplicaciones prácticas y cómo pueden ser integradas en sistemas de gestión de energía existentes.
+Investigar las últimas tecnologías y tendencias en la generación de energía, incluyendo almacenamiento de energía, microredes, y otras innovaciones tecnológicas que están modelando el futuro del sector energético.
+Profundizar en la importancia de la gestión sostenible del agua, explorar las normas AWWA para la calidad y gestión del agua potable y su integración en sistemas de gestión ambiental y energética.
+Proporcionar las herramientas y conocimientos necesarios para planificar, implementar y evaluar proyectos de gestión de energía, con un enfoque en la sostenibilidad y la eficiencia energética.","*Introducción a la Gestión de Energía. 
+**Conceptos básicos y terminología.
+**Importancia de la eficiencia energética.
+*Balance de energía.
+**Metodología paso a paso de un balance de energía en distintas fuentes energéticas (vapor, aire comprimido, electricidad, LPG).
+*Descarbonización y Gestión Energética.
+**Estrategias de descarbonización global.
+**Impacto en la industria energética
+*La Familia de Normas ISO 50000.
+**Modelos de gestión de energía.
+**Contribución de la famila de normas en la gestión energética.
+**Implementación y certificación.
+*Energías Renovables
+**Tipos y fuentes de energías renovables.
+**Integración de energías renovables en la gestión de energía.
+*Evaluación y Mejora de la Eficiencia Energética.
+**Herramientas y técnicas de auditoría energética.
+**Mejoras y optimización de la eficiencia energética.
+*Gestión Sostenible del Agua Potable.
+**Principios de la gestión sostenible del agua.
+**Normas AWWA: visión general, importancia y aplicación práctica.
+**Tecnologías y prácticas para la eficiencia en el uso y tratamiento del agua.
+**Sinergias entre la eficiencia energética y la gestión eficiente del agua.
+*Políticas Energéticas y Regulaciones.
+**Marco regulatorio internacional y nacional.
+**Incentivos para la promoción de energías renovables y prácticas de sostenibilidad.
+*Impacto Social y Económico de la Gestión de Energía.
+**Beneficios económicos de la gestión eficiente de energía.
+*Contribución a la sostenibilidad y responsabilidad social.","Clases magistrales, análisis de casos, temas de investigación a desarrollar en grupos y/o individual.
+También se desarrollará un proyecto de investigación, el cual se debe presentar en forma escrita como parte del trabajo en clase, donde se evidencia la aplicación de los temas desarrollados en clase.","Avance #1 TFI; 1; 20
+Avance #2 TFI; 1; 20
+Trabajo escrito IF; 1; 40
+Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2030. WWW.MINAE.GO.CR: DISPONIBLE http://www.minae.go.cr/recursos/2015/pdf/VII-PNE.pdf
+Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2030. https://urldefense.com/v3/__http://WWW.MINAE.GO.CR__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTZ2o9DtYg$ : DISPONIBLE https://urldefense.com/v3/__http://www.minae.go.cr/recursos/2015/pdf/VII-PNE.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTa1MU0IvQ$ 
+2. Diego Zárate Montero/ Remigio Ramírez García. (2016). Matriz Energética de Costa Rica Renovabilidad de las fuentes y reversibilidad de los usos de energía. 2018, de fesamericacentral.org Sitio web: https://urldefense.com/v3/__http://library.fes.de/pdf-files/bueros/fesamcentral/12979.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTbC843cbg$ 
+3. Norma ISO 50000
+4. Base de datos Biblioteca del Tecnológico de Costa Rica.","Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
+*
+Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. 
+"
+IEM2311,"El curso de Automatización brinda al estudiante a conocimientos avanzados en el campo de la automatización de procesos continuos y discretos, de manera que los estudiantes puedan plantear y desarrollar soluciones de automatización de mediana complejidad, utilizando herramientas y conceptos propios de la disciplina. Se profundiza en el uso de las herramientas, métodos y funcionalidades del software de automatización, procesamiento de imágenes, robótica y de manera complementaria, se integra con otros tipos de equipos, dispositivos y componentes para construir sistemas automatizados de mayor complejidad.
+El curso impulsa a los estudiantes para que diseñen e implementen sistemas SCADA (Supervisory Control and Data Acquisition) por lo que la programación de autómatas, configuración de redes de comunicación, tratamiento de señales digitales y analógicas con autómatas programables (PLCs) son pilares fundamentales.  Así mismo, el modelado y diseño de celdas de manufactura, la interacción con robots y el control de calidad mediante sistemas de visión son parte de la automatización de tareas industriales.  La parte final del curso busca introducir al estudiante en la simulación moderna de sistemas productivos  mediante herramientas de alto nivel que permite la creación de gemelos digitales.
+Esta signatura se ubica en el último semestre de la carrera por lo que tienen un carácter avanzado e integrador que le brinda un carácter de obligatoriedad a la asignatura.","Implementar sistemas de automatización industriales, comerciales o domésticos mediante la integración de controladores programables, robots, sistemas de visión, transductores y sistemas informáticos para el  control supervisorio.","Desarrollar sistemas de comunicación industrial entre distintos tipos de dispositivos
+Desarrollar sistemas de automatizados usando técnicas de diseño para procesos continuos o discretos.
+Simular y desarrollar algoritmos para el control de calidad de procesos usando sistemas de visión.
+Integrar distintos controladores o sistemas de monitoreo dentro de un sistema SCADA.
+Simular y desarrollar algoritmos para el control para robots manipuladores, vehículos guidos autónomos (AVG) y  Robots móviles autónomos(AMR).","*Redes de comunicación
+**Modelo OSI y sus protocolos
+**Protocolos de comunicación modelo TCP/IP. 
+***Medios físicos y acceso a red. (Direccionamiento físico, MAC)
+***Nivel de red (IP)
+***Nivel de transporte (TCP)
+***Nivel de aplicación 
+**Protocolos de industriales y la pirámide de la automatización
+***Redes de campo o sensores
+***Redes de control
+***Redes de supervisión
+***Redes de Operación
+***Redes de información
+**Topologías de las redes.
+**Simulación de redes de computadores
+*Manipulación de señales digitales y/o analógicas en PLCs
+**Comunicación entre PLCs
+*Diseño de sistemas SCADA 
+**Levantamiento de requerimientos.
+**Definición de topología de red y protocolos.
+**Desarrollo de bases de datos.
+**Desarrollo de Interfaces gráficas.
+**Integración de Interfaces con PLCS.
+**Validación de los sistemas.
+*Máquinas de visión basadas en cámaras inteligentes
+**Levantamiento de requerimientos.
+**Geometría de la adquisición de imágenes
+***Selección del objetivo en función de la distancia focal, distancia de trabajo, escena y tamaño del sensor CCD.
+***Distorsiones ópticas
+**Selección del hardware en función de la resolución deseada.
+**Tipo de iluminación y selección.
+**Algoritmos de procesamiento, detección y segmentación enfocadas en:
+***Detección defectos
+***Clasificación de elementos.
+***Control dimensional.
+***Lectura de códigos barras, datamatrix.
+***Detección de posición 
+***Reconocimiento de caracteres alfanuméricos.
+**Programación de la secuencia de inspección.
+*Robots Industriales
+**Tipos de robots manipuladores, AGV y AMR
+***Grados de libertad.
+***Cinemática del robot.
+**Partes del Robots
+**Planeación y calendarización.
+**Lenguajes de programación: orientados en la tarea y en el robot.
+**Simulación de programas.
+**Practica de Robótica
+*Modelado y simulación de procesos productivos
+**Arboles de ensamble del producto
+**Modelado matemático de celda o proceso
+**Ambientes de simulación: Tecnomatrix o ARENA.
+**Métricas de evaluación de rendimiento","El modelo pedagógico del ITCR busca que el estudiante adquiera un aprendizaje significativo, constructivista e interaccionista, para lograr este objetivo de aprendizaje el curso utiliza una combinación de la metodología de simulación, la metodología de Inmersión y las metodologías participativas.
+En el curso se desarrollan 3 proyectos colaborativos busca que los estudiantes se inmersan en las tecnologías de automatización.  Los estudiantes usaran utilizarán PLC, sensores, redes industriales, sistemas  SCADA y ambientes de simulación para integrar sus respectivos proyectos. Así mismo existirán don presentaciones orales de temas de investigación y desarrollo donde se muestre la teoría asociada y ejemplos de su uso. Finalmente, el profesor en desarrollará temas complejos con ejemplos demostrativos clases Teórico-Practicas.","Proyectos; 3;  60
+Exposición de investigación; 2; 20
+Quices; 4; 20%","Piedrafita R. (2004) Ingeniería de la automatización industrial. México.  Editorial Alfaomega 
+Jimenez, V. G., Yuste, R. Y., & Martínez, L. (2012). Comunicaciones Industriales Siemens. Marcombo.
+Rodriguez A. (2013). Sistemas Scada. México. Editorial Alfaomega 
+Soria S. (2013). Sistemas Automáticos industriales de eventos discretos. México. Editorial Alfaomega
+Torres, F., Gil, P., Puente, S. T., & Aracil, R. (2002). Robots y sistemas sensoriales. Pearson Educación.
+Craig. J (2017). Introduction to Robotics: Mechanics and Control.  4th Edition. Person.
+Niku, S. B. (2020). Introduction to robotics: analysis, control, applications. John Wiley & Sons.
+Nehmzow, U. (2012). Mobile robotics: a practical introduction. Springer Science & Business Media.
+Siegwart, R., Nourbakhsh, I. R., & Scaramuzza, D. (2011). Introduction to autonomous mobile robots. 2 ed. MIT press.
+Fragapane, G., De Koster, R., Sgarbossa, F., & Strandhagen, J. O. (2021). Planning and control of autonomous mobile robots for intralogistics: Literature review and research agenda. European Journal of Operational Research, 294(2), 405-426.
+Curry, G. L., & Feldman, R. M. (2010). Manufacturing systems modeling and analysis. Springer Science & Business Media.
+Groover, M. P. (2019). Automation, production systems, and computer-integrated manufacturing. 5 ed. Pearson Education.
+STEFFEN. BANGSOW. (2021). Tecnomatix plant simulation: Modeling and programming by means of examples. Springer.
+Altiok, T., & Melamed, B. (2010). Simulation modeling and analysis with Arena. Academic Press.
+La filosofía oriental y su influencia en el manga. Luffy M.D. Nihon Publishers.",,"Luis Diego Murillo Soto; Dr.-Ing; lmurillo@itcr.ac.cr
+*Profesor Catedrático I e Investigador Consolidado 2
+Doctor en Ingeniería (TEC, 2022)
+Máster en Ciencias de la Ingeniería Eléctrica (UCR, 2016)
+Máster en Computación (TEC, 2004)
+Ingeniero en Mantenimiento Industrial (TEC, 1999)
+Técnico en Electrónica (COVAO, 1994)
+*lmurillo@itcr.ac.cr"
