@@ -1,4 +1,4 @@
-﻿Codigo,Descripcion,ObjetivoGeneral,ObjetivosEspecificos,Contenidos,Metodologia,Evaluacion,Bibliografia,Bibtex,Profesor
+﻿Codigo,Descripcion,ObjetivoGeneral,ObjetivosEspecificos,Contenidos,Metodologia,Evaluacion,Bibliografia,Bibtex,Profesores,Profesor
 IEM2101,"El curso de dibujo técnico contribuye a la formación y desarrollo profesional de las personas estudiantes, equipándolos con las habilidades y herramientas necesarias para la comunicación, el diseño y la ejecución en el ámbito de la ingeniería. 
 Entre los aprendizajes más destacados se encuentran la capacidad para interpretar y aplicar las normas INTE/ISO de dibujo técnico en situaciones prácticas, así como la habilidad para visualizar y representar objetos tridimensionales en un plano bidimensional y viceversa. Asimismo, los estudiantes desarrollan destrezas en el uso de herramientas CAD para la elaboración de planos. Además de las habilidades técnicas, se busca promover el compromiso, el respeto y la ética profesional entre los participantes.
 Este curso sienta las bases fundamentales para asignaturas más avanzadas en el campo del diseño y la ingeniería mecánica. Proporciona una comprensión sólida de los principios y técnicas de dibujo técnico que son esenciales para el desarrollo de proyectos más complejos en las áreas de diseño y manufactura. De esta manera, establece una conexión con otros cursos de la carrera, preparando a los estudiantes para enfrentar desafíos en su trayectoria académica y profesional.","Realizar un plano de una pieza mecánica, según las normas INTE/ISO, que contenga información necesaria y suficiente para la interpretación de la forma y dimensiones de la pieza. ","Aplicar las normas INTE/ISO y de otros estándares.
@@ -89,7 +89,7 @@ Tareas digitales coordinadas; 10; 15
 [6]	Gisecke M, Dibujo y Comunicación Gráfica, Printece Hall, 3 edición, México, 2006
 [7]	Spencer H, Dibujo Técnico, Alfa Omega, 8 edición, México, 2009
 [8]	Material didáctico preparado por el profesor
-",,"Ing. Luis Felipe Córdoba Ramírez M.Sc. (Coordinador)
+",hernandez2013dibujo;lieu2011dibujo,LCR0;CVS0;NUS0;JGF0;HJQ0;COZ0;VJH0,"Ing. Luis Felipe Córdoba Ramírez M.Sc. (Coordinador)
 Máster en ciencias Ingeniería Mecánica, Universidad de Utah. 
 Licenciado en Ingeniería en Mantenimiento Industrial, Instituto Tecnológico de Costa Rica. 
 Contacto: lfcordoba@itcr.ac.cr
@@ -235,7 +235,7 @@ Janocha, H. Actuators: Basics and Applications. Springer: Berlin, Germany. 2004.
 Dunn, William. Fundamental of Industrial Instrumentations and process control. MacGraw Hill. 2005.
 Benedict, Robert. Fundamentals of temperature, pressure and flow measurements.3 ed. John-Wiley: Canada. 1984. 
 Creus Antonio, Neumática e Hidráulica. 2 Ed Alfaomega 2011. 
-Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",pallas2012sensors;fraden2016handbook,"Luis Diego Murillo Soto; Dr.-Ing; lmurillo@itcr.ac.cr
+Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",pallas2012sensors;fraden2016handbook,,"Luis Diego Murillo Soto; Dr.-Ing; lmurillo@itcr.ac.cr
 *Profesor Catedrático I e Investigador Consolidado 2
 Doctor en Ingeniería (TEC, 2022)
 Máster en Ciencias de la Ingeniería Eléctrica (UCR, 2016)
@@ -318,7 +318,7 @@ Curry, G. L., & Feldman, R. M. (2010). Manufacturing systems modeling and analys
 Groover, M. P. (2019). Automation, production systems, and computer-integrated manufacturing. 5 ed. Pearson Education.
 STEFFEN. BANGSOW. (2021). Tecnomatix plant simulation: Modeling and programming by means of examples. Springer.
 Altiok, T., & Melamed, B. (2010). Simulation modeling and analysis with Arena. Academic Press.
-La filosofía oriental y su influencia en el manga. Luffy M.D. Nihon Publishers.",,"Luis Diego Murillo Soto; Dr.-Ing; lmurillo@itcr.ac.cr
+La filosofía oriental y su influencia en el manga. Luffy M.D. Nihon Publishers.",,,"Luis Diego Murillo Soto; Dr.-Ing; lmurillo@itcr.ac.cr
 *Profesor Catedrático I e Investigador Consolidado 2
 Doctor en Ingeniería (TEC, 2022)
 Máster en Ciencias de la Ingeniería Eléctrica (UCR, 2016)
@@ -379,7 +379,7 @@ Defensa TFI; 1; 10%
 Exámenes cortos; 1; 25%","Sapag Chain N., Sapag Chain R., Sapag Puelma J. (2014). Preparación y evaluación de proyectos. (Sexta edición). España. McGraw-Hill.
 Hernández Sampieri R. (2014). Metodología de la Investigación. (Sexta edición). Mexico. McGraw-Hill.
 Gray F. Clifford, Larson W. Erik. (2007). Edición en español (2009). Administración de proyectos. (Cuarta edición). Mexico. McGraw-Hill.
-Gray F. Clifford, Larson W. Erik. (2010). Project Management: The Managerial Process. (Quinta edición). Estados Unidos. McGraw-Hill.",,"Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
+Gray F. Clifford, Larson W. Erik. (2010). Project Management: The Managerial Process. (Quinta edición). Estados Unidos. McGraw-Hill.",,,"Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
 *
 Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. 
 "
@@ -415,7 +415,7 @@ Primer parcial; 1; 25
 Segundo parcial; 1; 25","1. INCOSE, A guide for system life cicle processes and activities. (Cuarta Edición). San Diego, EEUU. Wiley.
 2. ""Integrated Engineering Asset Management"" por Joe E. Amadi-Echendu, Changela Hoohlo, Roger Swan, and Kingsley O. Nnaji-Okpara (2019).
 3. ""Maintenance Engineering and Management"" por R. Keith Mobley (2017).
-4. ""Introduction to Mechanical Engineering"" por J. Paulo Davim (2017) ",,"Carlos Piedra Santamaría; Ing; cpiedra@itcr.ac.cr
+4. ""Introduction to Mechanical Engineering"" por J. Paulo Davim (2017) ",,,"Carlos Piedra Santamaría; Ing; cpiedra@itcr.ac.cr
 *
 Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración del Mantenimiento. 
 "
@@ -451,7 +451,7 @@ Exámenes cortos; 1; 20
 Primer parcial; 1; 25
 Segundo parcial; 1; 25","1. ""Condition-Based Maintenance in Aerospace: A Comprehensive Approach"" por Louis Cattafesta y Antonio Conte (2017)
 2. ""Condition-Based Maintenance and Machine Diagnostics"" por Piotr Kozłowski y Dariusz Młyńczak (2019).
-3. ""Condition Monitoring of Machinery in Non-Stationary Operations: Proceedings of the International Conference on Condition Monitoring of Machinery in Non-Stationary Operations"" editado por Robert Randall y Dimitrios Kouroussis (2018).",,"Carlos Piedra Santamaría; Ing; cpiedra@itcr.ac.cr
+3. ""Condition Monitoring of Machinery in Non-Stationary Operations: Proceedings of the International Conference on Condition Monitoring of Machinery in Non-Stationary Operations"" editado por Robert Randall y Dimitrios Kouroussis (2018).",,,"Carlos Piedra Santamaría; Ing; cpiedra@itcr.ac.cr
 *
 Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración del Mantenimiento. 
 "
@@ -497,7 +497,7 @@ Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2
 Presentación IF; 1; 20","1. MINAE. (2014). VII PLAN NACIONAL DE ENERGÍA 2015-2030. https://urldefense.com/v3/__http://WWW.MINAE.GO.CR__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTZ2o9DtYg$ : DISPONIBLE https://urldefense.com/v3/__http://www.minae.go.cr/recursos/2015/pdf/VII-PNE.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTa1MU0IvQ$ 
 2. Diego Zárate Montero/ Remigio Ramírez García. (2016). Matriz Energética de Costa Rica Renovabilidad de las fuentes y reversibilidad de los usos de energía. 2018, de fesamericacentral.org Sitio web: https://urldefense.com/v3/__http://library.fes.de/pdf-files/bueros/fesamcentral/12979.pdf__;!!O7R4XxaP!YagK5nTDVJ1DfiNpc1VvBtH7F9-cJPFXPJsjudacEdT3biugDboOkjwALeWJnUIRNkmrDYgJMOhVkC0_kWvDYGdBbTbC843cbg$ 
 3. Norma ISO 50000
-4. Base de datos Biblioteca del Tecnológico de Costa Rica.","Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
+4. Base de datos Biblioteca del Tecnológico de Costa Rica.",,"Sebastián Mata Ortega; Ing; semata@itcr.ac.cr
 *
 Ingeniero en Mantenimiento Industrial, con Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. 
 "
@@ -517,7 +517,7 @@ Bitacoras de laboratorio; 0; 0","Guía de laborotorio del curso Laboratorio de C
 Balcells, Josep; Romeral, José. “Autómatas Programables”. Alfaomega: México. 1998.
 Fabricius, Eugene; “Diseño lógico moderno y teoría de conmutación”. CECSA: México. 1996 García M, Emilio; “Automatización de Procesos Industriales”. Alfaomega: Mexico. 2001.
 Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003.                              Romera, Pedro; Lorite, Antonio; Montero, Sebastián “Automatización: Problemas resueltos con autómatas programables”. 3 era ed. Thomson: Madrid. 2003.                         Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003
-",,"Luis Gómez Guitiérrez; Ing; lugomez@itcr.a.cr
+",,,"Luis Gómez Guitiérrez; Ing; lugomez@itcr.a.cr
 *
 Ingeniero en Mantenimiento industrial. Maestria en Gestión de Activos Físicos. "
 IEM2109,"El curso de Sistemas de control establece las bases de conocimiento para la comprensión, análisis y diseño de sistemas de control de  eventos continuos  y discretos  de sistemas  productivos de pequeña y mediana escala, la persona estudiante adquiere conocimiento específico, que le permitirán una mayor comprension, para el diseño e implementacion de sistemas de control de procesos.  A partir del conocimiento y comprensión estará en capacidad de utilizar herramientas para simulacion, que son utiles en el diseño y análisis de los sistemas, se parte de un fundamento teórico que explica y define cada uno de estos sistemas de control, sus caracteristicas y métodos de implementación. Entre los aprendizajes más importantes se destacan la fundamentación de los sistemas de control, tanto para eventos continuos como discretos, analisis  operativo de sistemas de control, automatización industrial y habilidad para resolucion e implementación de problemas de automatización. En este curso se hace uso de los conocimientos previos del curso de Control Automatico para profundizar en el diseño y  analisis de sistemas de control de procesos. Adicionalmente las personas estudiantes fortalecen sus habilidades de trabajo en equipo, autoaprendizaje y resolucion de conflictos, entre otras habilidades blandas. ",Al finalizar el curso  la persona  estudiante estará en capacidad de comprender y proponer soluciones de automatización de pequeña y mediana complejidad con una perspectiva analitica de su comportamiento a traves de su implementación y simulación. ,"Al finalizar el curso la persona estudiante estará en capacidad de reconocer las características de sistemas de control en eventos continuos y discretos asi como sus aplicaciones. 
@@ -540,7 +540,7 @@ Proyecto de investigación; 0; 0","Valdivia, Carlos. ""Sistemas de control conti
 Balcells, Josep; Romeral, José. “Autómatas Programables”. Alfaomega: México. 1998.
 Fabricius, Eugene; “Diseño lógico moderno y teoría de conmutación”. CECSA: México. 1996 García M, Emilio; “Automatización de Procesos Industriales”. Alfaomega: Mexico. 2001.
 Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003.                              Romera, Pedro; Lorite, Antonio; Montero, Sebastián “Automatización: Problemas resueltos con autómatas programables”. 3 era ed. Thomson: Madrid. 2003.                         Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003
-",,"Luis Gómez Guitiérrez; Ing; lugomez@itcr.a.cr
+",,,"Luis Gómez Guitiérrez; Ing; lugomez@itcr.a.cr
 *
 Ingeniero en Mantenimiento industrial. Maestria en Gestión de Activos Físicos. "
 IEM2303,"Este curso introduce a la persona estudiante en el modelado y análisis matemático de sistemas físicos mediante el uso de diversas herramientas teóricas y experimentales. Así mismo, se hace uso de software especializado para la simulación de estos modelos de manera que sea un complemento para el análisis de la respuesta de los sistemas tanto en el dominio del tiempo como en el de la frecuencia. La obtención y análisis de modelos que representen la realidad y permitan derivar conclusiones y predicciones, es un pilar fundamental tanto en el área de las ciencias como en el de la ingeniería. Este curso ofrece además las bases para los cursos de sistemas de control automático, control eléctrico,  mantenimiento basado en la condición, automatización, entre otros.",,,"*Introducción al modelado y análisis de sistemas
@@ -622,7 +622,7 @@ Third Edition, CRC Press, 2018.
 
 Modelling and analysis of dynamic systems
 Charles M. Close and Dean K. Frederick and Jonathan C. Newel
-John Wiley & Sons, 2002.",,"Juan Luis Guerrero Fernández; Ph. D; jguerrero@itcr.ac.cr
+John Wiley & Sons, 2002.",,,"Juan Luis Guerrero Fernández; Ph. D; jguerrero@itcr.ac.cr
 *
 Doctor en filosofía en ciencias (Ph.D.), Universidad de Sheffield, Inglaterra 
 Máster en Ciencias (M. Sc.) en Mecatrónica, Universidad de Ciencias Aplicadas Aachen, Alemania "
@@ -686,7 +686,7 @@ Prácticas dirigidas; 2; 10
 Proyecto; 1; 25","•	Graham Clifford Goodwin, Stefan F. Graebe, Mario E. Salgado; Control System Design; Pearson Education; 2000.
 •	Ogata, Katsuhiko. Ingeniería de control moderna. Pearson-Prentice Hall, México, 1998.
 •	R. Dorf y R. Bishop, Sistemas de Control Moderno, 10 ed., Prentice Hall, 2005. 
-•	F. Golnaraghi, K. Benjamin; Automatic Control Systems; 9ed; Wiley Online Library,2010",,"Juan Luis Guerrero Fernández; Ph. D; jguerrero@itcr.ac.cr
+•	F. Golnaraghi, K. Benjamin; Automatic Control Systems; 9ed; Wiley Online Library,2010",,,"Juan Luis Guerrero Fernández; Ph. D; jguerrero@itcr.ac.cr
 *
 Doctor en filosofía en ciencias (Ph.D.), Universidad de Sheffield, Inglaterra 
 Máster en Ciencias (M. Sc.) en Mecatrónica, Universidad de Ciencias Aplicadas Aachen, Alemania "
@@ -726,7 +726,7 @@ Diseñar aplicaciones electrónicas utilizando circuitos lógicos combinacionale
 Prácticas de laboratorio; 0; 20 Proyecto de diseño; 1; 30","Schilling, D. & Belove, C. Circuitos Electrónicos discretos e integrados. McGraw-Hill, 3 ed. 1993. 
 Malvino, A. Principios de electrónica. McGraw-Hill, 6 ed. 
 Mohan, N., Undeland, T. M., & Robbins, W. P. (2009). Electrónica de potencia: convertidores, aplicaciones y diseño (3a. ed.). Sunny Isles Beach, US: McGraw-Hill España. 
-Wakerly, J. Diseño digital, principios y prácticas. Pearson Educación - Prentice Hall, 3 ed. · Tocci, R. & Wildmer, N. Sistemas digitales, principios y aplicaciones. Pearson Educación, 10 ed.",,
+Wakerly, J. Diseño digital, principios y prácticas. Pearson Educación - Prentice Hall, 3 ed. · Tocci, R. & Wildmer, N. Sistemas digitales, principios y aplicaciones. Pearson Educación, 10 ed.",,,
 IEM2201,"Es un curso introductorio teórico sobre fundamentos de circuitos eléctricos, en el cual se estudian los conceptos básicos, teoremas y métodos de análisis de circuitos resistivos en corriente directa. Además, se estudia el comportamiento dinámico y en estado estable de circuitos de primer orden y segundo orden con bobinas, condensadores y resistencias alimentado con corriente directa, de tipo RL y RC; al final del curso see analizan circuitos RLC de orden superior utilizando transformadas de Laplace.
 El curso es el primero de la rama de ingeniería eléctrica de la carrera, está pensado para sentar las bases necesarias para luego enfrentar la solución de problemas más complejos en cursos posteriores. Busca inculcar el atributo de Herramientas de Ingeniería a nivel intermedio según la acreditación por la AAPIA. Cabe destacar que las herramientas de ingeniería se refieren tanto a las analíticas en el planteamiento del problema, como también la validación de las soluciones por medio de un software de simulación pertinente; el estudiante no solo deberá saber plantear el problema, sino simularlo y validar sus respuestas.
 Como requisitos congnocitivos para llevar el curso el estudiante deberá conocer cómo solucionar sistemas de ecuaciones lineales y cómo operar algebraícamente utilizando números complejos, estos conocimientos se imparten en el curso de Cálculo y Álgebra Lineal de la Escuela de Matemática; así como los fundamentos del fenómeno eléctrico que brinda el curso de Física General II de la Escuela de Física. Además, el estudiante deberá llevar como correquisito un curso de laboratorio en donde se ponga en práctica lo aprendido en teoría. Los conocimientos brindados en este curso serán complementados en el de Análisis de Circuitos II pero en corriente alterna.
@@ -784,7 +784,7 @@ Segundo parcial; 1; 30
 Tercer parcial; 1; 30
 Proyecto programado; 1; 10","[1] Hayt, William H; Kemmerly, Jack E; Durbin, Steven M. “Análisis de circuitos en ingeniería”.  McGraw-Hill, México. Séptima edición, 2007.
 [2] Boylestad, Robert L. “Introducción al análisis de circuitos”. Prentice Hall, México. Decimosegunda edición, 2011.
-[3] Alexander, Charles K.; Sadiku, Matthew N. “Fundamentos de circuitos eléctricos”. McGraw-Hill, México. Quinta edición, 2013.",,
+[3] Alexander, Charles K.; Sadiku, Matthew N. “Fundamentos de circuitos eléctricos”. McGraw-Hill, México. Quinta edición, 2013.",,,
 IEM2202,Este curso profundiza el estudio de señales sinusoidales en circuitos lineales RLC brindando herramientas de análisis en el dominio del tiempo y respuesta en frecuencia. Su aprovechamiento complementa las bases en la teoría general de circuitos eléctricos y aporta conocimientos necesarios para abordar apropiadamente los cursos posteriores.,Brindar las bases teóricas que describen los circuitos de corriente alterna y abordar herramientas computacionales de simulación y análisis,"Comprender el comportamiento de los distintos elementos que conforman un circuito RLC bajo excitación sinusoidal.	
 Analizar el concepto de Función de transferencia y su estructura general con el fin de determinar los diagramas de Bode
 Relacionar las señales periódicas con las series de Fourier y su respuesta ante filtros pasivos
@@ -827,7 +827,7 @@ Tercer Parcial; 1; 20
 Proyecto de simulación; 1; 20
 Evaluaciones cortas; 0; 20","Alexander, Charles K.; Sadiku, Matthew N. “Fundamentos de circuitos eléctricos”. McGraw-Hill, México. 7 edición, 2022.
 Dorf, Richard; Svoboda, James A. “Circuitos eléctricos”. Alfaomega, México. Octava edición, 2011.
-Boylestad, Robert L. “Introducción al análisis de circuitos”. Prentice Hall, México. Decimosegunda edición, 2011.",,
+Boylestad, Robert L. “Introducción al análisis de circuitos”. Prentice Hall, México. Decimosegunda edición, 2011.",,,
 IEM2205,"El curso de Máquinas Eléctricas I proporciona una base sólida en corriente alterna, equipando al estudiante con las habilidades necesarias para comprender, plantear y resolver problemas relacionados con sistemas eléctricos, así como máquinas eléctricas estáticas y rotativas, tanto en configuraciones trifásicas como monofásicas.
 Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para efectuar cálculos de tensiones, corrientes, potencias y condiciones de operación en configuraciones tanto trifásicas como monofásicas, aplicables a sistemas y máquinas eléctricos estáticas y rotativas de inducción. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
 El presente curso establece los fundamentos necesarios para el posterior estudio en Máquinas Eléctricas II, donde se abordarán diferentes tipos de máquinas dentro de contextos analíticos diversos. Asimismo, ofrece una comprensión sólida de las máquinas eléctricas estudiadas, que servirán como base para su instalación, operación y mantenimiento. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Al final del curso la persona estudiante será capaz de diferenciar los diversos usos de las máquinas eléctricas para cada una de las aplicaciones de uso industrial, comercial o residencial. ","Analizar sistemas eléctricos trifásicos balanceado y desbalanceados.
@@ -942,7 +942,7 @@ Exámenes cortos y tareas; 1; 25","1.	Garik, M. Whipple, C. Máquinas de Corrien
 8.	ROSERBER, ROBERT. Reparación de Motores Eléctricos. Editorial Gustavo Gili. Barcelona. Sexta Edición.
 9.	Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
 10.	Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
-11.	Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+11.	Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,,
 IEM2255,"El presente laboratorio busca aplicar y demostrar los conceptos y temas principales del curso Máquinas Eléctricas I, comprende mediciones de potencia en redes monofásicas y trifásicas bajo distintas configuraciones. Introduce las máquinas eléctricas llamadas transformadores conectado como autotransformadores y transformadores monofásicos y trifásicos para análisis de reflejo de impedancias y cálculo de potencias. Además, se abarca los motores de inducción, trifásicos como monofásicos, finalizando con el uso especial de un generador asincrónico.
 Además, mediante la práctica, el estudiante tiene la posibilidad de analizar y realizar diagramas de conexión, así como la utilización de instrumentos y equipos, relacionados con la operación de estas máquinas
 ","Aplicar los conceptos desarrollados en el curso de Máquinas Eléctricas I, de una forma práctica temas como sistemas de potencia monofásicos y trifásicos, transformadores y motores de inducción, que permita evidenciar los fenómenos y comprobar datos teóricos con mediciones experimentales.","Conocer la construcción y funcionamiento de transformadores de potencia monofásicos y trifásicos
@@ -975,7 +975,7 @@ Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
 NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
 Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
 Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
-Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,,
 IEM2206,"El curso de Máquinas Eléctricas II, representa la continuidad del estudio de las máquinas eléctricas desarrollado en el curso Máquinas Eléctricas I, es de carácter intermedio-avanzado y aplicado, donde se desarrollan conocimientos previos adquiridos a través de su formación ingenieril, con lo cual se espera que el estudiante desarrolle competencias para la comprensión, planteo y solución de los problemas de las máquinas eléctricas rotativas, especialmente Máquinas Sincrónicas Trifásicas y Máquinas de Corriente Directa. Es un curso de alto nivel.
 Está diseñado a fin de que el estudiante próximo a realizar su proyecto final de graduación, cuente con los conceptos relacionados a las máquinas rotativas de mayor uso en la industria. El curso estudia condiciones en estado estable de las maquinas eléctricas tanto de CA como CD. Se promueve un conocimiento amplio y permite la interacción del futuro ingeniero con profesionales de diversas áreas en el desempeño de sus labores profesionales. Durante el desarrollo de las lecciones se promueve el respeto, la ética profesional y la responsabilidad como futuros ingenieros y las repercusiones tanto éticas ante el Colegio Federado de Ingenieros como por la vía judicial, ya que, en el ejercicio de su profesión, los diseños, cotizaciones y propuestas contemplan declaraciones juradas por parte de los profesionales.
 Al terminar el curso, el estudiante conocerá las características de funcionamiento y usos principales de los Alternadores Sincrónicos, Generadores de Corriente Directa y Motores Sincrónicos y Motores de Corriente Directa, conocimientos que lo capacitarán para su operación y mantenimiento. 
@@ -1082,7 +1082,7 @@ NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
 ROSERBER, ROBERT. Reparación de Motores Eléctricos. Editorial Gustavo Gili. Barcelona. Sexta Edición.
 Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
 Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
-Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,"Osvaldo Guerrero Castro; Ing; oguerrero@tec.ac.cr
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,,"Osvaldo Guerrero Castro; Ing; oguerrero@tec.ac.cr
 Ingeniero en Mantenimiento Industrial"
 IEM2256,"El curso pretende ser un complemento del curso teórico de Máquinas Eléctricas II, donde el estudiante tiene la posibilidad de comprobar experimentalmente, los planteamientos teóricos expuestos en la teoría. Busca que el estudiante realice prácticas con Máquinas Sincrónicas (Motor y Alternador) y Máquinas de Corriente Directa analice su comportamiento, bajo diversas condiciones de carga (régimen estable).
 
@@ -1119,7 +1119,7 @@ Nasar, S. & Boldea I (2002). The Induction Machine Handbook.
 NEMA. (2002). MG 1-1998: Motors and Generators (3 ed.). Rosslyn, Virginia.
 Toliyat, H. A., & Kliman, G. B. (2004). Handbook of electric motors. Boca Ratón, Fl: CRC Press.
 Trzynadlowski, A. M. (2001). Control of induction Motors. San Francisco: Academic Press.
-Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,
+Wildi, T. (2007). Máquinas Eléctricas y sistemas de potencia (6ta ed.). Mexico D.F.: Person.",,,
 IEM2208,"El curso de Instalaciones Eléctricas proporciona una base sólida en el diseño eléctrico, preparando al estudiante con las habilidades necesarias para realizar proyectos industriales, comerciales y residenciales en baja tensión sometidos a los criterios del Código Eléctrico del Costa Rica del Colegio Federado de Ingenieros.
 Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para diseñar instalaciones eléctricas de baja tensión, efectuar análisis del desempeño energético y presupuestos, estudios de cortocircuito, selección de protecciones, elaboración de planos bajo la normativa actual. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
 El presente curso brinda las herramientas necesarias para las diferentes situaciones dentro de los contextos tanto analíticos como ingenieriles a los que el estudiante se encuentre. Asimismo, ofrece una comprensión sólida de los sistemas de eléctricos abarcando los cursos anteriores, que servirán como fundamento para proyectos de instalación, operación y mantenimiento en baja tensión. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Diseñar sistemas de potencia de baja tensión industriales, comerciales y residenciales. ","Diseñar instalaciones eléctricas industriales, comerciales y residenciales.
@@ -1198,7 +1198,7 @@ Proyecto; 1; 30","*Libros
 **IEEE Recommended Practice for Electrical Systems in Health Care Facilities (White Book) 						
 **IEEE Recommended Practice for Energy Management in Industrial and Commercial Facilities (Bronze Book) 
 **IEEE Guide for Maintenance, Operation and Safety of Industrial and Commercial Power Systems (Yellow Book) 
-**IEEE Recommended Practice for Applying Low Voltage Circuit Breaker Used in Industrial and Commercial Power Systems (Blue Book)",,
+**IEEE Recommended Practice for Applying Low Voltage Circuit Breaker Used in Industrial and Commercial Power Systems (Blue Book)",,,
 IEM2207,"El curso de Análisis de Sistemas de Potencia proporciona una base sólida en modelado y simulación, preparando al estudiante con las habilidades necesarias para comprender, plantear y resolver problemas complejos relacionados con sistemas de potencia de mediana y alta tensión sometidos a condiciones de operación normal o bajo situaciones extremas.
 Uno de los aspectos más sobresalientes del aprendizaje incluye la habilidad para diseñar líneas de transmisión, efectuar cálculos del desempeño de las redes eléctricas, estudios de cortocircuitos simétricos y asimétricos, análisis del despacho económico, así como estudios de estabilidad bajo diversos puntos de operación. Se fomentan habilidades y destrezas para abordar problemas de naturaleza compleja.
 El presente curso brinda las herramientas necesarias para futuros cursos avanzados tanto en grado como posgrado, donde se abordarán diferentes situaciones dentro de contextos analíticos diversos. Asimismo, ofrece una comprensión sólida de los sistemas de potencia abarcando los cursos anteriores, que servirán como fundamento para proyectos de instalación, operación y mantenimiento en mediana y alta tensión. De esta manera, se traza una ruta de conocimiento que prepara al estudiante para afrontar los desafíos y exigencias tanto en su trayectoria académica como profesional.","Analizar los sistemas de potencia de mediana y alta tensión en su desempeño, operación y diseño. ","Diseñar líneas de transmisión monofásicas y trifásicas.
@@ -1266,7 +1266,7 @@ II Examen Parcial; 1; 20
 III Examen Parcial; 0; 30
 Proyecto; 1; 30","Grainger, J. J., & Stevenson Jr., W. D. (1996). Análisis de Sistemas de Potencia. México: McGraw-Hill.
 Kothari, D. P., & Nagrath, I. J. (2008). Sistemas Eléctricos de Potencia. México: McGraw-Hill.
-Wildi, T. (2007). Máquinas Eléctricas y Sistemas de Potencia. México: PEARSON.",,
+Wildi, T. (2007). Máquinas Eléctricas y Sistemas de Potencia. México: PEARSON.",,,
 IEM2203,"Este curso está diseñado para brindar al estudiante conocimientos básicos requeridos para describir, analizar y diseñar sistemas electrónicos simples. Se introducen los temas de dispositivos analógicos y sus aplicaciones, así como aplicaciones con semiconductores. 
 El curso incluirá experiencias de mediciones en laboratorio para entender mejor el funcionamiento de los dispositivos; además de un proyecto simulado de diseño usando circuitos lineales.","Aplicar herramientas de simulación y análisis para el diseño de sistemas electrónicos con amplificadores operacionales, elementos semiconductores","Comprender las características y operación de los amplificadores operacionales en sus topologías básicas.
 Estudiar aplicaciones de IC especiales: como monostable, astable, comparadores, reguladores de voltaje, convertidores, entre otros.
@@ -1302,7 +1302,7 @@ Comprender el funcionamiento de dispositivos electrónicos básicos diodo semico
 **Corto circuito virtual y topologías básicas: inversor, no inversor, sumador, restador, integrador, derivador. Diseño y modelado de filtros activos
 **IC especiales: reguladores de tensión, comparadores, astables, monostables, convertidores V/F y F/V",,"Exámenes parciales; 2; 40
 Informe de pruebas de laboratorio; 0: 30
-Proyecto de diseño : 1: 30",,,
+Proyecto de diseño : 1: 30",,,,
 IEM2204,"Es un curso introductorio teórico sobre fundamentos de lógica digital, sistemas combinacionales y secuenciales pensados para complementar la formación de las personas profesionales en ingeniería electromecánica, para luego ser aplicado tanto en ingeniería eléctrica como mecánica.
 El curso está pensado para sentar las bases necesarias para luego enfrentar la solución de problemas más complejos que involucren sistemas digitales en cursos posteriores. Busca inculcar el atributo de Aplicar herramientas de análisis y diseño de sistemas digitales enfocadas en su solución de problemas en ingeniería electromecánica. a nivel intermedio según la acreditación por la AAPIA. Cabe destacar que las herramientas de ingeniería se refieren tanto a las analíticas en el planteamiento del problema, así como el diseño de soluciones innovadoras.
 Como requisitos congnocitivos para llevar el curso el estudiante deberá conocer analizar circuitos eléctricos básicos, estos conocimientos se imparten en los cursos de Análisis de Circuitos I y II; así como los fundamentos del análisis de sistemas analógicos en ingeniería electromecánica que brinda el curso de Sistemas Analógico para Ingeniería Electromecánica todos ellos impartidos por esta Escuela. Además, el estudiante deberá llevar como correquisito un curso de laboratorio en donde se ponga en práctica lo aprendido en teoría. Los conocimientos brindados en este curso serán complementados en cursos del área de Sistemas de la carrera.
@@ -1366,7 +1366,7 @@ Segundo parcial; 1; 25
 Proyecto programado; 1; 25
 Proyecto de diseño  -- 25%","[01] Mano, Morris; “Diseño Digital”. 3 era ed. Pearson: México. 2003. 
 [02] Mano, Morris; “Lógica Digital y Diseño de Computadores”. 3 era ed. Prentice Hall: México. 1982. 
-[03] Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003. """,,
+[03] Tocci, Ronald; Widmer, Neal. “Sistemas digitales: Principios y aplicaciones” 8 ava ed. Prentice Hall: México. 2003. """,,,
 IEM2302,"El curso de Instrumentación contribuye a formar profesionales con una compresión profunda de las técnicas modernas de instrumentación que son esenciales para cualquier aplicación moderna en ingeniería. 
 Entre los aprendizajes más destacados se encuentran: seleccionar transductores como parte de un sistema de instrumentación diseñado para una aplicación específica; adquirir, acondicionar y visualizar señales e identificar y calcular los componentes de su incertidumbre; usar adecuadamente la normativa de representación gráfica de los sistemas de instrumentación; y diseñar instrumentos virtuales para aplicaciones específicas.  
 Este curso: introduce los lenguajes de programación gráfica que luego se retoman en el curso de Modelado y Simulación de Sistemas Electromecánicos; habilita la adquisición y acondicionamiento de las señales que serán las entradas y salidas de los sistemas de control que se estudiaran en los cursos de Control Eléctrico y Control Automático; y permite la instrumentación de un sistema complejo como los que se desarrollaran en el curso de Diseño e Integración de Sistemas Electromecánicos. ","Diseñar sistemas de instrumentación, usando los dispositivos y el software adecuado de acuerdo a la aplicación planteada","Seleccionar los transductores adecuados según la aplicación del sistema de instrumentación
@@ -1451,7 +1451,7 @@ Janocha, H. Actuators: Basics and Applications. Springer: Berlin, Germany. 2004.
 Dunn, William. Fundamental of Industrial Instrumentations and process control. MacGraw Hill. 2005.
 Benedict, Robert. Fundamentals of temperature, pressure and flow measurements.3 ed. John-Wiley: Canada. 1984. 
 Creus Antonio, Neumática e Hidráulica. 2 Ed Alfaomega 2011. 
-Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",,"Juan José Rojas Hernández; Dr-Ing.: jrojas@itcer.ac.cr
+Holman, J.P. Experimental Methods for Engineers, 8 ed, MacGraw Hill: Singapore, 2012.",,,"Juan José Rojas Hernández; Dr-Ing.: jrojas@itcer.ac.cr
 Doctor en Integración de Sistemas
 Master en Electrónica
 Licenciado en Mantenimiento Industrial"
@@ -1513,6 +1513,6 @@ Hesse, S. (2002). Aire comprimido, fuente de energía. Preparación y distribuci
 Mott, R. (2014). Mecánica de Fluidos Aplicada (8va ed.). Prentice Hall. 
 Manual de Instalaciones Eléctricas y Mecánicas en Edificios. Tao/Manis. Prentice Hall, 2010. 
 Nacional Plumbing Codes Handbook. McGraw Hill, 2005. 
-Plumber`s and Pipefitter`s Calculation Manual. McGraw Hill, 17. Standard Handbook of Engineering Calculations McGraw Hill, 2008.",,"Alberto Garro Zavaleta; Ing; jagarro@itcer.ac.cr
+Plumber`s and Pipefitter`s Calculation Manual. McGraw Hill, 17. Standard Handbook of Engineering Calculations McGraw Hill, 2008.",,,"Alberto Garro Zavaleta; Ing; jagarro@itcer.ac.cr
 Escuela Ingeniería Electromecánica
 "
