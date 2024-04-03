@@ -1,18 +1,18 @@
-Codigo	Nombre	Titulo	Titulos	Correo	Oficina	Escuela	Sede	
-LCR0	Luis Felipe CÛrdoba RamÌrez	M. Sc.	"M·ster en ciencias en IngenierÌa Mec·nica. Universidad de Utah. Estados Unidos.
-Licenciado en IngenierÌa en Mantenimiento Industrial. Instituto TecnolÛgico de Costa Rica. Costa Rica"	lfcordoba@itcr.ac.cr	22	IngenierÌa Electromec·nica	Cartago	
-CVS0	Christopher Vega S·nchez	Ph. D.	"Doctor en filosofÌa en ciencias. Universidad de SÌdney, Australia. 
-M·ster en ciencias en IngenierÌa de Sistemas Microelectromec·nicos. Universidad de Freiburg. Alemania.
-Licenciado en IngenierÌa en Mantenimiento Industrial, Instituto TecnolÛgico de Costa Rica. Costa Rica."	cvega@itcr.ac.cr	20	IngenierÌa Electromec·nica	Cartago	
-NUS0	Noel Jacob UreÒa SandÌ	M. Sc.	"M·ster en ciencias en ConcepciÛn y ProducciÛn Asistida por Computadora en IngenierÌa Mec·nica. RWTH Aachen University. Alemania.
-Licenciado en IngenierÌa en Materiales. Instituto TecnolÛgico de Costa Rica. Costa Rica"	nurena@itcr.ac.cr	22	IngenierÌa Electromec·nica	Cartago	
-JGF0	Juan Luis Guerrero Fern·ndez		"Doctor en filosofÌa en ciencias. Universidad de Sheffield. Inglaterra.
-M·ster en Ciencias en MecatrÛnica. FH Aachen University of Applied Sciences. Alemania.
-Licenciado en IngenierÌa en Mantenimiento Industrial, Instituto TecnolÛgico de Costa Rica. Costa Rica."	jguerrero@itcr.ac.cr 	10	IngenierÌa Electromec·nica	Cartago	
-HJQ0	Herberth Jackson QuirÛs	M·ster	"M·ster profesional en IngenierÌa Mec·nica. Universidad de Costa Rica. Costa Rica.
-Licenciado en IngenierÌa Mec·nica. Universidad de Costa Rica. Costa Rica.
-Bachiller en IngenierÌa Electromec·nica. Universidad FidÈlitas. Costa Rica."	hjackson@itcr.ac.cr 	15	IngenierÌa Electromec·nica	Cartago	
-COZ0	Carlos Ot·rola Z˙Òiga  	M·ster	"M·ster en Sistemas Modernos de Manufactura. Instituto TecnolÛgico de Costa Rica.  Costa Rica.
-Bachiller en IngenierÌa Mec·nica. Universidad de Costa Rica. Costa Rica."	cotarola@itcr.ac.cr 	4	IngenierÌa Electromec·nica	Cartago	
-VJH0	VÌctor Julio Hern·ndez	M·ster	"M·ster en ciencias con especializaciÛn explotaciÛn tÈcnica de aviones y motores.  Instituto de Kiev de los Ingenieros de AviaciÛn Civil. Ucrania.
-Ingeniero aeron·utico. Instituto de Kiev de los Ingenieros de AviaciÛn Civil. Ucrania."	vhernandezg@itcr.ac.cr 		IngenierÌa Electromec·nica	Cartago	
+ÔªøCodigo,Nombre,Titulo,Titulos,Correo,Oficina,Escuela,Sede
+LCR0,Luis Felipe C√≥rdoba Ram√≠rez,M. Sc.,"M√°ster en ciencias en Ingenier√≠a Mec√°nica. Universidad de Utah. Estados Unidos.
+Licenciado en Ingenier√≠a en Mantenimiento Industrial. Instituto Tecnol√≥gico de Costa Rica. Costa Rica",lfcordoba@itcr.ac.cr,22,Ingenier√≠a Electromec√°nica,Cartago
+CVS0,Christopher Vega S√°nchez,Ph. D.,"Doctor en filosof√≠a en ciencias. Universidad de S√≠dney, Australia. 
+M√°ster en ciencias en Ingenier√≠a de Sistemas Microelectromec√°nicos. Universidad de Freiburg. Alemania.
+Licenciado en Ingenier√≠a en Mantenimiento Industrial,Instituto Tecnol√≥gico de Costa Rica. Costa Rica.",cvega@itcr.ac.cr,20,Ingenier√≠a Electromec√°nica,Cartago
+NUS0,Noel Jacob Ure√±a Sand√≠,M. Sc.,"M√°ster en ciencias en Concepci√≥n y Producci√≥n Asistida por Computadora en Ingenier√≠a Mec√°nica. RWTH Aachen University. Alemania.
+Licenciado en Ingenier√≠a en Materiales. Instituto Tecnol√≥gico de Costa Rica. Costa Rica",nurena@itcr.ac.cr,22,Ingenier√≠a Electromec√°nica,Cartago
+JGF0,Juan Luis Guerrero Fern√°ndez,Ph.D.,"Doctor en filosof√≠a en ciencias. Universidad de Sheffield. Inglaterra.",
+M√°ster en Ciencias en Mecatr√≥nica. FH Aachen University of Applied Sciences. Alemania.
+Licenciado en Ingenier√≠a en Mantenimiento Industrial. Instituto Tecnol√≥gico de Costa Rica. Costa Rica.",jguerrero@itcr.ac.cr,10,Ingenier√≠a Electromec√°nica,Cartago
+HJQ0,Herberth Jackson Quir√≥s,M√°ster,"M√°ster profesional en Ingenier√≠a Mec√°nica. Universidad de Costa Rica. Costa Rica.
+Licenciado en Ingenier√≠a Mec√°nica. Universidad de Costa Rica. Costa Rica.
+Bachiller en Ingenier√≠a Electromec√°nica. Universidad Fid√©litas. Costa Rica.",hjackson@itcr.ac.cr,15,Ingenier√≠a Electromec√°nica,Cartago
+COZ0,Carlos Ot√°rola Z√∫√±iga,M√°ster,"M√°ster en Sistemas Modernos de Manufactura. Instituto Tecnol√≥gico de Costa Rica.  Costa Rica.
+Bachiller en Ingenier√≠a Mec√°nica. Universidad de Costa Rica. Costa Rica.",cotarola@itcr.ac.cr,4,Ingenier√≠a Electromec√°nica,Cartago
+VJH0,V√≠ctor Julio Hern√°ndez,M√°ster,"M√°ster en ciencias con especializaci√≥n explotaci√≥n t√©cnica de aviones y motores. Instituto de Kiev de los Ingenieros de Aviaci√≥n Civil. Ucrania.
+Ingeniero aeron√°utico. Instituto de Kiev de los Ingenieros de Aviaci√≥n Civil. Ucrania.",vhernandezg@itcr.ac.cr,0,Ingenier√≠a Electromec√°nica,Cartago
