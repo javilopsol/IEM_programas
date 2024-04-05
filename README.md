@@ -3,7 +3,7 @@ Generación automática de programas de cursos
 
 ### What is this repository for?
 
-* This repository was created to develop an ESP32-based ambient noise level meter, that can send alerts via instant messaging.
+* Este repositorio fue creado para la generación automática de los programas de cursos de la Escuela de Ingeniería Electromecánica del Tecnológico de Costa Rica.
 
 ### How do I set up?
 
