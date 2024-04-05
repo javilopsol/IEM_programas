@@ -1,40 +1,40 @@
 ﻿Codigo,Nombre,Programa,Area,Semestre,Columna,HorasTeoria,HorasPractica,Creditos
-MI4136,Elementos de Máquinas,Mantenimiento Industrial,Solido,8,7,5,0,4
-MI4300,Administración de Mantenimiento I,Mantenimiento Industrial,Gestión,7,2,4,0,4
-MI2101,Dibujo Técnico,Mantenimiento Industrial,Solido,2,7,4,0,3
+MI4136,Elementos de máquinas,Mantenimiento Industrial,Solido,8,7,5,0,4
+MI4300,Administración de mantenimiento I,Mantenimiento Industrial,Gestión,7,2,4,0,4
+MI2101,Dibujo técnico,Mantenimiento Industrial,Solido,2,7,4,0,3
 MI2106,Estática,Mantenimiento Industrial,Solido,3,5,4,0,3
-MI2202,Laboratorio de Electricidad I,Mantenimiento Industrial,Eléctrica,4,5,0,2,1
-MI2204,Laboratorio de Electricidad II,Mantenimiento Industrial,Eléctrica,5,5,0,2,1
+MI2202,Laboratorio de electricidad I,Mantenimiento Industrial,Eléctrica,4,5,0,2,1
+MI2204,Laboratorio de electricidad II,Mantenimiento Industrial,Eléctrica,5,5,0,2,1
 MI2205,Electricidad I,Mantenimiento Industrial,Eléctrica,4,4,4,0,3
 MI2207,Electricidad II,Mantenimiento Industrial,Eléctrica,5,4,4,0,4
-MI3103,Procesos de Manufactura,Mantenimiento Industrial,Solido,3,6,3,0,3
-MI3104,Laboratorio Procesos de Manufactura,Mantenimiento Industrial,Solido,3,7,0,4,2
+MI3103,Procesos de manufactura,Mantenimiento Industrial,Solido,3,6,3,0,3
+MI3104,Laboratorio procesos de manufactura,Mantenimiento Industrial,Solido,3,7,0,4,2
 MI3108,Mecánica de fluidos,Mantenimiento Industrial,Fluidos,6,8,4,0,4
-MI3111,Laboratorio de Mecánica de Fluidos,Mantenimiento Industrial,Fluidos,6,9,0,3,1
-MI3115,Resistencia de Materiales,Mantenimiento Industrial,Solido,5,6,4,0,3
+MI3111,Laboratorio de mecánica de fluidos,Mantenimiento Industrial,Fluidos,6,9,0,3,1
+MI3115,Resistencia de materiales,Mantenimiento Industrial,Solido,5,6,4,0,3
 MI3116,Turbomáquinas,Mantenimiento Industrial,Fluidos,7,8,4,0,4
 MI3117,Dinámica,Mantenimiento Industrial,Solido,5,6,4,0,3
-MI3119,Laboratorio de Turbomáquinas,Mantenimiento Industrial,Fluidos,7,9,0,2,1
+MI3119,Laboratorio de turbomáquinas,Mantenimiento Industrial,Fluidos,7,9,0,2,1
 MI3124,Dibujo industrial,Mantenimiento Industrial,Solido,4,8,4,0,4
 MI3130,Termodinámica,Mantenimiento Industrial,Fluidos,5,9,4,0,4
-MI3206,Laboratorio de Máquinas Eléctricas.,Mantenimiento Industrial,Eléctrica,6,5,0,2,1
+MI3206,Laboratorio de máquinas eléctricas,Mantenimiento Industrial,Eléctrica,6,5,0,2,1
 MI3209,Electricidad III,Mantenimiento Industrial,Eléctrica,7,4,3,0,3
-MI3210,Máquinas Eléctricas,Mantenimiento Industrial,Eléctrica,6,4,3,0,4
-MI4125,Laboratorio de Sistemas de Vapor,Mantenimiento Industrial,Fluidos,9,9,0,2,1
+MI3210,Máquinas eléctricas,Mantenimiento Industrial,Eléctrica,6,4,3,0,4
+MI4125,Laboratorio de sistemas de vapor,Mantenimiento Industrial,Fluidos,9,9,0,2,1
 MI4126,Refrigeración,Mantenimiento Industrial,Fluidos,11,1,4,0,4
-MI4127,Laboratorio de Refrigeración,Mantenimiento Industrial,Fluidos,11,2,0,2,1
-MI4209,Control Eléctrico,Mantenimiento Industrial,Eléctrica,8,4,3,0,3
-MI4210,Laboratorio de Control Eléctrico,Mantenimiento Industrial,Eléctrica,8,5,0,2,1
-MI4212,Instalaciones Eléctricas,Mantenimiento Industrial,Eléctrica,9,5,4,0,4
-MI4305,Administración de Mantenimiento II,Mantenimiento Industrial,Gestión,8,2,3,0,3
-MI4311,Modelos Cuantitativos para la Toma de Decisiones.,Mantenimiento Industrial,Gestión,7,3,3,0,3
-MI5135,Ventilación Industrial,Mantenimiento Industrial,Fluidos,11,3,4,0,4
-MI5152,Aire Acondicionado,Mantenimiento Industrial,Fluidos,11,4,4,0,4
-MI5215,Análisis de Sistemas Eléctricos de Potencia,Mantenimiento Industrial,Eléctrica,9,4,4,0,4
+MI4127,Laboratorio de refrigeración,Mantenimiento Industrial,Fluidos,11,2,0,2,1
+MI4209,Control eléctrico,Mantenimiento Industrial,Eléctrica,8,4,3,0,3
+MI4210,Laboratorio de control eléctrico,Mantenimiento Industrial,Eléctrica,8,5,0,2,1
+MI4212,Instalaciones eléctricas,Mantenimiento Industrial,Eléctrica,9,5,4,0,4
+MI4305,Administración de mantenimiento II,Mantenimiento Industrial,Gestión,8,2,3,0,3
+MI4311,Modelos cuantitativos para la toma de decisiones,Mantenimiento Industrial,Gestión,7,3,3,0,3
+MI5135,Ventilación industrial,Mantenimiento Industrial,Fluidos,11,3,4,0,4
+MI5152,Aire acondicionado,Mantenimiento Industrial,Fluidos,11,4,4,0,4
+MI5215,Análisis de sistemas eléctricos de potencia,Mantenimiento Industrial,Eléctrica,9,4,4,0,4
 MI5411,Automatismo,Mantenimiento Industrial,Eléctrica,11,5,4,0,4
-MI6153,Ahorro Energético,Mantenimiento Industrial,Gestión,11,6,4,0,4
+MI6153,Ahorro energético,Mantenimiento Industrial,Gestión,11,6,4,0,4
 MI6252,Neumática,Mantenimiento Industrial,Fluidos,11,7,4,0,4
-MI6253,Fundamentos en Administración de Proyectos en Ingeniería,Mantenimiento Industrial,Gestión,11,8,4,0,4
+MI6253,Fundamentos en administración de proyectos en ingeniería,Mantenimiento Industrial,Gestión,11,8,4,0,4
 MI6254,Sistemas de protección contra incendios a base de agua,Mantenimiento Industrial,Fluidos,11,9,4,0,4
 MI6255,Sistemas de control automático,Mantenimiento Industrial,Eléctrica,11,10,4,0,4
-MI6351,Mantenimiento Predictivo,Mantenimiento Industrial,Gestión,9,2,4,0,4
+MI6351,Mantenimiento predictivo,Mantenimiento Industrial,Gestión,9,2,4,0,4

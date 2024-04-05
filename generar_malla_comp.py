@@ -10,7 +10,7 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
 from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
-datos = pd.read_csv("mallas_IEM.csv")
+datos = pd.read_csv("mallas_IEM_comp.csv")
 
 datos.Semestre = datos.Semestre.astype(int)
 datos.Columna = datos.Columna.astype(int)
@@ -149,6 +149,12 @@ def generar_malla(programa):
             horaspractica = cursos[cursos.Codigo == codigo].HorasPractica.item()
             creditos = cursos[cursos.Codigo == codigo].Creditos.item()
             area = cursos[cursos.Codigo == codigo].Area.item()
+            comp = cursos[cursos.Codigo == codigo].Compartido.item()
+            match comp:
+                case "SI":
+                    color = "gray"
+                case "NO":   
+                    color = "white" 
             # match area:
             #     case "Mecánica":
             #         color = "teal"
@@ -166,14 +172,12 @@ def generar_malla(programa):
             #         color = "teal"
             #     case "-":
             #         color = "white"
-            color = "white"
             if semestre <= 10:
                 malla.append(colocar_curso(codigo,nombre,columna,semestre,horasteoria,horaspractica,creditos,color))
          
     doc.generate_pdf(f"./mallas/{programa}", clean=True, clean_tex=False, compiler='lualatex')
 
 
-generar_malla("Mantenimiento Industrial")
+
 generar_malla("Electromecánica")
-generar_malla("AeronáuticaV1")
 generar_malla("AeronáuticaV2")
