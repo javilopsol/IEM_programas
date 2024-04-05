@@ -1,22 +1,35 @@
 import pandas as pd
+import numpy as np
 
 cursos = pd.read_csv("cursos_IEM.csv")
+mante = pd.read_csv("mantenimiento.csv")
+elect = pd.read_csv("electromecanica.csv")
+aer1 = pd.read_csv("aeronauticaV1.csv")
+aer2 = pd.read_csv("aeronauticaV2.csv")
 
-print(cursos.head())
+## cursos.HorasTeoria = cursos_malla.HorasTeoria.astype(int)
+# # cursos_malla.HorasPractica = cursos_malla.HorasPractica.astype(int)
+# # cursos_malla.Creditos = cursos_malla.Creditos.astype(int)
 
-# cursos = pd.read_csv("cursos_IEM.csv")
-# cursos_malla = pd.read_csv("malla_IEM.csv")
+mallas = pd.concat([mante,elect,aer1,aer2])
+mallas.reset_index(inplace = True, drop = True)
+#newmallas = mallas.merge(aer1, how='outer', on='Programa')
+print(mallas)
 
-# cursos_malla.HorasTeoria = cursos_malla.HorasTeoria.astype(int)
-# cursos_malla.HorasPractica = cursos_malla.HorasPractica.astype(int)
-# cursos_malla.Creditos = cursos_malla.Creditos.astype(int)
 
-# for codigo in cursos.Codigo:
-#     cursos_malla.loc[cursos_malla.Codigo == codigo, 'Nombre'] = cursos[cursos.Codigo == codigo].Nombre.item()
-#     cursos_malla.loc[cursos_malla.Codigo == codigo, 'Area'] = cursos[cursos.Codigo == codigo].Area.item()
-#     cursos_malla.loc[cursos_malla.Codigo == codigo, 'HorasTeoria'] = cursos[cursos.Codigo == codigo].HorasTeoria.item()
-#     cursos_malla.loc[cursos_malla.Codigo == codigo, 'HorasPractica'] = round(cursos[cursos.Codigo == codigo].HorasPractica.item())
-#     cursos_malla.loc[cursos_malla.Codigo == codigo, 'Creditos'] = cursos[cursos.Codigo == codigo].Creditos.item()
+for codigo in cursos.Codigo:
+    mallas.loc[mallas.Codigo == codigo, 'Nombre'] = cursos[cursos.Codigo == codigo].Nombre.item()
+    # malla.loc[malla.Codigo == codigo, 'Area'] = cursos[cursos.Codigo == codigo].Area.item()
+    # malla.loc[malla.Codigo == codigo, 'HorasTeoria'] = cursos[cursos.Codigo == codigo].HorasTeoria.item()
+    # malla.loc[malla.Codigo == codigo, 'HorasPractica'] = round(cursos[cursos.Codigo == codigo].HorasPractica.item())
+    # malla.loc[malla.Codigo == codigo, 'Creditos'] = cursos[cursos.Codigo == codigo].Creditos.item()
 
-# print(cursos_malla.dtypes)
-# cursos_malla.to_csv('malla_IEM.csv', index=False, encoding='utf-8-sig')
+# # for codigo in cursos2.Codigo:
+# #     print(codigo)
+# #     print(cursos2[cursos2.Codigo == codigo].Nombre.item())
+# #     malla.loc[malla.Codigo == codigo, 'Nombre'] = cursos2[cursos2.Codigo == codigo].Nombre.item()
+# #     #malla.loc[malla.Codigo == codigo, 'Programa'] = 'AeronáuticaV2'
+# print(aer1)
+# print(mallaold)
+# print(malla)
+mallas.to_csv('mallas_IEM.csv', index=False, encoding='utf-8-sig')
