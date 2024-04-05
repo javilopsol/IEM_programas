@@ -1,4 +1,41 @@
 ﻿Codigo,Nombre,Programa,Area,Semestre,Columna,HorasTeoria,HorasPractica,Creditos
+CI0200,Examen de diagnóstico,Mantenimiento Industrial,Básicas,0,5,0,0,0
+CI0202,Ingles básico,Mantenimiento Industrial,Básicas,0,6,2,0,2
+MA0101,Matemática general,Mantenimiento Industrial,Básicas,1,1,5,0,2
+QU1106,Química básica I,Mantenimiento Industrial,Básicas,1,4,4,0,3
+QU1102,Laboratorio de química básica I,Mantenimiento Industrial,Básicas,1,5,0,2,1
+CI1230,Inglés I,Mantenimiento Industrial,Básicas,1,6,3,0,2
+CA2125,Elementos de computación,Mantenimiento Industrial,Básicas,1,7,4,0,3
+CS1502,Introducción a la técnica ciencia y tecnología,Mantenimiento Industrial,Básicas,1,8,2,0,1
+CI1106,Comunicación escrita,Mantenimiento Industrial,Básicas,1,9,3,0,2
+SE1200,Actividad deportiva I,Mantenimiento Industrial,Básicas,1,10,0,2,0
+MA1102,Cálculo diferencial e integral,Mantenimiento Industrial,Básicas,2,1,5,0,4
+FI1101,Física general I,Mantenimiento Industrial,Básicas,2,2,4,0,3
+FI2201,Laboratorio de física general I,Mantenimiento Industrial,Básicas,2,3,0,2,1
+QU1107,Química básica II,Mantenimiento Industrial,-,2,4,4,0,3
+QU1104,Laboratorio de química básica II,Mantenimiento Industrial,-,2,5,0,2,1
+CI1107,Comunicación oral,Mantenimiento Industrial,-,2,7,3,0,1
+SE1100,Actividad cultural I,Mantenimiento Industrial,-,2,9,0,2,0
+MA1103,Cálculo y algebra lineal,Mantenimiento Industrial,Básicas,3,1,4,0,4
+FI1102,Física general III,Mantenimiento Industrial,Básicas,3,2,4,0,3
+FI1202,Laboratorio de física general II,Mantenimiento Industrial,Básicas,3,3,0,2,1
+CS2303,Relaciones laborales,Mantenimiento Industrial,Básicas,3,8,3,0,2
+CI1231,Inglés II,Mantenimiento Industrial,Básicas,3,9,3,0,2
+SE1400,Actividad cultural - deportiva,Mantenimiento Industrial,Básica,3,10,0,2,0
+MA2104,Cálculo superior,Mantenimiento Industrial,Básicas,4,1,4,0,4
+FI1103,Física general III,Mantenimiento Industrial,Básicas,4,2,4,0,3
+FH1000,Centros de formación humanistica,Mantenimiento Industrial,Básicas,4,10,3,0,1
+MA2105,Ecuaciones diferenciales,Mantenimiento Industrial,Básicas,5,1,4,0,4
+ME3208,Tecnología de materiales,Mantenimiento Industrial,-,5,7,3,0,2
+ME3209,Laboratorio de tecnología de materiales,Mantenimiento Industrial,-,5,8,0,2,1
+PI2609,Probabilidad y estadística,Mantenimiento Industrial,Básicas,6,2,3,0,2
+AE5121,Ingeniería económica,Mantenimiento Industrial,-,6,3,3,0,3
+CM4108,Transferencia de calor,Mantenimiento Industrial,Básicas,6,10,3,0,3
+CM3207,Métodos numéricos,Mantenimiento Industrial,Básicas,7,1,4,0,3
+AE4208,Desarrollo de emprendedores,Mantenimiento Industrial,-,7,10,4,0,4
+SO2601,Fundamentos de seguridad e higiene ocupacional,Mantenimiento Industrial,-,8,8,2,0,1
+CS3404,Seminario de ética en ingeniería,Mantenimiento Industrial,-,8,10,5,0,2
+CS4402,Seminario de estudios costarricenses,Mantenimiento Industrial,-,9,10,3,0,2
 MI4136,Elementos de máquinas,Mantenimiento Industrial,Solido,8,7,5,0,4
 MI4300,Administración de mantenimiento I,Mantenimiento Industrial,Gestión,7,2,4,0,4
 MI2101,Dibujo técnico,Mantenimiento Industrial,Solido,2,7,4,0,3
@@ -38,3 +75,4 @@ MI6253,Fundamentos en administración de proyectos en ingeniería,Mantenimiento 
 MI6254,Sistemas de protección contra incendios a base de agua,Mantenimiento Industrial,Fluidos,11,9,4,0,4
 MI6255,Sistemas de control automático,Mantenimiento Industrial,Eléctrica,11,10,4,0,4
 MI6351,Mantenimiento predictivo,Mantenimiento Industrial,Gestión,9,2,4,0,4
+MI5520,Práctica profesional,Mantenimiento Industrial,Básicas,10,10,0,30,12

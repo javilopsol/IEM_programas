@@ -12,14 +12,24 @@ mallas.reset_index(inplace = True, drop = True)
 
 mallas['Compartido'] = ""
 
-mallascomp = mallas.loc[(mallas.Programa == "AeronáuticaV2") | (mallas.Programa == "Electromecánica")]
+mallascomp1 = mallas.loc[(mallas.Programa == "AeronáuticaV2") | (mallas.Programa == "Electromecánica")]
+mallascomp2 = mallas.loc[(mallas.Programa == "AeronáuticaV1") | (mallas.Programa == "Mantenimiento Industrial")]
 
-counts = mallascomp.Codigo.value_counts()
+counts1 = mallascomp1.Codigo.value_counts()
+counts2 = mallascomp2.Codigo.value_counts()
 
-for codigo in mallascomp.Codigo:
-    if counts[counts.index == codigo].item() > 1:
-        mallascomp.loc[mallascomp.Codigo == codigo, 'Compartido'] = "SI"
+for codigo in mallascomp1.Codigo:
+    if counts1[counts1.index == codigo].item() > 1:
+        mallascomp1.loc[mallascomp1.Codigo == codigo, 'Compartido'] = "SI"
     else:
-        mallascomp.loc[mallascomp.Codigo == codigo, 'Compartido'] = "NO"
+        mallascomp1.loc[mallascomp1.Codigo == codigo, 'Compartido'] = "NO"
+
+for codigo in mallascomp2.Codigo:
+    if counts2[counts2.index == codigo].item() > 1:
+        mallascomp2.loc[mallascomp2.Codigo == codigo, 'Compartido'] = "SI"
+    else:
+        mallascomp2.loc[mallascomp2.Codigo == codigo, 'Compartido'] = "NO"
+
+mallascomp = pd.concat([mallascomp1,mallascomp2])
 
 mallascomp.to_csv('mallas_IEM_comp.csv', index=False, encoding='utf-8-sig')

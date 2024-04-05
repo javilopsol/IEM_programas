@@ -142,6 +142,7 @@ def generar_malla(programa):
         for semestre in range(0,11):
             malla.append(colocar_semestre(semestre,"lightgray"))
         for codigo in cursos.Codigo:
+            print(codigo)
             nombre = cursos[cursos.Codigo == codigo].Nombre.item()
             columna = cursos[cursos.Codigo == codigo].Columna.item()
             semestre = cursos[cursos.Codigo == codigo].Semestre.item()

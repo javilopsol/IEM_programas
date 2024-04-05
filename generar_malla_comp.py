@@ -181,3 +181,5 @@ def generar_malla(programa):
 
 generar_malla("Electromecánica")
 generar_malla("AeronáuticaV2")
+generar_malla("AeronáuticaV1")
+generar_malla("Mantenimiento Industrial")
