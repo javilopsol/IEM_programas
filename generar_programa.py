@@ -149,6 +149,7 @@ def generar_programa(codigo):
     doc.packages.append(Package(name="babel", options=['spanish','activeacute']))
     doc.packages.append(Package(name="anyfontsize"))
     doc.packages.append(Package(name="fancyhdr"))
+    doc.packages.append(Package(name="csquotes"))
     doc.packages.append(Package(name="biblatex", options=['style=ieee','backend=biber']))
     #Package options
     doc.preamble.append(Command('setmainfont','Arial'))
@@ -184,7 +185,7 @@ def generar_programa(codigo):
         footer_left.append(NoEscape(r"}"))
     #Right foot
     with headerfooter.create(Foot("R")) as footer_right:
-        footer_right.append(TextColor("azulsuaveTEC", NoEscape(r"Página \thepage \hspace{1pt} de \pageref{LastPage}")))        
+        footer_right.append(TextColor("azulsuaveTEC", NoEscape(r"Página \thepage \hspace{1pt} de \pageref*{LastPage}")))        
   
     title = NoEscape(
     r'''

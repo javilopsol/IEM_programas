@@ -11,6 +11,7 @@ from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
 datos = pd.read_csv("mallas_IEM.csv")
+nombres = pd.read_csv("cursos_IEM.csv")
 
 datos.Semestre = datos.Semestre.astype(int)
 datos.Columna = datos.Columna.astype(int)
@@ -142,8 +143,7 @@ def generar_malla(programa):
         for semestre in range(0,11):
             malla.append(colocar_semestre(semestre,"lightgray"))
         for codigo in cursos.Codigo:
-            print(codigo)
-            nombre = cursos[cursos.Codigo == codigo].Nombre.item()
+            nombre = nombres[nombres.Codigo == codigo].Nombre.item()
             columna = cursos[cursos.Codigo == codigo].Columna.item()
             semestre = cursos[cursos.Codigo == codigo].Semestre.item()
             horasteoria = cursos[cursos.Codigo == codigo].HorasTeoria.item()
