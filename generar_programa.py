@@ -364,7 +364,14 @@ def generar_programa(codigo):
             else:
                 table.add_row([
                     "",
-                    NoEscape(row)
+                    textcolor
+                    (
+                    size="12",
+                    vspace="12",
+                    color="black",
+                    bold=False,
+                    text=NoEscape(row)
+                    )
                 ])
     doc.append(textcolor
     (   
@@ -395,7 +402,7 @@ def generar_programa(codigo):
                 f"{metCurso}"
             ])
     with doc.create(Tabularx(table_spec=r">{\raggedright}m{0.18\textwidth}m{0.07\textwidth}m{0.17\textwidth}m{0.17\textwidth}m{0.17\textwidth}m{0.04\textwidth}")) as table:
-            table.add_hline(start=3, end=5)
+            #table.add_hline(start=3, end=5)
             table.add_row([
                 textcolor
                 (
@@ -434,7 +441,7 @@ def generar_programa(codigo):
             ])
             table.append(NoEscape('[12pt]'))
             for row in evaCurso.itertuples(index=False):
-                table.add_hline(start=3, end=5)
+                #table.add_hline(start=3, end=5)
                 table.add_row(row)
                 table.append(NoEscape('[12pt]'))
     with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
